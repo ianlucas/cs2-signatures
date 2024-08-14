@@ -1,0 +1,37 @@
+[
+    {
+        "id": "CS2Fixes",
+        "repo": "Source2ZE/CS2Fixes",
+        "type": "sourcemod",
+        "branch": "main",
+        "file": "/gamedata/cs2fixes.games.txt"
+    },
+    {
+        "id": "cs2kz-metamod",
+        "repo": "KZGlobalTeam/cs2kz-metamod",
+        "type": "sourcemod",
+        "branch": "dev",
+        "file": "/gamedata/cs2kz-core.games.txt"
+    },
+    {
+        "id": "CounterStrikeSharp",
+        "repo": "roflmuffin/CounterStrikeSharp",
+        "type": "cssharp",
+        "branch": "main",
+        "file": "/configs/addons/counterstrikesharp/gamedata/gamedata.json"
+    },
+    {
+        "id": "cs2-match-plugin",
+        "repo": "ianlucas/cs2-match-plugin",
+        "type": "cssharp",
+        "branch": "master",
+        "file": "/gamedata/match.json"
+    },
+    {
+        "id": "cs2-inventory-simulator-plugin",
+        "repo": "ianlucas/cs2-inventory-simulator-plugin",
+        "type": "cssharp",
+        "branch": "main",
+        "file": "/gamedata/inventory-simulator.json"
+    }
+]
