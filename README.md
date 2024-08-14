@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-08-14T21:26:01.051Z
+Last updated: 2024-08-14T23:41:22.747Z
 
 ## CS2Fixes
 
@@ -1055,21 +1055,21 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### CBasePlayerController_SetPawn
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x44\x88\x4C\x24\x2A\x55\x56\x57\x41\x54\x41\x56\x48\x8D\x6C\x24\x2A
+\x48\x89\x74\x24\x2A\x55\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xF9
 </pre>
 </td><td>
 <pre>
-44 88 4C 24 ? 55 56 57 41 54 41 56 48 8D 6C 24 ?
+48 89 74 24 ? 55 41 54 41 55 41 56 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 4C 8B F9
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xD6\x41\x55\x49\x89\xFD\x41\x54\x45\x89\xC4
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x45\x89\xC4
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 89 D6 41 55 49 89 FD 41 54 45 89 C4
+55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 45 89 C4
 </pre>
 </td></tr></table>
 
@@ -1790,13 +1790,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### PhysicsSimulate
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x40\x55\x53\x48\x8D\x6C\x24\xB1\x48\x81\xEC\xD8\x00\x00\x00
+\x40\x53\x48\x81\xEC\xC0\x00\x00\x00\x48\x8B\xD9\xE8\x2A\x2A\x2A\x2A
 </pre>
 </td><td>
 <pre>
-40 55 53 48 8D 6C 24 B1 48 81 EC D8 00 00 00
+40 53 48 81 EC C0 00 00 00 48 8B D9 E8 ? ? ? ?
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
