@@ -1,3 +1,8 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Ian Lucas. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
 import { createReadStream } from "fs";
 import { mkdir, readdir, readFile, rename, writeFile } from "fs/promises";
 import { basename, join } from "path";
