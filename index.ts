@@ -207,14 +207,16 @@ async function main() {
         readme += `Repository: https://github.com/${signatures[0].source.repo}\n\n`;
         for (const signature of signatures) {
             readme += `### ${signature.name}\n\n`;
+            readme += `<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr>`;
             for (const [osName, platform] of Object.entries(signature.platforms)) {
-                readme += `* ${platform.found ? "✅" : "❌"} ${platformLabel[osName]}\n`;
-                readme += `    * Library: \`${signature.library}\`\n`;
-                if (platform.pattern.original !== platform.pattern.idaStyle) {
-                    readme += `    * SourceMod Style: \`${platform.pattern.original}\`\n`;
-                }
-                readme += `    * IDA Style: \`${platform.pattern.idaStyle}\`\n`;
+                readme += `<tr><td>${platform.found ? "✅" : "❌"}</td><td>${platformLabel[osName]}</td>`;
+                readme += `<td>${signature.library}</td>`;
+                readme += `<td>\n<pre>\n${platform.pattern.original !== platform.pattern.idaStyle ? platform.pattern.original : "N/A"}\n</pre>\n</td>`;
+                readme += `<td>\n<pre>\n${platform.pattern.idaStyle}\n</pre>\n</td>`;
+                readme += `</tr>`;
             }
+            readme += `</table>\n\n`;
         }
     }
     await writeFile(join(cwd, "README.md"), readme, "utf-8");
