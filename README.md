@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-08-14T23:41:22.747Z
+Last updated: 2024-08-15T01:42:56.069Z
 
 ## CS2Fixes
 
@@ -45,48 +45,6 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 </td><td>
 <pre>
 55 48 8D 05 ? ? ? ? 48 89 E5 41 57 4C 8D 7D 80
-</pre>
-</td></tr></table>
-
-### UTIL_ClientPrintAll
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x08\x48\x89\x6C\x24\x10\x48\x89\x74\x24\x18\x57\x48\x81\xEC\x70\x01\x2A\x2A\x8B\xE9
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 81 EC 70 01 ? ? 8B E9
-</pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xD7\x41\x56\x49\x89\xF6\x41\x55\x41\x89\xFD
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 49 89 D7 41 56 49 89 F6 41 55 41 89 FD
-</pre>
-</td></tr></table>
-
-### ClientPrint
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x2A\x55
-</pre>
-</td><td>
-<pre>
-48 85 C9 0F 84 ? ? ? ? 48 89 5C 24 ? 55
-</pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xCF\x41\x56\x49\x89\xD6\x41\x55\x41\x89\xF5\x41\x54\x4C\x8D\xA5\xA0\xFE\xFF\xFF
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 49 89 CF 41 56 49 89 D6 41 55 41 89 F5 41 54 4C 8D A5 A0 FE FF FF
 </pre>
 </td></tr></table>
 
@@ -505,21 +463,21 @@ C8 42 66 0F EF E4 0F 2F 63 5C
 ### CBasePlayerController_SetPawn
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x44\x88\x4C\x24\x2A\x55\x56\x57\x41\x54\x41\x56\x48\x8D\x6C\x24\x2A
+\x48\x89\x74\x24\x2A\x55\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xF9
 </pre>
 </td><td>
 <pre>
-44 88 4C 24 ? 55 56 57 41 54 41 56 48 8D 6C 24 ?
+48 89 74 24 ? 55 41 54 41 55 41 56 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 4C 8B F9
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xD6\x41\x55\x49\x89\xFD\x41\x54\x45\x89\xC4
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x45\x89\xC4
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 89 D6 41 55 49 89 FD 41 54 45 89 C4
+55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 45 89 C4
 </pre>
 </td></tr></table>
 
@@ -967,13 +925,13 @@ C8 42 66 0F EF E4 0F 2F 63 5C
 ### CCSGameRules_GoToIntermission
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8B\xC4\x55\x53\x56\x57\x41\x56\x41\x57
+\x48\x8B\xC4\x55\x53\x56\x57\x41\x56\x48\x8D\xA8\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x0F\x29\x78
 </pre>
 </td><td>
 <pre>
-48 8B C4 55 53 56 57 41 56 41 57
+48 8B C4 55 53 56 57 41 56 48 8D A8 ? ? ? ? 48 81 EC ? ? ? ? 0F 29 78
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
