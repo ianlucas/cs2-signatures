@@ -1,5 +1,12 @@
 [
     {
+        "id": "CounterStrikeSharp",
+        "repo": "roflmuffin/CounterStrikeSharp",
+        "type": "cssharp",
+        "branch": "main",
+        "file": "/configs/addons/counterstrikesharp/gamedata/gamedata.json"
+    },
+    {
         "id": "CS2Fixes",
         "repo": "Source2ZE/CS2Fixes",
         "type": "sourcemod",
@@ -13,13 +20,7 @@
         "branch": "dev",
         "file": "/gamedata/cs2kz-core.games.txt"
     },
-    {
-        "id": "CounterStrikeSharp",
-        "repo": "roflmuffin/CounterStrikeSharp",
-        "type": "cssharp",
-        "branch": "main",
-        "file": "/configs/addons/counterstrikesharp/gamedata/gamedata.json"
-    },
+
     {
         "id": "cs2-match-plugin",
         "repo": "ianlucas/cs2-match-plugin",

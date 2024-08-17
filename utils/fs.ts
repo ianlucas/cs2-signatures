@@ -5,6 +5,8 @@
 
 import { access } from "fs/promises";
 
+export const cwd = process.cwd();
+
 export async function exists(path: string) {
     try {
         await access(path);

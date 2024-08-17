@@ -3,48 +3,22 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+import { assert } from "@ianlucas/cs2-lib";
 import { createReadStream } from "fs";
 import { mkdir, readdir, readFile, rename, writeFile } from "fs/promises";
 import { basename, join } from "path";
-import sources from "./sources.json";
+import sources from "./config/sources.json";
 import { downloadFromDepot, getLatestManifest } from "./utils/depot-downloader";
-import { exists } from "./utils/exists";
 import { findByteSequence } from "./utils/find-byte-sequence";
+import { cwd, exists } from "./utils/fs";
 import { downloadFromRepo, getLatestCommit } from "./utils/github";
 import { parseCSSharpGamedata } from "./utils/parse-cssharp-gamedata";
 import { parseSourcemodGamedata } from "./utils/parse-sourcemod-gamedata";
+import { Signature, Source } from "./utils/typings";
+import { writeSourceMd } from "./utils/write-source-md";
 
-export interface Source {
-    id: string;
-    repo: string;
-    type: string;
-    branch: string;
-    file: string;
-}
-
-export interface Pattern {
-    mask: Buffer;
-    original: string;
-    idaStyle: string;
-    sequence: Buffer;
-}
-
-export interface Signature {
-    source: Source;
-    name: string;
-    library: string;
-    platforms: {
-        [name: string]: { pattern: Pattern; found: boolean };
-    };
-}
-
-const platformLabel: Record<string, string> = {
-    linux: "Linux",
-    windows: "Windows"
-};
-
-const cwd = process.cwd();
 const workdir = join(cwd, "workdir");
+const configdir = join(cwd, "config");
 const binaries = {
     linux: join(workdir, "libserver.so"),
     windows: join(workdir, "server.dll")
@@ -53,7 +27,7 @@ const signatures: Signature[] = [];
 
 async function checkDepot(depot: number) {
     console.log(`Checking depot ${depot}`);
-    const filelistPath = join(cwd, `${depot}.depot`);
+    const filelistPath = join(configdir, `${depot}.depot`);
     const manifestPath = join(workdir, `${depot}.manifest`);
     const manifest = (await exists(manifestPath)) ? parseInt(await readFile(manifestPath, "utf-8")) : 0;
     const latestManifest = await getLatestManifest(depot);
@@ -147,7 +121,7 @@ function findSignatures(binPath: string, platform: NonNullable<Signature["platfo
 }
 
 async function main() {
-    let didSomethingChange = false;
+    let didSomethingChange = true;
 
     // 0. Create the workdir if it doesn't exist.
     if (!(await exists(workdir))) {
@@ -155,7 +129,7 @@ async function main() {
     }
 
     // 1. Download the latest server binaries.
-    for await (const file of await readdir(cwd)) {
+    for await (const file of await readdir(configdir)) {
         if (file.endsWith(".depot")) {
             const depot = parseInt(file.split(".")[0]);
             if (await checkDepot(depot)) {
@@ -190,33 +164,20 @@ async function main() {
     }
 
     // 4. Write the README.
-    const signaturesBySource = signatures.reduce(
-        (acc, signature) => {
-            if (acc[signature.source.id] === undefined) {
-                acc[signature.source.id] = [];
-            }
-            acc[signature.source.id].push(signature);
-            return acc;
-        },
-        {} as Record<string, Signature[]>
-    );
-
-    let readme = `# CS2 Signatures\n\nLast updated: ${new Date().toISOString()}\n\n`;
+    const signaturesBySource = Object.groupBy(signatures, (signature) => signature.source.id);
+    let readme = `# CS2 Signatures\n\nLast updated: ${new Date().toISOString()}`;
     for (const signatures of sources.map(({ id }) => signaturesBySource[id])) {
-        readme += `## ${signatures[0].source.id}\n\n`;
-        readme += `Repository: https://github.com/${signatures[0].source.repo}\n\n`;
-        for (const signature of signatures) {
-            readme += `### ${signature.name}\n\n`;
-            readme += `<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr>`;
-            for (const [osName, platform] of Object.entries(signature.platforms)) {
-                readme += `<tr><td>${platform.found ? "✅" : "❌"}</td><td>${platformLabel[osName]}</td>`;
-                readme += `<td>${signature.library}</td>`;
-                readme += `<td>\n<pre>\n${platform.pattern.original !== platform.pattern.idaStyle ? platform.pattern.original : "N/A"}\n</pre>\n</td>`;
-                readme += `<td>\n<pre>\n${platform.pattern.idaStyle}\n</pre>\n</td>`;
-                readme += `</tr>`;
-            }
-            readme += `</table>\n\n`;
+        assert(signatures !== undefined);
+        await writeSourceMd(signatures[0].source, signatures);
+        readme += `\n\n## ${signatures[0].source.id}\n\n`;
+        readme += `Repository: https://github.com/${signatures[0].source.repo}`;
+        readme += `\n\n### Windows\n\n`;
+        for (const { platforms, name, library } of signatures) {
+            readme += `* ${library !== "server" ? "❓" : platforms.windows.found ? "✅" : "❌"} ${name}\n`;
+        }
+        readme += `\n\n### Linux\n\n`;
+        for (const { platforms, name, library } of signatures) {
+            readme += `* ${library !== "server" ? "❓" : platforms.linux.found ? "✅" : "❌"} ${name}\n`;
         }
     }
     await writeFile(join(cwd, "README.md"), readme, "utf-8");
