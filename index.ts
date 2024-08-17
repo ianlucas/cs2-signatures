@@ -121,7 +121,7 @@ function findSignatures(binPath: string, platform: NonNullable<Signature["platfo
 }
 
 async function main() {
-    let didSomethingChange = true;
+    let didSomethingChange = false;
 
     // 0. Create the workdir if it doesn't exist.
     if (!(await exists(workdir))) {
