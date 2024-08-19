@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: 2024-08-17T02:40:20.342Z
+Last updated: 2024-08-19T01:57:22.920Z
 
 ## Signatures
 
@@ -72,21 +72,21 @@ N/A
 ### CBasePlayerController_SetPawn
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-44 88 4C 24 ? 55 56 57 41 54 41 56 48 8D 6C 24 ?
+48 89 74 24 ? 55 41 54 41 55 41 56 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 4C 8B F9
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 89 D6 41 55 49 89 FD 41 54 45 89 C4
+55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 45 89 C4
 </pre>
 </td></tr></table>
 
