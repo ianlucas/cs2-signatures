@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-08-19T21:48:53.638Z
+Last updated: 2024-08-20T23:02:53.723Z
 
 ## CounterStrikeSharp
 
@@ -114,7 +114,7 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 * ✅ ProcessUsercmds
 * ✅ CGamePlayerEquip_InputTriggerForAllPlayers
 * ✅ CGamePlayerEquip_InputTriggerForActivatedPlayer
-* ✅ CCSGameRules_GoToIntermission
+* ❌ CCSGameRules_GoToIntermission
 * ❓ GetFreeClient
 * ✅ CCSPlayerPawn_GetMaxSpeed
 

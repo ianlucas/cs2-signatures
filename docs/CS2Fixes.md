@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: 2024-08-19T21:48:53.641Z
+Last updated: 2024-08-20T23:02:53.725Z
 
 ## Signatures
 
@@ -925,7 +925,7 @@ C8 42 66 0F EF E4 0F 2F 63 5C
 ### CCSGameRules_GoToIntermission
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x55\x53\x56\x57\x41\x56\x48\x8D\xA8\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x0F\x29\x78
 </pre>
