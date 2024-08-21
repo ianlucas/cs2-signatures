@@ -1,6 +1,6 @@
 # cs2-inventory-simulator-plugin 
 
-Last updated: 2024-08-20T23:02:53.728Z
+Last updated: 2024-08-21T23:47:00.887Z
 
 ## Signatures
 
