@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: 2024-08-21T23:47:00.883Z
+Last updated: 2024-08-22T22:25:27.044Z
 
 ## Signatures
 
@@ -352,27 +352,6 @@ C8 42 66 0F EF E4 0F 2F 63 5C
 </td><td>
 <pre>
 55 48 89 E5 41 57 41 56 4C 8D BD D0 FE FF FF 49 89 D6 41 55 49 89 F5 41 54 49 89 CC
-</pre>
-</td></tr></table>
-
-### CGameRules_Constructor
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x8B\x15\x2A\x2A\x2A\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\x01\x33\xF6\x65\x48\x8B\x04\x25\x2A\x2A\x2A\x2A\x48\x8B\xD9\x48\x89\x71\x2A\x48\x8B\x3C\xD0\xB8\x2A\x2A\x2A\x2A\x40\x38\x34\x38\x75\x2A\xE8\x2A\x2A\x2A\x2A\xB8\x2A\x2A\x2A\x2A\x48\x8B\x04\x38\x48\x89\x43\x2A\x48\x89\x73\x2A\x48\x89\x73\x2A\x89\x73\x2A\xC7\x43\x2A\x2A\x2A\x2A\x2A\x48\x89\xB3
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 8B 15 ? ? ? ? 48 8D 05 ? ? ? ? 48 89 01 33 F6 65 48 8B 04 25 ? ? ? ? 48 8B D9 48 89 71 ? 48 8B 3C D0 B8 ? ? ? ? 40 38 34 38 75 ? E8 ? ? ? ? B8 ? ? ? ? 48 8B 04 38 48 89 43 ? 48 89 73 ? 48 89 73 ? 89 73 ? C7 43 ? ? ? ? ? 48 89 B3
-</pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\xE5\x53\x48\x89\xFB\x48\x83\xEC\x2A\x48\x89\x07\x66\x48\x8D\x3D\x2A\x2A\x2A\x2A\x66\x66\x48\xE8\x2A\x2A\x2A\x2A\xC7\x43\x2A\x2A\x2A\x2A\x2A\x48\xC7\x43\x2A\x2A\x2A\x2A\x2A\x48\xC7\x43\x2A\x2A\x2A\x2A\x2A\xC7\x43\x2A\x2A\x2A\x2A\x2A\x48\xC7\x83
-</pre>
-</td><td>
-<pre>
-55 48 8D 05 ? ? ? ? 48 89 E5 53 48 89 FB 48 83 EC ? 48 89 07 66 48 8D 3D ? ? ? ? 66 66 48 E8 ? ? ? ? C7 43 ? ? ? ? ? 48 C7 43 ? ? ? ? ? 48 C7 43 ? ? ? ? ? C7 43 ? ? ? ? ? 48 C7 83
 </pre>
 </td></tr></table>
 
@@ -919,27 +898,6 @@ C8 42 66 0F EF E4 0F 2F 63 5C
 </td><td>
 <pre>
 55 48 89 E5 41 55 41 54 48 83 EC 10 4C 8B 26 4D 85 E4 74 ?
-</pre>
-</td></tr></table>
-
-### CCSGameRules_GoToIntermission
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x55\x53\x56\x57\x41\x56\x48\x8D\xA8\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x0F\x29\x78
-</pre>
-</td><td>
-<pre>
-48 8B C4 55 53 56 57 41 56 48 8D A8 ? ? ? ? 48 81 EC ? ? ? ? 0F 29 78
-</pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x31\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xF6\x41\x55\x41\x54\x49\x89\xFC\x53
-</pre>
-</td><td>
-<pre>
-55 31 C0 48 89 E5 41 57 41 56 41 89 F6 41 55 41 54 49 89 FC 53
 </pre>
 </td></tr></table>
 

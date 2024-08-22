@@ -1,6 +1,6 @@
 # cs2-match-plugin 
 
-Last updated: 2024-08-21T23:47:00.885Z
+Last updated: 2024-08-22T22:25:27.046Z
 
 ## Signatures
 

@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-08-21T23:47:00.879Z
+Last updated: 2024-08-22T22:25:27.042Z
 
 ## CounterStrikeSharp
 
@@ -87,7 +87,6 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 * ✅ CEntitySystem_AddEntityIOEvent
 * ✅ CEntityInstance_AcceptInput
 * ✅ CEntityIdentity_AcceptInput
-* ✅ CGameRules_Constructor
 * ✅ CGameEntitySystem_FindEntityByClassName
 * ✅ CGameEntitySystem_FindEntityByName
 * ✅ CBaseEntity_TakeDamageOld
@@ -114,7 +113,6 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 * ✅ ProcessUsercmds
 * ✅ CGamePlayerEquip_InputTriggerForAllPlayers
 * ✅ CGamePlayerEquip_InputTriggerForActivatedPlayer
-* ❌ CCSGameRules_GoToIntermission
 * ❓ GetFreeClient
 * ✅ CCSPlayerPawn_GetMaxSpeed
 
@@ -138,7 +136,6 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 * ✅ CEntitySystem_AddEntityIOEvent
 * ✅ CEntityInstance_AcceptInput
 * ✅ CEntityIdentity_AcceptInput
-* ✅ CGameRules_Constructor
 * ✅ CGameEntitySystem_FindEntityByClassName
 * ✅ CGameEntitySystem_FindEntityByName
 * ✅ CBaseEntity_TakeDamageOld
@@ -165,7 +162,6 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 * ✅ ProcessUsercmds
 * ✅ CGamePlayerEquip_InputTriggerForAllPlayers
 * ✅ CGamePlayerEquip_InputTriggerForActivatedPlayer
-* ✅ CCSGameRules_GoToIntermission
 * ❓ GetFreeClient
 * ✅ CCSPlayerPawn_GetMaxSpeed
 
