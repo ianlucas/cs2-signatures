@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-08-22T22:25:27.042Z
+Last updated: 2024-08-29T23:56:39.762Z
 
 ## CounterStrikeSharp
 
@@ -263,6 +263,7 @@ Repository: https://github.com/ianlucas/cs2-match-plugin
 * ✅ TerminateRound
 * ✅ ChangeTeam
 * ✅ IncrementNumMVPs
+* ✅ HandleSwapTeams
 
 
 ### Linux
@@ -270,6 +271,7 @@ Repository: https://github.com/ianlucas/cs2-match-plugin
 * ✅ TerminateRound
 * ✅ ChangeTeam
 * ✅ IncrementNumMVPs
+* ✅ HandleSwapTeams
 
 
 ## cs2-inventory-simulator-plugin

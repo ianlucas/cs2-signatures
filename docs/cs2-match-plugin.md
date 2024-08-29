@@ -1,6 +1,6 @@
 # cs2-match-plugin 
 
-Last updated: 2024-08-22T22:25:27.046Z
+Last updated: 2024-08-29T23:56:39.767Z
 
 ## Signatures
 
@@ -66,6 +66,27 @@ N/A
 </td><td>
 <pre>
 55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 8D 3D ? ? ? ? 89 F3
+</pre>
+</td></tr></table>
+
+### HandleSwapTeams
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+48 89 4C 24 ? 53 55 56 57 41 54 41 55 41 56 41 57 48 83 EC ? 33 C0
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC ? 4C 8D 2D ? ? ? ? 48 C7 45 ? ? ? ? ? 48 C7 45
 </pre>
 </td></tr></table>
 
