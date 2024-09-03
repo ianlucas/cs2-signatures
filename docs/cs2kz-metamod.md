@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: 2024-09-03T22:27:55.908Z
+Last updated: 2024-09-03T22:31:45.290Z
 
 ## Signatures
 
@@ -198,21 +198,21 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### SetupMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x56\x57\x41\x56\x48\x83\xEC\x20\x49\x8B\xD8
+\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x56\x57\x41\x56\x48\x83\xEC\x30\x49\x8B\xD8
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 10 48 89 6C 24 18 56 57 41 56 48 83 EC 20 49 8B D8
+48 89 5C 24 10 48 89 6C 24 18 56 57 41 56 48 83 EC 30 49 8B D8
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xD4\x53\x48\x89\xFB\x48\x83\xEC\x08
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xD4\x53\x48\x89\xFB\x48\x83\xEC\x18\xE8
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 49 89 D4 53 48 89 FB 48 83 EC 08
+55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 49 89 D4 53 48 89 FB 48 83 EC 18 E8
 </pre>
 </td></tr></table>
 
