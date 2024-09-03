@@ -29,7 +29,7 @@ async function checkDepot(depot: number) {
     console.log(`Checking depot ${depot}`);
     const filelistPath = join(configdir, `${depot}.depot`);
     const manifestPath = join(workdir, `${depot}.manifest`);
-    const manifest = (await exists(manifestPath)) ? parseInt(await readFile(manifestPath, "utf-8")) : 0;
+    const manifest = (await exists(manifestPath)) ? await readFile(manifestPath, "utf-8") : "";
     const latestManifest = await getLatestManifest(depot);
     if (latestManifest === undefined) {
         console.log(`Failed to get latest manifest for depot ${depot}`);

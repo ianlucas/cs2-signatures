@@ -16,7 +16,7 @@ export async function getLatestManifest(depot: number) {
         });
         const matches = output.match(/Manifest\s(\d+)/);
         if (matches !== null) {
-            return parseInt(matches[1]);
+            return matches[1];
         }
     } catch (error) {
         console.error(error);

@@ -1,6 +1,6 @@
 # cs2-inventory-simulator-plugin 
 
-Last updated: 2024-08-29T23:56:39.768Z
+Last updated: 2024-09-03T22:25:03.251Z
 
 ## Signatures
 
@@ -66,6 +66,69 @@ N/A
 </td><td>
 <pre>
 55 48 89 E5 41 56 49 89 F6 41 55 41 89 D5 41 54 49 89 FC 48 83 EC
+</pre>
+</td></tr></table>
+
+### Trace
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+4C 8B DC 49 89 5B ? 49 89 6B ? 49 89 73 ? 57 41 56 41 57 48 81 EC ? ? ? ? 0F 57 C0
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+48 B8 ? ? ? ? ? ? ? ? 55 48 89 E5 41 57 41 56 49 89 D6 41 55
+</pre>
+</td></tr></table>
+
+### GameTraceManager
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+48 8B 0D ? ? ? ? 48 8D 45 ? 48 89 44 24 ? 4C 8D 44 24 ? C7 44 24 ? ? ? ? ? 48 8D 54 24 ? 4C 8B CB
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+48 8D 05 ? ? ? ? F3 0F 58 8D ? ? ? ? 31 FF
+</pre>
+</td></tr></table>
+
+### CCSPlayerPawn_IsAbleToApplySpray
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 4C 89 74 24 ? 55 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 49 8B F1
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 49 89 FE 41 55 49 89 D5 41 54 48 8D 95
 </pre>
 </td></tr></table>
 

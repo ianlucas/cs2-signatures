@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-08-29T23:56:39.762Z
+Last updated: 2024-09-03T22:25:03.246Z
 
 ## CounterStrikeSharp
 
@@ -181,7 +181,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * ✅ InitGameTrace
 * ✅ TracePlayerBBox
 * ✅ GetMaxSpeed
-* ✅ SetupMove
+* ❌ SetupMove
 * ✅ ProcessMovement
 * ✅ PlayerMoveNew
 * ✅ CheckParameters
@@ -223,7 +223,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * ✅ InitGameTrace
 * ✅ TracePlayerBBox
 * ✅ GetMaxSpeed
-* ✅ SetupMove
+* ❌ SetupMove
 * ✅ ProcessMovement
 * ✅ PlayerMoveNew
 * ✅ CheckParameters
@@ -283,6 +283,9 @@ Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 * ✅ ChangeSubclass
 * ✅ CAttributeList_SetOrAddAttributeValueByName
 * ✅ CBaseModelEntity_SetBodygroup
+* ✅ Trace
+* ✅ GameTraceManager
+* ✅ CCSPlayerPawn_IsAbleToApplySpray
 
 
 ### Linux
@@ -290,3 +293,6 @@ Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 * ✅ ChangeSubclass
 * ✅ CAttributeList_SetOrAddAttributeValueByName
 * ✅ CBaseModelEntity_SetBodygroup
+* ✅ Trace
+* ✅ GameTraceManager
+* ✅ CCSPlayerPawn_IsAbleToApplySpray
