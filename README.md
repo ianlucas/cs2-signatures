@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-09-09T23:05:48.475Z
+Last updated: 2024-09-10T01:20:44.663Z
 
 ## CounterStrikeSharp
 
@@ -180,6 +180,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * ✅ InitPlayerMovementTraceFilter
 * ✅ InitGameTrace
 * ✅ TracePlayerBBox
+* ✅ TraceShape
 * ✅ GetMaxSpeed
 * ✅ SetupMove
 * ✅ ProcessMovement
@@ -222,6 +223,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * ✅ InitPlayerMovementTraceFilter
 * ✅ InitGameTrace
 * ✅ TracePlayerBBox
+* ✅ TraceShape
 * ✅ GetMaxSpeed
 * ✅ SetupMove
 * ✅ ProcessMovement

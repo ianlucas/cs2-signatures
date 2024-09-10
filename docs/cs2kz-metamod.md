@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: 2024-09-09T23:05:48.479Z
+Last updated: 2024-09-10T01:20:44.666Z
 
 ## Signatures
 
@@ -171,6 +171,27 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 </td><td>
 <pre>
 55 48 89 E5 41 57 49 89 FF 41 56 49 89 F6 41 55 49 89 CD
+</pre>
+</td></tr></table>
+
+### TraceShape
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x10\x48\x89\x74\x24\x18\x48\x89\x7C\x24\x20\x48\x89\x4C\x24\x08\x55\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24\x20\xE0\xFF\xFF
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 48 89 4C 24 08 55 41 54 41 55 41 56 41 57 48 8D AC 24 20 E0 FF FF
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xCE\x41\x55\x4D\x89\xC5\x41\x54\x49\x89\xD4\x53\x4C\x89\xCB
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 49 89 CE 41 55 4D 89 C5 41 54 49 89 D4 53 4C 89 CB
 </pre>
 </td></tr></table>
 
