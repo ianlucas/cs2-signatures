@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: 2024-09-10T01:20:44.666Z
+Last updated: 2024-09-15T11:08:32.325Z
 
 ## Signatures
 
@@ -74,11 +74,11 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Windows</td><td>steamnetworkingsockets</td><td>
 <pre>
-\x48\x89\x6C\x24\x18\x57\x48\x83\xEC\x20\x48\x8B\xF9\x48\x8B\xEA
+\x48\x89\x6C\x24\x18\x56\x48\x83\xEC\x20\x48\x8B\xF1\x48\x8B\xEA
 </pre>
 </td><td>
 <pre>
-48 89 6C 24 18 57 48 83 EC 20 48 8B F9 48 8B EA
+48 89 6C 24 18 56 48 83 EC 20 48 8B F1 48 8B EA
 </pre>
 </td></tr><tr><td>❓</td><td>Linux</td><td>steamnetworkingsockets</td><td>
 <pre>

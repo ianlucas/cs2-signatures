@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-09-10T01:20:44.663Z
+Last updated: 2024-09-15T11:08:32.316Z
 
 ## CounterStrikeSharp
 
