@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-09-15T11:08:32.316Z
+Last updated: 2024-09-27T10:54:50.686Z
 
 ## CounterStrikeSharp
 
@@ -288,6 +288,7 @@ Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 * ✅ Trace
 * ✅ GameTraceManager
 * ✅ CCSPlayerPawn_IsAbleToApplySpray
+* ✅ CCSGameRules_FPlayerCanRespawn
 
 
 ### Linux
@@ -298,3 +299,4 @@ Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 * ✅ Trace
 * ✅ GameTraceManager
 * ✅ CCSPlayerPawn_IsAbleToApplySpray
+* ✅ CCSGameRules_FPlayerCanRespawn

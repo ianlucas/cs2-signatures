@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: 2024-09-15T11:08:32.325Z
+Last updated: 2024-09-27T10:54:50.692Z
 
 ## Signatures
 
