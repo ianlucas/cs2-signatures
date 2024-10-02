@@ -1,6 +1,6 @@
 # cs2-match-plugin 
 
-Last updated: 2024-10-02T23:51:16.056Z
+Last updated: 2024-10-02T23:55:11.259Z
 
 ## Signatures
 
@@ -9,7 +9,7 @@ Repository: https://github.com/ianlucas/cs2-match-plugin
 ### TerminateRound
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>
@@ -72,7 +72,7 @@ N/A
 ### HandleSwapTeams
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>

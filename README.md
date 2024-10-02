@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-10-02T23:51:16.051Z
+Last updated: 2024-10-02T23:55:11.254Z
 
 ## CounterStrikeSharp
 
@@ -19,20 +19,20 @@ Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * ✅ Host_Say
 * ✅ CBaseModelEntity_SetModel
 * ✅ CCSPlayer_WeaponServices_CanUse
-* ✅ CCSGameRules_TerminateRound
+* ❌ CCSGameRules_TerminateRound
 * ✅ UTIL_CreateEntityByName
 * ✅ CBaseEntity_DispatchSpawn
 * ✅ CEntityInstance_AcceptInput
 * ✅ CEntitySystem_AddEntityIOEvent
 * ✅ LegacyGameEventListener
 * ✅ CBasePlayerPawn_RemovePlayerItem
-* ✅ CBaseEntity_TakeDamageOld
-* ✅ CBaseTrigger_StartTouch
-* ✅ CBaseTrigger_EndTouch
-* ✅ StateChanged
+* ❌ CBaseEntity_TakeDamageOld
+* ❌ CBaseTrigger_StartTouch
+* ❌ CBaseTrigger_EndTouch
+* ❌ StateChanged
 * ✅ NetworkStateChanged
 * ✅ CEntityIOOutput_FireOutputInternal
-* ✅ IGameSystem_InitAllSystems_pFirst
+* ❌ IGameSystem_InitAllSystems_pFirst
 
 
 ### Linux
@@ -73,28 +73,28 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 * ✅ UTIL_SayTextFilter
 * ✅ UTIL_SayText2Filter
 * ❓ IsHearingClient
-* ✅ TriggerPush_Touch
-* ✅ TriggerTeleport_StartTouch
-* ✅ SetGroundEntity
-* ✅ ServerMovementUnlock
+* ❌ TriggerPush_Touch
+* ❌ TriggerTeleport_StartTouch
+* ❌ SetGroundEntity
+* ❌ ServerMovementUnlock
 * ❓ ClientMovementUnlock
 * ❓ HammerNoCustomerMachine
 * ✅ CCSPlayerController_SwitchTeam
 * ✅ CheckJumpButtonWater
 * ✅ WaterLevelGravity
-* ✅ CategorizeUnderwater
+* ❌ CategorizeUnderwater
 * ✅ UTIL_Remove
 * ✅ CEntitySystem_AddEntityIOEvent
 * ✅ CEntityInstance_AcceptInput
 * ✅ CEntityIdentity_AcceptInput
 * ✅ CGameEntitySystem_FindEntityByClassName
 * ✅ CGameEntitySystem_FindEntityByName
-* ✅ CBaseEntity_TakeDamageOld
-* ✅ IGameSystem_InitAllSystems_pFirst
+* ❌ CBaseEntity_TakeDamageOld
+* ❌ IGameSystem_InitAllSystems_pFirst
 * ✅ CBasePlayerController_SetPawn
 * ✅ CNavMesh_GetNearestNavArea
 * ✅ CBaseModelEntity_SetModel
-* ✅ CGameRules_TerminateRound
+* ❌ CGameRules_TerminateRound
 * ✅ CCSPlayer_WeaponServices_CanUse
 * ✅ CreateEntityByName
 * ✅ DispatchSpawn
@@ -102,19 +102,19 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 * ✅ BotNavIgnore
 * ✅ CBaseEntity_EmitSoundParams
 * ✅ CBaseEntity_SetParent
-* ✅ GetParticleSystemIndex
+* ❌ GetParticleSystemIndex
 * ✅ DispatchParticleEffect
 * ✅ CBaseEntity_EmitSoundFilter
 * ❓ CNetworkStringTable_DeleteAllStrings
 * ✅ ProcessMovement
-* ✅ CBaseEntity_SetMoveType
-* ✅ CPhysBox_Use
+* ❌ CBaseEntity_SetMoveType
+* ❌ CPhysBox_Use
 * ✅ CTakeDamageInfo
 * ✅ ProcessUsercmds
-* ✅ CGamePlayerEquip_InputTriggerForAllPlayers
+* ❌ CGamePlayerEquip_InputTriggerForAllPlayers
 * ✅ CGamePlayerEquip_InputTriggerForActivatedPlayer
 * ❓ GetFreeClient
-* ✅ CCSPlayerPawn_GetMaxSpeed
+* ❌ CCSPlayerPawn_GetMaxSpeed
 
 
 ### Linux
@@ -176,37 +176,37 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * ✅ CBasePlayerController_SetPawn
 * ✅ GetLegacyGameEventListener
 * ❓ RecvServerBrowserPacket
-* ✅ SnapViewAngles
+* ❌ SnapViewAngles
 * ✅ InitPlayerMovementTraceFilter
 * ✅ InitGameTrace
-* ✅ TracePlayerBBox
-* ✅ TraceShape
-* ✅ GetMaxSpeed
+* ❌ TracePlayerBBox
+* ❌ TraceShape
+* ❌ GetMaxSpeed
 * ✅ SetupMove
 * ✅ ProcessMovement
-* ✅ PlayerMoveNew
-* ✅ CheckParameters
+* ❌ PlayerMoveNew
+* ❌ CheckParameters
 * ✅ CanMove
-* ✅ FullWalkMove
-* ✅ MoveInit
-* ✅ CheckWater
-* ✅ WaterMove
-* ✅ CheckVelocity
-* ✅ Duck
+* ❌ FullWalkMove
+* ❌ MoveInit
+* ❌ CheckWater
+* ❌ WaterMove
+* ❌ CheckVelocity
+* ❌ Duck
 * ✅ CanUnduck
 * ✅ LadderMove
 * ✅ CheckJumpButton
-* ✅ OnJump
-* ✅ AirMove
-* ✅ AirAccelerate
-* ✅ Friction
+* ❌ OnJump
+* ❌ AirMove
+* ❌ AirAccelerate
+* ❌ Friction
 * ✅ WalkMove
-* ✅ TryPlayerMove
-* ✅ CategorizePosition
+* ❌ TryPlayerMove
+* ❌ CategorizePosition
 * ✅ FinishGravity
-* ✅ CheckFalling
-* ✅ PostPlayerMove
-* ✅ PostThink
+* ❌ CheckFalling
+* ❌ PostPlayerMove
+* ❌ PostThink
 * ✅ EmitSound
 * ✅ ProcessUsercmds
 * ✅ PhysicsSimulate
@@ -262,10 +262,10 @@ Repository: https://github.com/ianlucas/cs2-match-plugin
 
 ### Windows
 
-* ✅ TerminateRound
+* ❌ TerminateRound
 * ✅ ChangeTeam
 * ✅ IncrementNumMVPs
-* ✅ HandleSwapTeams
+* ❌ HandleSwapTeams
 
 
 ### Linux
@@ -282,7 +282,7 @@ Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 
 ### Windows
 
-* ✅ ChangeSubclass
+* ❌ ChangeSubclass
 * ✅ CAttributeList_SetOrAddAttributeValueByName
 * ✅ CBaseModelEntity_SetBodygroup
 * ✅ Trace
