@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: 2024-09-27T10:54:50.691Z
+Last updated: 2024-10-02T23:51:16.054Z
 
 ## Signatures
 
@@ -101,7 +101,7 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 <pre>
 48 89 5C 24 20 57 48 81 EC ? 00 00 00 48 8B 01
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x81\xEC\x2A\x00\x00\x00\x48\x8B\x07
 </pre>
@@ -122,7 +122,7 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 <pre>
 48 89 5C 24 10 48 89 6C 24 18 48 89 74 24 20 57 41 56 41 57 48 83 EC 20 33 ED
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xD6\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x18\x8B\x97\xB4\x06\x00\x00
 </pre>
@@ -408,7 +408,7 @@ C8 42 66 0F EF E4 0F 2F 63 5C
 <pre>
 48 89 74 24 20 57 48 83 EC 60 48 8B 41 10
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x48\x4C\x8D\x2D\x2A\x2A\x2A\x2A\x49\x8B\x7D\x00\x48\x85\xFF\x0F\x84\x2A\x2A\x2A\x2A
 </pre>
@@ -429,7 +429,7 @@ C8 42 66 0F EF E4 0F 2F 63 5C
 <pre>
 48 8B 1D ? ? ? ? 48 85 DB 0F 84 ? ? ? ? BE ? ? ? ? 0F 1F 00 48 8B 7B 10
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x4C\x8B\x35\x2A\x2A\x2A\x2A\x4D\x85\xF6\x75\x2D\xE9\x2A\x2A\x2A\x2A\x0F\x1F\x40\x00\x48\x8B\x05
 </pre>
@@ -471,7 +471,7 @@ C8 42 66 0F EF E4 0F 2F 63 5C
 <pre>
 48 89 5C 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ?
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xCE\x41\x55\x49\x89\xFD\x41\x54\x48\x8D\x3D\x2A\x2A\x2A\x2A
 </pre>
@@ -870,7 +870,7 @@ C8 42 66 0F EF E4 0F 2F 63 5C
 <pre>
 40 53 55 41 56 48 83 EC 30 48 8B E9
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\xC7\x45\x2A\x2A\x2A\x2A\x2A\x89\xC7\x66\x89\x45\x2A\x66\x83\xF8\x2A\x0F\x84\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x0F\xB7\x7D\x2A\x48\x85\xC0\x0F\x84\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x89\xC7\x49\x89\xC5\xE8\x2A\x2A\x2A\x2A\x48\x8D\x7D\x2A\x4C\x89\xEA\x48\x89\xC6\xE8\x2A\x2A\x2A\x2A\x0F\xB7\x7D\x2A\x84\xC0\x0F\x84\x2A\x2A\x2A\x2A\x0F\x1F\x44\x2A\x2A\x66\x89\x7D\x2A\x4C\x8D\x6D
 </pre>

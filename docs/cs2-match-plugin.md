@@ -1,6 +1,6 @@
 # cs2-match-plugin 
 
-Last updated: 2024-09-27T10:54:50.693Z
+Last updated: 2024-10-02T23:51:16.056Z
 
 ## Signatures
 
@@ -80,7 +80,7 @@ N/A
 <pre>
 48 89 4C 24 ? 53 55 56 57 41 54 41 55 41 56 41 57 48 83 EC ? 33 C0
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 N/A
 </pre>

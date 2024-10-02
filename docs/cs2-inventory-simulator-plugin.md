@@ -1,6 +1,6 @@
 # cs2-inventory-simulator-plugin 
 
-Last updated: 2024-09-27T10:54:50.695Z
+Last updated: 2024-10-02T23:51:16.056Z
 
 ## Signatures
 
@@ -17,7 +17,7 @@ N/A
 <pre>
 40 57 48 83 EC ? 48 8B F9 41 B0
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 N/A
 </pre>

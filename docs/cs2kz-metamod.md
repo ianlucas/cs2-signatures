@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: 2024-09-27T10:54:50.692Z
+Last updated: 2024-10-02T23:51:16.055Z
 
 ## Signatures
 
@@ -101,7 +101,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 <pre>
 40 55 53 56 41 56 41 57 48 8D 6C 24 C9
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x89\xF7\x4C
 </pre>
@@ -332,7 +332,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 <pre>
 48 89 74 24 20 57 48 83 EC 30 48 8B F2 48 8B F9 45 84 C0
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x18\x84\xD2
 </pre>
@@ -521,7 +521,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 <pre>
 40 53 57 48 81 EC A8 00 00 00 48 8B D9
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x18\x48\x8B\x7F\x30
 </pre>
@@ -542,7 +542,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 <pre>
 48 8B C4 55 57 41 56 48 8D A8 58 FF FF FF
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\x75\x94\x41\x55\x4C\x8D\x6D\xA0
 </pre>
@@ -647,7 +647,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 <pre>
 40 55 56 57 41 57 48 8D AC 24 28 FE FF FF
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x48\xB8\x00\x00\x00\x00\xFF\xFF\xFF\xFF\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xB5\x50\xFE\xFF\xFF
 </pre>

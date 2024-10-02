@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-09-27T10:54:50.686Z
+Last updated: 2024-10-02T23:51:16.051Z
 
 ## CounterStrikeSharp
 
@@ -45,7 +45,7 @@ Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * ✅ CGameEventManager_Init
 * ✅ GiveNamedItem
 * ✅ UTIL_Remove
-* ✅ Host_Say
+* ❌ Host_Say
 * ✅ CBaseModelEntity_SetModel
 * ✅ CCSPlayer_WeaponServices_CanUse
 * ✅ CCSGameRules_TerminateRound
@@ -55,13 +55,13 @@ Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * ✅ CEntitySystem_AddEntityIOEvent
 * ✅ LegacyGameEventListener
 * ✅ CBasePlayerPawn_RemovePlayerItem
-* ✅ CBaseEntity_TakeDamageOld
+* ❌ CBaseEntity_TakeDamageOld
 * ✅ CBaseTrigger_StartTouch
 * ✅ CBaseTrigger_EndTouch
 * ✅ StateChanged
 * ✅ NetworkStateChanged
 * ✅ CEntityIOOutput_FireOutputInternal
-* ✅ IGameSystem_InitAllSystems_pFirst
+* ❌ IGameSystem_InitAllSystems_pFirst
 
 
 ## CS2Fixes
@@ -123,8 +123,8 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 * ✅ UTIL_SayText2Filter
 * ❓ IsHearingClient
 * ✅ TriggerPush_Touch
-* ✅ TriggerTeleport_StartTouch
-* ✅ SetGroundEntity
+* ❌ TriggerTeleport_StartTouch
+* ❌ SetGroundEntity
 * ✅ ServerMovementUnlock
 * ❓ ClientMovementUnlock
 * ❓ HammerNoCustomerMachine
@@ -138,10 +138,10 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 * ✅ CEntityIdentity_AcceptInput
 * ✅ CGameEntitySystem_FindEntityByClassName
 * ✅ CGameEntitySystem_FindEntityByName
-* ✅ CBaseEntity_TakeDamageOld
-* ✅ IGameSystem_InitAllSystems_pFirst
+* ❌ CBaseEntity_TakeDamageOld
+* ❌ IGameSystem_InitAllSystems_pFirst
 * ✅ CBasePlayerController_SetPawn
-* ✅ CNavMesh_GetNearestNavArea
+* ❌ CNavMesh_GetNearestNavArea
 * ✅ CBaseModelEntity_SetModel
 * ✅ CGameRules_TerminateRound
 * ✅ CCSPlayer_WeaponServices_CanUse
@@ -160,7 +160,7 @@ Repository: https://github.com/Source2ZE/CS2Fixes
 * ✅ CPhysBox_Use
 * ✅ CTakeDamageInfo
 * ✅ ProcessUsercmds
-* ✅ CGamePlayerEquip_InputTriggerForAllPlayers
+* ❌ CGamePlayerEquip_InputTriggerForAllPlayers
 * ✅ CGamePlayerEquip_InputTriggerForActivatedPlayer
 * ❓ GetFreeClient
 * ✅ CCSPlayerPawn_GetMaxSpeed
@@ -219,7 +219,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * ✅ CBasePlayerController_SetPawn
 * ✅ GetLegacyGameEventListener
 * ❓ RecvServerBrowserPacket
-* ✅ SnapViewAngles
+* ❌ SnapViewAngles
 * ✅ InitPlayerMovementTraceFilter
 * ✅ InitGameTrace
 * ✅ TracePlayerBBox
@@ -230,7 +230,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * ✅ PlayerMoveNew
 * ✅ CheckParameters
 * ✅ CanMove
-* ✅ FullWalkMove
+* ❌ FullWalkMove
 * ✅ MoveInit
 * ✅ CheckWater
 * ✅ WaterMove
@@ -239,13 +239,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * ✅ CanUnduck
 * ✅ LadderMove
 * ✅ CheckJumpButton
-* ✅ OnJump
-* ✅ AirMove
+* ❌ OnJump
+* ❌ AirMove
 * ✅ AirAccelerate
 * ✅ Friction
 * ✅ WalkMove
 * ✅ TryPlayerMove
-* ✅ CategorizePosition
+* ❌ CategorizePosition
 * ✅ FinishGravity
 * ✅ CheckFalling
 * ✅ PostPlayerMove
@@ -273,7 +273,7 @@ Repository: https://github.com/ianlucas/cs2-match-plugin
 * ✅ TerminateRound
 * ✅ ChangeTeam
 * ✅ IncrementNumMVPs
-* ✅ HandleSwapTeams
+* ❌ HandleSwapTeams
 
 
 ## cs2-inventory-simulator-plugin
@@ -293,7 +293,7 @@ Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 
 ### Linux
 
-* ✅ ChangeSubclass
+* ❌ ChangeSubclass
 * ✅ CAttributeList_SetOrAddAttributeValueByName
 * ✅ CBaseModelEntity_SetBodygroup
 * ✅ Trace
