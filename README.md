@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-10-02T23:55:11.254Z
+Last updated: 2024-10-03T00:47:43.028Z
 
 ## CounterStrikeSharp
 
@@ -282,7 +282,7 @@ Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 
 ### Windows
 
-* ❌ ChangeSubclass
+* ✅ ChangeSubclass
 * ✅ CAttributeList_SetOrAddAttributeValueByName
 * ✅ CBaseModelEntity_SetBodygroup
 * ✅ Trace
@@ -293,7 +293,7 @@ Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 
 ### Linux
 
-* ❌ ChangeSubclass
+* ✅ ChangeSubclass
 * ✅ CAttributeList_SetOrAddAttributeValueByName
 * ✅ CBaseModelEntity_SetBodygroup
 * ✅ Trace
