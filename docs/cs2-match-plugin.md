@@ -1,6 +1,6 @@
 # cs2-match-plugin 
 
-Last updated: 2024-10-03T00:47:43.033Z
+Last updated: 2024-10-03T00:51:13.870Z
 
 ## Signatures
 
@@ -9,13 +9,13 @@ Repository: https://github.com/ianlucas/cs2-match-plugin
 ### TerminateRound
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-48 8B C4 4C 89 48 ? 48 89 48 ? 55 56
+48 8B C4 4C 89 48 ? 48 89 48 ? 55 41 55
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -72,21 +72,21 @@ N/A
 ### HandleSwapTeams
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-48 89 4C 24 ? 53 55 56 57 41 54 41 55 41 56 41 57 48 83 EC ? 33 C0
+48 8B C4 48 89 48 ? 55 48 81 EC
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC ? 4C 8D 2D ? ? ? ? 48 C7 45 ? ? ? ? ? 48 C7 45
+55 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 53 31 DB 48 83 EC
 </pre>
 </td></tr></table>
 
