@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-10-04T00:17:04.337Z
+Last updated: 2024-10-04T14:52:58.598Z
 
 ## CounterStrikeSharp
 
@@ -19,20 +19,20 @@ Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * ✅ Host_Say
 * ✅ CBaseModelEntity_SetModel
 * ✅ CCSPlayer_WeaponServices_CanUse
-* ❌ CCSGameRules_TerminateRound
+* ✅ CCSGameRules_TerminateRound
 * ✅ UTIL_CreateEntityByName
 * ✅ CBaseEntity_DispatchSpawn
 * ✅ CEntityInstance_AcceptInput
 * ✅ CEntitySystem_AddEntityIOEvent
 * ✅ LegacyGameEventListener
 * ✅ CBasePlayerPawn_RemovePlayerItem
-* ❌ CBaseEntity_TakeDamageOld
-* ❌ CBaseTrigger_StartTouch
-* ❌ CBaseTrigger_EndTouch
-* ❌ StateChanged
+* ✅ CBaseEntity_TakeDamageOld
+* ✅ CBaseTrigger_StartTouch
+* ✅ CBaseTrigger_EndTouch
+* ✅ StateChanged
 * ✅ NetworkStateChanged
 * ✅ CEntityIOOutput_FireOutputInternal
-* ❌ IGameSystem_InitAllSystems_pFirst
+* ✅ IGameSystem_InitAllSystems_pFirst
 
 
 ### Linux
@@ -45,7 +45,7 @@ Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * ✅ CGameEventManager_Init
 * ✅ GiveNamedItem
 * ✅ UTIL_Remove
-* ❌ Host_Say
+* ✅ Host_Say
 * ✅ CBaseModelEntity_SetModel
 * ✅ CCSPlayer_WeaponServices_CanUse
 * ✅ CCSGameRules_TerminateRound
@@ -55,13 +55,13 @@ Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * ✅ CEntitySystem_AddEntityIOEvent
 * ✅ LegacyGameEventListener
 * ✅ CBasePlayerPawn_RemovePlayerItem
-* ❌ CBaseEntity_TakeDamageOld
+* ✅ CBaseEntity_TakeDamageOld
 * ✅ CBaseTrigger_StartTouch
 * ✅ CBaseTrigger_EndTouch
 * ✅ StateChanged
 * ✅ NetworkStateChanged
 * ✅ CEntityIOOutput_FireOutputInternal
-* ❌ IGameSystem_InitAllSystems_pFirst
+* ✅ IGameSystem_InitAllSystems_pFirst
 
 
 ## CS2Fixes

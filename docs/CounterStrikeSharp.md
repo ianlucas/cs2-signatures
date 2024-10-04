@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: 2024-10-04T00:17:04.338Z
+Last updated: 2024-10-04T14:52:58.599Z
 
 ## Signatures
 
@@ -185,13 +185,13 @@ N/A
 <pre>
 44 89 4C 24 20 44 88 44 24 18
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 89 D6 41 55 4D 89 C5
+55 48 89 E5 41 57 41 56 49 89 F6 41 55 4D 89 C5
 </pre>
 </td></tr></table>
 
@@ -225,7 +225,7 @@ N/A
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 10 48 89 6C 24 18 56 57 41 56 48 83 EC 30 48 8B 01
+48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 56 48 83 EC 30 48 8B 01
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -240,13 +240,13 @@ N/A
 ### CCSGameRules_TerminateRound
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-48 8B C4 4C 89 48 ? 48 89 48 ? 55 56
+48 8B C4 4C 89 48 ? 48 89 48 ? 55 41 55
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -387,34 +387,34 @@ N/A
 ### CBaseEntity_TakeDamageOld
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-48 89 74 24 20 57 48 83 EC 60 48 8B 41 10
+48 89 74 24 ? 57 48 81 EC 80 00 00 00 48 8B 41
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 83 EC 48 4C 8D 2D ? ? ? ? 49 8B 7D 00 48 85 FF 0F 84 ? ? ? ?
+55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 83 EC 58 4C 8D 3D
 </pre>
 </td></tr></table>
 
 ### CBaseTrigger_StartTouch
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-41 56 41 57 48 83 EC 58 48 8B 01
+40 57 41 57 48 83 EC 28 48 8B 01
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -429,13 +429,13 @@ N/A
 ### CBaseTrigger_EndTouch
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-40 53 57 41 55 48 83 EC 40
+40 53 41 55 48 83 EC 28
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -450,13 +450,13 @@ N/A
 ### StateChanged
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-40 ? 53 56 41 ? 41 ? 48 ? ? ? ? 48 ? ? ? ? ? ? 48 ? ? 45
+40 55 53 56 41 56 41 57 48 8D 6C 24 ? 48 81 EC 70 01 00 00
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -513,21 +513,21 @@ N/A
 ### IGameSystem_InitAllSystems_pFirst
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-48 8B 1D ? ? ? ? 48 85 DB 0F 84 ? ? ? ? BE ? ? ? ? 0F 1F 00 48 8B 7B 10
+48 8B 3D ? ? ? ? 48 85 FF 0F 84 ? ? ? ? BE
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-4C 8B 35 ? ? ? ? 4D 85 F6 75 2D E9 ? ? ? ? 0F 1F 40 00 48 8B 05
+4C 8B 35 ? ? ? ? 4D 85 F6 75 ? E9
 </pre>
 </td></tr></table>
 
