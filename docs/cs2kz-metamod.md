@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: 2024-10-05T00:10:42.984Z
+Last updated: 2024-10-05T00:49:13.065Z
 
 ## Signatures
 
@@ -731,7 +731,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 <pre>
 48 8B C4 55 53 56 57 41 54 48 8D 68 B8
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x30\xE8\x2A\x2A\x2A\x2A
 </pre>
