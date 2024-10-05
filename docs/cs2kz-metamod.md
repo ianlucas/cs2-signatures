@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: 2024-10-04T14:52:58.603Z
+Last updated: 2024-10-05T00:10:42.984Z
 
 ## Signatures
 
@@ -40,11 +40,11 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x45\x89\xC4
+\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x48\x8D\x3D\x2A\x2A\x2A\x2A\x41\x89\xCE
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 45 89 C4
+55 48 89 E5 41 57 49 89 FF 41 56 48 8D 3D ? ? ? ? 41 89 CE
 </pre>
 </td></tr></table>
 
@@ -198,13 +198,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### GetMaxSpeed
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x18\x57\x48\x83\xEC\x30\x48\x8B\xD9\xE8\x2A\x2A\x2A\x2A\x84\xC0
+\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xD9\xE8\x2A\x2A\x2A\x2A\x84\xC0\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x0D
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 18 57 48 83 EC 30 48 8B D9 E8 ? ? ? ? 84 C0
+48 89 5C 24 ? 57 48 83 EC ? 48 8B D9 E8 ? ? ? ? 84 C0 0F 84 ? ? ? ? 48 8B 0D
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -242,11 +242,11 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x40\x56\x57\x48\x81\xEC\x2A\x00\x00\x00\x4C\x8B\x49\x30
+\x40\x56\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\x49
 </pre>
 </td><td>
 <pre>
-40 56 57 48 81 EC ? 00 00 00 4C 8B 49 30
+40 56 57 48 81 EC ? ? ? ? 4C 8B 49
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>

@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: 2024-10-04T14:52:58.599Z
+Last updated: 2024-10-05T00:10:42.981Z
 
 ## Signatures
 
