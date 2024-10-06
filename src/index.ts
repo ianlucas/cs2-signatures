@@ -146,7 +146,7 @@ async function main() {
         }
     }
 
-    if (!didSomethingChange && false) {
+    if (!didSomethingChange) {
         console.log("No changes detected, skipping signature search");
         return;
     }
