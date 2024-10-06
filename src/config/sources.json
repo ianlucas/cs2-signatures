@@ -14,6 +14,13 @@
         "file": "/gamedata/cs2fixes.games.txt"
     },
     {
+        "id": "swiftly",
+        "repo": "swiftly-solution/swiftly",
+        "type": "swiftly",
+        "branch": "master",
+        "file": "/plugin_files/gamedata/signatures.json"
+    },
+    {
         "id": "cs2kz-metamod",
         "repo": "KZGlobalTeam/cs2kz-metamod",
         "type": "sourcemod",

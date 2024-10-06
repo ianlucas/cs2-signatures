@@ -3,34 +3,31 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { CS2KeyValues } from "@ianlucas/cs2-lib";
-import { parsePattern } from "./parse-pattern";
-import { Signature, Source } from "./types";
+import { parsePattern } from "../parse-pattern";
+import { Signature, Source } from "../types";
 
-export function parseSourcemodGamedata(signatures: Signature[], source: Source, gamedata: string) {
+export function parseCSSharpGamedata(signatures: Signature[], source: Source, gamedata: string) {
     try {
-        for (const [name, value] of Object.entries(
-            CS2KeyValues.parse<{
-                Games: {
-                    csgo: {
-                        Signatures: {
-                            [name: string]: {
-                                library: string;
-                                windows?: string;
-                                linux?: string;
-                            };
-                        };
-                    };
+        const parsed = JSON.parse(gamedata) as {
+            [name: string]: {
+                signatures?: {
+                    library: string;
+                    windows?: string;
+                    linux?: string;
                 };
-            }>(gamedata).Games.csgo.Signatures
-        )) {
+            };
+        };
+        for (const [name, value] of Object.entries(parsed)) {
+            if (value.signatures === undefined) {
+                continue;
+            }
             const signature: Signature = {
                 source,
                 name,
-                library: value.library,
+                library: value.signatures.library,
                 platforms: {}
             };
-            for (let [osName, pattern] of Object.entries(value).filter(([osName]) => osName !== "library")) {
+            for (let [osName, pattern] of Object.entries(value.signatures).filter(([osName]) => osName !== "library")) {
                 pattern = pattern.trim();
                 if (pattern.length === 0) {
                     continue;

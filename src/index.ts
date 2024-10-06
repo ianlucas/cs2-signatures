@@ -11,10 +11,11 @@ import sources from "./config/sources.json";
 import { downloadFromDepot, getLatestManifest } from "./utils/depot-downloader";
 import { findByteSequence } from "./utils/find-byte-sequence";
 import { cwd, exists, root } from "./utils/fs";
+import { parseCSSharpGamedata } from "./utils/gamedata/cssharp";
+import { parseSourcemodGamedata } from "./utils/gamedata/sourcemod";
+import { parseSwiftlyGamedata } from "./utils/gamedata/swiftly";
 import { downloadFromRepo, getLatestCommit } from "./utils/github";
 import { formatDate } from "./utils/misc";
-import { parseCSSharpGamedata } from "./utils/parse-cssharp-gamedata";
-import { parseSourcemodGamedata } from "./utils/parse-sourcemod-gamedata";
 import { Signature, Source } from "./utils/types";
 import { writeSourceMd } from "./utils/write-source-md";
 
@@ -25,6 +26,11 @@ const binaries = {
     windows: join(workdir, "server.dll")
 } as const;
 const signatures: Signature[] = [];
+const gamedataParsers: Record<string, typeof parseCSSharpGamedata> = {
+    cssharp: parseCSSharpGamedata,
+    sourcemod: parseSourcemodGamedata,
+    swiftly: parseSwiftlyGamedata
+};
 
 async function checkDepot(depot: number) {
     console.log(`Checking depot ${depot}`);
@@ -84,14 +90,7 @@ async function checkSource(source: Source) {
         return false;
     }
     const gamedata = await readFile(gamedataPath, "utf-8");
-    switch (source.type) {
-        case "sourcemod":
-            parseSourcemodGamedata(signatures, source, gamedata);
-            break;
-        case "cssharp":
-            parseCSSharpGamedata(signatures, source, gamedata);
-            break;
-    }
+    gamedataParsers[source.type](signatures, source, gamedata);
     return didWeDownloadGamedata;
 }
 
