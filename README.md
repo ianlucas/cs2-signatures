@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-10-05T00:52:51.631Z
+Last updated: 2024-10-06T03:58:18.084Z
 
 ## CounterStrikeSharp
 
@@ -41,7 +41,7 @@ Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * ✅ ClientPrint
 * ✅ CCSPlayerController_SwitchTeam
 * ✅ CBasePlayerController_SetPawn
-* ❌ CCSPlayerPawnBase_PostThink
+* ✅ CCSPlayerPawnBase_PostThink
 * ✅ CGameEventManager_Init
 * ✅ GiveNamedItem
 * ✅ UTIL_Remove

@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: 2024-10-05T00:52:51.632Z
+Last updated: 2024-10-06T03:58:18.086Z
 
 ## Signatures
 
@@ -101,13 +101,13 @@ N/A
 <pre>
 48 ? ? 55 53 56 57 41 ? 48 ? ? ? 48 ? ? ? ? ? ? 4C 89 68
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 48 83 EC 30 E8 ? ? ? ?
+55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 48 83 EC 40 E8
 </pre>
 </td></tr></table>
 
