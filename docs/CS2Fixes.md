@@ -1,10 +1,11 @@
 # CS2Fixes 
 
-Last updated: 2024-10-06T04:50:06.630Z
+Last updated: October 6, 2024 at 6:10:51 PM UTC
+
+* Repository: https://github.com/Source2ZE/CS2Fixes
+* Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
 ## Signatures
-
-Repository: https://github.com/Source2ZE/CS2Fixes
 
 ### UTIL_SayTextFilter
 

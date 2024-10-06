@@ -5,7 +5,7 @@
 
 import { CS2KeyValues } from "@ianlucas/cs2-lib";
 import { parsePattern } from "./parse-pattern";
-import { Signature, Source } from "./typings";
+import { Signature, Source } from "./types";
 
 export function parseSourcemodGamedata(signatures: Signature[], source: Source, gamedata: string) {
     try {

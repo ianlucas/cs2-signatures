@@ -5,13 +5,15 @@
 
 import { writeFile } from "fs/promises";
 import { join } from "path";
-import { cwd } from "./fs";
-import { platformLabel, Signature, Source } from "./typings";
+import { root } from "./fs";
+import { formatDate } from "./misc";
+import { platformLabel, Signature, Source } from "./types";
 
 export async function writeSourceMd(source: Source, signatures: Signature[]) {
-    let readme = `# ${source.id} \n\nLast updated: ${new Date().toISOString()}\n\n`;
+    let readme = `# ${source.id} \n\nLast updated: ${formatDate(new Date())}\n\n`;
+    readme += `* Repository: https://github.com/${source.repo}\n`;
+    readme += `* Gamedata: https://github.com/${source.repo}/blob/${source.branch}${source.file}\n\n`;
     readme += `## Signatures\n\n`;
-    readme += `Repository: https://github.com/${signatures[0].source.repo}\n\n`;
     for (const { name, library, platforms } of signatures) {
         readme += `### ${name}\n\n`;
         readme += `<table>
@@ -19,11 +21,11 @@ export async function writeSourceMd(source: Source, signatures: Signature[]) {
         for (const [osName, { found, pattern }] of Object.entries(platforms)) {
             readme += `<tr><td>${library !== "server" ? "❓" : found ? "✅" : "❌"}</td><td>${platformLabel[osName]}</td>`;
             readme += `<td>${library}</td>`;
-            readme += `<td>\n<pre>\n${pattern.original !== pattern.idaStyle ? pattern.original : "N/A"}\n</pre>\n</td>`;
+            readme += `<td>\n<pre>\n${pattern.codeStyle !== pattern.idaStyle ? pattern.codeStyle : "N/A"}\n</pre>\n</td>`;
             readme += `<td>\n<pre>\n${pattern.idaStyle}\n</pre>\n</td>`;
             readme += `</tr>`;
         }
         readme += `</table>\n\n`;
     }
-    await writeFile(join(cwd, `docs/${source.id}.md`), readme, "utf-8");
+    await writeFile(join(root, `docs/${source.id}.md`), readme, "utf-8");
 }

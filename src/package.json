@@ -1,0 +1,16 @@
+{
+    "name": "cs2-signatures",
+    "version": "1.0.0",
+    "scripts": {
+        "format": "prettier . --write",
+        "generate": "cd .. && git pull && cd src && npx tsx index.ts && cd .. && git add . && git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' -c commit.gpgSign='false' commit -m 'chore: update documents' && git push"
+    },
+    "dependencies": {
+        "@ianlucas/cs2-lib": "^5.7.1",
+        "@ianlucas/depot-downloader": "^2.7.1"
+    },
+    "devDependencies": {
+        "@types/node": "^22.7.4",
+        "prettier": "^3.3.3"
+    }
+}

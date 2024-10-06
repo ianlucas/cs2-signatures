@@ -1,10 +1,11 @@
 # cs2-match-plugin 
 
-Last updated: 2024-10-06T04:50:06.632Z
+Last updated: October 6, 2024 at 6:10:51 PM UTC
+
+* Repository: https://github.com/ianlucas/cs2-match-plugin
+* Gamedata: https://github.com/ianlucas/cs2-match-plugin/blob/master/gamedata/match.json
 
 ## Signatures
-
-Repository: https://github.com/ianlucas/cs2-match-plugin
 
 ### TerminateRound
 

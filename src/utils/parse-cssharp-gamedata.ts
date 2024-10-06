@@ -3,8 +3,8 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { Signature, Source } from "../index";
 import { parsePattern } from "./parse-pattern";
+import { Signature, Source } from "./types";
 
 export function parseCSSharpGamedata(signatures: Signature[], source: Source, gamedata: string) {
     try {

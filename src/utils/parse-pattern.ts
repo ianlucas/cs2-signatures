@@ -3,13 +3,13 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import type { Pattern } from "../index";
+import type { Pattern } from "./types";
 
 export function parsePattern(pattern: string): Pattern {
-    let original = pattern;
+    let codeStyle = pattern;
     pattern = pattern.trim();
     if (pattern.startsWith("x")) {
-        original = original.replace(/x/g, "\\x");
+        codeStyle = codeStyle.replace(/x/g, "\\x");
         pattern = pattern.replace(/x/g, " ").replace(/2A/g, "?").trim();
     }
     const parts = pattern.split(" ");
@@ -27,7 +27,7 @@ export function parsePattern(pattern: string): Pattern {
     }
     return {
         mask: Buffer.from(mask),
-        original,
+        codeStyle,
         idaStyle: pattern,
         sequence: Buffer.from(sequence)
     };

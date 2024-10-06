@@ -4,8 +4,10 @@
  *--------------------------------------------------------------------------------------------*/
 
 import { access } from "fs/promises";
+import { resolve } from "path";
 
 export const cwd = process.cwd();
+export const root = resolve(cwd, "..");
 
 export async function exists(path: string) {
     try {

@@ -13,7 +13,7 @@ export interface Source {
 
 export interface Pattern {
     mask: Buffer;
-    original: string;
+    codeStyle: string;
     idaStyle: string;
     sequence: Buffer;
 }

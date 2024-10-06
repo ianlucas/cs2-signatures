@@ -10,11 +10,12 @@ import { basename, join } from "path";
 import sources from "./config/sources.json";
 import { downloadFromDepot, getLatestManifest } from "./utils/depot-downloader";
 import { findByteSequence } from "./utils/find-byte-sequence";
-import { cwd, exists } from "./utils/fs";
+import { cwd, exists, root } from "./utils/fs";
 import { downloadFromRepo, getLatestCommit } from "./utils/github";
+import { formatDate } from "./utils/misc";
 import { parseCSSharpGamedata } from "./utils/parse-cssharp-gamedata";
 import { parseSourcemodGamedata } from "./utils/parse-sourcemod-gamedata";
-import { Signature, Source } from "./utils/typings";
+import { Signature, Source } from "./utils/types";
 import { writeSourceMd } from "./utils/write-source-md";
 
 const workdir = join(cwd, "workdir");
@@ -145,7 +146,7 @@ async function main() {
         }
     }
 
-    if (!didSomethingChange) {
+    if (!didSomethingChange && false) {
         console.log("No changes detected, skipping signature search");
         return;
     }
@@ -165,22 +166,50 @@ async function main() {
 
     // 4. Write the README.
     const signaturesBySource = Object.groupBy(signatures, (signature) => signature.source.id);
-    let readme = `# CS2 Signatures\n\nLast updated: ${new Date().toISOString()}`;
+    let readme = `# CS2 Server Signatures\n\nLast updated: ${formatDate(new Date())}`;
+    readme += `<table>
+<tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>`;
+    const brokenSignaturesDetails: string[] = [];
     for (const signatures of sources.map(({ id }) => signaturesBySource[id])) {
         assert(signatures !== undefined);
-        await writeSourceMd(signatures[0].source, signatures);
-        readme += `\n\n## ${signatures[0].source.id}\n\n`;
-        readme += `Repository: https://github.com/${signatures[0].source.repo}`;
-        readme += `\n\n### Windows\n\n`;
-        for (const { platforms, name, library } of signatures) {
-            readme += `* ${library !== "server" ? "❓" : platforms.windows.found ? "✅" : "❌"} ${name}\n`;
+        assert(signatures.length > 0);
+        const { source } = signatures[0];
+        await writeSourceMd(source, signatures);
+        let foundAllInWindows = true;
+        let foundAllInLinux = true;
+        const brokenSignatures: Signature[] = [];
+        for (const signature of signatures) {
+            if (signature.library === "server") {
+                if (!signature.platforms.windows.found) {
+                    foundAllInWindows = false;
+                }
+                if (!signature.platforms.linux.found) {
+                    foundAllInLinux = false;
+                }
+                if (!signature.platforms.windows.found || !signature.platforms.linux.found) {
+                    brokenSignatures.push(signature);
+                }
+            }
         }
-        readme += `\n\n### Linux\n\n`;
-        for (const { platforms, name, library } of signatures) {
-            readme += `* ${library !== "server" ? "❓" : platforms.linux.found ? "✅" : "❌"} ${name}\n`;
+        if (brokenSignatures.length > 0) {
+            let details = `<details>\n  <summary>${source.id} broken signatures</summary>\n\n`;
+            for (const { platforms, name } of brokenSignatures) {
+                const win = platforms.windows.found ? "✅" : "❌";
+                const lin = platforms.linux.found ? "✅" : "❌";
+                details += `* <sub>${lin}Linux ${win}Windows</sub> ${name}\n`;
+            }
+            details += `\n</details>`;
+            brokenSignaturesDetails.push(details);
         }
+
+        readme += `<tr><td>${foundAllInLinux ? "✅" : "❌"}</td>`;
+        readme += `<td>${foundAllInWindows ? "✅" : "❌"}</td>`;
+        readme += `<td><a href="https://github.com/${source.repo}">${source.id}</a></td>`;
+        readme += `<td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/docs/${source.id}.md">View signatures →</a></td></tr>`;
     }
-    await writeFile(join(cwd, "README.md"), readme, "utf-8");
+    readme += `</table>\n\n`;
+    readme += brokenSignaturesDetails.join("\n\n");
+    await writeFile(join(root, "README.md"), readme, "utf-8");
 }
 
 main();
