@@ -1,6 +1,6 @@
 # CS2 Signatures
 
-Last updated: 2024-10-06T03:58:18.084Z
+Last updated: 2024-10-06T04:50:06.628Z
 
 ## CounterStrikeSharp
 
@@ -176,37 +176,37 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * ✅ CBasePlayerController_SetPawn
 * ✅ GetLegacyGameEventListener
 * ❓ RecvServerBrowserPacket
-* ❌ SnapViewAngles
+* ✅ SnapViewAngles
 * ✅ InitPlayerMovementTraceFilter
 * ✅ InitGameTrace
-* ❌ TracePlayerBBox
+* ✅ TracePlayerBBox
 * ❌ TraceShape
 * ✅ GetMaxSpeed
 * ✅ SetupMove
 * ✅ ProcessMovement
-* ❌ PlayerMoveNew
-* ❌ CheckParameters
+* ✅ PlayerMove
+* ✅ CheckParameters
 * ✅ CanMove
-* ❌ FullWalkMove
-* ❌ MoveInit
-* ❌ CheckWater
-* ❌ WaterMove
-* ❌ CheckVelocity
-* ❌ Duck
+* ✅ FullWalkMove
+* ✅ MoveInit
+* ✅ CheckWater
+* ✅ WaterMove
+* ✅ CheckVelocity
+* ✅ Duck
 * ✅ CanUnduck
 * ✅ LadderMove
 * ✅ CheckJumpButton
-* ❌ OnJump
-* ❌ AirMove
-* ❌ AirAccelerate
-* ❌ Friction
+* ✅ OnJump
+* ✅ AirMove
+* ✅ AirAccelerate
+* ✅ Friction
 * ✅ WalkMove
-* ❌ TryPlayerMove
-* ❌ CategorizePosition
+* ✅ TryPlayerMove
+* ✅ CategorizePosition
 * ✅ FinishGravity
-* ❌ CheckFalling
-* ❌ PostPlayerMove
-* ❌ PostThink
+* ✅ CheckFalling
+* ✅ PostPlayerMove
+* ✅ PostThink
 * ✅ EmitSound
 * ✅ ProcessUsercmds
 * ✅ PhysicsSimulate
@@ -227,7 +227,7 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * ✅ GetMaxSpeed
 * ✅ SetupMove
 * ✅ ProcessMovement
-* ✅ PlayerMoveNew
+* ✅ PlayerMove
 * ✅ CheckParameters
 * ✅ CanMove
 * ❌ FullWalkMove

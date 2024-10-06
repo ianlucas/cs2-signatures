@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: 2024-10-06T03:58:18.090Z
+Last updated: 2024-10-06T04:50:06.631Z
 
 ## Signatures
 
@@ -93,13 +93,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### SnapViewAngles
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x40\x55\x53\x56\x41\x56\x41\x57\x48\x8D\x6C\x24\xC9
+\x48\x89\x5C\x24\x08\x48\x89\x7C\x24\x10\x55\x48\x8D\x6C\x24\xA9\x48\x81\xEC\xC0\x00\x00\x00\x41\xB9\xFF\xFF\xFF\xFF\x48\x8B\xDA\x48\x8B\xF9\x48\x8D\x55\x17\x48\x8D\x4D\x27\x45\x8D\x41\x11\xE8\x2A\x2A\x2A\x2A\x48\x8B\xD3\x48\x8D\x4D\x27\xE8\x2A\x2A\x2A\x2A\x41\xB9\xFF\xFF\xFF\xFF\x48\x8D\x55\x17\x48\x8D\x4D\xC7\x45\x8D\x41\x11\xE8\x2A\x2A\x2A\x2A\x48\x8D\x55\xB7\x48\x8D\x4D\xC7\xE8\x2A\x2A\x2A\x2A\xF2\x0F\x10\x87\x24\x0B\x00\x00
 </pre>
 </td><td>
 <pre>
-40 55 53 56 41 56 41 57 48 8D 6C 24 C9
+48 89 5C 24 08 48 89 7C 24 10 55 48 8D 6C 24 A9 48 81 EC C0 00 00 00 41 B9 FF FF FF FF 48 8B DA 48 8B F9 48 8D 55 17 48 8D 4D 27 45 8D 41 11 E8 ? ? ? ? 48 8B D3 48 8D 4D 27 E8 ? ? ? ? 41 B9 FF FF FF FF 48 8D 55 17 48 8D 4D C7 45 8D 41 11 E8 ? ? ? ? 48 8D 55 B7 48 8D 4D C7 E8 ? ? ? ? F2 0F 10 87 24 0B 00 00
 </pre>
 </td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -156,13 +156,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### TracePlayerBBox
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x4C\x89\x44\x24\x18\x55\x53\x57\x41\x55\x41\x56
+\x48\x8B\xC4\x4C\x89\x40\x18\x55\x53\x57\x41\x55\x41\x56
 </pre>
 </td><td>
 <pre>
-4C 89 44 24 18 55 53 57 41 55 41 56
+48 8B C4 4C 89 40 18 55 53 57 41 55 41 56
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -258,16 +258,16 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 </pre>
 </td></tr></table>
 
-### PlayerMoveNew
+### PlayerMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x10\x48\x89\x74\x24\x18\x57\x48\x83\xEC\x30\x48\x8B\xD9\x48\x8B\xFA\x48\x8B\x49\x30
+\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x48\x89\x74\x24\x20\x57\x48\x83\xEC\x30\x48\x8B\xF9
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 10 48 89 74 24 18 57 48 83 EC 30 48 8B D9 48 8B FA 48 8B 49 30
+48 89 5C 24 10 48 89 6C 24 18 48 89 74 24 20 57 48 83 EC 30 48 8B F9
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -282,13 +282,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### CheckParameters
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x70\x10\x48\x89\x78\x18\x55\x41\x56\x41\x57\x48\x8D\x68\xA1\x48\x81\xEC\xD0\x00\x00\x00
+\x48\x8B\xC4\x48\x89\x58\x20\x55\x56\x57\x41\x56\x41\x57\x48\x8D\x68\xA1
 </pre>
 </td><td>
 <pre>
-48 8B C4 48 89 58 08 48 89 70 10 48 89 78 18 55 41 56 41 57 48 8D 68 A1 48 81 EC D0 00 00 00
+48 8B C4 48 89 58 20 55 56 57 41 56 41 57 48 8D 68 A1
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -324,13 +324,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### FullWalkMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x74\x24\x20\x57\x48\x83\xEC\x30\x48\x8B\xF2\x48\x8B\xF9\x45\x84\xC0
+\x40\x56\x57\x48\x83\xEC\x38\x48\x8B\xF2
 </pre>
 </td><td>
 <pre>
-48 89 74 24 20 57 48 83 EC 30 48 8B F2 48 8B F9 45 84 C0
+40 56 57 48 83 EC 38 48 8B F2
 </pre>
 </td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -345,13 +345,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### MoveInit
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x40\x53\x57\x41\x56\x48\x83\xEC\x50\x48\x8B\xD9
+\x48\x89\x5C\x24\x10\x57\x48\x83\xEC\x60\x48\x8B\xFA\x48\x8B\xD9\xE8
 </pre>
 </td><td>
 <pre>
-40 53 57 41 56 48 83 EC 50 48 8B D9
+48 89 5C 24 10 57 48 83 EC 60 48 8B FA 48 8B D9 E8
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -366,13 +366,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### CheckWater
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x78\x10\x55\x48\x8D\xA8\x68\xFF\xFF\xFF
+\x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x78\x10\x55\x48\x8D\x68\x98
 </pre>
 </td><td>
 <pre>
-48 8B C4 48 89 58 08 48 89 78 10 55 48 8D A8 68 FF FF FF
+48 8B C4 48 89 58 08 48 89 78 10 55 48 8D 68 98
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -387,13 +387,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### WaterMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8B\xC4\x48\x89\x58\x18\x55\x57\x41\x57\x48\x8D\xA8\xB8\xFE\xFF\xFF
+\x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x70\x10\x48\x89\x78\x18\x55\x41\x56\x41\x57\x48\x8D\xA8\xC8\xFE\xFF\xFF
 </pre>
 </td><td>
 <pre>
-48 8B C4 48 89 58 18 55 57 41 57 48 8D A8 B8 FE FF FF
+48 8B C4 48 89 58 08 48 89 70 10 48 89 78 18 55 41 56 41 57 48 8D A8 C8 FE FF FF
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -408,13 +408,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### CheckVelocity
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8B\xC4\x4C\x89\x40\x18\x55\x53\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\x68\xA1
+\x48\x8B\xC4\x4C\x89\x40\x18\x48\x89\x50\x10\x55\x53\x56
 </pre>
 </td><td>
 <pre>
-48 8B C4 4C 89 40 18 55 53 56 57 41 54 41 55 41 56 41 57 48 8D 68 A1
+48 8B C4 4C 89 40 18 48 89 50 10 55 53 56
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -429,13 +429,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### Duck
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8B\xC4\x48\x89\x58\x20\x55\x56\x57\x41\x56\x41\x57\x48\x8D\xA8\xD8\xFE\xFF\xFF
+\x48\x8B\xC4\x55\x53\x56\x57\x41\x56\x41\x57\x48\x8D\xA8\xC8\xFE\xFF\xFF
 </pre>
 </td><td>
 <pre>
-48 8B C4 48 89 58 20 55 56 57 41 56 41 57 48 8D A8 D8 FE FF FF
+48 8B C4 55 53 56 57 41 56 41 57 48 8D A8 C8 FE FF FF
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -513,13 +513,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### OnJump
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x40\x53\x57\x48\x81\xEC\xA8\x00\x00\x00\x48\x8B\xD9
+\x40\x53\x57\x48\x81\xEC\xB8\x00\x00\x00
 </pre>
 </td><td>
 <pre>
-40 53 57 48 81 EC A8 00 00 00 48 8B D9
+40 53 57 48 81 EC B8 00 00 00
 </pre>
 </td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -534,13 +534,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### AirMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8B\xC4\x55\x57\x41\x56\x48\x8D\xA8\x58\xFF\xFF\xFF
+\x48\x8B\xC4\x55\x56\x41\x57\x48\x8D\xA8\x28\xFF\xFF\xFF
 </pre>
 </td><td>
 <pre>
-48 8B C4 55 57 41 56 48 8D A8 58 FF FF FF
+48 8B C4 55 56 41 57 48 8D A8 28 FF FF FF
 </pre>
 </td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -555,13 +555,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### AirAccelerate
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x10\x48\x89\x7C\x24\x18\x55\x48\x8D\x6C\x24\xB1
+\x48\x89\x5C\x24\x18\xF3\x0F\x11\x5C\x24\x20
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 55 48 8D 6C 24 B1
+48 89 5C 24 18 F3 0F 11 5C 24 20
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -576,13 +576,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### Friction
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x18\x56\x48\x83\xEC\x60\x48\x8B\x41\x30
+\x48\x89\x5C\x24\x10\x56\x48\x83\xEC\x60\x48\x8B\x41\x30
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 18 56 48 83 EC 60 48 8B 41 30
+48 89 5C 24 10 56 48 83 EC 60 48 8B 41 30
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -618,13 +618,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### TryPlayerMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8B\xC4\x4C\x89\x48\x20\x4C\x89\x40\x18\x48\x89\x50\x10\x55\x53\x56\x57\x41\x54\x41\x55
+\x48\x8B\xC4\x4C\x89\x48\x20\x4C\x89\x40\x18\x48\x89\x50\x10\x48\x89\x48\x08\x55\x53\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xA8\xE8\xFD\xFF\xFF\x48\x81\xEC\xD8\x02\x00\x00\x0F\x29\x70\xA8\x45\x33\xE4
 </pre>
 </td><td>
 <pre>
-48 8B C4 4C 89 48 20 4C 89 40 18 48 89 50 10 55 53 56 57 41 54 41 55
+48 8B C4 4C 89 48 20 4C 89 40 18 48 89 50 10 48 89 48 08 55 53 56 57 41 54 41 55 41 56 41 57 48 8D A8 E8 FD FF FF 48 81 EC D8 02 00 00 0F 29 70 A8 45 33 E4
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -639,13 +639,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### CategorizePosition
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x40\x55\x56\x57\x41\x57\x48\x8D\xAC\x24\x28\xFE\xFF\xFF
+\x40\x55\x56\x57\x41\x54\x48\x8D\xAC\x24\x28\xFE\xFF\xFF
 </pre>
 </td><td>
 <pre>
-40 55 56 57 41 57 48 8D AC 24 28 FE FF FF
+40 55 56 57 41 54 48 8D AC 24 28 FE FF FF
 </pre>
 </td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -681,13 +681,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### CheckFalling
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x08\x57\x48\x83\xEC\x60\xF3\x0F\x10\x81\x28\x02\x00\x00
+\x48\x89\x5C\x24\x10\x57\x48\x81\xEC\x80\x00\x00\x00\xF3\x0F\x10\x81\x28\x02\x00\x00
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 08 57 48 83 EC 60 F3 0F 10 81 28 02 00 00
+48 89 5C 24 10 57 48 81 EC 80 00 00 00 F3 0F 10 81 28 02 00 00
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -702,13 +702,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### PostPlayerMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x20\x55\x48\x83\xEC\x50
+\x4C\x8B\xDC\x53\x55\x48\x83\xEC\x68
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 20 55 48 83 EC 50
+4C 8B DC 53 55 48 83 EC 68
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -723,13 +723,13 @@ Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 ### PostThink
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8B\xC4\x55\x53\x56\x57\x41\x54\x48\x8D\x68\xB8
+\x48\x8B\xC4\x55\x53\x56\x57\x41\x54\x48\x8D\x68\xC8
 </pre>
 </td><td>
 <pre>
-48 8B C4 55 53 56 57 41 54 48 8D 68 B8
+48 8B C4 55 53 56 57 41 54 48 8D 68 C8
 </pre>
 </td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
