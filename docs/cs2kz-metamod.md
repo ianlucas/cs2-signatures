@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: October 6, 2024 at 9:30:53 PM UTC
+Last updated: October 7, 2024 at 2:36:04 AM UTC
 
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/dev/gamedata/cs2kz-core.games.txt
@@ -41,11 +41,11 @@ Last updated: October 6, 2024 at 9:30:53 PM UTC
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x48\x8D\x3D\x2A\x2A\x2A\x2A\x41\x89\xCE
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x45\x89\xC4
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 49 89 FF 41 56 48 8D 3D ? ? ? ? 41 89 CE
+55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 45 89 C4
 </pre>
 </td></tr></table>
 
@@ -102,13 +102,13 @@ Last updated: October 6, 2024 at 9:30:53 PM UTC
 <pre>
 48 89 5C 24 08 48 89 7C 24 10 55 48 8D 6C 24 A9 48 81 EC C0 00 00 00 41 B9 FF FF FF FF 48 8B DA 48 8B F9 48 8D 55 17 48 8D 4D 27 45 8D 41 11 E8 ? ? ? ? 48 8B D3 48 8D 4D 27 E8 ? ? ? ? 41 B9 FF FF FF FF 48 8D 55 17 48 8D 4D C7 45 8D 41 11 E8 ? ? ? ? 48 8D 55 B7 48 8D 4D C7 E8 ? ? ? ? F2 0F 10 87 24 0B 00 00
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x89\xF7\x4C
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x48\x89\xF7\x53\x48\x83\xEC\x60\xE8\x2A\x2A\x2A\x2A\x49\x8B\x94\x24\x2C\x0E\x00\x00
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 89 F7 4C
+55 48 89 E5 41 56 41 55 41 54 49 89 FC 48 89 F7 53 48 83 EC 60 E8 ? ? ? ? 49 8B 94 24 2C 0E 00 00
 </pre>
 </td></tr></table>
 
@@ -333,13 +333,13 @@ Last updated: October 6, 2024 at 9:30:53 PM UTC
 <pre>
 40 56 57 48 83 EC 38 48 8B F2
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x18\x84\xD2
+\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x20\x84\xD2
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 49 89 FC 53 48 83 EC 18 84 D2
+55 48 89 E5 41 56 41 55 49 89 F5 41 54 49 89 FC 53 48 83 EC 20 84 D2
 </pre>
 </td></tr></table>
 
@@ -356,11 +356,11 @@ Last updated: October 6, 2024 at 9:30:53 PM UTC
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x48\x89\xF7\x53\x48
+\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x48\x89\xF7\x53\x48\x83\xEC\x10
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 56 41 55 49 89 F5 41 54 49 89 FC 48 89 F7 53 48
+55 48 89 E5 41 56 41 55 49 89 F5 41 54 49 89 FC 48 89 F7 53 48 83 EC 10
 </pre>
 </td></tr></table>
 
@@ -522,13 +522,13 @@ Last updated: October 6, 2024 at 9:30:53 PM UTC
 <pre>
 40 53 57 48 81 EC B8 00 00 00
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x18\x48\x8B\x7F\x30
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x28\x48\x8B\x7F\x30
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 49 89 FC 53 48 83 EC 18 48 8B 7F 30
+55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 49 89 FC 53 48 83 EC 28 48 8B 7F 30
 </pre>
 </td></tr></table>
 
@@ -543,13 +543,13 @@ Last updated: October 6, 2024 at 9:30:53 PM UTC
 <pre>
 48 8B C4 55 56 41 57 48 8D A8 28 FF FF FF
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\x75\x94\x41\x55\x4C\x8D\x6D\xA0
+\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\x75\x80
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 4C 8D 75 94 41 55 4C 8D 6D A0
+55 48 89 E5 41 57 41 56 4C 8D 75 80
 </pre>
 </td></tr></table>
 
@@ -648,13 +648,13 @@ Last updated: October 6, 2024 at 9:30:53 PM UTC
 <pre>
 40 55 56 57 41 54 48 8D AC 24 28 FE FF FF
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x48\xB8\x00\x00\x00\x00\xFF\xFF\xFF\xFF\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xB5\x50\xFE\xFF\xFF
+\x48\xB8\x00\x00\x00\x00\xFF\xFF\xFF\xFF\x55\x48\x89\xE5\x41\x57\x41\x89\xD7\x41\x56\x4C\x8D\xB5\x50\xFE\xFF\xFF
 </pre>
 </td><td>
 <pre>
-48 B8 00 00 00 00 FF FF FF FF 55 48 89 E5 41 57 41 56 4C 8D B5 50 FE FF FF
+48 B8 00 00 00 00 FF FF FF FF 55 48 89 E5 41 57 41 89 D7 41 56 4C 8D B5 50 FE FF FF
 </pre>
 </td></tr></table>
 
@@ -732,13 +732,13 @@ Last updated: October 6, 2024 at 9:30:53 PM UTC
 <pre>
 48 8B C4 55 53 56 57 41 54 48 8D 68 C8
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x30\xE8\x2A\x2A\x2A\x2A
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x40\xE8\x2A\x2A\x2A\x2A
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 48 83 EC 30 E8 ? ? ? ?
+55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 48 83 EC 40 E8 ? ? ? ?
 </pre>
 </td></tr></table>
 
