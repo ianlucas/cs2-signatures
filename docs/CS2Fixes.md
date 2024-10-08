@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: October 8, 2024 at 12:17:01 AM UTC
+Last updated: October 8, 2024 at 1:51:40 PM UTC
 
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
@@ -920,6 +920,69 @@ C8 42 66 0F EF E4 0F 2F 63 5C
 </td><td>
 <pre>
 55 48 89 E5 41 55 41 54 53 48 89 FB 48 83 EC ? 4C 8D 25 ? ? ? ? 49 8B 3C 24 E8
+</pre>
+</td></tr></table>
+
+### FindUseEntity
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x10\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24\x50\xEB\xFF\xFF
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 10 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 50 EB FF FF
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\xBE\xFF\xFF\xFF\xFF\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x48\x8D\x3D\x89\xFE\xD5\x00
+</pre>
+</td><td>
+<pre>
+55 BE FF FF FF FF 48 89 E5 41 57 49 89 FF 41 56 48 8D 3D 89 FE D5 00
+</pre>
+</td></tr></table>
+
+### TraceFunc
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x08\x48\x89\x6C\x24\x10\x48\x89\x74\x24\x18\x48\x89\x7C\x24\x20\x41\x54\x41\x56\x41\x57\x48\x81\xEC\x80\x00\x00\x00\x45\x33\xE4
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 54 41 56 41 57 48 81 EC 80 00 00 00 45 33 E4
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x4C\x8D\x4F\x08
+</pre>
+</td><td>
+<pre>
+55 4C 8D 4F 08
+</pre>
+</td></tr></table>
+
+### TraceShape
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x20\x48\x89\x4C\x24\x08\x55\x56\x41\x55
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 20 48 89 4C 24 08 55 56 41 55
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xCE\x41\x55\x4D\x89\xC5\x41\x54\x49\x89\xD4\x53\x4C\x89\xCB
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 49 89 CE 41 55 4D 89 C5 41 54 49 89 D4 53 4C 89 CB
 </pre>
 </td></tr></table>
 
