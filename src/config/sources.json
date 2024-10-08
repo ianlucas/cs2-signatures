@@ -18,7 +18,7 @@
         "repo": "swiftly-solution/swiftly",
         "type": "swiftly",
         "branch": "master",
-        "file": "/plugin_files/gamedata/signatures.json"
+        "file": "/plugin_files/gamedata/core/signatures.json"
     },
     {
         "id": "cs2kz-metamod",
