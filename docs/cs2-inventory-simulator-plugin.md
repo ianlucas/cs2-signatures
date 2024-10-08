@@ -1,6 +1,6 @@
 # cs2-inventory-simulator-plugin 
 
-Last updated: October 8, 2024 at 1:51:40 PM UTC
+Last updated: October 8, 2024 at 10:12:43 PM UTC
 
 * Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 * Gamedata: https://github.com/ianlucas/cs2-inventory-simulator-plugin/blob/main/gamedata/inventory-simulator.json
