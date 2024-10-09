@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: October 9, 2024 at 1:19:23 AM UTC
+Last updated: October 9, 2024 at 11:09:40 PM UTC
 
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * Gamedata: https://github.com/roflmuffin/CounterStrikeSharp/blob/main/configs/addons/counterstrikesharp/gamedata/gamedata.json

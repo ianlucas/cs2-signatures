@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: October 9, 2024 at 1:19:23 AM UTC
+Last updated: October 9, 2024 at 11:09:40 PM UTC
 
 * Repository: https://github.com/swiftly-solution/swiftly
 * Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/core/signatures.json
@@ -24,7 +24,7 @@ N/A
 </pre>
 </td><td>
 <pre>
-0F 87 ? ? ? ? 49 8B 7C 24 ? E8 ? ? ? ? 66 0F EF ED
+0F 87 ? ? ? ? 49 8B 7C 24 ? E8 ? ? ? ? 66 0F EF ED 66 0F D6 85
 </pre>
 </td></tr></table>
 
@@ -445,22 +445,6 @@ N/A
 </td><td>
 <pre>
 55 48 89 E5 41 57 41 56 48 8D 45 CC
-</pre>
-</td></tr><tr><td>❌</td><td>undefined</td><td>server</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-ppup
-</pre>
-</td></tr><tr><td>❌</td><td>undefined</td><td>server</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-u
 </pre>
 </td></tr></table>
 
