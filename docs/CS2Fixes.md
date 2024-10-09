@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: October 8, 2024 at 10:12:43 PM UTC
+Last updated: October 9, 2024 at 12:10:39 AM UTC
 
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
@@ -934,7 +934,7 @@ C8 42 66 0F EF E4 0F 2F 63 5C
 <pre>
 48 89 5C 24 10 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 50 EB FF FF
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\xBE\xFF\xFF\xFF\xFF\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x48\x8D\x3D\x89\xFE\xD5\x00
 </pre>
