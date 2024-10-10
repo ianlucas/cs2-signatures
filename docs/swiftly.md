@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: October 9, 2024 at 11:54:20 PM UTC
+Last updated: October 10, 2024 at 1:35:55 PM UTC
 
 * Repository: https://github.com/swiftly-solution/swiftly
 * Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/core/signatures.json
@@ -487,6 +487,69 @@ N/A
 </td><td>
 <pre>
 55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 83 EC ? 4C 8D 3D ? ? ? ? 49 8B 3F
+</pre>
+</td></tr></table>
+
+### BotNavIgnore1
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+0F 84 ? ? ? ? 80 B8 ? ? ? ? 00 0F 84 ? ? ? ? 80 3D ? ? ? ? 00 74 15
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+48 85 C0 74 ? 80 B8 ? ? ? ? 00 74 ? 48 8D 05 ? ? ? ? 80 38 00 75 ? 44 8B 85 ? ? ? ? 31 F6 BF 03 00 00 00
+</pre>
+</td></tr></table>
+
+### BotNavIgnore2
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+0F 84 ? ? ? ? 80 B8 ? ? ? ? 00 0F 84 ? ? ? ? 80 3D ? ? ? ? 00 74 15
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+48 85 C0 74 ? 80 B8 ? ? ? ? 00 74 ? 48 8D 05 ? ? ? ? 80 38 00 75 ? 44 8B 85 ? ? ? ? 31 F6 BF 02 00 00 00
+</pre>
+</td></tr></table>
+
+### BotNavIgnore3
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+0F 84 ? ? ? ? 80 B8 ? ? ? ? 00 0F 84 ? ? ? ? 80 3D ? ? ? ? 00 74 15
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+48 85 C0 74 ? 80 B8 ? ? ? ? 00 74 ? 48 8D 05 ? ? ? ? 80 38 00 75 ? 41 B8 04 00 00 00
 </pre>
 </td></tr></table>
 
