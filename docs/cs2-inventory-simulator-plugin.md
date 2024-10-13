@@ -1,6 +1,6 @@
 # cs2-inventory-simulator-plugin 
 
-Last updated: October 11, 2024 at 10:21:50 PM UTC
+Last updated: October 13, 2024 at 2:43:40 AM UTC
 
 * Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 * Gamedata: https://github.com/ianlucas/cs2-inventory-simulator-plugin/blob/main/gamedata/inventory-simulator.json
@@ -130,27 +130,6 @@ N/A
 </td><td>
 <pre>
 55 48 89 E5 41 57 41 56 49 89 FE 41 55 49 89 D5 41 54 48 8D 95
-</pre>
-</td></tr></table>
-
-### CCSGameRules_FPlayerCanRespawn
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 57 48 83 EC ? 48 8B FA 48 8B D9 48 85 D2 0F 84
-</pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 56 41 55 41 54 53 48 83 EC ? 48 85 F6
 </pre>
 </td></tr></table>
 
