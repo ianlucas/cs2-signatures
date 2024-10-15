@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: October 13, 2024 at 2:43:40 AM UTC
+Last updated: October 15, 2024 at 10:38:33 PM UTC
 
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/dev/gamedata/cs2kz-core.games.txt
@@ -94,7 +94,7 @@ Last updated: October 13, 2024 at 2:43:40 AM UTC
 ### SnapViewAngles
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x08\x48\x89\x7C\x24\x10\x55\x48\x8D\x6C\x24\xA9\x48\x81\xEC\xC0\x00\x00\x00\x41\xB9\xFF\xFF\xFF\xFF\x48\x8B\xDA\x48\x8B\xF9\x48\x8D\x55\x17\x48\x8D\x4D\x27\x45\x8D\x41\x11\xE8\x2A\x2A\x2A\x2A\x48\x8B\xD3\x48\x8D\x4D\x27\xE8\x2A\x2A\x2A\x2A\x41\xB9\xFF\xFF\xFF\xFF\x48\x8D\x55\x17\x48\x8D\x4D\xC7\x45\x8D\x41\x11\xE8\x2A\x2A\x2A\x2A\x48\x8D\x55\xB7\x48\x8D\x4D\xC7\xE8\x2A\x2A\x2A\x2A\xF2\x0F\x10\x87\x24\x0B\x00\x00
 </pre>
@@ -102,7 +102,7 @@ Last updated: October 13, 2024 at 2:43:40 AM UTC
 <pre>
 48 89 5C 24 08 48 89 7C 24 10 55 48 8D 6C 24 A9 48 81 EC C0 00 00 00 41 B9 FF FF FF FF 48 8B DA 48 8B F9 48 8D 55 17 48 8D 4D 27 45 8D 41 11 E8 ? ? ? ? 48 8B D3 48 8D 4D 27 E8 ? ? ? ? 41 B9 FF FF FF FF 48 8D 55 17 48 8D 4D C7 45 8D 41 11 E8 ? ? ? ? 48 8D 55 B7 48 8D 4D C7 E8 ? ? ? ? F2 0F 10 87 24 0B 00 00
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x48\x89\xF7\x53\x48\x83\xEC\x60\xE8\x2A\x2A\x2A\x2A\x49\x8B\x94\x24\x2C\x0E\x00\x00
 </pre>
@@ -207,7 +207,7 @@ Last updated: October 13, 2024 at 2:43:40 AM UTC
 <pre>
 48 89 5C 24 ? 57 48 83 EC ? 48 8B D9 E8 ? ? ? ? 84 C0 0F 84 ? ? ? ? 48 8B 0D
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x4C\x8D\x25\x2A\x2A\x2A\x2A\x49\x8B\x3C\x24\xE8
 </pre>
@@ -220,7 +220,7 @@ Last updated: October 13, 2024 at 2:43:40 AM UTC
 ### SetupMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x56\x57\x41\x56\x48\x83\xEC\x30\x49\x8B\xD8
 </pre>
@@ -228,7 +228,7 @@ Last updated: October 13, 2024 at 2:43:40 AM UTC
 <pre>
 48 89 5C 24 10 48 89 6C 24 18 56 57 41 56 48 83 EC 30 49 8B D8
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xD4\x53\x48\x89\xFB\x48\x83\xEC\x18\xE8
 </pre>
