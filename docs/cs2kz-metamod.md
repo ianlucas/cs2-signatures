@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: October 16, 2024 at 4:28:17 AM UTC
+Last updated: October 16, 2024 at 1:10:20 PM UTC
 
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/dev/gamedata/cs2kz-core.games.txt
@@ -220,13 +220,13 @@ Last updated: October 16, 2024 at 4:28:17 AM UTC
 ### SetupMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x56\x57\x41\x56\x48\x83\xEC\x30\x49\x8B\xD8
+\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x48\x89\x74\x24\x20\x57\x48\x83\xEC\x30\x49\x8B\xF8
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 10 48 89 6C 24 18 56 57 41 56 48 83 EC 30 49 8B D8
+48 89 5C 24 10 48 89 6C 24 18 48 89 74 24 20 57 48 83 EC 30 49 8B F8
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
