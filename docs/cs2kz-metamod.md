@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: October 16, 2024 at 12:28:40 AM UTC
+Last updated: October 16, 2024 at 12:32:10 AM UTC
 
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/dev/gamedata/cs2kz-core.games.txt
@@ -94,13 +94,13 @@ Last updated: October 16, 2024 at 12:28:40 AM UTC
 ### SnapViewAngles
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x08\x48\x89\x7C\x24\x10\x55\x48\x8D\x6C\x24\xA9\x48\x81\xEC\xC0\x00\x00\x00\x41\xB9\xFF\xFF\xFF\xFF\x48\x8B\xDA\x48\x8B\xF9\x48\x8D\x55\x17\x48\x8D\x4D\x27\x45\x8D\x41\x11\xE8\x2A\x2A\x2A\x2A\x48\x8B\xD3\x48\x8D\x4D\x27\xE8\x2A\x2A\x2A\x2A\x41\xB9\xFF\xFF\xFF\xFF\x48\x8D\x55\x17\x48\x8D\x4D\xC7\x45\x8D\x41\x11\xE8\x2A\x2A\x2A\x2A\x48\x8D\x55\xB7\x48\x8D\x4D\xC7\xE8\x2A\x2A\x2A\x2A\xF2\x0F\x10\x87\x24\x0B\x00\x00
+\x48\x89\x5C\x24\x2A\x48\x89\x7C\x24\x2A\x55\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x41\xB9\x2A\x2A\x2A\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x8D\x55\x2A\x48\x8D\x4D\x2A\x45\x8D\x41\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8B\xD3\x48\x8D\x4D\x2A\xE8\x2A\x2A\x2A\x2A\x41\xB9\x2A\x2A\x2A\x2A\x48\x8D\x55\x2A\x48\x8D\x4D\x2A\x45\x8D\x41\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8D\x55\x2A\x48\x8D\x4D\x2A\xE8\x2A\x2A\x2A\x2A\xF2\x0F\x10\x87
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 08 48 89 7C 24 10 55 48 8D 6C 24 A9 48 81 EC C0 00 00 00 41 B9 FF FF FF FF 48 8B DA 48 8B F9 48 8D 55 17 48 8D 4D 27 45 8D 41 11 E8 ? ? ? ? 48 8B D3 48 8D 4D 27 E8 ? ? ? ? 41 B9 FF FF FF FF 48 8D 55 17 48 8D 4D C7 45 8D 41 11 E8 ? ? ? ? 48 8D 55 B7 48 8D 4D C7 E8 ? ? ? ? F2 0F 10 87 24 0B 00 00
+48 89 5C 24 ? 48 89 7C 24 ? 55 48 8D 6C 24 ? 48 81 EC ? ? ? ? 41 B9 ? ? ? ? 48 8B DA 48 8B F9 48 8D 55 ? 48 8D 4D ? 45 8D 41 ? E8 ? ? ? ? 48 8B D3 48 8D 4D ? E8 ? ? ? ? 41 B9 ? ? ? ? 48 8D 55 ? 48 8D 4D ? 45 8D 41 ? E8 ? ? ? ? 48 8D 55 ? 48 8D 4D ? E8 ? ? ? ? F2 0F 10 87
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
