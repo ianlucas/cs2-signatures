@@ -1,6 +1,6 @@
 # cs2-match-plugin 
 
-Last updated: October 16, 2024 at 1:24:20 AM UTC
+Last updated: October 16, 2024 at 4:28:17 AM UTC
 
 * Repository: https://github.com/ianlucas/cs2-match-plugin
 * Gamedata: https://github.com/ianlucas/cs2-match-plugin/blob/master/gamedata/match.json
@@ -88,6 +88,48 @@ N/A
 </td><td>
 <pre>
 55 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 53 31 DB 48 83 EC
+</pre>
+</td></tr></table>
+
+### IsLastRoundBeforeHalfTime
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+40 53 48 83 EC ? 48 8B D9 BA ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 85 C0 75 ? 48 8B 05 ? ? ? ? 48 8B 40 ? 80 38 ? 0F 84 ? ? ? ? 83 BB
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+55 BE ? ? ? ? 48 89 E5 41 55 41 54 53 48 89 FB 48 8D 3D ? ? ? ? 48 83 EC ? E8 ? ? ? ? 48 85 C0 74
+</pre>
+</td></tr></table>
+
+### AreTeamsPlayingSwitchedSides
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+40 53 48 83 EC ? 8B 81 ? ? ? ? 48 8B D9 8B 91
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 8B 87
 </pre>
 </td></tr></table>
 
