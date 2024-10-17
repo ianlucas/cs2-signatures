@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: October 16, 2024 at 10:03:43 PM UTC
+Last updated: October 17, 2024 at 1:10:27 AM UTC
 
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * Gamedata: https://github.com/roflmuffin/CounterStrikeSharp/blob/main/configs/addons/counterstrikesharp/gamedata/gamedata.json
@@ -235,6 +235,48 @@ N/A
 </td><td>
 <pre>
 55 48 8D 15 ? ? ? ? 48 89 E5 41 55 49 89 FD 41 54 49 89 F4
+</pre>
+</td></tr></table>
+
+### CCSPlayer_ItemServices_CanAcquire
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+48 8B C4 44 89 40 18 48 89 48 08 55 56
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 48 8D 45 CC
+</pre>
+</td></tr></table>
+
+### GetCSWeaponDataFromKey
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 CC 48 89 74 24 CC 57 48 83 EC 20 48 8B FA 8B
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 89 FE 41 55 41 54 45
 </pre>
 </td></tr></table>
 
