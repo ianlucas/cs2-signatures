@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: October 17, 2024 at 1:10:27 AM UTC
+Last updated: October 17, 2024 at 11:21:13 PM UTC
 
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * Gamedata: https://github.com/roflmuffin/CounterStrikeSharp/blob/main/configs/addons/counterstrikesharp/gamedata/gamedata.json
@@ -249,7 +249,7 @@ N/A
 <pre>
 48 8B C4 44 89 40 18 48 89 48 08 55 56
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 N/A
 </pre>

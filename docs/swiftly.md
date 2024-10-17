@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: October 17, 2024 at 1:10:27 AM UTC
+Last updated: October 17, 2024 at 11:21:13 PM UTC
 
 * Repository: https://github.com/swiftly-solution/swiftly
 * Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/core/signatures.json
@@ -438,7 +438,7 @@ N/A
 <pre>
 48 8B C4 44 89 40 ? 48 89 50 ? 48 89 48
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 N/A
 </pre>
