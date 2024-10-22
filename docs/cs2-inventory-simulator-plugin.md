@@ -1,6 +1,6 @@
 # cs2-inventory-simulator-plugin 
 
-Last updated: October 20, 2024 at 11:51:35 PM UTC
+Last updated: October 22, 2024 at 9:47:34 PM UTC
 
 * Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 * Gamedata: https://github.com/ianlucas/cs2-inventory-simulator-plugin/blob/main/gamedata/inventory-simulator.json
@@ -70,48 +70,6 @@ N/A
 </pre>
 </td></tr></table>
 
-### Trace
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-4C 8B DC 49 89 5B ? 49 89 6B ? 49 89 73 ? 57 41 56 41 57 48 81 EC ? ? ? ? 0F 57 C0
-</pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-48 B8 ? ? ? ? ? ? ? ? 55 48 89 E5 41 57 41 56 49 89 D6 41 55
-</pre>
-</td></tr></table>
-
-### GameTraceManager
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-48 8B 0D ? ? ? ? 48 8D 45 ? 48 89 44 24 ? 4C 8D 44 24 ? C7 44 24 ? ? ? ? ? 48 8D 54 24 ? 4C 8B CB
-</pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-48 8D 05 ? ? ? ? F3 0F 58 8D ? ? ? ? 31 FF
-</pre>
-</td></tr></table>
-
 ### CCSPlayerPawn_IsAbleToApplySpray
 
 <table>
@@ -130,6 +88,27 @@ N/A
 </td><td>
 <pre>
 55 48 89 E5 41 57 41 56 49 89 FE 41 55 49 89 D5 41 54 48 8D 95
+</pre>
+</td></tr></table>
+
+### CCSPlayerController_ProcessUsercmds
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+N/A
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 89 D6 41 55 41 54 49 89 FC 53 48 83 EC 38
 </pre>
 </td></tr></table>
 
