@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: October 22, 2024 at 9:47:34 PM UTC
+Last updated: October 23, 2024 at 10:31:03 PM UTC
 
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
