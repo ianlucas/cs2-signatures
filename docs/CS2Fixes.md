@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: October 23, 2024 at 10:31:03 PM UTC
+Last updated: October 24, 2024 at 5:23:25 AM UTC
 
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
@@ -88,27 +88,6 @@ Last updated: October 23, 2024 at 10:31:03 PM UTC
 </td><td>
 <pre>
 55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 49 89 FC 53 48 81 EC ? ? ? ? E8 ? ? ? ? 84 C0 74 ? 41 80 BC 24
-</pre>
-</td></tr></table>
-
-### TriggerTeleport_StartTouch
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x56\x57\x48\x81\xEC\x2A\x00\x00\x00\x48\x8B\x01\x48\x8B\xFA
-</pre>
-</td><td>
-<pre>
-40 56 57 48 81 EC ? 00 00 00 48 8B 01 48 8B FA
-</pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x81\xEC\x2A\x00\x00\x00\x48\x8B\x07
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 49 89 F4 53 48 81 EC ? 00 00 00 48 8B 07
 </pre>
 </td></tr></table>
 
