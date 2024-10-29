@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: October 29, 2024 at 3:38:56 AM UTC
+Last updated: October 29, 2024 at 7:06:35 PM UTC
 
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/dev/gamedata/cs2kz-core.games.txt

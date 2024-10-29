@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: October 29, 2024 at 3:38:56 AM UTC
+Last updated: October 29, 2024 at 7:06:35 PM UTC
 
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
@@ -199,13 +199,13 @@ FF 15 ? ? ? ? 84 C0 0F 85 ? ? ? ? B9
 <pre>
 C8 42 EB ? 48 8B 4B 30
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\xC8\x42\x66\x0F\xEF\xE4\x0F\x2F\x63\x5C
+\xC8\x42\x66\x0F\xEF\xFF\x0F\x2F\x7B\x5C
 </pre>
 </td><td>
 <pre>
-C8 42 66 0F EF E4 0F 2F 63 5C
+C8 42 66 0F EF FF 0F 2F 7B 5C
 </pre>
 </td></tr></table>
 
@@ -905,21 +905,21 @@ C8 42 66 0F EF E4 0F 2F 63 5C
 ### FindUseEntity
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x10\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24\x50\xEB\xFF\xFF
+\x4C\x89\x44\x24\x2A\xF3\x0F\x11\x4C\x24\x2A\x55\x53\x56
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 10 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 50 EB FF FF
+4C 89 44 24 ? F3 0F 11 4C 24 ? 55 53 56
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\xBE\xFF\xFF\xFF\xFF\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x48\x8D\x3D\x2A\x2A\x2A\x2A\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\xF3\x0F\x11\x85
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x48\x8D\x3D\x2A\x2A\x2A\x2A\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\xB5
 </pre>
 </td><td>
 <pre>
-55 BE FF FF FF FF 48 89 E5 41 57 49 89 FF 41 56 48 8D 3D ? ? ? ? 41 55 41 54 53 48 81 EC ? ? ? ? F3 0F 11 85
+55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 48 8D 3D ? ? ? ? 53 48 81 EC ? ? ? ? 48 89 B5
 </pre>
 </td></tr></table>
 
