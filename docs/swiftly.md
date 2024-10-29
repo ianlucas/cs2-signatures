@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: October 25, 2024 at 9:08:20 PM UTC
+Last updated: October 29, 2024 at 1:36:29 AM UTC
 
 * Repository: https://github.com/swiftly-solution/swiftly
 * Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/core/signatures.json
@@ -444,7 +444,7 @@ N/A
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 48 8D 45 ? 41 55 41 54 53 48 89 CB
+55 48 89 E5 41 57 41 56 41 55 49 89 CD 41 54 53 48 83 EC
 </pre>
 </td></tr></table>
 
