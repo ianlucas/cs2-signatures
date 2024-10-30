@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: October 30, 2024 at 12:17:04 AM UTC
+Last updated: October 30, 2024 at 1:33:29 AM UTC
 
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/dev/gamedata/cs2kz-core.games.txt
@@ -178,13 +178,13 @@ Last updated: October 30, 2024 at 12:17:04 AM UTC
 ### TraceShape
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x10\x48\x89\x74\x24\x18\x48\x89\x7C\x24\x20\x48\x89\x4C\x24\x08\x55\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24\x20\xE0\xFF\xFF
+\x48\x89\x5C\x24\x20\x48\x89\x4C\x24\x08\x55\x56\x41\x55
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 10 48 89 74 24 18 48 89 7C 24 20 48 89 4C 24 08 55 41 54 41 55 41 56 41 57 48 8D AC 24 20 E0 FF FF
+48 89 5C 24 20 48 89 4C 24 08 55 56 41 55
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
