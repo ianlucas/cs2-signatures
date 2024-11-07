@@ -1,6 +1,6 @@
 # cs2-match-plugin 
 
-Last updated: November 6, 2024 at 6:54:52 AM UTC
+Last updated: November 7, 2024 at 12:32:21 AM UTC
 
 * Repository: https://github.com/ianlucas/cs2-match-plugin
 * Gamedata: https://github.com/ianlucas/cs2-match-plugin/blob/master/gamedata/match.json
