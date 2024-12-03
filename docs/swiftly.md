@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: November 28, 2024 at 10:25:53 PM UTC
+Last updated: December 3, 2024 at 9:23:54 PM UTC
 
 * Repository: https://github.com/swiftly-solution/swiftly
 * Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/core/signatures.json
