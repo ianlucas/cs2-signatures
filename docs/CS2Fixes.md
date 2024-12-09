@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: December 3, 2024 at 9:23:54 PM UTC
+Last updated: December 9, 2024 at 12:26:13 AM UTC
 
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
@@ -311,6 +311,27 @@ C8 42 66 0F EF FF 0F 2F 7B 5C
 </td><td>
 <pre>
 55 48 89 E5 41 57 41 56 4C 8D BD D0 FE FF FF 49 89 D6 41 55 49 89 F5 41 54 49 89 CC
+</pre>
+</td></tr></table>
+
+### CEntityIOOutput_FireOutputInternal
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x4C\x89\x4C\x24\x20\x53\x55\x57\x41\x54\x41\x56\x48\x81\xEC
+</pre>
+</td><td>
+<pre>
+4C 89 4C 24 20 53 55 57 41 54 41 56 48 81 EC
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xD4\x53\x48\x89\xF3\x48\x83\xEC\x58
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 49 89 D4 53 48 89 F3 48 83 EC 58
 </pre>
 </td></tr></table>
 
