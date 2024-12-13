@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: December 10, 2024 at 12:34:11 AM UTC
+Last updated: December 13, 2024 at 9:08:29 PM UTC
 
 * Repository: https://github.com/swiftly-solution/swiftly
 * Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/core/signatures.json
@@ -322,27 +322,6 @@ N/A
 </pre>
 </td></tr></table>
 
-### HostStateRequest
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Windows</td><td>engine2</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-48 89 74 24 10 57 48 83 EC 30 33 F6 48 8B FA
-</pre>
-</td></tr><tr><td>❓</td><td>Linux</td><td>engine2</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 83 7F 30 00
-</pre>
-</td></tr></table>
-
 ### CCSPlayerPawnBase_PostThink
 
 <table>
@@ -445,27 +424,6 @@ N/A
 </td><td>
 <pre>
 55 48 89 E5 41 57 41 56 41 55 49 89 CD 41 54 53 48 83 EC 68
-</pre>
-</td></tr></table>
-
-### CLoggingSystem_LogDirect
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Windows</td><td>tier0</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-4C 89 4C 24 20 44 89 44 24 18 89 54 24 10 55
-</pre>
-</td></tr><tr><td>❓</td><td>Linux</td><td>tier0</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-55 89 D0 48 89 E5 41 57 41 56 41 55
 </pre>
 </td></tr></table>
 
