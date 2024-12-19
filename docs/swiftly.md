@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: December 19, 2024 at 5:10:15 PM UTC
+Last updated: December 19, 2024 at 10:16:56 PM UTC
 
 * Repository: https://github.com/swiftly-solution/swiftly
 * Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/core/signatures.json
@@ -340,27 +340,6 @@ N/A
 </td><td>
 <pre>
 55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 48 83 EC 40 E8
-</pre>
-</td></tr></table>
-
-### CCSPlayer_MovementServices_CheckJumpPre
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 56 48 83 EC 40 48 8B F2 48 8B D9 BA ? ? ? ? E8 ? ? ? ? 48 8B 4B 30
-</pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-N/A
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 56 41 55 41 54 49 89 F4 BE ? ? ? ? 53 48 89 FB 48 83 EC 30 E8 ? ? ? ? 48 8B 7B 30
 </pre>
 </td></tr></table>
 
