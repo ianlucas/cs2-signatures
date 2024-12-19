@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: December 19, 2024 at 3:20:04 AM UTC
+Last updated: December 19, 2024 at 8:50:16 AM UTC
 
 * Repository: https://github.com/swiftly-solution/swiftly
 * Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/core/signatures.json
@@ -409,13 +409,13 @@ N/A
 ### CCSPlayer_CanAcquire
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-48 8B C4 44 89 40 ? 48 89 50 ? 48 89 48
+44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8B EC
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
