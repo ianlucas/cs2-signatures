@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: December 20, 2024 at 12:54:03 AM UTC
+Last updated: December 20, 2024 at 12:13:36 PM UTC
 
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * Gamedata: https://github.com/roflmuffin/CounterStrikeSharp/blob/main/configs/addons/counterstrikesharp/gamedata/gamedata.json
@@ -144,13 +144,13 @@ N/A
 <pre>
 48 89 5C 24 ? 48 89 74 24 ? 55 57 41 ? 41 ? 41 ? 48 ? ? ? ? 48 ? ? ? ? ? ? 4D ? ? 48
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 49 89 D6 41 55 49 89 CD 41 54 49 89 F4 53 48 89 FB 48 8D 3D
+55 48 89 E5 41 57 41 56 4D 89 C6 41 55 49 89 D5 41 54 49 89 F4
 </pre>
 </td></tr></table>
 
@@ -241,13 +241,13 @@ N/A
 ### CCSPlayer_ItemServices_CanAcquire
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 N/A
 </pre>
 </td><td>
 <pre>
-48 8B C4 44 89 40 ? 48 89 50 ? 48 89 48
+44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8B EC
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
