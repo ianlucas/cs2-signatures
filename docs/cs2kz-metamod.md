@@ -1,7 +1,8 @@
 # cs2kz-metamod 
 
-Last updated: December 20, 2024 at 12:13:36 PM UTC
+Last updated: December 23, 2024 at 12:14:07 AM UTC
 
+* Manifests: [3103657685550766037](https://steamdb.info/depot/2347771/history/?changeid=M:3103657685550766037), [8463351925539816008](https://steamdb.info/depot/2347773/history/?changeid=M:8463351925539816008)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/dev/gamedata/cs2kz-core.games.txt
 
@@ -10,7 +11,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### CCSPlayerController_SwitchTeam
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x40\x56\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xF9\x8B\xF2\x8B\xCA
 </pre>
@@ -31,7 +32,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### CBasePlayerController_SetPawn
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x74\x24\x2A\x55\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xF9
 </pre>
@@ -52,7 +53,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### GetLegacyGameEventListener
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x85\xC9\x74
 </pre>
@@ -73,7 +74,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### RecvServerBrowserPacket
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Windows</td><td>steamnetworkingsockets</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Windows</td><td>steamnetworkingsockets</td><td>
 <pre>
 \x48\x89\x6C\x24\x18\x56\x48\x83\xEC\x20\x48\x8B\xF1\x48\x8B\xEA
 </pre>
@@ -94,7 +95,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### SnapViewAngles
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x2A\x48\x89\x7C\x24\x2A\x55\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x41\xB9\x2A\x2A\x2A\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x8D\x55\x2A\x48\x8D\x4D\x2A\x45\x8D\x41\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8B\xD3\x48\x8D\x4D\x2A\xE8\x2A\x2A\x2A\x2A\x41\xB9\x2A\x2A\x2A\x2A\x48\x8D\x55\x2A\x48\x8D\x4D\x2A\x45\x8D\x41\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8D\x55\x2A\x48\x8D\x4D\x2A\xE8\x2A\x2A\x2A\x2A\xF2\x0F\x10\x87
 </pre>
@@ -115,7 +116,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### InitPlayerMovementTraceFilter
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x08\x48\x89\x74\x24\x10\x57\x48\x83\xEC\x20\x0F\xB6\x41\x37\x48
 </pre>
@@ -136,7 +137,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### InitGameTrace
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x08\x57\x48\x83\xEC\x20\x48\x8B\xD9\x33\xFF\x48\x8B\x0D\x2A\x2A\x2A\x2A\x48\x85\xC9
 </pre>
@@ -157,7 +158,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### TracePlayerBBox
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x4C\x89\x40\x18\x55\x53\x57\x41\x55\x41\x56
 </pre>
@@ -178,7 +179,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### TraceShape
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x20\x48\x89\x4C\x24\x08\x55\x56\x41\x55
 </pre>
@@ -199,7 +200,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### GetMaxSpeed
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xD9\xE8\x2A\x2A\x2A\x2A\x84\xC0\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x0D
 </pre>
@@ -220,7 +221,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### SetupMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x48\x89\x74\x24\x20\x57\x48\x83\xEC\x30\x49\x8B\xF8
 </pre>
@@ -241,7 +242,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### ProcessMovement
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x40\x56\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\x49
 </pre>
@@ -262,7 +263,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### PlayerMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x74\x24\x18\x57\x48\x83\xEC\x40\x48\x8B\xF9\x48\x8B\xF2
 </pre>
@@ -283,7 +284,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### CheckParameters
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x48\x89\x58\x20\x55\x56\x57\x41\x56\x41\x57\x48\x8D\x68\xA1
 </pre>
@@ -304,7 +305,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### CanMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x40\x53\x48\x83\xEC\x30\x48\x8B\xD9\xBA\xFF\xFF\xFF\xFF\x48\x8D\x0D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x75\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x8B\x40\x08\x80\x38\x00\x0F\x85
 </pre>
@@ -325,7 +326,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### FullWalkMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x40\x56\x57\x48\x83\xEC\x38\x48\x8B\xF2
 </pre>
@@ -346,7 +347,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### MoveInit
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x10\x57\x48\x83\xEC\x40\x48\x8B\xFA\x48\x8B\xD9\xE8\x2A\x2A\x2A\x2A\x48\x8B\xCB
 </pre>
@@ -367,7 +368,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### CheckWater
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x78\x10\x55\x48\x8D\x68\x98
 </pre>
@@ -388,7 +389,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### WaterMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x70\x10\x48\x89\x78\x18\x55\x41\x56\x41\x57\x48\x8D\xA8\xC8\xFE\xFF\xFF
 </pre>
@@ -409,7 +410,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### CheckVelocity
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x4C\x89\x40\x18\x48\x89\x50\x10\x55\x53\x56
 </pre>
@@ -430,7 +431,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### Duck
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x55\x53\x56\x57\x41\x56\x41\x57\x48\x8D\xA8\xC8\xFE\xFF\xFF
 </pre>
@@ -451,7 +452,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### CanUnduck
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x40\x55\x41\x54\x41\x56\x48\x8D\xAC\x24\x30\xFF\xFF\xFF
 </pre>
@@ -472,7 +473,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### LadderMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x40\x55\x56\x57\x41\x56\x48\x8D\xAC\x24\xD8\xFC\xFF\xFF
 </pre>
@@ -493,7 +494,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### CheckJumpButton
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x10\x56\x48\x83\xEC\x40\x48\x8B\xF2
 </pre>
@@ -514,7 +515,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### OnJump
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x40\x53\x57\x48\x81\xEC\xC8\x00\x00\x00\x48\x8B\xD9\x48\x8B\xFA\x48\x8B\x49\x30
 </pre>
@@ -535,7 +536,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### AirMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x48\x89\x58\x18\x48\x89\x70\x20\x55\x57\x41\x56\x48\x8D\x68\xA1\x48\x81\xEC\xC0\x00\x00\x00
 </pre>
@@ -556,7 +557,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### Friction
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x10\x56\x48\x83\xEC\x60\x48\x8B\x41\x30
 </pre>
@@ -577,7 +578,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### WalkMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x48\x89\x58\x18\x48\x89\x70\x20\x55\x57\x41\x54\x48\x8D
 </pre>
@@ -598,7 +599,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### TryPlayerMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x4C\x89\x48\x20\x4C\x89\x40\x18\x48\x89\x50\x10\x48\x89\x48\x08\x55\x53\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xA8\xE8\xFD\xFF\xFF\x48\x81\xEC\xD8\x02\x00\x00\x0F\x29\x70\xA8\x45\x33\xE4
 </pre>
@@ -619,7 +620,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### CategorizePosition
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x40\x55\x56\x57\x41\x54\x48\x8D\xAC\x24\x28\xFE\xFF\xFF
 </pre>
@@ -640,7 +641,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### CheckFalling
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x10\x57\x48\x81\xEC\x80\x00\x00\x00\x48\x8B\xD9
 </pre>
@@ -661,7 +662,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### PostPlayerMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x4C\x8B\xDC\x53\x55\x48\x83\xEC\x68
 </pre>
@@ -682,7 +683,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### PostThink
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x55\x53\x56\x57\x41\x54\x48\x8D\x68\xC8
 </pre>
@@ -703,7 +704,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### EmitSound
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x08\x48\x89\x6C\x24\x10\x48\x89\x74\x24\x18\x48\x89\x7C\x24\x20\x41\x56\x48\x83\xEC\x30\x48\x8B\xEA
 </pre>
@@ -724,7 +725,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### ProcessUsercmds
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x44\x88\x48\x20\x44\x89\x40\x18\x48\x89\x50\x10\x53
 </pre>
@@ -745,7 +746,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### PhysicsSimulate
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x40\x53\x48\x81\xEC\xC0\x00\x00\x00\x48\x8B\xD9\xE8\x2A\x2A\x2A\x2A
 </pre>
@@ -766,7 +767,7 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### GameEventManager
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8D\x0D\x2A\x2A\x2A\x2A\x48\x0F\x45\xD0\x48\x8B\x05
 </pre>

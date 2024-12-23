@@ -1,7 +1,8 @@
 # cs2-match-plugin 
 
-Last updated: December 20, 2024 at 12:13:36 PM UTC
+Last updated: December 23, 2024 at 12:14:07 AM UTC
 
+* Manifests: [3103657685550766037](https://steamdb.info/depot/2347771/history/?changeid=M:3103657685550766037), [8463351925539816008](https://steamdb.info/depot/2347773/history/?changeid=M:8463351925539816008)
 * Repository: https://github.com/ianlucas/cs2-match-plugin
 * Gamedata: https://github.com/ianlucas/cs2-match-plugin/blob/master/gamedata/match.json
 
@@ -10,9 +11,9 @@ Last updated: December 20, 2024 at 12:13:36 PM UTC
 ### TerminateRound
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-N/A
+\x48\x8B\xC4\x4C\x89\x48\x2A\x48\x89\x48\x2A\x55\x41\x55
 </pre>
 </td><td>
 <pre>
@@ -20,7 +21,7 @@ N/A
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-N/A
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\xF3\x0F\x11\x85
 </pre>
 </td><td>
 <pre>
@@ -31,9 +32,9 @@ N/A
 ### ChangeTeam
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-N/A
+\x40\x55\x56\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x0F\xB6\xA9
 </pre>
 </td><td>
 <pre>
@@ -41,7 +42,7 @@ N/A
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-N/A
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x44\x0F\xB6\xB7\x2A\x2A\x2A\x2A\x44\x39\xF6
 </pre>
 </td><td>
 <pre>
@@ -52,9 +53,9 @@ N/A
 ### IncrementNumMVPs
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-N/A
+\x40\x55\x57\x41\x57\x48\x8B\xEC\x48\x81\xEC
 </pre>
 </td><td>
 <pre>
@@ -62,7 +63,7 @@ N/A
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-N/A
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x8D\x3D\x2A\x2A\x2A\x2A\x89\xF3
 </pre>
 </td><td>
 <pre>
@@ -73,9 +74,9 @@ N/A
 ### HandleSwapTeams
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-N/A
+\x48\x8B\xC4\x48\x89\x48\x2A\x55\x48\x81\xEC
 </pre>
 </td><td>
 <pre>
@@ -83,7 +84,7 @@ N/A
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-N/A
+\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x53\x31\xDB\x48\x83\xEC
 </pre>
 </td><td>
 <pre>
@@ -94,9 +95,9 @@ N/A
 ### IsLastRoundBeforeHalfTime
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-N/A
+\x40\x53\x48\x83\xEC\x2A\x48\x8B\xD9\xBA\x2A\x2A\x2A\x2A\x48\x8D\x0D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x75\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x8B\x40\x2A\x80\x38\x2A\x0F\x84\x2A\x2A\x2A\x2A\x83\xBB
 </pre>
 </td><td>
 <pre>
@@ -104,7 +105,7 @@ N/A
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-N/A
+\x55\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x74
 </pre>
 </td><td>
 <pre>
@@ -115,9 +116,9 @@ N/A
 ### AreTeamsPlayingSwitchedSides
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>SM-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-N/A
+\x40\x53\x48\x83\xEC\x2A\x8B\x81\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\x91
 </pre>
 </td><td>
 <pre>
@@ -125,7 +126,7 @@ N/A
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-N/A
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x8B\x87
 </pre>
 </td><td>
 <pre>
