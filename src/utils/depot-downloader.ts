@@ -36,11 +36,7 @@ export async function downloadFromDepot(depot: number, filelist: string) {
                 filelist
             })
         );
-        const matches = output.match(/100(\.|,)00% (.*)/);
-        if (matches !== null) {
-            return matches[2];
-        }
-        return undefined;
+        return Array.from(output.matchAll(/% (.*)/g)).map((matches) => matches[1]);
     } catch (error) {
         console.error(error);
     }

@@ -8,9 +8,10 @@ import { createReadStream } from "fs";
 import { mkdir, readdir, readFile, rename, writeFile } from "fs/promises";
 import { basename, join } from "path";
 import sources from "./config/sources.json";
+import { binPaths, supportedBinaries } from "./utils/binaries";
 import { downloadFromDepot, getLatestManifest } from "./utils/depot-downloader";
 import { findByteSequence } from "./utils/find-byte-sequence";
-import { cwd, exists, root } from "./utils/fs";
+import { configdir, cwd, exists, root, workdir } from "./utils/fs";
 import { parseCSSharpGamedata } from "./utils/gamedata/cssharp";
 import { parseSourcemodGamedata } from "./utils/gamedata/sourcemod";
 import { parseSwiftlyGamedata } from "./utils/gamedata/swiftly";
@@ -19,12 +20,6 @@ import { formatDate } from "./utils/misc";
 import { Signature, Source } from "./utils/types";
 import { writeSourceMd } from "./utils/write-source-md";
 
-const workdir = join(cwd, "workdir");
-const configdir = join(cwd, "config");
-const binaries = {
-    linux: join(workdir, "libserver.so"),
-    windows: join(workdir, "server.dll")
-} as const;
 const signatures: Signature[] = [];
 const gamedataParsers: Record<string, typeof parseCSSharpGamedata> = {
     cssharp: parseCSSharpGamedata,
@@ -32,30 +27,32 @@ const gamedataParsers: Record<string, typeof parseCSSharpGamedata> = {
     swiftly: parseSwiftlyGamedata
 };
 
-async function checkDepot(depot: number) {
+async function checkDepot(depot: number): Promise<[string, boolean]> {
     console.log(`Checking depot ${depot}`);
     const filelistPath = join(configdir, `${depot}.depot`);
     const manifestPath = join(workdir, `${depot}.manifest`);
     const manifest = (await exists(manifestPath)) ? await readFile(manifestPath, "utf-8") : "";
     const latestManifest = await getLatestManifest(depot);
+    const filelist = (await readFile(filelistPath, "utf-8")).split("\n");
     if (latestManifest === undefined) {
-        console.log(`Failed to get latest manifest for depot ${depot}`);
-        return false;
+        throw new Error(`Failed to get latest manifest for depot ${depot}`);
     }
     if (manifest === latestManifest) {
         console.log(`Depot ${depot} is up to date`);
-        return false;
+        return [manifest, false];
     }
-    const path = await downloadFromDepot(depot, filelistPath);
-    if (path === undefined) {
-        console.log(`Failed to download depot ${depot}`);
-        return false;
+    const paths = await downloadFromDepot(depot, filelistPath);
+    if (paths?.length !== filelist.length) {
+        console.log(paths, filelist);
+        throw new Error(`Failed to download depot ${depot}`);
     }
-    const filename = basename(path);
-    await rename(join(cwd, path), join(workdir, filename));
-    await writeFile(manifestPath, latestManifest.toString(), "utf-8");
-    console.log(`Downloaded ${filename}`);
-    return true;
+    for (const path of paths) {
+        const filename = basename(path);
+        await rename(join(cwd, path), join(workdir, filename));
+        await writeFile(manifestPath, latestManifest, "utf-8");
+        console.log(`Downloaded ${filename}`);
+    }
+    return [latestManifest, true];
 }
 
 async function checkRepository({ id, repo, branch, file }: Source) {
@@ -94,7 +91,7 @@ async function checkSource(source: Source) {
     return didWeDownloadGamedata;
 }
 
-function findSignatures(binPath: string, platform: NonNullable<Signature["platforms"][string]>) {
+function findSignatures(binPath: string, platform: NonNullable<Signature["platforms"][string]>): Promise<boolean> {
     return new Promise((resolve, reject) => {
         const { sequence, mask } = platform.pattern;
         const stream = createReadStream(binPath, {
@@ -122,6 +119,7 @@ function findSignatures(binPath: string, platform: NonNullable<Signature["platfo
 
 async function main() {
     let didSomethingChange = false;
+    let manifests: string[] = [];
 
     // 0. Create the workdir if it doesn't exist.
     if (!(await exists(workdir))) {
@@ -132,7 +130,9 @@ async function main() {
     for await (const file of await readdir(configdir)) {
         if (file.endsWith(".depot")) {
             const depot = parseInt(file.split(".")[0]);
-            if (await checkDepot(depot)) {
+            const [manifest, didManifestChange] = await checkDepot(depot);
+            manifests.push(`[${manifest}](https://steamdb.info/depot/${depot}/history/?changeid=M:${manifest})`);
+            if (didManifestChange) {
                 didSomethingChange = true;
             }
         }
@@ -151,21 +151,22 @@ async function main() {
     }
 
     // 3. Find the signatures in the binaries.
-    for (const [osName, binPath] of Object.entries(binaries)) {
+    for (const [os, binPath] of Object.entries(binPaths)) {
         await Promise.all(
-            signatures
-                .map(({ platforms }) => platforms[osName])
-                .filter((platform) => platform !== undefined)
-                .map((platform) => findSignatures(binPath, platform))
+            signatures.map(({ platforms, library }) => {
+                const platform = platforms[os];
+                const path = binPath[library as keyof typeof binPath];
+                if (platform !== undefined && path !== undefined) {
+                    return findSignatures(path, platform);
+                }
+            })
         );
-        console.log(
-            `Found ${signatures.filter(({ platforms }) => platforms[osName]?.found).length} signatures for ${osName}`
-        );
+        console.log(`Found ${signatures.filter(({ platforms }) => platforms[os]?.found).length} signatures for ${os}`);
     }
 
     // 4. Write the README.
     const signaturesBySource = Object.groupBy(signatures, (signature) => signature.source.id);
-    let readme = `# CS2 Server Signatures\n\nLast updated: ${formatDate(new Date())}`;
+    let readme = `# CS2 Server Signatures\n\n* **Last updated:** ${formatDate(new Date())}\n* **Manifests:** ${manifests.join(", ")}\n\n`;
     readme += `<table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>`;
     const brokenSignaturesDetails: string[] = [];
@@ -173,12 +174,12 @@ async function main() {
         assert(signatures !== undefined);
         assert(signatures.length > 0);
         const { source } = signatures[0];
-        await writeSourceMd(source, signatures);
+        await writeSourceMd(manifests, source, signatures);
         let foundAllInWindows = true;
         let foundAllInLinux = true;
         const brokenSignatures: Signature[] = [];
         for (const signature of signatures) {
-            if (signature.library === "server") {
+            if (supportedBinaries.includes(signature.library)) {
                 if (!signature.platforms.windows.found) {
                     foundAllInWindows = false;
                 }

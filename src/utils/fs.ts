@@ -4,10 +4,12 @@
  *--------------------------------------------------------------------------------------------*/
 
 import { access } from "fs/promises";
-import { resolve } from "path";
+import { join, resolve } from "path";
 
 export const cwd = process.cwd();
 export const root = resolve(cwd, "..");
+export const workdir = join(cwd, "workdir");
+export const configdir = join(cwd, "config");
 
 export async function exists(path: string) {
     try {

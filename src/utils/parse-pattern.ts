@@ -5,12 +5,21 @@
 
 import type { Pattern } from "./types";
 
+export function idaStyleToCodeStyle(pattern: string) {
+    return pattern
+        .split(" ")
+        .map((part) => (part === "?" ? "\\x2A" : `\\x${part}`))
+        .join("");
+}
+
 export function parsePattern(pattern: string): Pattern {
     let codeStyle = pattern;
     pattern = pattern.trim();
     if (pattern.startsWith("x")) {
         codeStyle = codeStyle.replace(/x/g, "\\x");
         pattern = pattern.replace(/x/g, " ").replace(/2A/g, "?").trim();
+    } else {
+        codeStyle = idaStyleToCodeStyle(pattern);
     }
     const parts = pattern.split(" ");
     const sequence: number[] = [];
