@@ -19,6 +19,9 @@ jobs:
           sudo docker builder prune -a
           df -h
 
+      - name: Initialize
+        run: cd src
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -30,7 +33,7 @@ jobs:
           cache: 'npm'
 
       - name: Install
-        run: cd src && npm ci
+        run: npm ci
 
       - name: Update
         run: npm run update
