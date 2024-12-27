@@ -19,11 +19,11 @@ jobs:
           sudo docker builder prune -a
           df -h
 
-      - name: Initialize
-        run: cd src
-
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Initialize
+        run: cd src
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
