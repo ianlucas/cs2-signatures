@@ -30,8 +30,5 @@ jobs:
           cache: 'npm'
           cache-dependency-path: ./src/package-lock.json
 
-      - name: Install
-        run: cd src && npm ci
-
-      - name: Update
-        run: npm run update
+      - name: Install & Update
+        run: cd src && npm ci && npm run update
