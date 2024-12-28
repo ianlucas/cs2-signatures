@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "scripts": {
         "format": "prettier . --write",
-        "update": "npx --yes tsx index.ts && cd .. && git add . && git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' -c commit.gpgSign='false' commit -m 'chore: update documents' && git push"
+        "update": "npx --yes tsx index.ts"
     },
     "dependencies": {
         "@ianlucas/cs2-lib": "^5.7.1",

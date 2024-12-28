@@ -27,4 +27,13 @@ jobs:
           cache-dependency-path: ./src/package-lock.json
 
       - name: Install & Update
-        run: cd src && npm ci && npm run update
+        run: |
+          cd src
+          npm ci
+          npm run update
+          cd ..
+          git add .
+          if ! git diff-index --quiet HEAD; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' -c commit.gpgSign='false' commit -m 'chore: update documents'
+            git push
+          fi
