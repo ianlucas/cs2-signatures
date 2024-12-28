@@ -11,6 +11,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Cache workdir
+        id: cache-workdir
+        uses: actions/cache@v4
+        with:
+          path: ./src/workdir
+          key: cache-workdir
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
