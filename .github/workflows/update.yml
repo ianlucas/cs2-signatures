@@ -37,11 +37,16 @@ jobs:
           if ! git diff-index --quiet HEAD; then
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' -c commit.gpgSign='false' commit -m 'chore: update documents'
             git push
+            gh cache delete cache-workdir
+            echo "changes=true" >> $GITHUB_ENV
           fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Save workdir
         id: workdir-save
         uses: actions/cache/save@v4
+        if: env.changes == 'true'
         with:
           path: ./src/workdir
           key: cache-workdir
