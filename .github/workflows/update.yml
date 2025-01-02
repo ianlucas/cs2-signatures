@@ -2,7 +2,7 @@ name: update
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: "*/5 * * * *"
 
 jobs:
   update:
@@ -11,9 +11,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Cache workdir
-        id: cache-workdir
-        uses: actions/cache@v4
+      - name: Restore workdir
+        id: workdir-restore
+        uses: actions/cache/restore@v4
         with:
           path: ./src/workdir
           key: cache-workdir
@@ -22,8 +22,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22.x
-          registry-url: 'https://registry.npmjs.org'
-          cache: 'npm'
+          registry-url: "https://registry.npmjs.org"
+          cache: "npm"
           cache-dependency-path: ./src/package-lock.json
 
       - name: Install & Update
@@ -37,3 +37,10 @@ jobs:
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' -c commit.gpgSign='false' commit -m 'chore: update documents'
             git push
           fi
+
+      - name: Save workdir
+        id: workdir-save
+        uses: actions/cache/save@v4
+        with:
+          path: ./src/workdir
+          key: cache-workdir
