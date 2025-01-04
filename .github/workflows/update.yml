@@ -47,7 +47,14 @@ jobs:
                 commit -m "$COMMIT_MESSAGE"
                 
             git push
-            gh cache delete workdir-cache
+
+            if gh cache list --limit 8 | grep -q 'workdir-cache'; then
+              echo "Cache with key 'workdir-cache' found. Deleting..."
+              gh cache delete workdir-cache
+            else
+              echo "No cache with key 'workdir-cache' found."
+            fi
+
             echo "changes=true" >> $GITHUB_ENV
           fi
         env:
