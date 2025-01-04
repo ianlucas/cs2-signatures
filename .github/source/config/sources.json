@@ -2,44 +2,43 @@
     {
         "id": "CounterStrikeSharp",
         "repo": "roflmuffin/CounterStrikeSharp",
-        "type": "cssharp",
+        "framework": "counterstrikesharp",
         "branch": "main",
-        "file": "/configs/addons/counterstrikesharp/gamedata/gamedata.json"
+        "filepath": "/configs/addons/counterstrikesharp/gamedata/gamedata.json"
     },
     {
         "id": "CS2Fixes",
         "repo": "Source2ZE/CS2Fixes",
-        "type": "sourcemod",
+        "framework": "sourcemod",
         "branch": "main",
-        "file": "/gamedata/cs2fixes.games.txt"
+        "filepath": "/gamedata/cs2fixes.games.txt"
     },
     {
         "id": "swiftly",
         "repo": "swiftly-solution/swiftly",
-        "type": "swiftly",
+        "framework": "swiftly",
         "branch": "master",
-        "file": "/plugin_files/gamedata/core/signatures.json"
+        "filepath": "/plugin_files/gamedata/core/signatures.json"
     },
     {
         "id": "cs2kz-metamod",
         "repo": "KZGlobalTeam/cs2kz-metamod",
-        "type": "sourcemod",
+        "framework": "sourcemod",
         "branch": "dev",
-        "file": "/gamedata/cs2kz-core.games.txt"
+        "filepath": "/gamedata/cs2kz-core.games.txt"
     },
-
     {
         "id": "cs2-match-plugin",
         "repo": "ianlucas/cs2-match-plugin",
-        "type": "cssharp",
+        "framework": "counterstrikesharp",
         "branch": "master",
-        "file": "/gamedata/match.json"
+        "filepath": "/gamedata/match.json"
     },
     {
         "id": "cs2-inventory-simulator-plugin",
         "repo": "ianlucas/cs2-inventory-simulator-plugin",
-        "type": "cssharp",
+        "framework": "counterstrikesharp",
         "branch": "main",
-        "file": "/gamedata/inventory-simulator.json"
+        "filepath": "/gamedata/inventory-simulator.json"
     }
 ]

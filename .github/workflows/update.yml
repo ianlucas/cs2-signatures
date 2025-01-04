@@ -16,8 +16,8 @@ jobs:
         id: workdir-restore
         uses: actions/cache/restore@v4
         with:
-          path: ./src/workdir
-          key: cache-workdir
+          path: ./.github/source/workdir
+          key: workdir-cache
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -25,19 +25,29 @@ jobs:
           node-version: 22.x
           registry-url: "https://registry.npmjs.org"
           cache: "npm"
-          cache-dependency-path: ./src/package-lock.json
+          cache-dependency-path: ./.github/source/package-lock.json
 
       - name: Install & Update
         run: |
-          cd src
+          cd .github/source
           npm ci
-          npm run update
-          cd ..
+
+          OUTPUT="$(npm run update)"
+          echo "$OUTPUT"
+
+          cd ../..
           git add .
+
           if ! git diff-index --quiet HEAD; then
-            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' -c commit.gpgSign='false' commit -m 'chore: update documents'
+            COMMIT_MESSAGE="$(echo "$OUTPUT" | tail -n 1)"
+
+            git -c user.name='github-actions[bot]' \
+                -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+                -c commit.gpgSign='false' \
+                commit -m "$COMMIT_MESSAGE"
+                
             git push
-            gh cache delete cache-workdir
+            gh cache delete workdir-cache
             echo "changes=true" >> $GITHUB_ENV
           fi
         env:
@@ -49,4 +59,4 @@ jobs:
         if: env.changes == 'true'
         with:
           path: ./src/workdir
-          key: cache-workdir
+          key: workdir-cache

@@ -1,0 +1,22 @@
+[
+    {
+        "os": "linux",
+        "library": "server",
+        "filename": "libserver.so"
+    },
+    {
+        "os": "linux",
+        "library": "engine2",
+        "filename": "libengine2.so"
+    },
+    {
+        "os": "windows",
+        "library": "server",
+        "filename": "server.dll"
+    },
+    {
+        "os": "windows",
+        "library": "engine2",
+        "filename": "engine2.dll"
+    }
+]

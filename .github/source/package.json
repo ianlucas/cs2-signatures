@@ -1,16 +1,19 @@
 {
     "name": "cs2-signatures",
     "version": "1.0.0",
+    "type": "module",
     "scripts": {
         "format": "prettier . --write",
-        "update": "npx --yes tsx index.ts"
+        "update": "tsx update.ts"
     },
     "dependencies": {
         "@ianlucas/cs2-lib": "^5.7.1",
-        "@ianlucas/depot-downloader": "^2.7.1"
+        "@ianlucas/depot-downloader": "^2.7.1",
+        "tsx": "^4.19.2"
     },
     "devDependencies": {
-        "@types/node": "^22.7.4",
+        "@total-typescript/tsconfig": "^1.0.4",
+        "@types/node": "^22.10.5",
         "prettier": "^3.3.3"
     }
 }
