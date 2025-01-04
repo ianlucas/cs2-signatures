@@ -39,7 +39,7 @@ export class Writer {
 
     static async writeReadme(manifestUrls: string[], subroutines: Subroutine[]) {
         const subroutinesBySource = Object.groupBy(subroutines, (subroutine) => subroutine.source.id);
-        let text = `# CS2 Server Signatures\n\n* **Last updated:** ${formatDate(new Date())}\n* **Manifests:** ${manifestUrls.join(", ")}\n\n`;
+        let text = `# CS2 Server Signatures Tracker\n\n* **Last updated:** ${formatDate(new Date())}\n* **Manifests:** ${manifestUrls.join(", ")}\n\n`;
         text += `<table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>`;
         const brokenSubroutinesDetails: string[] = [];
