@@ -35,7 +35,9 @@ for await (const filename of await readdir(configdir)) {
         if (hasUpdate) {
             changes.push(`depot(${depot.depotId})`);
         }
-        manifestUrls.push(`[${manifestId}](https://steamdb.info/depot/${depot}/history/?changeid=M:${manifestId})`);
+        manifestUrls.push(
+            `[${manifestId}](https://steamdb.info/depot/${depot.depotId}/history/?changeid=M:${manifestId})`
+        );
     }
 }
 
