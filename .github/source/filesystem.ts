@@ -8,6 +8,7 @@ import { join, resolve } from "path";
 
 export const cwd = process.cwd();
 export const githubdir = resolve(cwd, "..");
+export const docsdir = resolve(githubdir, "docs");
 export const rootdir = resolve(githubdir, "..");
 export const workdir = join(cwd, "workdir");
 export const configdir = join(cwd, "config");

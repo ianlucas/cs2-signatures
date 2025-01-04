@@ -9,7 +9,7 @@ import { Binary } from "./binary.js";
 import binaries from "./config/binaries.json" assert { type: "json" };
 import sources from "./config/sources.json" assert { type: "json" };
 import { Depot } from "./depot.js";
-import { configdir, exists, workdir } from "./filesystem.js";
+import { configdir, docsdir, exists, workdir } from "./filesystem.js";
 import { Gamedata } from "./gamedata.js";
 import { GitHubSource } from "./github.js";
 import { Sigscan } from "./sigscan.js";
@@ -22,6 +22,10 @@ const subroutines: Subroutine[] = [];
 
 if (!(await exists(workdir))) {
     await mkdir(workdir);
+}
+
+if (!(await exists(docsdir))) {
+    await mkdir(docsdir);
 }
 
 for await (const filename of await readdir(configdir)) {

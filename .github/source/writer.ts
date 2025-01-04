@@ -8,7 +8,7 @@ import { writeFile } from "fs/promises";
 import { join } from "path";
 import { osLabels } from "./binary.js";
 import sources from "./config/sources.json" assert { type: "json" };
-import { githubdir, rootdir } from "./filesystem.js";
+import { docsdir, rootdir } from "./filesystem.js";
 import type { GitHubSource } from "./github.js";
 import { formatDate } from "./misc.js";
 import type { Subroutine } from "./subroutine.js";
@@ -34,7 +34,7 @@ export class Writer {
             }
             text += `</table>\n\n`;
         }
-        await writeFile(join(githubdir, `docs/${source.id}.md`), text, "utf-8");
+        await writeFile(join(docsdir, `${source.id}.md`), text, "utf-8");
     }
 
     static async writeReadme(manifestUrls: string[], subroutines: Subroutine[]) {
