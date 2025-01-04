@@ -1,3 +1,8 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Ian Lucas. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
 import { CounterStrikeSharp } from "./counterstrikesharp.js";
 import { GitHubSource } from "./github.js";
 import { SourceMod } from "./sourcemod.js";

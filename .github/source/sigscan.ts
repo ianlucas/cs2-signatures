@@ -1,3 +1,8 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Ian Lucas. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
 import { ensure } from "@ianlucas/cs2-lib";
 import { createReadStream } from "fs";
 import type { Binary } from "./binary.js";

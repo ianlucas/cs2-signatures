@@ -1,3 +1,8 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Ian Lucas. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
 import { assert, fail } from "@ianlucas/cs2-lib";
 import { depotDownloader } from "@ianlucas/depot-downloader";
 import { readFile, rename, writeFile } from "fs/promises";
