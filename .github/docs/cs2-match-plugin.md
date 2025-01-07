@@ -1,8 +1,8 @@
 # cs2-match-plugin 
 
-Last updated: January 4, 2025 at 3:49:41 AM UTC
+Last updated: January 7, 2025 at 11:44:26 PM UTC
 
-* Manifests: [3103657685550766037](https://steamdb.info/depot/2347771/history/?changeid=M:3103657685550766037), [8463351925539816008](https://steamdb.info/depot/2347773/history/?changeid=M:8463351925539816008)
+* Manifests: [2275869531683288474](https://steamdb.info/depot/2347771/history/?changeid=M:2275869531683288474), [3186656964864464942](https://steamdb.info/depot/2347773/history/?changeid=M:3186656964864464942)
 * Repository: https://github.com/ianlucas/cs2-match-plugin
 * Gamedata: https://github.com/ianlucas/cs2-match-plugin/blob/master/gamedata/match.json
 
