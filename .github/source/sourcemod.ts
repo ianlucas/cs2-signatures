@@ -11,31 +11,34 @@ export class SourceMod {
     static parseGamedata(data: string, source: GitHubSource) {
         try {
             const subroutines: Subroutine[] = [];
-            for (const [name, value] of Object.entries(
-                CS2KeyValues.parse<{
-                    Games: {
-                        csgo: {
-                            Signatures: {
-                                [name: string]: {
-                                    library: string;
-                                    windows?: string;
-                                    linux?: string;
-                                };
+            const keyValues = CS2KeyValues.parse<{
+                Games: {
+                    [game: string]: {
+                        Signatures: {
+                            [name: string]: {
+                                library: string;
+                                windows?: string;
+                                linux?: string;
                             };
                         };
                     };
-                }>(data).Games.csgo.Signatures
-            )) {
-                const subroutine = new Subroutine(name, value.library, source);
-                for (let [os, signature] of Object.entries(value).filter(([os]) => os !== "library")) {
-                    signature = signature.trim();
-                    if (signature.length === 0) {
-                        continue;
+                };
+            }>(data);
+
+            for (const game of Object.values(keyValues.Games)) {
+                for (const [name, value] of Object.entries(game.Signatures)) {
+                    const subroutine = new Subroutine(name, value.library, source);
+                    for (let [os, signature] of Object.entries(value).filter(([os]) => os !== "library")) {
+                        signature = signature.trim();
+                        if (signature.length === 0) {
+                            continue;
+                        }
+                        subroutine.signatures[os] = new Signature(signature, os);
                     }
-                    subroutine.signatures[os] = new Signature(signature, os);
+                    subroutines.push(subroutine);
                 }
-                subroutines.push(subroutine);
             }
+
             return subroutines;
         } catch (error) {
             console.log(error);
