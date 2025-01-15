@@ -50,13 +50,14 @@ export class Writer {
             await Writer.writeSource(manifestUrls, source, subroutines);
             const foundAll: Record<string, boolean> = { linux: true, windows: true };
             const brokenSubroutines = subroutines.filter((subroutine) => {
-                return Object.entries(subroutine.signatures).some(([os, signature]) => {
+                let hasBrokenSubroutines = false;
+                for (const [os, signature] of Object.entries(subroutine.signatures)) {
                     if (signature?.isSupported && !signature.isFound) {
                         foundAll[os] = false;
-                        return true;
+                        hasBrokenSubroutines = true;
                     }
-                    return false;
-                });
+                }
+                return hasBrokenSubroutines;
             });
             if (brokenSubroutines.length > 0) {
                 let details = `<details>\n  <summary>${source.id} broken signatures</summary>\n\n`;
