@@ -1,8 +1,8 @@
 # cs2-inventory-simulator-plugin 
 
-Last updated: January 12, 2025 at 6:31:18 PM UTC
+Last updated: January 15, 2025 at 1:32:47 AM UTC
 
-* Manifests: [4615480674484923598](https://steamdb.info/depot/2347771/history/?changeid=M:4615480674484923598), [7895991697645030978](https://steamdb.info/depot/2347773/history/?changeid=M:7895991697645030978)
+* Manifests: [3274144490557028257](https://steamdb.info/depot/2347771/history/?changeid=M:3274144490557028257), [103762522114290219](https://steamdb.info/depot/2347773/history/?changeid=M:103762522114290219)
 * Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 * Gamedata: https://github.com/ianlucas/cs2-inventory-simulator-plugin/blob/main/gamedata/inventory-simulator.json
 
@@ -137,7 +137,7 @@ Last updated: January 12, 2025 at 6:31:18 PM UTC
 ### CServerSideClientBase_Connect
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>engine2</td><td>
 <pre>
 \x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x54\x41\x56\x41\x57\x48\x83\xEC\x2A\x4C\x8B\xBC\x24\x2A\x2A\x2A\x2A\x4D\x8B\xE0\x41\x0F\xB7\xF1\x4C\x8B\xF1\x4D\x85\xFF\x74\x2A\x49\x8B\x07\x49\x8B\xCF\xFF\x50\x2A\xBB\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\xBB\x2A\x2A\x2A\x2A\x8B\x0D\x2A\x2A\x2A\x2A\x8B\xD3\xFF\x15\x2A\x2A\x2A\x2A\x0F\xB6\xAC\x24\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x4D\x85\xFF\x74\x2A\x49\x8B\x07\x49\x8B\xCF\xFF\x50\x2A\x48\x8B\xD0\xEB\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x8B\x0D\x2A\x2A\x2A\x2A\x4C\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\x54\x24\x2A\x4D\x8B\xCC\x89\x6C\x24\x2A\x8B\xD3\x89\x74\x24\x2A\xFF\x15\x2A\x2A\x2A\x2A\x40\x84\xED\x75\x2A\x45\x33\xC0\x48\x8D\x0D\x2A\x2A\x2A\x2A\x41\x8D\x50\x2A\xE8\x2A\x2A\x2A\x2A\x49\x8B\x06\x49\x8B\xCE\x49\x8B\xBE\x2A\x2A\x2A\x2A\x49\x8B\x9E\x2A\x2A\x2A\x2A\xFF\x50\x2A\xB9\x2A\x2A\x2A\x2A\x49\x89\xBE\x2A\x2A\x2A\x2A\x49\x89\xBE\x2A\x2A\x2A\x2A\x49\x89\x9E\x2A\x2A\x2A\x2A\x66\x41\x89\xB6\x2A\x2A\x2A\x2A\xFF\x15\x2A\x2A\x2A\x2A\x33\xDB
 </pre>
@@ -145,7 +145,7 @@ Last updated: January 12, 2025 at 6:31:18 PM UTC
 <pre>
 48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 54 41 56 41 57 48 83 EC ? 4C 8B BC 24 ? ? ? ? 4D 8B E0 41 0F B7 F1 4C 8B F1 4D 85 FF 74 ? 49 8B 07 49 8B CF FF 50 ? BB ? ? ? ? 84 C0 74 ? BB ? ? ? ? 8B 0D ? ? ? ? 8B D3 FF 15 ? ? ? ? 0F B6 AC 24 ? ? ? ? 84 C0 74 ? 4D 85 FF 74 ? 49 8B 07 49 8B CF FF 50 ? 48 8B D0 EB ? 48 8D 15 ? ? ? ? 8B 0D ? ? ? ? 4C 8D 05 ? ? ? ? 48 89 54 24 ? 4D 8B CC 89 6C 24 ? 8B D3 89 74 24 ? FF 15 ? ? ? ? 40 84 ED 75 ? 45 33 C0 48 8D 0D ? ? ? ? 41 8D 50 ? E8 ? ? ? ? 49 8B 06 49 8B CE 49 8B BE ? ? ? ? 49 8B 9E ? ? ? ? FF 50 ? B9 ? ? ? ? 49 89 BE ? ? ? ? 49 89 BE ? ? ? ? 49 89 9E ? ? ? ? 66 41 89 B6 ? ? ? ? FF 15 ? ? ? ? 33 DB
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>engine2</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>engine2</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xCE\x41\x55\x49\x89\xFD
 </pre>
