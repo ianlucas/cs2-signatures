@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: January 22, 2025 at 12:31:00 AM UTC
+Last updated: January 27, 2025 at 7:00:01 PM UTC
 
 * Manifests: [3977657127216108862](https://steamdb.info/depot/2347771/history/?changeid=M:3977657127216108862), [1050378088708893140](https://steamdb.info/depot/2347773/history/?changeid=M:1050378088708893140)
 * Repository: https://github.com/swiftly-solution/swiftly
@@ -152,27 +152,6 @@ Last updated: January 22, 2025 at 12:31:00 AM UTC
 </td><td>
 <pre>
 48 85 FF 74 ? 55 48 89 E5 41 56
-</pre>
-</td></tr></table>
-
-### PrecacheResource
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x08\x57\x48\x83\xEC\x20\x48\x8B\x7A\x10
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 08 57 48 83 EC 20 48 8B 7A 10
-</pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x55\x41\x54\x48\x85\xFF\x74\x2A\x80\x3F\x00
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 55 41 54 48 85 FF 74 ? 80 3F 00
 </pre>
 </td></tr></table>
 
@@ -467,6 +446,27 @@ Last updated: January 22, 2025 at 12:31:00 AM UTC
 </td><td>
 <pre>
 48 85 C0 74 ? 80 B8 ? ? ? ? 00 74 ? 48 8D 05 ? ? ? ? 80 38 00 75 ? 41 B8 04 00 00 00
+</pre>
+</td></tr></table>
+
+### IGameSystem_InitAllSystems_pFirst
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\x3D\x2A\x2A\x2A\x2A\x48\x85\xFF\x0F\x84\x2A\x2A\x2A\x2A\xBE
+</pre>
+</td><td>
+<pre>
+48 8B 3D ? ? ? ? 48 85 FF 0F 84 ? ? ? ? BE
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x4C\x8B\x35\x2A\x2A\x2A\x2A\x4D\x85\xF6\x75\x2A\xE9
+</pre>
+</td><td>
+<pre>
+4C 8B 35 ? ? ? ? 4D 85 F6 75 ? E9
 </pre>
 </td></tr></table>
 

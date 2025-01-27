@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: January 22, 2025 at 12:31:00 AM UTC
+Last updated: January 27, 2025 at 7:00:01 PM UTC
 
 * Manifests: [3977657127216108862](https://steamdb.info/depot/2347771/history/?changeid=M:3977657127216108862), [1050378088708893140](https://steamdb.info/depot/2347773/history/?changeid=M:1050378088708893140)
 * Repository: https://github.com/Source2ZE/CS2Fixes
