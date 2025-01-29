@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** January 28, 2025 at 11:35:53 PM UTC
+* **Last updated:** January 29, 2025 at 1:51:09 AM UTC
 * **Manifests:** [6878152588351641167](https://steamdb.info/depot/2347771/history/?changeid=M:6878152588351641167), [2320297321462374913](https://steamdb.info/depot/2347773/history/?changeid=M:2320297321462374913)
 
 <table>
@@ -9,7 +9,6 @@
 <details>
   <summary>plugify broken signatures</summary>
 
-* <sub>❌Linux ✅Windows</sub> CBasePlayerController_SetPawn
 * <sub>✅Linux ❌Windows</sub> TracePlayerBBox
 * <sub>❌Linux ❌Windows</sub> EmitSound
 * <sub>❌Linux ❌Windows</sub> SetGroundEntity

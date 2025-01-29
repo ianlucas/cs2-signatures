@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: January 28, 2025 at 11:35:53 PM UTC
+Last updated: January 29, 2025 at 1:51:10 AM UTC
 
 * Manifests: [6878152588351641167](https://steamdb.info/depot/2347771/history/?changeid=M:6878152588351641167), [2320297321462374913](https://steamdb.info/depot/2347773/history/?changeid=M:2320297321462374913)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -68,19 +68,19 @@ Last updated: January 28, 2025 at 11:35:53 PM UTC
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x2A\x2A\x55\x53\x56\x57\x41\x2A\x48\x2A\x2A\x2A\x48\x2A\x2A\x2A\x2A\x2A\x2A\x4C\x89\x68
+\x48\x89\x74\x24\x2A\x55\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xF9
 </pre>
 </td><td>
 <pre>
-48 ? ? 55 53 56 57 41 ? 48 ? ? ? 48 ? ? ? ? ? ? 4C 89 68
+48 89 74 24 2A 55 41 54 41 55 41 56 41 57 48 8D 6C 24 2A 48 81 EC 2A 2A 2A 2A 4C 8B F9
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x30\xE8\x2A\x2A\x2A\x2A
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x45\x89\xC4
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 48 83 EC 30 E8 ? ? ? ?
+55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 45 89 C4
 </pre>
 </td></tr></table>
 
