@@ -35,6 +35,13 @@
         "filepath": "/gamedata/cs2kz-core.games.txt"
     },
     {
+        "id": "cs2-retakes-allocator",
+        "repo": "yonilerner/cs2-retakes-allocator",
+        "framework": "counterstrikesharp",
+        "branch": "main",
+        "filepath": "/Resources/RetakesAllocator_gamedata.json"
+    },
+    {
         "id": "cs2-match-plugin",
         "repo": "ianlucas/cs2-match-plugin",
         "framework": "counterstrikesharp",
