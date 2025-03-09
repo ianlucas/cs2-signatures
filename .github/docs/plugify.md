@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: March 4, 2025 at 12:36:17 AM UTC
+Last updated: March 9, 2025 at 7:39:34 PM UTC
 
 * Manifests: [1455570722419444947](https://steamdb.info/depot/2347771/history/?changeid=M:1455570722419444947), [7950633294119536868](https://steamdb.info/depot/2347773/history/?changeid=M:7950633294119536868)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
