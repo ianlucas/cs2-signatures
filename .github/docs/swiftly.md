@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: March 9, 2025 at 7:39:34 PM UTC
+Last updated: March 9, 2025 at 10:33:40 PM UTC
 
 * Manifests: [1455570722419444947](https://steamdb.info/depot/2347771/history/?changeid=M:1455570722419444947), [7950633294119536868](https://steamdb.info/depot/2347773/history/?changeid=M:7950633294119536868)
 * Repository: https://github.com/swiftly-solution/swiftly
@@ -341,6 +341,27 @@ Last updated: March 9, 2025 at 7:39:34 PM UTC
 </td><td>
 <pre>
 55 48 89 E5 41 56 49 89 D6 41 55 41 89 F5 41 54 48 8D 35 ? ? ? ?
+</pre>
+</td></tr></table>
+
+### CBaseEntity_EmitSoundParams
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x48\x89\x58\x10\x48\x89\x70\x18\x55\x57\x41\x56\x48\x8D\xA8\x08\xFF\xFF\xFF
+</pre>
+</td><td>
+<pre>
+48 8B C4 48 89 58 10 48 89 70 18 55 57 41 56 48 8D A8 08 FF FF FF
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\xB8\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3
+</pre>
+</td><td>
+<pre>
+48 B8 ? ? ? ? ? ? ? ? 55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3
 </pre>
 </td></tr></table>
 
