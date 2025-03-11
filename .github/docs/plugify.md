@@ -1,8 +1,8 @@
 # plugify 
 
-Last updated: March 11, 2025 at 1:35:52 AM UTC
+Last updated: March 11, 2025 at 10:33:58 PM UTC
 
-* Manifests: [1455570722419444947](https://steamdb.info/depot/2347771/history/?changeid=M:1455570722419444947), [7950633294119536868](https://steamdb.info/depot/2347773/history/?changeid=M:7950633294119536868)
+* Manifests: [2731436153458196694](https://steamdb.info/depot/2347771/history/?changeid=M:2731436153458196694), [3261602225603785370](https://steamdb.info/depot/2347773/history/?changeid=M:3261602225603785370)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata/s2sdk.games.txt
 
