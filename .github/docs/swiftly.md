@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: March 9, 2025 at 10:33:40 PM UTC
+Last updated: March 11, 2025 at 1:35:52 AM UTC
 
 * Manifests: [1455570722419444947](https://steamdb.info/depot/2347771/history/?changeid=M:1455570722419444947), [7950633294119536868](https://steamdb.info/depot/2347773/history/?changeid=M:7950633294119536868)
 * Repository: https://github.com/swiftly-solution/swiftly
@@ -257,6 +257,27 @@ Last updated: March 9, 2025 at 10:33:40 PM UTC
 </td><td>
 <pre>
 55 48 89 E5 41 57 41 56 4D 89 C6 41 55 49 89 D5 41 54 49 89 F4
+</pre>
+</td></tr></table>
+
+### CTakeDamageInfo_Constructor
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x53\x48\x83\xEC\x60\x48\xC7\x41\x38\xFF\xFF\xFF\xFF
+</pre>
+</td><td>
+<pre>
+40 53 48 83 EC 60 48 C7 41 38 FF FF FF FF
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x48\x83\xEC\x10\x4C\x8D\x15\x2A\x2A\x2A\x2A
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 48 83 EC 10 4C 8D 15 ? ? ? ?
 </pre>
 </td></tr></table>
 
