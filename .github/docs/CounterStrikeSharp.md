@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: March 20, 2025 at 11:13:31 PM UTC
+Last updated: March 23, 2025 at 8:06:03 AM UTC
 
 * Manifests: [4812324303607093988](https://steamdb.info/depot/2347771/history/?changeid=M:4812324303607093988), [1647285243132197778](https://steamdb.info/depot/2347773/history/?changeid=M:1647285243132197778)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
@@ -341,6 +341,27 @@ Last updated: March 20, 2025 at 11:13:31 PM UTC
 </td><td>
 <pre>
 48 85 FF 74 ? 55 48 89 E5 41 56
+</pre>
+</td></tr></table>
+
+### CBaseEntity_EmitSoundFilter
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x08\x48\x89\x6C\x24\x10\x48\x89\x74\x24\x18\x48\x89\x7C\x24\x20\x41\x56\x48\x83\xEC\x30\x48\x8B\xEA
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83 EC 30 48 8B EA
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x49\x89\xD6\x41\x55\x41\x89\xF5\x41\x54\x48\x8D\x35\x2A\x2A\x2A\x2A
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 49 89 D6 41 55 41 89 F5 41 54 48 8D 35 2A 2A 2A 2A
 </pre>
 </td></tr></table>
 
