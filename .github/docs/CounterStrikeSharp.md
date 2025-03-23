@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: March 23, 2025 at 8:06:03 AM UTC
+Last updated: March 23, 2025 at 9:30:21 AM UTC
 
 * Manifests: [4812324303607093988](https://steamdb.info/depot/2347771/history/?changeid=M:4812324303607093988), [1647285243132197778](https://steamdb.info/depot/2347773/history/?changeid=M:1647285243132197778)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
@@ -357,11 +357,11 @@ Last updated: March 23, 2025 at 8:06:03 AM UTC
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x56\x49\x89\xD6\x41\x55\x41\x89\xF5\x41\x54\x48\x8D\x35\x2A\x2A\x2A\x2A
+\x55\x48\x89\xE5\x41\x56\x49\x89\xD6\x41\x55\x41\x89\xF5\x41\x54\x48
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 56 49 89 D6 41 55 41 89 F5 41 54 48 8D 35 2A 2A 2A 2A
+55 48 89 E5 41 56 49 89 D6 41 55 41 89 F5 41 54 48
 </pre>
 </td></tr></table>
 
