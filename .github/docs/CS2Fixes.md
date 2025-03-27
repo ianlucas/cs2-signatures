@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: March 23, 2025 at 9:30:21 AM UTC
+Last updated: March 27, 2025 at 2:23:25 AM UTC
 
 * Manifests: [4812324303607093988](https://steamdb.info/depot/2347771/history/?changeid=M:4812324303607093988), [1647285243132197778](https://steamdb.info/depot/2347773/history/?changeid=M:1647285243132197778)
 * Repository: https://github.com/Source2ZE/CS2Fixes
@@ -417,6 +417,48 @@ C8 42 66 0F EF FF 0F 2F 7B 5C
 </td><td>
 <pre>
 4C 8B 35 ? ? ? ? 4D 85 F6 75 ? E9
+</pre>
+</td></tr></table>
+
+### IGameSystem_LoopPostInitAllSystems_pEventDispatcher
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x39\x1D\x2A\x2A\x2A\x2A\x74\x2A\x39\x05
+</pre>
+</td><td>
+<pre>
+48 39 1D ? ? ? ? 74 ? 39 05
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x89\x35\x2A\x2A\x2A\x2A\x45\x85\xF6
+</pre>
+</td><td>
+<pre>
+48 89 35 ? ? ? ? 45 85 F6
+</pre>
+</td></tr></table>
+
+### IGameSystem_LoopDestroyAllSystems_s_GameSystems
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x8B\x05\x2A\x2A\x2A\x2A\x83\xE8\x2A\x48\x63\xF8\x0F\x88
+</pre>
+</td><td>
+<pre>
+8B 05 ? ? ? ? 83 E8 ? 48 63 F8 0F 88
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x8B\x05\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x54\x53\x89\xC2
+</pre>
+</td><td>
+<pre>
+8B 05 ? ? ? ? 55 48 89 E5 41 54 53 89 C2
 </pre>
 </td></tr></table>
 
@@ -1047,6 +1089,69 @@ C8 42 66 0F EF FF 0F 2F 7B 5C
 </td><td>
 <pre>
 55 48 89 E5 41 55 41 54 49 89 FC 48 83 EC ? 48 8B BF ? ? ? ? 48 85 FF 0F 84 ? ? ? ? 48 8B 07 48 8D 15
+</pre>
+</td></tr></table>
+
+### CBaseFilter_InputTestActivator
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x4C\x8B\x02
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 57 48 83 EC ? 4C 8B 02
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x8B\x07\x48\x8B\x76
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 8B 07 48 8B 76
+</pre>
+</td></tr></table>
+
+### GameSystem_Think_CheckSteamBan
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x41\x54\x48\x83\xEC\x2A\xBA\x2A\x2A\x2A\x2A\x48\x8D\x0D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0
+</pre>
+</td><td>
+<pre>
+41 54 48 83 EC ? BA ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 85 C0
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x3D\x2A\x2A\x2A\x2A\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC
+</pre>
+</td><td>
+<pre>
+55 48 8D 3D ? ? ? ? BE ? ? ? ? 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC
+</pre>
+</td></tr></table>
+
+### CCSGameRules__sm_mapGcBanInformation
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8D\x0D\x2A\x2A\x2A\x2A\xF2\x0F\x58\xC1
+</pre>
+</td><td>
+<pre>
+48 8D 0D ? ? ? ? F2 0F 58 C1
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x8D\x3D\x2A\x2A\x2A\x2A\x44\x89\x6D
+</pre>
+</td><td>
+<pre>
+48 8D 3D ? ? ? ? 44 89 6D
 </pre>
 </td></tr></table>
 
