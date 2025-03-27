@@ -7,13 +7,14 @@
         "update": "tsx update.ts"
     },
     "dependencies": {
-        "@ianlucas/cs2-lib": "^5.7.1",
-        "@ianlucas/depot-downloader": "^2.7.1",
-        "tsx": "^4.19.2"
+        "@ianlucas/cs2-lib": "^5.11.0",
+        "@ianlucas/depot-downloader": "^2.7.3",
+        "jsonc-parser": "^3.3.1",
+        "tsx": "^4.19.3"
     },
     "devDependencies": {
         "@total-typescript/tsconfig": "^1.0.4",
-        "@types/node": "^22.10.5",
-        "prettier": "^3.3.3"
+        "@types/node": "^22.13.14",
+        "prettier": "^3.5.3"
     }
 }

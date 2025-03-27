@@ -5,6 +5,7 @@
 
 import { CounterStrikeSharp } from "./counterstrikesharp.js";
 import { GitHubSource } from "./github.js";
+import { Plugify } from "./plugify.js";
 import { SourceMod } from "./sourcemod.js";
 import { Swiftly } from "./swiftly.js";
 
@@ -23,6 +24,9 @@ export class Gamedata {
 
             case "swiftly":
                 return Swiftly.parseGamedata(data, source);
+
+            case "plugify":
+                return Plugify.parseGamedata(data, source);
         }
         throw new Error(`Unknown framework ${source.framework}`);
     }

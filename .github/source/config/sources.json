@@ -21,6 +21,13 @@
         "filepath": "/plugin_files/gamedata/core/signatures.json"
     },
     {
+        "id": "plugify",
+        "repo": "untrustedmodders/plugify-source-2",
+        "framework": "plugify",
+        "branch": "main",
+        "filepath": "/assets/gamedata.jsonc"
+    },
+    {
         "id": "cs2kz-metamod",
         "repo": "KZGlobalTeam/cs2kz-metamod",
         "framework": "sourcemod",
