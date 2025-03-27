@@ -1,23 +1,44 @@
 # plugify 
 
-Last updated: March 23, 2025 at 9:30:21 AM UTC
+Last updated: March 27, 2025 at 9:14:02 PM UTC
 
 * Manifests: [4812324303607093988](https://steamdb.info/depot/2347771/history/?changeid=M:4812324303607093988), [1647285243132197778](https://steamdb.info/depot/2347773/history/?changeid=M:1647285243132197778)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
-* Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata/s2sdk.games.txt
+* Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
 ## Signatures
 
 ### PreloadLibrary
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Windows</td><td>engine</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
 <pre>
 \x48\x89\x4C\x24\x08\x53\x56\x57\x48\x83\xEC\x60
 </pre>
 </td><td>
 <pre>
 48 89 4C 24 08 53 56 57 48 83 EC 60
+</pre>
+</td></tr></table>
+
+### AppSystemCreateInterfaceFn
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
+<pre>
+\x40\x53\x48\x83\xEC\x20\x48\x8B\xDA\x48\x8B\xD1\x48\x8B\x0D\xE5\xC0\x28\x00
+</pre>
+</td><td>
+<pre>
+40 53 48 83 EC 20 48 8B DA 48 8B D1 48 8B 0D E5 C0 28 00
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>engine2</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x8D\x7D\xDE
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 55 41 54 49 89 FC 53 48 8D 7D DE
 </pre>
 </td></tr></table>
 
@@ -263,13 +284,13 @@ Last updated: March 23, 2025 at 9:30:21 AM UTC
 <pre>
 48 89 5C 24 10 48 89 74 24 18 57 48 83 EC 40 49 8B F0
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x48\x8D\x7D\xC0
+\x55\x48\x89\xE5\x41\x57\x41\x56\x48\x8D\x7D\xC0
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 49 89 FF 41 56 48 8D 7D C0
+55 48 89 E5 41 57 41 56 48 8D 7D C0
 </pre>
 </td></tr></table>
 
