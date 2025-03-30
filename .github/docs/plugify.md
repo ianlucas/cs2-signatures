@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: March 27, 2025 at 9:14:02 PM UTC
+Last updated: March 30, 2025 at 11:28:54 AM UTC
 
 * Manifests: [4812324303607093988](https://steamdb.info/depot/2347771/history/?changeid=M:4812324303607093988), [1647285243132197778](https://steamdb.info/depot/2347773/history/?changeid=M:1647285243132197778)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -284,13 +284,13 @@ Last updated: March 27, 2025 at 9:14:02 PM UTC
 <pre>
 48 89 5C 24 10 48 89 74 24 18 57 48 83 EC 40 49 8B F0
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x48\x8D\x7D\xC0
+\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x48\x8D\x7D\xC0
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 48 8D 7D C0
+55 48 89 E5 41 57 49 89 FF 41 56 48 8D 7D C0
 </pre>
 </td></tr></table>
 

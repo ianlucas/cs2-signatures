@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** March 27, 2025 at 9:14:02 PM UTC
+* **Last updated:** March 30, 2025 at 11:28:53 AM UTC
 * **Manifests:** [4812324303607093988](https://steamdb.info/depot/2347771/history/?changeid=M:4812324303607093988), [1647285243132197778](https://steamdb.info/depot/2347773/history/?changeid=M:1647285243132197778)
 
 <table>
@@ -18,7 +18,6 @@
 
 * <sub>✅Linux ❌Windows</sub> TracePlayerBBox
 * <sub>❌Linux ❌Windows</sub> EmitSound
-* <sub>❌Linux ✅Windows</sub> CEntityInstance_AcceptInput
 * <sub>❌Linux ❌Windows</sub> SetGroundEntity
 
 </details>
