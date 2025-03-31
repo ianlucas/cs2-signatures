@@ -1,8 +1,8 @@
 # cs2kz-metamod 
 
-Last updated: March 30, 2025 at 9:00:40 PM UTC
+Last updated: March 31, 2025 at 11:06:35 PM UTC
 
-* Manifests: [4812324303607093988](https://steamdb.info/depot/2347771/history/?changeid=M:4812324303607093988), [1647285243132197778](https://steamdb.info/depot/2347773/history/?changeid=M:1647285243132197778)
+* Manifests: [5351047389102922525](https://steamdb.info/depot/2347771/history/?changeid=M:5351047389102922525), [6861048561413819273](https://steamdb.info/depot/2347773/history/?changeid=M:6861048561413819273)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/dev/gamedata/cs2kz-core.games.txt
 
@@ -200,7 +200,7 @@ Last updated: March 30, 2025 at 9:00:40 PM UTC
 ### GetMaxSpeed
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xD9\xE8\x2A\x2A\x2A\x2A\x84\xC0\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x0D
 </pre>
