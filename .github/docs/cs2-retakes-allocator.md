@@ -1,6 +1,6 @@
 # cs2-retakes-allocator 
 
-Last updated: April 1, 2025 at 8:31:55 PM UTC
+Last updated: April 1, 2025 at 10:48:13 PM UTC
 
 * Manifests: [5351047389102922525](https://steamdb.info/depot/2347771/history/?changeid=M:5351047389102922525), [6861048561413819273](https://steamdb.info/depot/2347773/history/?changeid=M:6861048561413819273)
 * Repository: https://github.com/yonilerner/cs2-retakes-allocator
@@ -40,13 +40,13 @@ Last updated: April 1, 2025 at 8:31:55 PM UTC
 <pre>
 44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8B EC
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xCD\x41\x54\x53\x48\x83\xEC
+\x55\x48\x89\xE5\x41\x57\x41\x56\x48\x8D\x45\x2A\x41\x55\x41\x54\x53\x48\x89\xCB
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 49 89 CD 41 54 53 48 83 EC
+55 48 89 E5 41 57 41 56 48 8D 45 ? 41 55 41 54 53 48 89 CB
 </pre>
 </td></tr></table>
 
