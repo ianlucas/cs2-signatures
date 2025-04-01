@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: April 1, 2025 at 1:57:36 AM UTC
+Last updated: April 1, 2025 at 8:31:55 PM UTC
 
 * Manifests: [5351047389102922525](https://steamdb.info/depot/2347771/history/?changeid=M:5351047389102922525), [6861048561413819273](https://steamdb.info/depot/2347773/history/?changeid=M:6861048561413819273)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
@@ -200,13 +200,13 @@ Last updated: April 1, 2025 at 1:57:36 AM UTC
 ### GetMaxSpeed
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xD9\xE8\x2A\x2A\x2A\x2A\x84\xC0\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x0D
+\x40\x53\x48\x83\xEC\x2A\x48\x8B\xD9\xE8\x2A\x2A\x2A\x2A\x84\xC0\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x0D
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 ? 57 48 83 EC ? 48 8B D9 E8 ? ? ? ? 84 C0 0F 84 ? ? ? ? 48 8B 0D
+40 53 48 83 EC ? 48 8B D9 E8 ? ? ? ? 84 C0 0F 84 ? ? ? ? 48 8B 0D
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
