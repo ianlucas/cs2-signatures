@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: April 2, 2025 at 12:36:46 AM UTC
+Last updated: April 2, 2025 at 11:18:44 AM UTC
 
 * Manifests: [6786672108314665590](https://steamdb.info/depot/2347771/history/?changeid=M:6786672108314665590), [5087254296014596550](https://steamdb.info/depot/2347773/history/?changeid=M:5087254296014596550)
 * Repository: https://github.com/Source2ZE/CS2Fixes
@@ -549,42 +549,42 @@ C8 42 66 0F EF FF 0F 2F 7B 5C
 ### CCSPlayer_WeaponServices_CanUse
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x56\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\x01\x48\x8B\xFA
+\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\x01\x48\x8B\xF2
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 56 48 83 EC ? 48 8B 01 48 8B FA
+48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B 01 48 8B F2
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x55\x49\x89\xFD\x41\x54\x49\x89\xF4
+\x55\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x2A\x48\x8B\x07\x48\x8B\x80\x2A\x2A\x2A\x2A\x48\x39\xD0\x0F\x85\x2A\x2A\x2A\x2A\x80\xBF
 </pre>
 </td><td>
 <pre>
-55 48 8D 15 ? ? ? ? 48 89 E5 41 55 49 89 FD 41 54 49 89 F4
+55 48 8D 15 ? ? ? ? 48 89 E5 41 55 49 89 F5 41 54 49 89 FC 53 48 83 EC ? 48 8B 07 48 8B 80 ? ? ? ? 48 39 D0 0F 85 ? ? ? ? 80 BF
 </pre>
 </td></tr></table>
 
 ### CCSPlayer_WeaponServices_EquipWeapon
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x48\x89\x74\x24\x20\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x8B\x51\x30
+\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x8B\x51
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 10 48 89 6C 24 18 48 89 74 24 20 57 48 83 EC ? 48 8B DA 48 8B F9 48 8B 51 30
+48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 48 8B 51
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x8B\x77\x30
+\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x2A\x48\x8B\x77
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 8B 77 30
+55 48 89 E5 41 55 41 54 49 89 F4 53 48 89 FB 48 83 EC ? 48 8B 77
 </pre>
 </td></tr></table>
 
@@ -969,13 +969,13 @@ C8 42 66 0F EF FF 0F 2F 7B 5C
 ### CCSPlayerPawn_GetMaxSpeed
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xD9\xE8\x2A\x2A\x2A\x2A\x84\xC0\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x0D
+\x40\x53\x48\x83\xEC\x2A\x48\x8B\xD9\xE8\x2A\x2A\x2A\x2A\x84\xC0\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x0D
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 ? 57 48 83 EC ? 48 8B D9 E8 ? ? ? ? 84 C0 0F 84 ? ? ? ? 48 8B 0D
+40 53 48 83 EC ? 48 8B D9 E8 ? ? ? ? 84 C0 0F 84 ? ? ? ? 48 8B 0D
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
