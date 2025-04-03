@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: April 2, 2025 at 11:18:44 AM UTC
+Last updated: April 3, 2025 at 7:43:44 PM UTC
 
 * Manifests: [6786672108314665590](https://steamdb.info/depot/2347771/history/?changeid=M:6786672108314665590), [5087254296014596550](https://steamdb.info/depot/2347773/history/?changeid=M:5087254296014596550)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -60,6 +60,48 @@ Last updated: April 2, 2025 at 11:18:44 AM UTC
 </td><td>
 <pre>
 55 48 89 E5 41 55 49 89 FD 89 F7
+</pre>
+</td></tr></table>
+
+### LogDirect
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Windows</td><td>tier0</td><td>
+<pre>
+\x4C\x89\x4C\x24\x20\x44\x89\x44\x24\x18\x89\x54\x24\x10\x55
+</pre>
+</td><td>
+<pre>
+4C 89 4C 24 20 44 89 44 24 18 89 54 24 10 55
+</pre>
+</td></tr><tr><td>❓</td><td>Linux</td><td>tier0</td><td>
+<pre>
+\x55\x89\xD0\x48\x89\xE5\x41\x57\x41\x56\x41\x55
+</pre>
+</td><td>
+<pre>
+55 89 D0 48 89 E5 41 57 41 56 41 55
+</pre>
+</td></tr></table>
+
+### HostStateRequest
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
+<pre>
+\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x33\xF6\x48\x8B\xFA\x48\x39\x35
+</pre>
+</td><td>
+<pre>
+48 89 74 24 2A 57 48 83 EC 2A 33 F6 48 8B FA 48 39 35
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>engine2</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x83\x7F
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 83 7F
 </pre>
 </td></tr></table>
 
@@ -633,13 +675,13 @@ Last updated: April 2, 2025 at 11:18:44 AM UTC
 ### CCSPlayer_WeaponServices::Weapon_Equip
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x8B\x77
+\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x08\x48\x8B\x77\x30
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 8B 77
+55 48 89 E5 41 55 41 54 49 89 F4 53 48 89 FB 48 83 EC 08 48 8B 77 30
 </pre>
 </td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
