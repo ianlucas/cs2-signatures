@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: April 4, 2025 at 1:36:03 AM UTC
+Last updated: April 4, 2025 at 9:28:46 PM UTC
 
 * Manifests: [6786672108314665590](https://steamdb.info/depot/2347771/history/?changeid=M:6786672108314665590), [5087254296014596550](https://steamdb.info/depot/2347773/history/?changeid=M:5087254296014596550)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -89,11 +89,11 @@ Last updated: April 4, 2025 at 1:36:03 AM UTC
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
 <pre>
-\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x33\xF6\x48\x8B\xFA\x48\x39\x35
+\x48\x89\x74\x24\x10\x57\x48\x83\xEC\x30\x33\xF6\x48\x8B\xFA
 </pre>
 </td><td>
 <pre>
-48 89 74 24 2A 57 48 83 EC 2A 33 F6 48 8B FA 48 39 35
+48 89 74 24 10 57 48 83 EC 30 33 F6 48 8B FA
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>engine2</td><td>
 <pre>
