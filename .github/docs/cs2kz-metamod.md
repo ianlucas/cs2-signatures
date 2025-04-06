@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: April 4, 2025 at 9:28:46 PM UTC
+Last updated: April 6, 2025 at 9:25:31 PM UTC
 
 * Manifests: [6786672108314665590](https://steamdb.info/depot/2347771/history/?changeid=M:6786672108314665590), [5087254296014596550](https://steamdb.info/depot/2347773/history/?changeid=M:5087254296014596550)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod

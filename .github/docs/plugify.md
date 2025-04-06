@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: April 4, 2025 at 9:28:46 PM UTC
+Last updated: April 6, 2025 at 9:25:31 PM UTC
 
 * Manifests: [6786672108314665590](https://steamdb.info/depot/2347771/history/?changeid=M:6786672108314665590), [5087254296014596550](https://steamdb.info/depot/2347773/history/?changeid=M:5087254296014596550)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -221,13 +221,13 @@ Last updated: April 4, 2025 at 9:28:46 PM UTC
 <pre>
 40 57 48 83 EC 20 48 83 3D ? ? ? ? ? 74 07 33 C9 E8 ? ? ? ? FF 15
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x83\xEC\x08\x48\x8D\x05\xBC\x85\xB8\x00
+\x55\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x83\xEC\x08\x48\x8D\x05\xEC\x86\xB7\x00
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 55 41 54 53 48 83 EC 08 48 8D 05 BC 85 B8 00
+55 48 89 E5 41 55 41 54 53 48 83 EC 08 48 8D 05 EC 86 B7 00
 </pre>
 </td></tr></table>
 
