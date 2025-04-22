@@ -18,7 +18,7 @@
         "repo": "swiftly-solution/swiftly",
         "framework": "swiftly",
         "branch": "master",
-        "filepath": "/plugin_files/gamedata/core/signatures.json"
+        "filepath": "/plugin_files/gamedata/cs2/core/signatures.json"
     },
     {
         "id": "plugify",
