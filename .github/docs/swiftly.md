@@ -1,10 +1,10 @@
 # swiftly 
 
-Last updated: April 21, 2025 at 11:00:46 PM UTC
+Last updated: April 22, 2025 at 11:26:20 PM UTC
 
 * Manifests: [5368427693096697215](https://steamdb.info/depot/2347771/history/?changeid=M:5368427693096697215), [5265010865902233359](https://steamdb.info/depot/2347773/history/?changeid=M:5265010865902233359)
 * Repository: https://github.com/swiftly-solution/swiftly
-* Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/core/signatures.json
+* Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/cs2/core/signatures.json
 
 ## Signatures
 
@@ -530,6 +530,27 @@ Last updated: April 21, 2025 at 11:00:46 PM UTC
 </td><td>
 <pre>
 55 48 89 E5 41 55 49 89 F5 41 54 49 89 FC E8 ? ? ? ? 48 85 C0 74 30
+</pre>
+</td></tr></table>
+
+### CSoundOpGameSystem_SetSoundEventParam
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x08\x48\x89\x6C\x24\x10\x56\x57\x41\x56\x48\x83\xEC\x40\x48\x8B\xB4\x24\x80\x00\x00\x00
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 08 48 89 6C 24 10 56 57 41 56 48 83 EC 40 48 8B B4 24 80 00 00 00
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x48\x89\xD6\x41\x55\x41\x89\xCD
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 49 89 F6 48 89 D6 41 55 41 89 CD
 </pre>
 </td></tr></table>
 
