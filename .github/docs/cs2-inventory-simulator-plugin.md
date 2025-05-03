@@ -1,6 +1,6 @@
 # cs2-inventory-simulator-plugin 
 
-Last updated: April 22, 2025 at 11:26:20 PM UTC
+Last updated: May 3, 2025 at 6:52:37 PM UTC
 
 * Manifests: [5368427693096697215](https://steamdb.info/depot/2347771/history/?changeid=M:5368427693096697215), [5265010865902233359](https://steamdb.info/depot/2347773/history/?changeid=M:5265010865902233359)
 * Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
@@ -110,6 +110,27 @@ Last updated: April 22, 2025 at 11:26:20 PM UTC
 </td><td>
 <pre>
 55 48 89 E5 41 57 41 56 41 89 D6 41 55 41 54 49 89 FC 53 48 83 EC 38
+</pre>
+</td></tr></table>
+
+### CCSPlayerController_UpdateSelectTeamPreview
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x89\x54\x24\x2A\x55\x48\x81\xEC
+</pre>
+</td><td>
+<pre>
+89 54 24 ? 55 48 81 EC
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x89\x75
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 89 75
 </pre>
 </td></tr></table>
 
