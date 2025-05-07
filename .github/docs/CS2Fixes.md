@@ -1,8 +1,8 @@
 # CS2Fixes 
 
-Last updated: May 3, 2025 at 6:52:37 PM UTC
+Last updated: May 7, 2025 at 11:14:45 PM UTC
 
-* Manifests: [5368427693096697215](https://steamdb.info/depot/2347771/history/?changeid=M:5368427693096697215), [5265010865902233359](https://steamdb.info/depot/2347773/history/?changeid=M:5265010865902233359)
+* Manifests: [8733775991607255716](https://steamdb.info/depot/2347771/history/?changeid=M:8733775991607255716), [643365629659527694](https://steamdb.info/depot/2347773/history/?changeid=M:643365629659527694)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
@@ -1116,7 +1116,7 @@ C8 42 66 0F EF FF 0F 2F 7B 5C
 ### GameSystem_Think_CheckSteamBan
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
 \x41\x54\x48\x83\xEC\x2A\xBA\x2A\x2A\x2A\x2A\x48\x8D\x0D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0
 </pre>
@@ -1137,7 +1137,7 @@ C8 42 66 0F EF FF 0F 2F 7B 5C
 ### CCSGameRules__sm_mapGcBanInformation
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8D\x0D\x2A\x2A\x2A\x2A\xF2\x0F\x58\xC1
 </pre>
@@ -1145,7 +1145,7 @@ C8 42 66 0F EF FF 0F 2F 7B 5C
 <pre>
 48 8D 0D ? ? ? ? F2 0F 58 C1
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x48\x8D\x3D\x2A\x2A\x2A\x2A\x44\x89\x6D
 </pre>

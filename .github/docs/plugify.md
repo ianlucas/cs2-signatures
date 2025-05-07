@@ -1,8 +1,8 @@
 # plugify 
 
-Last updated: May 3, 2025 at 6:52:37 PM UTC
+Last updated: May 7, 2025 at 11:14:45 PM UTC
 
-* Manifests: [5368427693096697215](https://steamdb.info/depot/2347771/history/?changeid=M:5368427693096697215), [5265010865902233359](https://steamdb.info/depot/2347773/history/?changeid=M:5265010865902233359)
+* Manifests: [8733775991607255716](https://steamdb.info/depot/2347771/history/?changeid=M:8733775991607255716), [643365629659527694](https://steamdb.info/depot/2347773/history/?changeid=M:643365629659527694)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
@@ -24,7 +24,7 @@ Last updated: May 3, 2025 at 6:52:37 PM UTC
 ### AppSystemCreateInterfaceFn
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>engine2</td><td>
 <pre>
 \x40\x53\x48\x83\xEC\x20\x48\x8B\xDA\x48\x8B\xD1\x48\x8B\x0D\xE5\xC0\x28\x00
 </pre>
@@ -221,7 +221,7 @@ Last updated: May 3, 2025 at 6:52:37 PM UTC
 <pre>
 40 57 48 83 EC 20 48 83 3D ? ? ? ? ? 74 07 33 C9 E8 ? ? ? ? FF 15
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x83\xEC\x08\x48\x8D\x05\xEC\x86\xB7\x00
 </pre>
