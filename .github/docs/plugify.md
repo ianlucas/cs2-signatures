@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: May 8, 2025 at 10:15:11 PM UTC
+Last updated: May 9, 2025 at 10:22:17 PM UTC
 
 * Manifests: [9019189230199402764](https://steamdb.info/depot/2347771/history/?changeid=M:9019189230199402764), [7414588786753250597](https://steamdb.info/depot/2347773/history/?changeid=M:7414588786753250597)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -24,13 +24,13 @@ Last updated: May 8, 2025 at 10:15:11 PM UTC
 ### AppSystemCreateInterfaceFn
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>engine2</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
 <pre>
-\x40\x53\x48\x83\xEC\x20\x48\x8B\xDA\x48\x8B\xD1\x48\x8B\x0D\xE5\xC0\x28\x00
+\x40\x53\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xD1\x48\x8B\x0D
 </pre>
 </td><td>
 <pre>
-40 53 48 83 EC 20 48 8B DA 48 8B D1 48 8B 0D E5 C0 28 00
+40 53 48 83 EC ? 48 8B DA 48 8B D1 48 8B 0D
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>engine2</td><td>
 <pre>

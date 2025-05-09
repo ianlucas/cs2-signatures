@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** May 8, 2025 at 10:15:11 PM UTC
+* **Last updated:** May 9, 2025 at 10:22:17 PM UTC
 * **Manifests:** [9019189230199402764](https://steamdb.info/depot/2347771/history/?changeid=M:9019189230199402764), [7414588786753250597](https://steamdb.info/depot/2347773/history/?changeid=M:7414588786753250597)
 
 <table>
@@ -24,7 +24,6 @@
 <details>
   <summary>plugify broken signatures</summary>
 
-* <sub>✅Linux ❌Windows</sub> AppSystemCreateInterfaceFn
 * <sub>✅Linux ❌Windows</sub> TracePlayerBBox
 * <sub>❌Linux ❌Windows</sub> EmitSound
 * <sub>❌Linux ✅Windows</sub> CSource2Server::Init
