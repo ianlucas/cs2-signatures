@@ -1,6 +1,6 @@
 # CS2Fixes 
 
-Last updated: May 9, 2025 at 10:22:17 PM UTC
+Last updated: May 10, 2025 at 9:56:45 PM UTC
 
 * Manifests: [9019189230199402764](https://steamdb.info/depot/2347771/history/?changeid=M:9019189230199402764), [7414588786753250597](https://steamdb.info/depot/2347773/history/?changeid=M:7414588786753250597)
 * Repository: https://github.com/Source2ZE/CS2Fixes
@@ -131,40 +131,6 @@ Last updated: May 9, 2025 at 10:22:17 PM UTC
 </td><td>
 <pre>
 0F 87 ? ? ? ? 49 8B 7C 24 ? E8 ? ? ? ? 66 0F EF ED 66 0F D6 85
-</pre>
-</td></tr></table>
-
-### ClientMovementUnlock
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Windows</td><td>client</td><td>
-<pre>
-\x76\x2A\xF2\x0F\x10\x4F\x2A\x41\x0F\x28\xC1\x0F\x28\xD1\xF3\x0F\x59\xC0
-</pre>
-</td><td>
-<pre>
-76 ? F2 0F 10 4F ? 41 0F 28 C1 0F 28 D1 F3 0F 59 C0
-</pre>
-</td></tr><tr><td>❓</td><td>Linux</td><td>client</td><td>
-<pre>
-\x0F\x87\x2A\x2A\x2A\x2A\x49\x8B\x7D\x30\xE8\x2A\x2A\x2A\x2A\x66\x0F\xEF\xED\x66\x0F\xD6\x85\x2A\x2A\x2A\x2A
-</pre>
-</td><td>
-<pre>
-0F 87 ? ? ? ? 49 8B 7D 30 E8 ? ? ? ? 66 0F EF ED 66 0F D6 85 ? ? ? ?
-</pre>
-</td></tr></table>
-
-### HammerNoCustomerMachine
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Windows</td><td>hammer</td><td>
-<pre>
-\xFF\x15\x2A\x2A\x2A\x2A\x84\xC0\x0F\x85\x2A\x2A\x2A\x2A\xB9
-</pre>
-</td><td>
-<pre>
-FF 15 ? ? ? ? 84 C0 0F 85 ? ? ? ? B9
 </pre>
 </td></tr></table>
 
@@ -1116,13 +1082,13 @@ C8 42 66 0F EF FF 0F 2F 7B 5C
 ### GameSystem_Think_CheckSteamBan
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x41\x54\x48\x83\xEC\x2A\xBA\x2A\x2A\x2A\x2A\x48\x8D\x0D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0
+\x41\x54\x48\x81\xEC\x2A\x2A\x2A\x2A\xBA\x2A\x2A\x2A\x2A\x48\x8D\x0D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0
 </pre>
 </td><td>
 <pre>
-41 54 48 83 EC ? BA ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 85 C0
+41 54 48 81 EC ? ? ? ? BA ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 85 C0
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
@@ -1137,21 +1103,21 @@ C8 42 66 0F EF FF 0F 2F 7B 5C
 ### CCSGameRules__sm_mapGcBanInformation
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8D\x0D\x2A\x2A\x2A\x2A\xF2\x0F\x58\xC1
+\x48\x8D\x0D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x63\xD8\x48\x6B\xD3
 </pre>
 </td><td>
 <pre>
-48 8D 0D ? ? ? ? F2 0F 58 C1
+48 8D 0D ? ? ? ? E8 ? ? ? ? 48 63 D8 48 6B D3
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x48\x8D\x3D\x2A\x2A\x2A\x2A\x44\x89\x6D
+\x48\x8D\x3D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x83\x05
 </pre>
 </td><td>
 <pre>
-48 8D 3D ? ? ? ? 44 89 6D
+48 8D 3D ? ? ? ? E8 ? ? ? ? 48 8B 05 ? ? ? ? 83 05
 </pre>
 </td></tr></table>
 
