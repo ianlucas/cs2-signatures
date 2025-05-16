@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: May 15, 2025 at 10:32:02 PM UTC
+Last updated: May 16, 2025 at 9:32:55 PM UTC
 
 * Manifests: [8952870509338566261](https://steamdb.info/depot/2347771/history/?changeid=M:8952870509338566261), [6853464543594996449](https://steamdb.info/depot/2347773/history/?changeid=M:6853464543594996449)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
@@ -782,6 +782,69 @@ Last updated: May 15, 2025 at 10:32:02 PM UTC
 </td><td>
 <pre>
 48 8D 3D ? ? ? ? 4C 89 E0
+</pre>
+</td></tr></table>
+
+### CreateEntityByName
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x83\xEC\x48\xC6\x44\x24\x30\x00
+</pre>
+</td><td>
+<pre>
+48 83 EC 48 C6 44 24 30 00
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x8D\x05\x2A\x2A\x2A\x2A\x55\x48\x89\xFA
+</pre>
+</td><td>
+<pre>
+48 8D 05 ? ? ? ? 55 48 89 FA
+</pre>
+</td></tr></table>
+
+### DispatchSpawn
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x10\x57\x48\x83\xEC\x30\x48\x8B\xDA\x48\x8B\xF9\x48\x85\xC9
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 10 57 48 83 EC 30 48 8B DA 48 8B F9 48 85 C9
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x56
+</pre>
+</td><td>
+<pre>
+48 85 FF 74 ? 55 48 89 E5 41 56
+</pre>
+</td></tr></table>
+
+### RemoveEntity
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x85\xC9\x74\x2A\x48\x8B\xD1\x48\x8B\x0D\x2A\x2A\x2A\x2A
+</pre>
+</td><td>
+<pre>
+48 85 C9 74 ? 48 8B D1 48 8B 0D ? ? ? ?
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x89\xFE\x48\x85\xFF\x74\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\x48
+</pre>
+</td><td>
+<pre>
+48 89 FE 48 85 FF 74 ? 48 8D 05 ? ? ? ? 48
 </pre>
 </td></tr></table>
 
