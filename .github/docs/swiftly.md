@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: May 19, 2025 at 9:47:03 PM UTC
+Last updated: May 20, 2025 at 10:08:00 AM UTC
 
 * Manifests: [3769461425766504467](https://steamdb.info/depot/2347771/history/?changeid=M:3769461425766504467), [3844395055285895687](https://steamdb.info/depot/2347773/history/?changeid=M:3844395055285895687)
 * Repository: https://github.com/swiftly-solution/swiftly
@@ -515,21 +515,21 @@ Last updated: May 19, 2025 at 9:47:03 PM UTC
 ### CCSPlayer_MovementServices_ProcessUserCmd
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xFA\x48\x8B\xF1\xE8\x2A\x2A\x2A\x2A\x48\x8B\xD8
+\x48\x8B\xC4\x44\x88\x48\x20\x44\x89\x40\x18\x48\x89\x50\x10\x53
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B FA 48 8B F1 E8 ? ? ? ? 48 8B D8
+48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x30
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xD6\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x38
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 55 49 89 F5 41 54 49 89 FC E8 ? ? ? ? 48 85 C0 74 30
+55 48 89 E5 41 57 41 56 41 89 D6 41 55 41 54 49 89 FC 53 48 83 EC 38
 </pre>
 </td></tr></table>
 
