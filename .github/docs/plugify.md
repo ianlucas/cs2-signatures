@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: May 26, 2025 at 10:49:57 PM UTC
+Last updated: May 26, 2025 at 11:57:10 PM UTC
 
 * Manifests: [5538893949138593199](https://steamdb.info/depot/2347771/history/?changeid=M:5538893949138593199), [243752813694145102](https://steamdb.info/depot/2347773/history/?changeid=M:243752813694145102)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -102,6 +102,27 @@ Last updated: May 26, 2025 at 10:49:57 PM UTC
 </td><td>
 <pre>
 55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 83 7F
+</pre>
+</td></tr></table>
+
+### ReplyConnection
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
+<pre>
+\x48\x8B\xC4\x55\x41\x54\x41\x55\x41\x57
+</pre>
+</td><td>
+<pre>
+48 8B C4 55 41 54 41 55 41 57
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>engine2</td><td>
+<pre>
+\x55\xB9\x00\x01\x00\x00
+</pre>
+</td><td>
+<pre>
+55 B9 00 01 00 00
 </pre>
 </td></tr></table>
 
