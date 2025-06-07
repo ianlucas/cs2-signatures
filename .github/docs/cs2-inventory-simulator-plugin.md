@@ -1,6 +1,6 @@
 # cs2-inventory-simulator-plugin 
 
-Last updated: June 4, 2025 at 1:43:08 AM UTC
+Last updated: June 7, 2025 at 9:10:35 PM UTC
 
 * Manifests: [2608635340687907472](https://steamdb.info/depot/2347771/history/?changeid=M:2608635340687907472), [8491986345259465232](https://steamdb.info/depot/2347773/history/?changeid=M:8491986345259465232)
 * Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
