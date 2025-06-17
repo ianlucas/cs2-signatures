@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: June 10, 2025 at 11:39:09 PM UTC
+Last updated: June 17, 2025 at 5:32:21 PM UTC
 
 * Manifests: [1070059047104919737](https://steamdb.info/depot/2347771/history/?changeid=M:1070059047104919737), [8955753271543459966](https://steamdb.info/depot/2347773/history/?changeid=M:8955753271543459966)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
@@ -194,6 +194,48 @@ Last updated: June 10, 2025 at 11:39:09 PM UTC
 </td><td>
 <pre>
 55 48 89 E5 41 57 41 56 49 89 CE 41 55 4D 89 C5 41 54 49 89 D4 53 4C 89 CB
+</pre>
+</td></tr></table>
+
+### CPhysicsGameSystemFrameBoundary
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x08\x48\x89\x6C\x24\x10\x48\x89\x74\x24\x18\x48\x89\x7C\x24\x20\x41\x56\x48\x83\xEC\x20\x48\x8B\xF9\x48\x8D\x15
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83 EC 20 48 8B F9 48 8D 15
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x35\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x54\x49\x89\xFC\x53\x48\x8D\x3D
+</pre>
+</td><td>
+<pre>
+55 48 8D 35 ? ? ? ? 48 89 E5 41 54 49 89 FC 53 48 8D 3D
+</pre>
+</td></tr></table>
+
+### DebugDrawMesh
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x4C\x24\x08\x55\x53\x57\x41\x54\x41\x55\x48\x8D\x6C\x24\x90
+</pre>
+</td><td>
+<pre>
+48 89 4C 24 08 55 53 57 41 54 41 55 48 8D 6C 24 90
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x8B\x45
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53 48 81 EC ? ? ? ? 8B 45
 </pre>
 </td></tr></table>
 
