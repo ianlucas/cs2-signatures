@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: June 17, 2025 at 5:32:21 PM UTC
+Last updated: June 20, 2025 at 12:30:00 PM UTC
 
 * Manifests: [1070059047104919737](https://steamdb.info/depot/2347771/history/?changeid=M:1070059047104919737), [8955753271543459966](https://steamdb.info/depot/2347773/history/?changeid=M:8955753271543459966)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
@@ -593,6 +593,27 @@ Last updated: June 17, 2025 at 5:32:21 PM UTC
 </td><td>
 <pre>
 4C 8B 35 ? ? ? ? 4D 85 F6 75 ? E9
+</pre>
+</td></tr></table>
+
+### CheckTransmit
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x4C\x89\x48\x2A\x44\x89\x40\x2A\x48\x89\x50\x2A\x48\x89\x48\x2A\x55
+</pre>
+</td><td>
+<pre>
+48 8B C4 4C 89 48 ? 44 89 40 ? 48 89 50 ? 48 89 48 ? 55
+</pre>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x49\x89\xCF\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 49 89 CF 41 56 41 55 41 54 53 48 81 EC
 </pre>
 </td></tr></table>
 
