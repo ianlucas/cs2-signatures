@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: July 2, 2025 at 10:14:04 PM UTC
+Last updated: July 2, 2025 at 11:16:50 PM UTC
 
 * Manifests: [3191233975964722409](https://steamdb.info/depot/2347771/history/?changeid=M:3191233975964722409), [3700995808191322408](https://steamdb.info/depot/2347773/history/?changeid=M:3700995808191322408)
 * Repository: https://github.com/swiftly-solution/swiftly
@@ -250,13 +250,13 @@ Last updated: July 2, 2025 at 10:14:04 PM UTC
 <pre>
 48 89 5C 24 ? 48 89 74 24 ? 55 57 41 55 41 56 41 57 48 8D 6C 24 E0
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x4D\x89\xC6\x41\x55\x49\x89\xD5\x41\x54\x49\x89\xF4
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x41\x55\x4D\x89\xC5\x41\x54\x49\x89\xD4
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 4D 89 C6 41 55 49 89 D5 41 54 49 89 F4
+55 48 89 E5 41 57 41 56 49 89 F6 41 55 4D 89 C5 41 54 49 89 D4
 </pre>
 </td></tr></table>
 
