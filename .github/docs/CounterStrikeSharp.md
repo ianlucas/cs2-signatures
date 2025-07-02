@@ -1,8 +1,8 @@
 # CounterStrikeSharp 
 
-Last updated: June 21, 2025 at 9:34:00 AM UTC
+Last updated: July 2, 2025 at 10:14:04 PM UTC
 
-* Manifests: [1070059047104919737](https://steamdb.info/depot/2347771/history/?changeid=M:1070059047104919737), [8955753271543459966](https://steamdb.info/depot/2347773/history/?changeid=M:8955753271543459966)
+* Manifests: [3191233975964722409](https://steamdb.info/depot/2347771/history/?changeid=M:3191233975964722409), [3700995808191322408](https://steamdb.info/depot/2347773/history/?changeid=M:3700995808191322408)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * Gamedata: https://github.com/roflmuffin/CounterStrikeSharp/blob/main/configs/addons/counterstrikesharp/gamedata/gamedata.json
 
@@ -137,7 +137,7 @@ Last updated: June 21, 2025 at 9:34:00 AM UTC
 ### GiveNamedItem
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x55\x57\x41\x2A\x41\x2A\x41\x2A\x48\x2A\x2A\x2A\x2A\x48\x2A\x2A\x2A\x2A\x2A\x2A\x4D\x2A\x2A\x48
 </pre>
@@ -145,7 +145,7 @@ Last updated: June 21, 2025 at 9:34:00 AM UTC
 <pre>
 48 89 5C 24 ? 48 89 74 24 ? 55 57 41 ? 41 ? 41 ? 48 ? ? ? ? 48 ? ? ? ? ? ? 4D ? ? 48
 </pre>
-</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x4D\x89\xC6\x41\x55\x49\x89\xD5\x41\x54\x49\x89\xF4
 </pre>
