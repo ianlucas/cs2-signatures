@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: July 3, 2025 at 8:43:07 AM UTC
+Last updated: July 3, 2025 at 6:58:08 PM UTC
 
 * Manifests: [483260021415090225](https://steamdb.info/depot/2347771/history/?changeid=M:483260021415090225), [2798956631430771203](https://steamdb.info/depot/2347773/history/?changeid=M:2798956631430771203)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
@@ -145,13 +145,13 @@ Last updated: July 3, 2025 at 8:43:07 AM UTC
 <pre>
 48 89 5C 24 ? 48 89 74 24 ? 55 57 41 ? 41 ? 41 ? 48 ? ? ? ? 48 ? ? ? ? ? ? 4D ? ? 48
 </pre>
-</td></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x4D\x89\xC6\x41\x55\x49\x89\xD5\x41\x54\x49\x89\xF4
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x41\x55\x4D\x89\xC5\x41\x54\x49\x89\xD4
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 4D 89 C6 41 55 49 89 D5 41 54 49 89 F4
+55 48 89 E5 41 57 41 56 49 89 F6 41 55 4D 89 C5 41 54 49 89 D4
 </pre>
 </td></tr></table>
 
@@ -189,11 +189,11 @@ Last updated: July 3, 2025 at 8:43:07 AM UTC
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x41\x55\x4D\x89\xC5
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x41\x55\x4D\x89\xC5\x41\x54\x49\x89\xFC
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 49 89 F6 41 55 4D 89 C5
+55 48 89 E5 41 57 41 56 49 89 F6 41 55 4D 89 C5 41 54 49 89 FC
 </pre>
 </td></tr></table>
 
