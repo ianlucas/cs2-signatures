@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: July 2, 2025 at 11:53:26 PM UTC
+Last updated: July 3, 2025 at 8:43:07 AM UTC
 
 * Manifests: [483260021415090225](https://steamdb.info/depot/2347771/history/?changeid=M:483260021415090225), [2798956631430771203](https://steamdb.info/depot/2347773/history/?changeid=M:2798956631430771203)
 * Repository: https://github.com/swiftly-solution/swiftly
@@ -242,13 +242,13 @@ Last updated: July 2, 2025 at 11:53:26 PM UTC
 ### GiveNamedItem
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x55\x57\x41\x55\x41\x56\x41\x57\x48\x8D\x6C\x24\xE0
+\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x55\x57\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 ? 48 89 74 24 ? 55 57 41 55 41 56 41 57 48 8D 6C 24 E0
+48 89 5C 24 ? 48 89 74 24 ? 55 57 41 55 41 56 41 57 48 8D AC 24
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
