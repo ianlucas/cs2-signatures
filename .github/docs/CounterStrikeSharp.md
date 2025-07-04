@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: July 3, 2025 at 10:52:53 PM UTC
+Last updated: July 4, 2025 at 8:55:02 PM UTC
 
 * Manifests: [8601217619920151025](https://steamdb.info/depot/2347771/history/?changeid=M:8601217619920151025), [6766784194838097337](https://steamdb.info/depot/2347773/history/?changeid=M:6766784194838097337)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
@@ -137,13 +137,13 @@ Last updated: July 3, 2025 at 10:52:53 PM UTC
 ### GiveNamedItem
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x55\x57\x41\x2A\x41\x2A\x41\x2A\x48\x2A\x2A\x2A\x2A\x48\x2A\x2A\x2A\x2A\x2A\x2A\x4D\x2A\x2A\x48
+\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x55\x57\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 ? 48 89 74 24 ? 55 57 41 ? 41 ? 41 ? 48 ? ? ? ? 48 ? ? ? ? ? ? 4D ? ? 48
+48 89 5C 24 ? 48 89 74 24 ? 55 57 41 55 41 56 41 57 48 8D AC 24
 </pre>
 </td></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
