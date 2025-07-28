@@ -1,8 +1,8 @@
 # cs2-retakes-allocator 
 
-Last updated: July 28, 2025 at 3:33:41 PM UTC
+Last updated: July 28, 2025 at 9:18:20 PM UTC
 
-* Manifests: [366892905078765270](https://steamdb.info/depot/2347771/history/?changeid=M:366892905078765270), [6261982168194353241](https://steamdb.info/depot/2347773/history/?changeid=M:6261982168194353241), [5023020258185551340](https://steamdb.info/depot/2347770/history/?changeid=M:5023020258185551340)
+* Manifests: [9162775939448803875](https://steamdb.info/depot/2347771/history/?changeid=M:9162775939448803875), [8873585994353657552](https://steamdb.info/depot/2347773/history/?changeid=M:8873585994353657552), [2922094948962421018](https://steamdb.info/depot/2347770/history/?changeid=M:2922094948962421018)
 * Repository: https://github.com/yonilerner/cs2-retakes-allocator
 * Gamedata: https://github.com/yonilerner/cs2-retakes-allocator/blob/main/Resources/RetakesAllocator_gamedata.json
 
@@ -11,7 +11,7 @@ Last updated: July 28, 2025 at 3:33:41 PM UTC
 ### CCSPlayer_ItemServices_CanAcquire
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x48\x8D\x45\x2A\x41\x55\x41\x54\x53\x48\x89\xCB
 </pre>
@@ -19,7 +19,7 @@ Last updated: July 28, 2025 at 3:33:41 PM UTC
 <pre>
 55 48 89 E5 41 57 41 56 48 8D 45 ? 41 55 41 54 53 48 89 CB
 </pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
 \x44\x89\x44\x24\x2A\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8B\xEC
 </pre>
@@ -32,7 +32,7 @@ Last updated: July 28, 2025 at 3:33:41 PM UTC
 ### GetCSWeaponDataFromKey
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xFE\x41\x55\x41\x54\x45
 </pre>
@@ -40,7 +40,7 @@ Last updated: July 28, 2025 at 3:33:41 PM UTC
 <pre>
 55 48 89 E5 41 57 41 56 41 89 FE 41 55 41 54 45
 </pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xFA\x8B\xF1\x48\x85\xD2\x0F\x84
 </pre>
@@ -53,7 +53,7 @@ Last updated: July 28, 2025 at 3:33:41 PM UTC
 ### GiveNamedItem2
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x48\x89\x7D\x2A\x44\x89\x45
 </pre>
