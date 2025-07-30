@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** July 30, 2025 at 12:27:07 AM UTC
+* **Last updated:** July 30, 2025 at 10:57:30 AM UTC
 * **Manifests:** [3482471977318254529](https://steamdb.info/depot/2347771/history/?changeid=M:3482471977318254529), [8332263788019215660](https://steamdb.info/depot/2347773/history/?changeid=M:8332263788019215660), [8405899131354502835](https://steamdb.info/depot/2347770/history/?changeid=M:8405899131354502835)
 
 <table>
@@ -69,25 +69,10 @@
   <summary>swiftly broken signatures</summary>
 
 * <sub>❌Linux ❌Windows</sub> ServerMovementUnlock
-* <sub>❌Linux ❌Windows</sub> CEntityInstance_AcceptInput
-* <sub>❌Linux ❌Windows</sub> CEntityIdentity_AcceptInput
-* <sub>❌Linux ❌Windows</sub> CCSPlayerController_SwitchTeam
-* <sub>❌Linux ❌Windows</sub> CBaseModelEntity_SetModel
-* <sub>❌Linux ❌Windows</sub> LegacyGameEventListener
-* <sub>✅Linux ❌Windows</sub> CAttributeList_SetOrAddAttributeValueByName
-* <sub>❌Linux ✅Windows</sub> CBaseModelEntity_SetBodygroup
-* <sub>❌Linux ✅Windows</sub> GiveNamedItem
-* <sub>✅Linux ❌Windows</sub> FireOutputInternal
-* <sub>❌Linux ❌Windows</sub> CBasePlayerController_SetPawn
-* <sub>❌Linux ❌Windows</sub> CBaseEntity_EmitSoundFilter
-* <sub>❌Linux ❌Windows</sub> CBaseEntity_EmitSoundParams
-* <sub>❌Linux ❌Windows</sub> CGameRules_TerminateRound
-* <sub>❌Linux ✅Windows</sub> CBaseEntity_TakeDamage
 * <sub>❌Linux ✅Windows</sub> BotNavIgnore1
 * <sub>❌Linux ✅Windows</sub> BotNavIgnore2
 * <sub>❌Linux ✅Windows</sub> BotNavIgnore3
-* <sub>✅Linux ❌Windows</sub> IGameSystem_InitAllSystems_pFirst
-* <sub>❌Linux ✅Windows</sub> CCSPlayerController_ProcessUsercmds
+* <sub>❌Linux ❌Windows</sub> CCSPlayer_MovementServices_ProcessUserCmd
 * <sub>❌Linux ✅Windows</sub> CSoundOpGameSystem_SetSoundEventParam
 
 </details>
