@@ -1,12 +1,33 @@
 # CounterStrikeSharp 
 
-Last updated: July 29, 2025 at 1:06:10 PM UTC
+Last updated: July 30, 2025 at 12:27:07 AM UTC
 
-* Manifests: [6101851358579243038](https://steamdb.info/depot/2347771/history/?changeid=M:6101851358579243038), [3099095894235960265](https://steamdb.info/depot/2347773/history/?changeid=M:3099095894235960265), [4808222971943510939](https://steamdb.info/depot/2347770/history/?changeid=M:4808222971943510939)
+* Manifests: [3482471977318254529](https://steamdb.info/depot/2347771/history/?changeid=M:3482471977318254529), [8332263788019215660](https://steamdb.info/depot/2347773/history/?changeid=M:8332263788019215660), [8405899131354502835](https://steamdb.info/depot/2347770/history/?changeid=M:8405899131354502835)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * Gamedata: https://github.com/roflmuffin/CounterStrikeSharp/blob/main/configs/addons/counterstrikesharp/gamedata/gamedata.json
 
 ## Signatures
+
+### ClientPrint
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x05\xF8\x5F\x8B\x00
+</pre>
+</td><td>
+<pre>
+55 48 8D 05 F8 5F 8B 00
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x2A\x55
+</pre>
+</td><td>
+<pre>
+48 85 C9 0F 84 ? ? ? ? 48 89 5C 24 ? 55
+</pre>
+</td></tr></table>
 
 ### CBaseEntity_DispatchSpawn
 
@@ -383,27 +404,6 @@ E8 ? ? ? ? F6 44 24 ? ? 74 ? 48 8B 05 ? ? ? ? 48 8B 54 24 ? 48 8B 08 48 8B 01 FF
 </td><td>
 <pre>
 48 8B C4 4C 89 48 ? 48 89 50 ? 48 89 48 ? 55 48 8D A8
-</pre>
-</td></tr></table>
-
-### ClientPrint
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x05\xF8\x5F\x8B\x00
-</pre>
-</td><td>
-<pre>
-55 48 8D 05 F8 5F 8B 00
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x2A\x55
-</pre>
-</td><td>
-<pre>
-48 85 C9 0F 84 ? ? ? ? 48 89 5C 24 ? 55
 </pre>
 </td></tr></table>
 
