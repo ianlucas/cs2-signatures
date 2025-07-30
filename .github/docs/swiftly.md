@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: July 30, 2025 at 9:01:39 PM UTC
+Last updated: July 30, 2025 at 9:05:39 PM UTC
 
 * Manifests: [3482471977318254529](https://steamdb.info/depot/2347771/history/?changeid=M:3482471977318254529), [8332263788019215660](https://steamdb.info/depot/2347773/history/?changeid=M:8332263788019215660), [8405899131354502835](https://steamdb.info/depot/2347770/history/?changeid=M:8405899131354502835)
 * Repository: https://github.com/swiftly-solution/swiftly
@@ -13,19 +13,19 @@ Last updated: July 30, 2025 at 9:01:39 PM UTC
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xD6\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x38
+\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x83\xEC\x??\x48\x8B\x7F
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 89 D6 41 55 41 54 49 89 FC 53 48 83 EC 38
+55 48 89 E5 41 57 49 89 FF 41 56 41 55 49 89 F5 41 54 53 48 83 EC ?? 48 8B 7F
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8B\xC4\x44\x88\x48\x20\x44\x89\x40\x18\x48\x89\x50\x10\x53
+\x48\x89\x5C\x24\x20\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x20
 </pre>
 </td><td>
 <pre>
-48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53
+48 89 5C 24 20 55 56 57 41 54 41 55 41 56 41 57 48 83 EC 20
 </pre>
 </td></tr></table>
 
