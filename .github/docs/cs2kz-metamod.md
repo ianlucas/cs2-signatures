@@ -1,12 +1,33 @@
 # cs2kz-metamod 
 
-Last updated: July 31, 2025 at 1:06:06 AM UTC
+Last updated: August 1, 2025 at 10:35:34 PM UTC
 
-* Manifests: [1596805715767004602](https://steamdb.info/depot/2347771/history/?changeid=M:1596805715767004602), [823018231329161335](https://steamdb.info/depot/2347773/history/?changeid=M:823018231329161335), [7947004125922425501](https://steamdb.info/depot/2347770/history/?changeid=M:7947004125922425501)
+* Manifests: [8654541613307577757](https://steamdb.info/depot/2347771/history/?changeid=M:8654541613307577757), [7997552756635206048](https://steamdb.info/depot/2347773/history/?changeid=M:7997552756635206048), [7894037982598372833](https://steamdb.info/depot/2347770/history/?changeid=M:7894037982598372833)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
+
+### CheckJumpButton
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\xBE\x2A\x2A\x2A\x2A\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 41 54 49 89 F4 BE ? ? ? ? 53 48 89 FB 48 83 EC ? E8
+</pre>
+</td></tr><tr><td>✅⚠️(9)</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x10\x56\x48\x83\xEC\x40\x48\x8B\xF2
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 10 56 48 83 EC 40 48 8B F2
+</pre>
+</td></tr></table>
 
 ### CheckVelocity
 
@@ -698,27 +719,6 @@ Last updated: July 31, 2025 at 1:06:06 AM UTC
 </td><td>
 <pre>
 48 8B C4 48 89 58 08 48 89 70 10 48 89 78 18 55 41 56 41 57 48 8D A8 C8 FE FF FF
-</pre>
-</td></tr></table>
-
-### CheckJumpButton
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\xBE\x2A\x2A\x2A\x2A\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 56 41 55 41 54 49 89 F4 BE ? ? ? ? 53 48 89 FB 48 83 EC ? E8
-</pre>
-</td></tr><tr><td>✅⚠️(9)</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x10\x56\x48\x83\xEC\x40\x48\x8B\xF2
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 10 56 48 83 EC 40 48 8B F2
 </pre>
 </td></tr></table>
 
