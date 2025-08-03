@@ -1,6 +1,6 @@
 # cs2-inventory-simulator-plugin 
 
-Last updated: August 1, 2025 at 10:35:34 PM UTC
+Last updated: August 3, 2025 at 2:35:51 PM UTC
 
 * Manifests: [8654541613307577757](https://steamdb.info/depot/2347771/history/?changeid=M:8654541613307577757), [7997552756635206048](https://steamdb.info/depot/2347773/history/?changeid=M:7997552756635206048), [7894037982598372833](https://steamdb.info/depot/2347770/history/?changeid=M:7894037982598372833)
 * Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
@@ -34,19 +34,19 @@ Last updated: August 1, 2025 at 10:35:34 PM UTC
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x55\x41\x89\xF5\x41\x54\x41\x89\xD4\x53\x48\x89\xFB
+\x55\x48\x89\xE5\x41\x55\x49\x89\xF5\x41\x54\x41\x89\xD4\x53\x48\x89\xFB\x48\x83\xEC\x08\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 55 41 89 F5 41 54 41 89 D4 53 48 89 FB
+55 48 89 E5 41 55 49 89 F5 41 54 41 89 D4 53 48 89 FB 48 83 EC 08 E8 ? ? ? ? 48 85 C0
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x41\x8B\xF8\x48\x8B\xF2\x48\x8B\xD9\xE8
+\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\x19\x41\x8B\xF8
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 41 8B F8 48 8B F2 48 8B D9 E8
+48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B 19 41 8B F8
 </pre>
 </td></tr></table>
 

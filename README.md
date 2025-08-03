@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** August 1, 2025 at 10:35:35 PM UTC
+* **Last updated:** August 3, 2025 at 2:35:51 PM UTC
 * **Manifests:** [8654541613307577757](https://steamdb.info/depot/2347771/history/?changeid=M:8654541613307577757), [7997552756635206048](https://steamdb.info/depot/2347773/history/?changeid=M:7997552756635206048), [7894037982598372833](https://steamdb.info/depot/2347770/history/?changeid=M:7894037982598372833)
 
 <table>
@@ -9,121 +9,121 @@
 <details>
   <summary>CounterStrikeSharp broken signatures</summary>
 
-* <sub>❌Linux ✅Windows</sub> ClientPrint
+* `❌Linux ✅Windows` ClientPrint
 
 </details>
 
 <details>
   <summary>CS2Fixes broken signatures</summary>
 
-* <sub>❌Linux ❌Windows</sub> UTIL_SayTextFilter
-* <sub>❌Linux ❌Windows</sub> UTIL_SayText2Filter
-* <sub>❌Linux ❌Windows</sub> TriggerPush_Touch
-* <sub>❌Linux ❌Windows</sub> SetGroundEntity
-* <sub>❌Linux ❌Windows</sub> ServerMovementUnlock
-* <sub>❌Linux ❌Windows</sub> CCSPlayerController_SwitchTeam
-* <sub>❌Linux ❌Windows</sub> CheckJumpButtonWater
-* <sub>❌Linux ❌Windows</sub> WaterLevelGravity
-* <sub>❌Linux ❌Windows</sub> CEntitySystem_AddEntityIOEvent
-* <sub>❌Linux ❌Windows</sub> CEntityInstance_AcceptInput
-* <sub>❌Linux ❌Windows</sub> CEntityIdentity_AcceptInput
-* <sub>✅Linux ❌Windows</sub> CEntityIOOutput_FireOutputInternal
-* <sub>❌Linux ✅Windows</sub> CGameEntitySystem_FindEntityByClassName
-* <sub>❌Linux ✅Windows</sub> CBaseEntity_TakeDamageOld
-* <sub>✅Linux ❌Windows</sub> IGameSystem_InitAllSystems_pFirst
-* <sub>❌Linux ✅Windows</sub> IGameSystem_LoopPostInitAllSystems_pEventDispatcher
-* <sub>❌Linux ✅Windows</sub> IGameSystem_LoopDestroyAllSystems_s_GameSystems
-* <sub>❌Linux ❌Windows</sub> CBasePlayerController_SetPawn
-* <sub>❌Linux ✅Windows</sub> CNavMesh_GetNearestNavArea
-* <sub>❌Linux ❌Windows</sub> CBaseModelEntity_SetModel
-* <sub>❌Linux ❌Windows</sub> CGameRules_TerminateRound
-* <sub>❌Linux ❌Windows</sub> CCSPlayer_WeaponServices_CanUse
-* <sub>❌Linux ❌Windows</sub> CCSPlayer_WeaponServices_EquipWeapon
-* <sub>❌Linux ✅Windows</sub> CEntityIdentity_SetEntityName
-* <sub>❌Linux ✅Windows</sub> BotNavIgnore
-* <sub>❌Linux ❌Windows</sub> CBaseEntity_EmitSoundParams
-* <sub>❌Linux ✅Windows</sub> GetParticleSystemIndex
-* <sub>❌Linux ✅Windows</sub> DispatchParticleEffect
-* <sub>❌Linux ❌Windows</sub> CBaseEntity_EmitSoundFilter
-* <sub>❌Linux ❌Windows</sub> ProcessMovement
-* <sub>❌Linux ❌Windows</sub> CBaseEntity_SetMoveType
-* <sub>❌Linux ✅Windows</sub> CPhysBox_Use
-* <sub>❌Linux ✅Windows</sub> ProcessUsercmds
-* <sub>❌Linux ❌Windows</sub> CGamePlayerEquip_InputTriggerForAllPlayers
-* <sub>❌Linux ✅Windows</sub> CGamePlayerEquip_InputTriggerForActivatedPlayer
-* <sub>✅Linux ❌Windows</sub> CCSPlayerPawn_GetMaxSpeed
-* <sub>❌Linux ✅Windows</sub> FindUseEntity
-* <sub>❌Linux ✅Windows</sub> TraceFunc
-* <sub>❌Linux ❌Windows</sub> TraceShape
-* <sub>❌Linux ✅Windows</sub> CBasePlayerPawn_GetEyePosition
-* <sub>❌Linux ✅Windows</sub> CBasePlayerPawn_GetEyeAngles
-* <sub>❌Linux ✅Windows</sub> CBaseFilter_InputTestActivator
-* <sub>❌Linux ✅Windows</sub> GameSystem_Think_CheckSteamBan
-* <sub>❌Linux ❌Windows</sub> CCSGameRules__sm_mapGcBanInformation
-* <sub>❌Linux ✅Windows</sub> GetSpawnGroups
-* <sub>❌Linux ❌Windows</sub> CCSPlayer_ItemServices_CanAcquire
+* `❌Linux ❌Windows` UTIL_SayTextFilter
+* `❌Linux ❌Windows` UTIL_SayText2Filter
+* `❌Linux ❌Windows` TriggerPush_Touch
+* `❌Linux ❌Windows` SetGroundEntity
+* `❌Linux ❌Windows` ServerMovementUnlock
+* `❌Linux ❌Windows` CCSPlayerController_SwitchTeam
+* `❌Linux ❌Windows` CheckJumpButtonWater
+* `❌Linux ❌Windows` WaterLevelGravity
+* `❌Linux ❌Windows` CEntitySystem_AddEntityIOEvent
+* `❌Linux ❌Windows` CEntityInstance_AcceptInput
+* `❌Linux ❌Windows` CEntityIdentity_AcceptInput
+* `✅Linux ❌Windows` CEntityIOOutput_FireOutputInternal
+* `❌Linux ✅Windows` CGameEntitySystem_FindEntityByClassName
+* `❌Linux ✅Windows` CBaseEntity_TakeDamageOld
+* `✅Linux ❌Windows` IGameSystem_InitAllSystems_pFirst
+* `❌Linux ✅Windows` IGameSystem_LoopPostInitAllSystems_pEventDispatcher
+* `❌Linux ✅Windows` IGameSystem_LoopDestroyAllSystems_s_GameSystems
+* `❌Linux ❌Windows` CBasePlayerController_SetPawn
+* `❌Linux ✅Windows` CNavMesh_GetNearestNavArea
+* `❌Linux ❌Windows` CBaseModelEntity_SetModel
+* `❌Linux ❌Windows` CGameRules_TerminateRound
+* `❌Linux ❌Windows` CCSPlayer_WeaponServices_CanUse
+* `❌Linux ❌Windows` CCSPlayer_WeaponServices_EquipWeapon
+* `❌Linux ✅Windows` CEntityIdentity_SetEntityName
+* `❌Linux ✅Windows` BotNavIgnore
+* `❌Linux ❌Windows` CBaseEntity_EmitSoundParams
+* `❌Linux ✅Windows` GetParticleSystemIndex
+* `❌Linux ✅Windows` DispatchParticleEffect
+* `❌Linux ❌Windows` CBaseEntity_EmitSoundFilter
+* `❌Linux ❌Windows` ProcessMovement
+* `❌Linux ❌Windows` CBaseEntity_SetMoveType
+* `❌Linux ✅Windows` CPhysBox_Use
+* `❌Linux ✅Windows` ProcessUsercmds
+* `❌Linux ❌Windows` CGamePlayerEquip_InputTriggerForAllPlayers
+* `❌Linux ✅Windows` CGamePlayerEquip_InputTriggerForActivatedPlayer
+* `✅Linux ❌Windows` CCSPlayerPawn_GetMaxSpeed
+* `❌Linux ✅Windows` FindUseEntity
+* `❌Linux ✅Windows` TraceFunc
+* `❌Linux ❌Windows` TraceShape
+* `❌Linux ✅Windows` CBasePlayerPawn_GetEyePosition
+* `❌Linux ✅Windows` CBasePlayerPawn_GetEyeAngles
+* `❌Linux ✅Windows` CBaseFilter_InputTestActivator
+* `❌Linux ✅Windows` GameSystem_Think_CheckSteamBan
+* `❌Linux ❌Windows` CCSGameRules__sm_mapGcBanInformation
+* `❌Linux ✅Windows` GetSpawnGroups
+* `❌Linux ❌Windows` CCSPlayer_ItemServices_CanAcquire
 
 </details>
 
 <details>
   <summary>swiftly broken signatures</summary>
 
-* <sub>❌Linux ✅Windows</sub> CCSPlayer_MovementServices_ProcessUserCmd
+* `❌Linux ✅Windows` CCSPlayer_MovementServices_ProcessUserCmd
 
 </details>
 
 <details>
   <summary>plugify broken signatures</summary>
 
-* <sub>❌Linux ✅Windows</sub> CBaseEntity_EmitSoundParams
+* `❌Linux ✅Windows` CBaseEntity_EmitSoundParams
 
 </details>
 
 <details>
   <summary>cs2kz-metamod broken signatures</summary>
 
-* <sub>❌Linux ❌Windows</sub> CCSPlayerController_SwitchTeam
-* <sub>❌Linux ❌Windows</sub> CBasePlayerController_SetPawn
-* <sub>❌Linux ❌Windows</sub> GetLegacyGameEventListener
-* <sub>❌Linux ❌Windows</sub> SnapViewAngles
-* <sub>❌Linux ❌Windows</sub> InitPlayerMovementTraceFilter
-* <sub>❌Linux ❌Windows</sub> TraceShape
-* <sub>❌Linux ❌Windows</sub> CPhysicsGameSystemFrameBoundary
-* <sub>❌Linux ❌Windows</sub> DebugDrawMesh
-* <sub>✅Linux ❌Windows</sub> GetMaxSpeed
-* <sub>❌Linux ❌Windows</sub> SetupMove
-* <sub>❌Linux ❌Windows</sub> ProcessMovement
-* <sub>❌Linux ❌Windows</sub> PlayerMove
-* <sub>❌Linux ✅Windows</sub> CheckParameters
-* <sub>✅Linux ❌Windows</sub> CanMove
-* <sub>❌Linux ✅Windows</sub> FullWalkMove
-* <sub>❌Linux ❌Windows</sub> MoveInit
-* <sub>✅Linux ❌Windows</sub> CheckWater
-* <sub>❌Linux ❌Windows</sub> WaterMove
-* <sub>❌Linux ✅Windows</sub> CheckVelocity
-* <sub>❌Linux ✅Windows</sub> Duck
-* <sub>❌Linux ❌Windows</sub> CanUnduck
-* <sub>❌Linux ❌Windows</sub> LadderMove
-* <sub>❌Linux ✅Windows</sub> CheckJumpButton
-* <sub>❌Linux ❌Windows</sub> OnJump
-* <sub>❌Linux ❌Windows</sub> AirMove
-* <sub>❌Linux ❌Windows</sub> Friction
-* <sub>❌Linux ❌Windows</sub> WalkMove
-* <sub>❌Linux ❌Windows</sub> TryPlayerMove
-* <sub>❌Linux ❌Windows</sub> CategorizePosition
-* <sub>❌Linux ✅Windows</sub> CheckFalling
-* <sub>❌Linux ❌Windows</sub> EmitSound
-* <sub>❌Linux ✅Windows</sub> ProcessUsercmds
-* <sub>❌Linux ❌Windows</sub> PhysicsSimulate
-* <sub>❌Linux ❌Windows</sub> GameEventManager
+* `❌Linux ❌Windows` CCSPlayerController_SwitchTeam
+* `❌Linux ❌Windows` CBasePlayerController_SetPawn
+* `❌Linux ❌Windows` GetLegacyGameEventListener
+* `❌Linux ❌Windows` SnapViewAngles
+* `❌Linux ❌Windows` InitPlayerMovementTraceFilter
+* `❌Linux ❌Windows` TraceShape
+* `❌Linux ❌Windows` CPhysicsGameSystemFrameBoundary
+* `❌Linux ❌Windows` DebugDrawMesh
+* `✅Linux ❌Windows` GetMaxSpeed
+* `❌Linux ❌Windows` SetupMove
+* `❌Linux ❌Windows` ProcessMovement
+* `❌Linux ❌Windows` PlayerMove
+* `❌Linux ✅Windows` CheckParameters
+* `✅Linux ❌Windows` CanMove
+* `❌Linux ✅Windows` FullWalkMove
+* `❌Linux ❌Windows` MoveInit
+* `✅Linux ❌Windows` CheckWater
+* `❌Linux ❌Windows` WaterMove
+* `❌Linux ✅Windows` CheckVelocity
+* `❌Linux ✅Windows` Duck
+* `❌Linux ❌Windows` CanUnduck
+* `❌Linux ❌Windows` LadderMove
+* `❌Linux ✅Windows` CheckJumpButton
+* `❌Linux ❌Windows` OnJump
+* `❌Linux ❌Windows` AirMove
+* `❌Linux ❌Windows` Friction
+* `❌Linux ❌Windows` WalkMove
+* `❌Linux ❌Windows` TryPlayerMove
+* `❌Linux ❌Windows` CategorizePosition
+* `❌Linux ✅Windows` CheckFalling
+* `❌Linux ❌Windows` EmitSound
+* `❌Linux ✅Windows` ProcessUsercmds
+* `❌Linux ❌Windows` PhysicsSimulate
+* `❌Linux ❌Windows` GameEventManager
 
 </details>
 
 <details>
   <summary>cs2-retakes-allocator broken signatures</summary>
 
-* <sub>❌Linux ❌Windows</sub> GetCSWeaponDataFromKey
-* <sub>❌Linux ❌Windows</sub> CCSPlayer_ItemServices_CanAcquire
-* <sub>❌Linux ✅Windows</sub> GiveNamedItem2
+* `❌Linux ❌Windows` GetCSWeaponDataFromKey
+* `❌Linux ❌Windows` CCSPlayer_ItemServices_CanAcquire
+* `❌Linux ✅Windows` GiveNamedItem2
 
 </details>
