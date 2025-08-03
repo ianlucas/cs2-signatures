@@ -1,6 +1,6 @@
 # cs2-retakes-allocator 
 
-Last updated: August 1, 2025 at 10:35:34 PM UTC
+Last updated: August 3, 2025 at 11:26:00 PM UTC
 
 * Manifests: [8654541613307577757](https://steamdb.info/depot/2347771/history/?changeid=M:8654541613307577757), [7997552756635206048](https://steamdb.info/depot/2347773/history/?changeid=M:7997552756635206048), [7894037982598372833](https://steamdb.info/depot/2347770/history/?changeid=M:7894037982598372833)
 * Repository: https://github.com/yonilerner/cs2-retakes-allocator
@@ -11,13 +11,13 @@ Last updated: August 1, 2025 at 10:35:34 PM UTC
 ### CCSPlayer_ItemServices_CanAcquire
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x48\x8D\x45\x2A\x41\x55\x41\x54\x53\x48\x89\xCB
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xCD\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x78
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 48 8D 45 ? 41 55 41 54 53 48 89 CB
+55 48 89 E5 41 57 41 56 41 55 49 89 CD 41 54 49 89 FC 53 48 89 F3 48 83 EC 78
 </pre>
 </td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -32,13 +32,13 @@ Last updated: August 1, 2025 at 10:35:34 PM UTC
 ### GetCSWeaponDataFromKey
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xFE\x41\x55\x41\x54\x45
+\x55\x48\x89\xE5\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x85\xFF
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 89 FE 41 55 41 54 45
+55 48 89 E5 41 54 53 48 81 EC ? ? ? ? 48 85 FF
 </pre>
 </td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -53,13 +53,13 @@ Last updated: August 1, 2025 at 10:35:34 PM UTC
 ### GiveNamedItem2
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x48\x89\x7D\x2A\x44\x89\x45
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\xD8\x00\x00\x00\x48\x89\x8D\x18\xFF\xFF\xFF
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC ? 48 89 7D ? 44 89 45
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC D8 00 00 00 48 89 8D 18 FF FF FF
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
