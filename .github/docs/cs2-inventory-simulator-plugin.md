@@ -1,6 +1,6 @@
 # cs2-inventory-simulator-plugin 
 
-Last updated: August 3, 2025 at 4:38:51 PM UTC
+Last updated: August 4, 2025 at 2:23:04 AM UTC
 
 * Manifests: [8654541613307577757](https://steamdb.info/depot/2347771/history/?changeid=M:8654541613307577757), [7997552756635206048](https://steamdb.info/depot/2347773/history/?changeid=M:7997552756635206048), [7894037982598372833](https://steamdb.info/depot/2347770/history/?changeid=M:7894037982598372833)
 * Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
@@ -42,11 +42,11 @@ Last updated: August 3, 2025 at 4:38:51 PM UTC
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\x19\x41\x8B\xF8
+\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x41\x8B\xF8\x48\x8B\xF2\x48\x8B\xD9\xE8
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B 19 41 8B F8
+48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 41 8B F8 48 8B F2 48 8B D9 E8
 </pre>
 </td></tr></table>
 
