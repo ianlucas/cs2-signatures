@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: August 1, 2025 at 10:35:34 PM UTC
+Last updated: August 5, 2025 at 11:39:44 AM UTC
 
 * Manifests: [8654541613307577757](https://steamdb.info/depot/2347771/history/?changeid=M:8654541613307577757), [7997552756635206048](https://steamdb.info/depot/2347773/history/?changeid=M:7997552756635206048), [7894037982598372833](https://steamdb.info/depot/2347770/history/?changeid=M:7894037982598372833)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -13,11 +13,11 @@ Last updated: August 1, 2025 at 10:35:34 PM UTC
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xD4\x53\x48\x89\xF3\x48\x83\xEC\x18\x4D\x85\xC0\x0F\x95\xC2\x48\x85\xF6\x40\x0F\x94\xC6\x40\x08\xF2\x75\x2A\x83\xF9\x01\x75\x2A\x49\x89\xFE\x40\xF6\xC7\x01\x75\x2A\x41\x0F\xB6\x54\x24\x08\x80\xFA\x1E\x0F\x84\x2A\x2A\x2A\x2A\x80\xFA\x02\x74\x2A\x80\xFA\x4F\x75\x2A\x49\x8B\x34\x24\x48\x8D\x05\xFF\xB0\xBD\xFF
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xD4\x53\x48\x89\xF3\x48\x83\xEC\x18\x4D\x85\xC0\x0F\x95\xC2\x48\x85\xF6\x40\x0F\x94\xC6\x40\x08\xF2\x75\x2A\x83\xF9\x01\x75\x2A\x49\x89\xFE\x40\xF6\xC7\x01\x75\x2A\x41\x0F\xB6\x54\x24\x08\x80\xFA\x1E\x0F\x84\x2A\x2A\x2A\x2A\x80\xFA\x02\x74\x2A\x80\xFA\x4F\x75\x2A\x49\x8B\x34\x24\x48\x8D\x05\xA8\xB0\xBD\xFF
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 49 89 D4 53 48 89 F3 48 83 EC 18 4D 85 C0 0F 95 C2 48 85 F6 40 0F 94 C6 40 08 F2 75 ? 83 F9 01 75 ? 49 89 FE 40 F6 C7 01 75 ? 41 0F B6 54 24 08 80 FA 1E 0F 84 ? ? ? ? 80 FA 02 74 ? 80 FA 4F 75 ? 49 8B 34 24 48 8D 05 FF B0 BD FF
+55 48 89 E5 41 57 41 56 41 55 41 54 49 89 D4 53 48 89 F3 48 83 EC 18 4D 85 C0 0F 95 C2 48 85 F6 40 0F 94 C6 40 08 F2 75 ? 83 F9 01 75 ? 49 89 FE 40 F6 C7 01 75 ? 41 0F B6 54 24 08 80 FA 1E 0F 84 ? ? ? ? 80 FA 02 74 ? 80 FA 4F 75 ? 49 8B 34 24 48 8D 05 A8 B0 BD FF
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
