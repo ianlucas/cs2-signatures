@@ -1,10 +1,10 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** August 6, 2025 at 12:46:51 AM UTC
+* **Last updated:** August 6, 2025 at 7:48:08 PM UTC
 * **Manifests:** [8654541613307577757](https://steamdb.info/depot/2347771/history/?changeid=M:8654541613307577757), [7997552756635206048](https://steamdb.info/depot/2347773/history/?changeid=M:7997552756635206048), [7894037982598372833](https://steamdb.info/depot/2347770/history/?changeid=M:7894037982598372833)
 
 <table>
-<tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr><tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr><tr><td>❌</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftly">swiftly</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/swiftly.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/untrustedmodders/plugify-source-2">plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/plugify.md">View signatures →</a></td></tr><tr><td>❌</td><td>❌</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/yonilerner/cs2-retakes-allocator">cs2-retakes-allocator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-retakes-allocator.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-match-plugin">cs2-match-plugin</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-match-plugin.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-inventory-simulator-plugin">cs2-inventory-simulator-plugin</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-inventory-simulator-plugin.md">View signatures →</a></td></tr></table>
+<tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr><tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr><tr><td>❌</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftly">swiftly</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/swiftly.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/untrustedmodders/plugify-source-2">plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/plugify.md">View signatures →</a></td></tr><tr><td>❌</td><td>✅</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/yonilerner/cs2-retakes-allocator">cs2-retakes-allocator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-retakes-allocator.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-match-plugin">cs2-match-plugin</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-match-plugin.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-inventory-simulator-plugin">cs2-inventory-simulator-plugin</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-inventory-simulator-plugin.md">View signatures →</a></td></tr></table>
 
 <details>
   <summary>CS2Fixes broken signatures</summary>
@@ -68,39 +68,6 @@
 <details>
   <summary>cs2kz-metamod broken signatures</summary>
 
-* `❌Linux ❌Windows` CCSPlayerController_SwitchTeam
-* `❌Linux ❌Windows` CBasePlayerController_SetPawn
-* `❌Linux ❌Windows` GetLegacyGameEventListener
-* `❌Linux ❌Windows` SnapViewAngles
-* `❌Linux ❌Windows` InitPlayerMovementTraceFilter
-* `❌Linux ❌Windows` TraceShape
-* `❌Linux ❌Windows` CPhysicsGameSystemFrameBoundary
-* `❌Linux ❌Windows` DebugDrawMesh
-* `✅Linux ❌Windows` GetMaxSpeed
-* `❌Linux ❌Windows` SetupMove
-* `❌Linux ❌Windows` ProcessMovement
-* `❌Linux ❌Windows` PlayerMove
-* `❌Linux ✅Windows` CheckParameters
-* `✅Linux ❌Windows` CanMove
-* `❌Linux ✅Windows` FullWalkMove
-* `❌Linux ❌Windows` MoveInit
-* `✅Linux ❌Windows` CheckWater
-* `❌Linux ❌Windows` WaterMove
-* `❌Linux ✅Windows` CheckVelocity
-* `❌Linux ✅Windows` Duck
-* `❌Linux ❌Windows` CanUnduck
-* `❌Linux ❌Windows` LadderMove
-* `❌Linux ✅Windows` CheckJumpButton
-* `❌Linux ❌Windows` OnJump
-* `❌Linux ❌Windows` AirMove
-* `❌Linux ❌Windows` Friction
-* `❌Linux ❌Windows` WalkMove
-* `❌Linux ❌Windows` TryPlayerMove
-* `❌Linux ❌Windows` CategorizePosition
-* `❌Linux ✅Windows` CheckFalling
-* `❌Linux ❌Windows` EmitSound
-* `❌Linux ✅Windows` ProcessUsercmds
-* `❌Linux ❌Windows` PhysicsSimulate
-* `❌Linux ❌Windows` GameEventManager
+* `❌Linux ✅Windows` TraceShape
 
 </details>
