@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: August 10, 2025 at 11:50:55 AM UTC
+Last updated: August 11, 2025 at 10:42:22 AM UTC
 
 * Manifests: [8654541613307577757](https://steamdb.info/depot/2347771/history/?changeid=M:8654541613307577757), [7997552756635206048](https://steamdb.info/depot/2347773/history/?changeid=M:7997552756635206048), [7894037982598372833](https://steamdb.info/depot/2347770/history/?changeid=M:7894037982598372833)
 * Repository: https://github.com/swiftly-solution/swiftly
@@ -362,27 +362,6 @@ Last updated: August 10, 2025 at 11:50:55 AM UTC
 </td><td>
 <pre>
 48 8B C4 4C 89 48 ? 48 89 48 ? 55 56
-</pre>
-</td></tr></table>
-
-### CSoundOpGameSystem_SetSoundEventParam_BadVolumeHash
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x6F\x03\x48\x83\xEC\x2A\x45\x31\xC9\x89\xC2\x45\x31\xC0\x4C\x89\xE7
-</pre>
-</td><td>
-<pre>
-E8 ? ? ? ? F3 0F 6F 03 48 83 EC ? 45 31 C9 89 C2 45 31 C0 4C 89 E7
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x41\xB9\x2A\x2A\x2A\x2A\x4C\x89\x64\x24\x2A\x49\x8B\xD5
-</pre>
-</td><td>
-<pre>
-41 B9 ? ? ? ? 4C 89 64 24 ? 49 8B D5
 </pre>
 </td></tr></table>
 
