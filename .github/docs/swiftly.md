@@ -1,12 +1,54 @@
 # swiftly 
 
-Last updated: August 11, 2025 at 10:42:22 AM UTC
+Last updated: August 14, 2025 at 8:24:16 PM UTC
 
-* Manifests: [8654541613307577757](https://steamdb.info/depot/2347771/history/?changeid=M:8654541613307577757), [7997552756635206048](https://steamdb.info/depot/2347773/history/?changeid=M:7997552756635206048), [7894037982598372833](https://steamdb.info/depot/2347770/history/?changeid=M:7894037982598372833)
+* Manifests: [549966506419959024](https://steamdb.info/depot/2347771/history/?changeid=M:549966506419959024), [4485420044882751263](https://steamdb.info/depot/2347773/history/?changeid=M:4485420044882751263), [2316377845725320724](https://steamdb.info/depot/2347770/history/?changeid=M:2316377845725320724)
 * Repository: https://github.com/swiftly-solution/swiftly
 * Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/cs2/core/signatures.json
 
 ## Signatures
+
+### CBaseEntity_TakeDamage
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x49\x89\xF7\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\xF6\x46
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 49 89 F7 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? F6 46
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x74\x24\x2A\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\x41\x2A\x48\x8B\xFA
+</pre>
+</td><td>
+<pre>
+48 89 74 24 ? 57 48 81 EC ? ? ? ? 48 8B 41 ? 48 8B FA
+</pre>
+</td></tr></table>
+
+### CTakeDamageInfo_Constructor
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x48\x83\xEC\x10\x4C\x8D\x15\x2A\x2A\x2A\x2A
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 48 83 EC 10 4C 8D 15 ? ? ? ?
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x53\x48\x83\xEC\x60\x48\xC7\x41\x38\xFF\xFF\xFF\xFF
+</pre>
+</td><td>
+<pre>
+40 53 48 83 EC 60 48 C7 41 38 FF FF FF FF
+</pre>
+</td></tr></table>
 
 ### CBaseModelEntity_SetModel
 
@@ -176,27 +218,6 @@ Last updated: August 11, 2025 at 10:42:22 AM UTC
 </pre>
 </td></tr></table>
 
-### CBaseEntity_TakeDamage
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xF7\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\xF6\x46
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 49 89 F7 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? F6 46
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x74\x24\x2A\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\x41\x2A\x48\x8B\xFA
-</pre>
-</td><td>
-<pre>
-48 89 74 24 ? 57 48 81 EC ? ? ? ? 48 8B 41 ? 48 8B FA
-</pre>
-</td></tr></table>
-
 ### CBaseModelEntity_SetBodygroup
 
 <table>
@@ -362,27 +383,6 @@ Last updated: August 11, 2025 at 10:42:22 AM UTC
 </td><td>
 <pre>
 48 8B C4 4C 89 48 ? 48 89 48 ? 55 56
-</pre>
-</td></tr></table>
-
-### CTakeDamageInfo_Constructor
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x48\x83\xEC\x10\x4C\x8D\x15\x2A\x2A\x2A\x2A
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 48 83 EC 10 4C 8D 15 ? ? ? ?
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x53\x48\x83\xEC\x60\x48\xC7\x41\x38\xFF\xFF\xFF\xFF
-</pre>
-</td><td>
-<pre>
-40 53 48 83 EC 60 48 C7 41 38 FF FF FF FF
 </pre>
 </td></tr></table>
 

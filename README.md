@@ -1,14 +1,44 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** August 13, 2025 at 6:01:32 PM UTC
-* **Manifests:** [8654541613307577757](https://steamdb.info/depot/2347771/history/?changeid=M:8654541613307577757), [7997552756635206048](https://steamdb.info/depot/2347773/history/?changeid=M:7997552756635206048), [7894037982598372833](https://steamdb.info/depot/2347770/history/?changeid=M:7894037982598372833)
+* **Last updated:** August 14, 2025 at 8:24:16 PM UTC
+* **Manifests:** [549966506419959024](https://steamdb.info/depot/2347771/history/?changeid=M:549966506419959024), [4485420044882751263](https://steamdb.info/depot/2347773/history/?changeid=M:4485420044882751263), [2316377845725320724](https://steamdb.info/depot/2347770/history/?changeid=M:2316377845725320724)
 
 <table>
-<tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftly">swiftly</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/swiftly.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/untrustedmodders/plugify-source-2">plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/plugify.md">View signatures →</a></td></tr><tr><td>❌</td><td>✅</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/yonilerner/cs2-retakes-allocator">cs2-retakes-allocator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-retakes-allocator.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-match-plugin">cs2-match-plugin</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-match-plugin.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-inventory-simulator-plugin">cs2-inventory-simulator-plugin</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-inventory-simulator-plugin.md">View signatures →</a></td></tr></table>
+<tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr><tr><td>❌</td><td>❌</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr><tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr><tr><td>❌</td><td>❌</td><td><a href="https://github.com/swiftly-solution/swiftly">swiftly</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/swiftly.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/untrustedmodders/plugify-source-2">plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/plugify.md">View signatures →</a></td></tr><tr><td>❌</td><td>❌</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/yonilerner/cs2-retakes-allocator">cs2-retakes-allocator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-retakes-allocator.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-match-plugin">cs2-match-plugin</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-match-plugin.md">View signatures →</a></td></tr><tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-inventory-simulator-plugin">cs2-inventory-simulator-plugin</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-inventory-simulator-plugin.md">View signatures →</a></td></tr></table>
+
+<details>
+  <summary>CounterStrikeSharp broken signatures</summary>
+
+* `❌Linux ✅Windows` CCSPlayer_WeaponServices_CanUse
+* `❌Linux ❌Windows` CBaseEntity_TakeDamageOld
+
+</details>
+
+<details>
+  <summary>CS2Fixes broken signatures</summary>
+
+* `❌Linux ❌Windows` CBaseEntity_TakeDamageOld
+* `❌Linux ✅Windows` CCSPlayer_WeaponServices_CanUse
+* `❌Linux ✅Windows` CTakeDamageInfo
+* `❌Linux ✅Windows` CCSGameRules__sm_mapGcBanInformation
+
+</details>
+
+<details>
+  <summary>swiftly broken signatures</summary>
+
+* `❌Linux ✅Windows` CTakeDamageInfo_Constructor
+* `❌Linux ❌Windows` CBaseEntity_TakeDamage
+
+</details>
 
 <details>
   <summary>cs2kz-metamod broken signatures</summary>
 
+* `❌Linux ✅Windows` SnapViewAngles
 * `❌Linux ✅Windows` TraceShape
+* `❌Linux ✅Windows` CPhysicsGameSystemFrameBoundary
+* `✅Linux ❌Windows` LadderMove
+* `❌Linux ❌Windows` TryPlayerMove
 
 </details>

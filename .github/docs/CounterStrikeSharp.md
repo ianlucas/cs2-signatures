@@ -1,12 +1,54 @@
 # CounterStrikeSharp 
 
-Last updated: August 4, 2025 at 10:26:14 AM UTC
+Last updated: August 14, 2025 at 8:24:16 PM UTC
 
-* Manifests: [8654541613307577757](https://steamdb.info/depot/2347771/history/?changeid=M:8654541613307577757), [7997552756635206048](https://steamdb.info/depot/2347773/history/?changeid=M:7997552756635206048), [7894037982598372833](https://steamdb.info/depot/2347770/history/?changeid=M:7894037982598372833)
+* Manifests: [549966506419959024](https://steamdb.info/depot/2347771/history/?changeid=M:549966506419959024), [4485420044882751263](https://steamdb.info/depot/2347773/history/?changeid=M:4485420044882751263), [2316377845725320724](https://steamdb.info/depot/2347770/history/?changeid=M:2316377845725320724)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * Gamedata: https://github.com/roflmuffin/CounterStrikeSharp/blob/main/configs/addons/counterstrikesharp/gamedata/gamedata.json
 
 ## Signatures
+
+### CBaseEntity_TakeDamageOld
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x49\x89\xF7\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x88\x00\x00\x00\xF6\x46\x78\x02
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 49 89 F7 41 56 41 55 41 54 53 48 89 FB 48 81 EC 88 00 00 00 F6 46 78 02
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x74\x24\x2A\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\x41\x2A\x48\x8B\xFA
+</pre>
+</td><td>
+<pre>
+48 89 74 24 ? 57 48 81 EC ? ? ? ? 48 8B 41 ? 48 8B FA
+</pre>
+</td></tr></table>
+
+### CCSPlayer_WeaponServices_CanUse
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x15\xE8\xEC\xFF\xFF
+</pre>
+</td><td>
+<pre>
+55 48 8D 15 E8 EC FF FF
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x56\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\x01\x48\x8B\xFA
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 56 48 83 EC ? 48 8B 01 48 8B FA
+</pre>
+</td></tr></table>
 
 ### CBaseEntity_DispatchSpawn
 
@@ -47,27 +89,6 @@ Last updated: August 4, 2025 at 10:26:14 AM UTC
 </td><td>
 <pre>
 4C 8B DC 49 89 5B ? 49 89 6B ? 49 89 73 ? 49 89 7B ? 41 56 48 83 EC ? 49 C7 43 ? ? ? ? ? 48 8D 05 ? ? ? ? 49 89 43 ? 41 8B F8
-</pre>
-</td></tr></table>
-
-### CBaseEntity_TakeDamageOld
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xF7\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x88\x00\x00\x00\xF6\x46\x78\x02
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 49 89 F7 41 56 41 55 41 54 53 48 89 FB 48 81 EC 88 00 00 00 F6 46 78 02
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x74\x24\x2A\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\x41\x2A\x48\x8B\xFA
-</pre>
-</td><td>
-<pre>
-48 89 74 24 ? 57 48 81 EC ? ? ? ? 48 8B 41 ? 48 8B FA
 </pre>
 </td></tr></table>
 
@@ -257,27 +278,6 @@ Last updated: August 4, 2025 at 10:26:14 AM UTC
 </td><td>
 <pre>
 44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 41 57 48 8B EC
-</pre>
-</td></tr></table>
-
-### CCSPlayer_WeaponServices_CanUse
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x15\xE8\xEC\xFF\xFF
-</pre>
-</td><td>
-<pre>
-55 48 8D 15 E8 EC FF FF
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x56\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\x01\x48\x8B\xFA
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 56 48 83 EC ? 48 8B 01 48 8B FA
 </pre>
 </td></tr></table>
 
