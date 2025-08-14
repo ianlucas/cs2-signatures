@@ -1,8 +1,8 @@
 # plugify 
 
-Last updated: August 14, 2025 at 8:24:16 PM UTC
+Last updated: August 14, 2025 at 11:50:38 PM UTC
 
-* Manifests: [549966506419959024](https://steamdb.info/depot/2347771/history/?changeid=M:549966506419959024), [4485420044882751263](https://steamdb.info/depot/2347773/history/?changeid=M:4485420044882751263), [2316377845725320724](https://steamdb.info/depot/2347770/history/?changeid=M:2316377845725320724)
+* Manifests: [5480869389366142383](https://steamdb.info/depot/2347771/history/?changeid=M:5480869389366142383), [2365737784967523922](https://steamdb.info/depot/2347773/history/?changeid=M:2365737784967523922), [8047924243551660563](https://steamdb.info/depot/2347770/history/?changeid=M:8047924243551660563)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
