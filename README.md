@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** August 15, 2025 at 4:20:33 AM UTC
+* **Last updated:** August 15, 2025 at 4:42:35 AM UTC
 * **Manifests:** [5480869389366142383](https://steamdb.info/depot/2347771/history/?changeid=M:5480869389366142383), [2365737784967523922](https://steamdb.info/depot/2347773/history/?changeid=M:2365737784967523922), [8047924243551660563](https://steamdb.info/depot/2347770/history/?changeid=M:8047924243551660563)
 
 <table>
@@ -36,7 +36,5 @@
   <summary>cs2kz-metamod broken signatures</summary>
 
 * `❌Linux ✅Windows` TraceShape
-* `❌Linux ✅Windows` CPhysicsGameSystemFrameBoundary
-* `❌Linux ✅Windows` TryPlayerMove
 
 </details>
