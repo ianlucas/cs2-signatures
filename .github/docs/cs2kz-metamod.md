@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: August 14, 2025 at 11:50:38 PM UTC
+Last updated: August 15, 2025 at 4:20:33 AM UTC
 
 * Manifests: [5480869389366142383](https://steamdb.info/depot/2347771/history/?changeid=M:5480869389366142383), [2365737784967523922](https://steamdb.info/depot/2347773/history/?changeid=M:2365737784967523922), [8047924243551660563](https://steamdb.info/depot/2347770/history/?changeid=M:8047924243551660563)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
@@ -26,48 +26,6 @@ Last updated: August 14, 2025 at 11:50:38 PM UTC
 </td><td>
 <pre>
 4C 8B DC 49 89 5B 08 49 89 6B 10 49 89 73 18 57 41 56 41 57 48 83 EC 60
-</pre>
-</td></tr></table>
-
-### LadderMove
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x4C\x8D\xAD\x2A\x2A\x2A\x2A\x41\x54\x49\x89\xF4\x53\x48\x89\xFB
-</pre>
-</td><td>
-<pre>
-55 66 0F EF C0 48 89 E5 41 57 41 56 41 55 4C 8D AD ? ? ? ? 41 54 49 89 F4 53 48 89 FB
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x55\x53\x56\x57\x41\x57\x48\x8D\xAC\x24\xE0\xFC\xFF\xFF
-</pre>
-</td><td>
-<pre>
-40 55 53 56 57 41 57 48 8D AC 24 E0 FC FF FF
-</pre>
-</td></tr></table>
-
-### SnapViewAngles
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x89\xF7\x48\x81\xEC\xA8\x00\x00\x00\xE8\x2A\x2A\x2A\x2A\x48\x8B\x93\xA0\x0F\x00\x00
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 89 F7 48 81 EC A8 00 00 00 E8 ? ? ? ? 48 8B 93 A0 0F 00 00
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x10\x48\x89\x7C\x24\x18\x55\x48\x8D\x6C\x24\xA9\x48\x81\xEC\xC0\x00\x00\x00
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 55 48 8D 6C 24 A9 48 81 EC C0 00 00 00
 </pre>
 </td></tr></table>
 
@@ -103,34 +61,13 @@ Last updated: August 14, 2025 at 11:50:38 PM UTC
 <pre>
 55 66 0F EF C0 48 89 E5 41 57 49 89 F7 41 56 41 55 49 89 D5
 </pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8B\xC4\x4C\x89\x48\x20\x4C\x89\x40\x18\x48\x89\x50\x10\x48\x89\x48\x08\x55\x53\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xA8\x98\xFC\xFF\xFF
+\x48\x8B\xC4\x4C\x89\x48\x20\x4C\x89\x40\x18\x48\x89\x50\x10\x48\x89\x48\x08\x55\x53\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xA8\xC8\xFD\xFF\xFF
 </pre>
 </td><td>
 <pre>
-48 8B C4 4C 89 48 20 4C 89 40 18 48 89 50 10 48 89 48 08 55 53 56 57 41 54 41 55 41 56 41 57 48 8D A8 98 FC FF FF
-</pre>
-</td></tr></table>
-
-### CheckParameters
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x81\xEC\xA8\x01\x00\x00
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 89 F3 48 81 EC A8 01 00 00
-</pre>
-</td></tr><tr><td>✅⚠️(2)</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x48\x89\x58\x20\x55\x56\x57\x41\x56
-</pre>
-</td><td>
-<pre>
-48 8B C4 48 89 58 20 55 56 57 41 56
+48 8B C4 4C 89 48 20 4C 89 40 18 48 89 50 10 48 89 48 08 55 53 56 57 41 54 41 55 41 56 41 57 48 8D A8 C8 FD FF FF
 </pre>
 </td></tr></table>
 
@@ -299,6 +236,27 @@ Last updated: August 14, 2025 at 11:50:38 PM UTC
 </td><td>
 <pre>
 48 89 5C 24 18 55 48 83 EC 40 48 8B EA
+</pre>
+</td></tr></table>
+
+### CheckParameters
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x81\xEC\xA8\x01\x00\x00
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 89 F3 48 81 EC A8 01 00 00
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x48\x89\x58\x20\x55\x56\x57\x41\x56\x41\x57\x48\x8D\x68\xA1\x48\x81\xEC\xC0\x00\x00\x00\x0F\xB6\x79\x50
+</pre>
+</td><td>
+<pre>
+48 8B C4 48 89 58 20 55 56 57 41 56 41 57 48 8D 68 A1 48 81 EC C0 00 00 00 0F B6 79 50
 </pre>
 </td></tr></table>
 
@@ -504,11 +462,11 @@ Last updated: August 14, 2025 at 11:50:38 PM UTC
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x8B\x05\x2A\x2A\x2A\x2A\xFF\x50\x08\xFF\xC3
+\x48\x8D\x0D\x2A\x2A\x2A\x2A\x49\x8B\x04\x38
 </pre>
 </td><td>
 <pre>
-48 8B 05 ? ? ? ? FF 50 08 FF C3
+48 8D 0D ? ? ? ? 49 8B 04 38
 </pre>
 </td></tr></table>
 
@@ -530,6 +488,27 @@ Last updated: August 14, 2025 at 11:50:38 PM UTC
 </td><td>
 <pre>
 48 8B 15 ? ? ? ? 48 85 D2 74 ? 83 F9 ? 77 ? 48 63 C1 48 C1 E0
+</pre>
+</td></tr></table>
+
+### LadderMove
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x4C\x8D\xAD\x2A\x2A\x2A\x2A\x41\x54\x49\x89\xF4\x53\x48\x89\xFB
+</pre>
+</td><td>
+<pre>
+55 66 0F EF C0 48 89 E5 41 57 41 56 41 55 4C 8D AD ? ? ? ? 41 54 49 89 F4 53 48 89 FB
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x55\x53\x56\x57\x41\x57\x48\x8D\xAC\x24\xF0\xFC\xFF\xFF
+</pre>
+</td><td>
+<pre>
+40 55 53 56 57 41 57 48 8D AC 24 F0 FC FF FF
 </pre>
 </td></tr></table>
 
@@ -761,6 +740,27 @@ Last updated: August 14, 2025 at 11:50:38 PM UTC
 </td><td>
 <pre>
 48 89 5C 24 10 48 89 6C 24 18 48 89 74 24 20 57 41 56 41 57 48 83 EC 30 49 8B F0
+</pre>
+</td></tr></table>
+
+### SnapViewAngles
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x89\xF7\x48\x81\xEC\xA8\x00\x00\x00\xE8\x2A\x2A\x2A\x2A\x48\x8B\x93\x98\x0F\x00\x00
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 89 F7 48 81 EC A8 00 00 00 E8 ? ? ? ? 48 8B 93 98 0F 00 00
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x10\x48\x89\x7C\x24\x18\x55\x48\x8D\x6C\x24\xA9\x48\x81\xEC\xC0\x00\x00\x00
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 55 48 8D 6C 24 A9 48 81 EC C0 00 00 00
 </pre>
 </td></tr></table>
 
