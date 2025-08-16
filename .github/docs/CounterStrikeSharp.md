@@ -1,54 +1,12 @@
 # CounterStrikeSharp 
 
-Last updated: August 14, 2025 at 11:50:38 PM UTC
+Last updated: August 16, 2025 at 12:08:59 AM UTC
 
 * Manifests: [5480869389366142383](https://steamdb.info/depot/2347771/history/?changeid=M:5480869389366142383), [2365737784967523922](https://steamdb.info/depot/2347773/history/?changeid=M:2365737784967523922), [8047924243551660563](https://steamdb.info/depot/2347770/history/?changeid=M:8047924243551660563)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * Gamedata: https://github.com/roflmuffin/CounterStrikeSharp/blob/main/configs/addons/counterstrikesharp/gamedata/gamedata.json
 
 ## Signatures
-
-### CBaseEntity_TakeDamageOld
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xF7\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x88\x00\x00\x00\xF6\x46\x78\x02
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 49 89 F7 41 56 41 55 41 54 53 48 89 FB 48 81 EC 88 00 00 00 F6 46 78 02
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x74\x24\x2A\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\x41\x2A\x48\x8B\xFA
-</pre>
-</td><td>
-<pre>
-48 89 74 24 ? 57 48 81 EC ? ? ? ? 48 8B 41 ? 48 8B FA
-</pre>
-</td></tr></table>
-
-### CCSPlayer_WeaponServices_CanUse
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x15\xE8\xEC\xFF\xFF
-</pre>
-</td><td>
-<pre>
-55 48 8D 15 E8 EC FF FF
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x56\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\x01\x48\x8B\xFA
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 56 48 83 EC ? 48 8B 01 48 8B FA
-</pre>
-</td></tr></table>
 
 ### CBaseEntity_DispatchSpawn
 
@@ -92,6 +50,27 @@ Last updated: August 14, 2025 at 11:50:38 PM UTC
 </pre>
 </td></tr></table>
 
+### CBaseEntity_TakeDamageOld
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8D\x25\x2A\x2A\x2A\x2A\x49\x8B\x3C\x24
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? 4C 8D 25 ? ? ? ? 49 8B 3C 24
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x4C\x8B\xDC\x56\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\x41
+</pre>
+</td><td>
+<pre>
+4C 8B DC 56 57 48 81 EC ? ? ? ? 48 8B 41
+</pre>
+</td></tr></table>
+
 ### CBaseModelEntity_SetModel
 
 <table>
@@ -118,11 +97,11 @@ Last updated: August 14, 2025 at 11:50:38 PM UTC
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x8D\x87\x10\x08\x00\x00
+\x55\x48\x8D\x87\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x45\x89\xC7
 </pre>
 </td><td>
 <pre>
-55 48 8D 87 10 08 00 00
+55 48 8D 87 ? ? ? ? 48 89 E5 41 57 45 89 C7
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -278,6 +257,27 @@ Last updated: August 14, 2025 at 11:50:38 PM UTC
 </td><td>
 <pre>
 44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 41 57 48 8B EC
+</pre>
+</td></tr></table>
+
+### CCSPlayer_WeaponServices_CanUse
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x8B\x07\x48\x8B\x80\x2A\x2A\x2A\x2A
+</pre>
+</td><td>
+<pre>
+55 48 8D 15 ? ? ? ? 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 8B 07 48 8B 80 ? ? ? ?
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x56\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\x01\x48\x8B\xFA
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 56 48 83 EC ? 48 8B 01 48 8B FA
 </pre>
 </td></tr></table>
 
