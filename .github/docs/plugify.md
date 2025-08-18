@@ -1,33 +1,12 @@
 # plugify 
 
-Last updated: August 18, 2025 at 10:32:10 PM UTC
+Last updated: August 18, 2025 at 11:03:22 PM UTC
 
 * Manifests: [56349276781892208](https://steamdb.info/depot/2347771/history/?changeid=M:56349276781892208), [8435050606759549297](https://steamdb.info/depot/2347773/history/?changeid=M:8435050606759549297), [1154904536107451138](https://steamdb.info/depot/2347770/history/?changeid=M:1154904536107451138)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
 ## Signatures
-
-### CBasePlayerController_SetPawn
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x87\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x45\x89\xC7
-</pre>
-</td><td>
-<pre>
-55 48 8D 87 ? ? ? ? 48 89 E5 41 57 45 89 C7
-</pre>
-</td></tr><tr><td>✅⚠️(2)</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xD9\x48\x8B\xFA
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B D9 48 8B FA
-</pre>
-</td></tr></table>
 
 ### AppSystemCreateInterfaceFn
 
@@ -152,6 +131,27 @@ Last updated: August 18, 2025 at 10:32:10 PM UTC
 </td><td>
 <pre>
 40 55 53 56 57 41 57 48 8B EC 48 83 EC
+</pre>
+</td></tr></table>
+
+### CBasePlayerController_SetPawn
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x87\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xCE\x41\x55\x45\x89\xCD
+</pre>
+</td><td>
+<pre>
+55 48 8D 87 ? ? ? ? 48 89 E5 41 57 41 56 41 89 CE 41 55 45 89 CD
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x44\x88\x4C\x24\x2A\x53\x57
+</pre>
+</td><td>
+<pre>
+44 88 4C 24 ? 53 57
 </pre>
 </td></tr></table>
 
