@@ -1,6 +1,6 @@
 # swiftly 
 
-Last updated: August 15, 2025 at 8:41:53 PM UTC
+Last updated: August 18, 2025 at 4:04:13 PM UTC
 
 * Manifests: [5480869389366142383](https://steamdb.info/depot/2347771/history/?changeid=M:5480869389366142383), [2365737784967523922](https://steamdb.info/depot/2347773/history/?changeid=M:2365737784967523922), [8047924243551660563](https://steamdb.info/depot/2347770/history/?changeid=M:8047924243551660563)
 * Repository: https://github.com/swiftly-solution/swiftly
@@ -131,48 +131,6 @@ Last updated: August 15, 2025 at 8:41:53 PM UTC
 </td><td>
 <pre>
 48 89 5C 24 10 57 48 83 EC 30 48 8B DA 48 8B F9 48 85 C9
-</pre>
-</td></tr></table>
-
-### CBaseEntity_EmitSoundFilter
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x49\x89\xCF\x41\x56\x41\x89\xD6
-</pre>
-</td><td>
-<pre>
-55 48 8D 05 ? ? ? ? 48 89 E5 41 57 49 89 CF 41 56 41 89 D6
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x4C\x8B\xDC\x49\x89\x5B\x2A\x49\x89\x6B\x2A\x49\x89\x73\x2A\x49\x89\x7B\x2A\x41\x56\x48\x83\xEC\x2A\x49\xC7\x43\x2A\x2A\x2A\x2A\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\x49\x89\x43\x2A\x41\x8B\xF8
-</pre>
-</td><td>
-<pre>
-4C 8B DC 49 89 5B ? 49 89 6B ? 49 89 73 ? 49 89 7B ? 41 56 48 83 EC ? 49 C7 43 ? ? ? ? ? 48 8D 05 ? ? ? ? 49 89 43 ? 41 8B F8
-</pre>
-</td></tr></table>
-
-### CBaseEntity_EmitSoundParams
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\xB8\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x55\x0F\x28\xD0
-</pre>
-</td><td>
-<pre>
-48 B8 ? ? ? ? ? ? ? ? 55 0F 28 D0
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x4C\x89\x74\x24\x2A\x55\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x45\x33\xF6\x48\xC7\x45
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 4C 89 74 24 ? 55 48 8D 6C 24 ? 48 81 EC ? ? ? ? 45 33 F6 48 C7 45
 </pre>
 </td></tr></table>
 
