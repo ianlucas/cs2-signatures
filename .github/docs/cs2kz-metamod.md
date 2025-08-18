@@ -1,12 +1,54 @@
 # cs2kz-metamod 
 
-Last updated: August 15, 2025 at 4:42:35 AM UTC
+Last updated: August 18, 2025 at 10:32:10 PM UTC
 
-* Manifests: [5480869389366142383](https://steamdb.info/depot/2347771/history/?changeid=M:5480869389366142383), [2365737784967523922](https://steamdb.info/depot/2347773/history/?changeid=M:2365737784967523922), [8047924243551660563](https://steamdb.info/depot/2347770/history/?changeid=M:8047924243551660563)
+* Manifests: [56349276781892208](https://steamdb.info/depot/2347771/history/?changeid=M:56349276781892208), [8435050606759549297](https://steamdb.info/depot/2347773/history/?changeid=M:8435050606759549297), [1154904536107451138](https://steamdb.info/depot/2347770/history/?changeid=M:1154904536107451138)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
+
+### CBasePlayerController_SetPawn
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x87\x10\x08\x00\x00
+</pre>
+</td><td>
+<pre>
+55 48 8D 87 10 08 00 00
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x2A\x4C\x8B\x15
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 57 41 54 41 55 41 56 41 57 48 83 EC ? 4C 8B 15
+</pre>
+</td></tr></table>
+
+### CPhysicsGameSystemFrameBoundary
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x05\x90\x23\xC9\xFF
+</pre>
+</td><td>
+<pre>
+55 48 8D 05 90 23 C9 FF
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x4C\x8B\xDC\x49\x89\x5B\x08\x49\x89\x6B\x10\x49\x89\x73\x18\x57\x41\x56\x41\x57\x48\x83\xEC\x60
+</pre>
+</td><td>
+<pre>
+4C 8B DC 49 89 5B 08 49 89 6B 10 49 89 73 18 57 41 56 41 57 48 83 EC 60
+</pre>
+</td></tr></table>
 
 ### TraceShape
 
@@ -50,27 +92,6 @@ Last updated: August 15, 2025 at 4:42:35 AM UTC
 </pre>
 </td></tr></table>
 
-### CBasePlayerController_SetPawn
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x87\x10\x08\x00\x00
-</pre>
-</td><td>
-<pre>
-55 48 8D 87 10 08 00 00
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x2A\x4C\x8B\x15
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 57 41 54 41 55 41 56 41 57 48 83 EC ? 4C 8B 15
-</pre>
-</td></tr></table>
-
 ### CCSPlayerController_SwitchTeam
 
 <table>
@@ -89,27 +110,6 @@ Last updated: August 15, 2025 at 4:42:35 AM UTC
 </td><td>
 <pre>
 40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA
-</pre>
-</td></tr></table>
-
-### CPhysicsGameSystemFrameBoundary
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x05\x90\x23\xC9\xFF
-</pre>
-</td><td>
-<pre>
-55 48 8D 05 90 23 C9 FF
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x4C\x8B\xDC\x49\x89\x5B\x08\x49\x89\x6B\x10\x49\x89\x73\x18\x57\x41\x56\x41\x57\x48\x83\xEC\x60
-</pre>
-</td><td>
-<pre>
-4C 8B DC 49 89 5B 08 49 89 6B 10 49 89 73 18 57 41 56 41 57 48 83 EC 60
 </pre>
 </td></tr></table>
 

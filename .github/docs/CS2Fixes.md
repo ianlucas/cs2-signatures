@@ -1,12 +1,33 @@
 # CS2Fixes 
 
-Last updated: August 15, 2025 at 5:54:49 PM UTC
+Last updated: August 18, 2025 at 10:32:10 PM UTC
 
-* Manifests: [5480869389366142383](https://steamdb.info/depot/2347771/history/?changeid=M:5480869389366142383), [2365737784967523922](https://steamdb.info/depot/2347773/history/?changeid=M:2365737784967523922), [8047924243551660563](https://steamdb.info/depot/2347770/history/?changeid=M:8047924243551660563)
+* Manifests: [56349276781892208](https://steamdb.info/depot/2347771/history/?changeid=M:56349276781892208), [8435050606759549297](https://steamdb.info/depot/2347773/history/?changeid=M:8435050606759549297), [1154904536107451138](https://steamdb.info/depot/2347770/history/?changeid=M:1154904536107451138)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
 ## Signatures
+
+### CBasePlayerController_SetPawn
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x87\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x45\x89\xC7
+</pre>
+</td><td>
+<pre>
+55 48 8D 87 ? ? ? ? 48 89 E5 41 57 45 89 C7
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x2A\x4C\x8B\x15
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 57 41 54 41 55 41 56 41 57 48 83 EC ? 4C 8B 15
+</pre>
+</td></tr></table>
 
 ### CBaseModelEntity_SetModel
 
@@ -194,27 +215,6 @@ Last updated: August 15, 2025 at 5:54:49 PM UTC
 </td><td>
 <pre>
 48 89 5C 24 ? 57 48 83 EC ? 4C 8B 02
-</pre>
-</td></tr></table>
-
-### CBasePlayerController_SetPawn
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x87\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x45\x89\xC7
-</pre>
-</td><td>
-<pre>
-55 48 8D 87 ? ? ? ? 48 89 E5 41 57 45 89 C7
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x2A\x4C\x8B\x15
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 57 41 54 41 55 41 56 41 57 48 83 EC ? 4C 8B 15
 </pre>
 </td></tr></table>
 
