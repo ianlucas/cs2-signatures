@@ -1,33 +1,12 @@
 # cs2kz-metamod 
 
-Last updated: August 18, 2025 at 10:32:10 PM UTC
+Last updated: August 19, 2025 at 5:32:30 AM UTC
 
 * Manifests: [56349276781892208](https://steamdb.info/depot/2347771/history/?changeid=M:56349276781892208), [8435050606759549297](https://steamdb.info/depot/2347773/history/?changeid=M:8435050606759549297), [1154904536107451138](https://steamdb.info/depot/2347770/history/?changeid=M:1154904536107451138)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
-
-### CBasePlayerController_SetPawn
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x87\x10\x08\x00\x00
-</pre>
-</td><td>
-<pre>
-55 48 8D 87 10 08 00 00
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x2A\x4C\x8B\x15
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 57 41 54 41 55 41 56 41 57 48 83 EC ? 4C 8B 15
-</pre>
-</td></tr></table>
 
 ### CPhysicsGameSystemFrameBoundary
 
@@ -89,6 +68,27 @@ Last updated: August 18, 2025 at 10:32:10 PM UTC
 </td><td>
 <pre>
 48 8B C4 48 89 58 18 55 56 57 41 56 41 57 48 8D 68 A1
+</pre>
+</td></tr></table>
+
+### CBasePlayerController_SetPawn
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x87\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xCE\x41\x55\x45\x89\xCD
+</pre>
+</td><td>
+<pre>
+55 48 8D 87 ? ? ? ? 48 89 E5 41 57 41 56 41 89 CE 41 55 45 89 CD
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x44\x88\x4C\x24\x2A\x53\x57\x41\x54\x41\x56\x41\x57\x48\x83\xEC
+</pre>
+</td><td>
+<pre>
+44 88 4C 24 ? 53 57 41 54 41 56 41 57 48 83 EC
 </pre>
 </td></tr></table>
 
