@@ -1,54 +1,12 @@
 # cs2kz-metamod 
 
-Last updated: August 26, 2025 at 11:33:34 PM UTC
+Last updated: August 27, 2025 at 1:30:24 AM UTC
 
 * Manifests: [3175657360724356250](https://steamdb.info/depot/2347771/history/?changeid=M:3175657360724356250), [962093560435100002](https://steamdb.info/depot/2347773/history/?changeid=M:962093560435100002), [2207297865728352658](https://steamdb.info/depot/2347770/history/?changeid=M:2207297865728352658)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
-
-### CPhysicsGameSystemFrameBoundary
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x05\x90\x23\xC9\xFF
-</pre>
-</td><td>
-<pre>
-55 48 8D 05 90 23 C9 FF
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x4C\x8B\xDC\x49\x89\x5B\x08\x49\x89\x6B\x10\x49\x89\x73\x18\x57\x41\x56\x41\x57\x48\x83\xEC\x60
-</pre>
-</td><td>
-<pre>
-4C 8B DC 49 89 5B 08 49 89 6B 10 49 89 73 18 57 41 56 41 57 48 83 EC 60
-</pre>
-</td></tr></table>
-
-### PostThink
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x53\x48\x83\xEC\x58\xE8
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53 48 83 EC 58 E8
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x2A\x2A\x55\x53\x56\x57\x41\x2A\x48\x2A\x2A\x2A\x48\x2A\x2A\x2A\x2A\x2A\x2A\x4C\x89\x68
-</pre>
-</td><td>
-<pre>
-48 ? ? 55 53 56 57 41 ? 48 ? ? ? 48 ? ? ? ? ? ? 4C 89 68
-</pre>
-</td></tr></table>
 
 ### TraceShape
 
@@ -131,6 +89,27 @@ Last updated: August 26, 2025 at 11:33:34 PM UTC
 </td><td>
 <pre>
 40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA
+</pre>
+</td></tr></table>
+
+### CPhysicsGameSystemFrameBoundary
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8d\x05\x2A\x2A\x2A\x2A\x48\x8d\x35\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x56\x41\x55
+</pre>
+</td><td>
+<pre>
+55 48 8d 05 ? ? ? ? 48 8d 35 ? ? ? ? 48 89 E5 41 56 41 55
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x4C\x8B\xDC\x49\x89\x5B\x08\x49\x89\x6B\x10\x49\x89\x73\x18\x57\x41\x56\x41\x57\x48\x83\xEC\x60
+</pre>
+</td><td>
+<pre>
+4C 8B DC 49 89 5B 08 49 89 6B 10 49 89 73 18 57 41 56 41 57 48 83 EC 60
 </pre>
 </td></tr></table>
 
@@ -614,6 +593,27 @@ Last updated: August 26, 2025 at 11:33:34 PM UTC
 </td><td>
 <pre>
 40 53 56 41 56 48 83 EC 60
+</pre>
+</td></tr></table>
+
+### PostThink
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x58\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x10\x83\xBC\x11\x00\x00
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC 58 E8 ? ? ? ? F3 0F 10 83 BC 11 00 00
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x2A\x2A\x55\x53\x56\x57\x41\x2A\x48\x2A\x2A\x2A\x48\x2A\x2A\x2A\x2A\x2A\x2A\x4C\x89\x68
+</pre>
+</td><td>
+<pre>
+48 ? ? 55 53 56 57 41 ? 48 ? ? ? 48 ? ? ? ? ? ? 4C 89 68
 </pre>
 </td></tr></table>
 
