@@ -1,33 +1,12 @@
 # CounterStrikeSharp 
 
-Last updated: August 27, 2025 at 10:34:01 PM UTC
+Last updated: August 28, 2025 at 10:40:14 PM UTC
 
 * Manifests: [969139262427589121](https://steamdb.info/depot/2347771/history/?changeid=M:969139262427589121), [2791209383833277713](https://steamdb.info/depot/2347773/history/?changeid=M:2791209383833277713), [5568442890012752362](https://steamdb.info/depot/2347770/history/?changeid=M:5568442890012752362)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * Gamedata: https://github.com/roflmuffin/CounterStrikeSharp/blob/main/configs/addons/counterstrikesharp/gamedata/gamedata.json
 
 ## Signatures
-
-### CCSPlayerPawnBase_PostThink
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x53\x48\x83\xEC\x58\xE8
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53 48 83 EC 58 E8
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x2A\x2A\x55\x53\x56\x57\x41\x2A\x48\x2A\x2A\x2A\x48\x2A\x2A\x2A\x2A\x2A\x2A\x4C\x89\x68
-</pre>
-</td><td>
-<pre>
-48 ? ? 55 53 56 57 41 ? 48 ? ? ? 48 ? ? ? ? ? ? 4C 89 68
-</pre>
-</td></tr></table>
 
 ### CBaseEntity_DispatchSpawn
 
@@ -236,6 +215,27 @@ Last updated: August 27, 2025 at 10:34:01 PM UTC
 </td><td>
 <pre>
 40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA
+</pre>
+</td></tr></table>
+
+### CCSPlayerPawnBase_PostThink
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x58\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x10\x83
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC 58 E8 ? ? ? ? F3 0F 10 83
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x2A\x2A\x55\x53\x56\x57\x41\x2A\x48\x2A\x2A\x2A\x48\x2A\x2A\x2A\x2A\x2A\x2A\x4C\x89\x68
+</pre>
+</td><td>
+<pre>
+48 ? ? 55 53 56 57 41 ? 48 ? ? ? 48 ? ? ? ? ? ? 4C 89 68
 </pre>
 </td></tr></table>
 
