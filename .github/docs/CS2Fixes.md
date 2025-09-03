@@ -1,12 +1,33 @@
 # CS2Fixes 
 
-Last updated: September 2, 2025 at 2:13:13 AM UTC
+Last updated: September 3, 2025 at 11:17:31 PM UTC
 
-* Manifests: [969139262427589121](https://steamdb.info/depot/2347771/history/?changeid=M:969139262427589121), [2791209383833277713](https://steamdb.info/depot/2347773/history/?changeid=M:2791209383833277713), [5568442890012752362](https://steamdb.info/depot/2347770/history/?changeid=M:5568442890012752362)
+* Manifests: [450051474861161545](https://steamdb.info/depot/2347771/history/?changeid=M:450051474861161545), [6091043615521810691](https://steamdb.info/depot/2347773/history/?changeid=M:6091043615521810691), [5640518610607514885](https://steamdb.info/depot/2347770/history/?changeid=M:5640518610607514885)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
 ## Signatures
+
+### CCSGameRules__sm_mapGcBanInformation
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x8D\x35\x2A\x2A\x2A\x2A\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x89\x05\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8D\x35
+</pre>
+</td><td>
+<pre>
+48 8D 35 ? ? ? ? 48 8D 3D ? ? ? ? 48 89 05 ? ? ? ? E8 ? ? ? ? 48 8D 35
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8D\x0D\x2A\x2A\x2A\x2A\x48\x89\x45\x2A\x0F\x11\x45
+</pre>
+</td><td>
+<pre>
+48 8D 0D ? ? ? ? 48 89 45 ? 0F 11 45
+</pre>
+</td></tr></table>
 
 ### CBaseModelEntity_SetModel
 
@@ -257,27 +278,6 @@ Last updated: September 2, 2025 at 2:13:13 AM UTC
 </td><td>
 <pre>
 48 89 5C 24 ? 57 48 83 EC ? 48 8B F9 48 8B DA 48 8B 89 ? ? ? ? 48 85 C9 74 ? 48 8B 01
-</pre>
-</td></tr></table>
-
-### CCSGameRules__sm_mapGcBanInformation
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\x8D\x35\x2A\x2A\x2A\x2A\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x89\x05\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8D\x35
-</pre>
-</td><td>
-<pre>
-48 8D 35 ? ? ? ? 48 8D 3D ? ? ? ? 48 89 05 ? ? ? ? E8 ? ? ? ? 48 8D 35
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8D\x0D\x2A\x2A\x2A\x2A\x48\x89\x45\x2A\x0F\x11\x45
-</pre>
-</td><td>
-<pre>
-48 8D 0D ? ? ? ? 48 89 45 ? 0F 11 45
 </pre>
 </td></tr></table>
 
