@@ -1,33 +1,12 @@
 # CS2Fixes 
 
-Last updated: September 3, 2025 at 11:17:31 PM UTC
+Last updated: September 4, 2025 at 3:41:27 PM UTC
 
 * Manifests: [450051474861161545](https://steamdb.info/depot/2347771/history/?changeid=M:450051474861161545), [6091043615521810691](https://steamdb.info/depot/2347773/history/?changeid=M:6091043615521810691), [5640518610607514885](https://steamdb.info/depot/2347770/history/?changeid=M:5640518610607514885)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
 ## Signatures
-
-### CCSGameRules__sm_mapGcBanInformation
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\x8D\x35\x2A\x2A\x2A\x2A\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x89\x05\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8D\x35
-</pre>
-</td><td>
-<pre>
-48 8D 35 ? ? ? ? 48 8D 3D ? ? ? ? 48 89 05 ? ? ? ? E8 ? ? ? ? 48 8D 35
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8D\x0D\x2A\x2A\x2A\x2A\x48\x89\x45\x2A\x0F\x11\x45
-</pre>
-</td><td>
-<pre>
-48 8D 0D ? ? ? ? 48 89 45 ? 0F 11 45
-</pre>
-</td></tr></table>
 
 ### CBaseModelEntity_SetModel
 
@@ -278,6 +257,27 @@ Last updated: September 3, 2025 at 11:17:31 PM UTC
 </td><td>
 <pre>
 48 89 5C 24 ? 57 48 83 EC ? 48 8B F9 48 8B DA 48 8B 89 ? ? ? ? 48 85 C9 74 ? 48 8B 01
+</pre>
+</td></tr></table>
+
+### CCSGameRules__sm_mapGcBanInformation
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x8D\x0D\x2A\x2A\x2A\x2A\x48\x63\x51\x2A\x83\xFA\x2A\x0F\x84\x2A\x2A\x2A\x2A\xF7\x41\x2A\x2A\x2A\x2A\x2A\x74
+</pre>
+</td><td>
+<pre>
+48 8D 0D ? ? ? ? 48 63 51 ? 83 FA ? 0F 84 ? ? ? ? F7 41 ? ? ? ? ? 74
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8D\x0D\x2A\x2A\x2A\x2A\x48\x89\x45\x2A\x0F\x11\x45
+</pre>
+</td><td>
+<pre>
+48 8D 0D ? ? ? ? 48 89 45 ? 0F 11 45
 </pre>
 </td></tr></table>
 
@@ -622,11 +622,11 @@ Last updated: September 3, 2025 at 11:17:31 PM UTC
 </pre>
 </td></tr><tr><td>❓</td><td>Windows</td><td>engine</td><td>
 <pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x48\x83\xEC\x2A\x45\x33\xF6
+\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x48\x83\xEC\x2A\x45\x33\xF6\x48\x8B\xD9
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 45 33 F6
+48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 45 33 F6 48 8B D9
 </pre>
 </td></tr></table>
 
