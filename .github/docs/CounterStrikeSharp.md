@@ -1,8 +1,8 @@
 # CounterStrikeSharp 
 
-Last updated: September 4, 2025 at 12:27:08 AM UTC
+Last updated: September 6, 2025 at 12:38:17 AM UTC
 
-* Manifests: [450051474861161545](https://steamdb.info/depot/2347771/history/?changeid=M:450051474861161545), [6091043615521810691](https://steamdb.info/depot/2347773/history/?changeid=M:6091043615521810691), [5640518610607514885](https://steamdb.info/depot/2347770/history/?changeid=M:5640518610607514885)
+* Manifests: [1612680218319686268](https://steamdb.info/depot/2347771/history/?changeid=M:1612680218319686268), [8544242506234416252](https://steamdb.info/depot/2347773/history/?changeid=M:8544242506234416252), [7325946529563168260](https://steamdb.info/depot/2347770/history/?changeid=M:7325946529563168260)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * Gamedata: https://github.com/roflmuffin/CounterStrikeSharp/blob/main/configs/addons/counterstrikesharp/gamedata/gamedata.json
 
