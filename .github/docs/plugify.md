@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: September 12, 2025 at 12:53:59 AM UTC
+Last updated: September 13, 2025 at 3:28:49 PM UTC
 
 * Manifests: [5390180435261453954](https://steamdb.info/depot/2347771/history/?changeid=M:5390180435261453954), [3982378669638934987](https://steamdb.info/depot/2347773/history/?changeid=M:3982378669638934987), [1724386631902797910](https://steamdb.info/depot/2347770/history/?changeid=M:1724386631902797910)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -194,6 +194,19 @@ Last updated: September 12, 2025 at 12:53:59 AM UTC
 </td><td>
 <pre>
 44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 41 57 48 8B EC
+</pre>
+</td></tr></table>
+
+### CCSPlayer_WeaponServices::Weapon_Equip
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x8B\x77
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 8B 77
 </pre>
 </td></tr></table>
 
