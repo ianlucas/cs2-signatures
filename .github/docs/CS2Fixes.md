@@ -1,33 +1,12 @@
 # CS2Fixes 
 
-Last updated: September 17, 2025 at 7:58:34 AM UTC
+Last updated: September 17, 2025 at 11:14:53 PM UTC
 
-* Manifests: [4830959087082653333](https://steamdb.info/depot/2347771/history/?changeid=M:4830959087082653333), [8195958260327041873](https://steamdb.info/depot/2347773/history/?changeid=M:8195958260327041873), [3010291677522787017](https://steamdb.info/depot/2347770/history/?changeid=M:3010291677522787017)
+* Manifests: [4068573125197688328](https://steamdb.info/depot/2347771/history/?changeid=M:4068573125197688328), [7055475043770421024](https://steamdb.info/depot/2347773/history/?changeid=M:7055475043770421024), [2295386894438056009](https://steamdb.info/depot/2347770/history/?changeid=M:2295386894438056009)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
 ## Signatures
-
-### ServerMovementUnlock
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(2)</td><td>Linux</td><td>server</td><td>
-<pre>
-\x0F\x87\x2A\x2A\x2A\x2A\x49\x8B\x7C\x24\x2A\x48\x85\xFF
-</pre>
-</td><td>
-<pre>
-0F 87 ? ? ? ? 49 8B 7C 24 ? 48 85 FF
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x76\x2A\xF2\x0F\x10\x4E\x2A\x41\x0F\x28\xD2\x0F\x28\xC1
-</pre>
-</td><td>
-<pre>
-76 ? F2 0F 10 4E ? 41 0F 28 D2 0F 28 C1
-</pre>
-</td></tr></table>
 
 ### CNavMesh_GetNearestNavArea
 
@@ -110,6 +89,27 @@ C8 42 EB ? 4C 39 67 30
 </td><td>
 <pre>
 4C 89 44 24 ? F3 0F 11 4C 24 ? 55 53 56
+</pre>
+</td></tr></table>
+
+### ServerMovementUnlock
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x0F\x87\x2A\x2A\x2A\x2A\x49\x8B\x7C\x24\x2A\x48\x85\xFF
+</pre>
+</td><td>
+<pre>
+0F 87 ? ? ? ? 49 8B 7C 24 ? 48 85 FF
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x76\x2A\xF2\x0F\x10\x4E\x2A\x41\x0F\x28\xD2\x0F\x28\xC1
+</pre>
+</td><td>
+<pre>
+76 ? F2 0F 10 4E ? 41 0F 28 D2 0F 28 C1
 </pre>
 </td></tr></table>
 
