@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 17, 2025 at 11:29:32 AM UTC
+* **Last updated:** September 17, 2025 at 8:14:45 PM UTC
 * **Manifests:** [4830959087082653333](https://steamdb.info/depot/2347771/history/?changeid=M:4830959087082653333), [8195958260327041873](https://steamdb.info/depot/2347773/history/?changeid=M:8195958260327041873), [3010291677522787017](https://steamdb.info/depot/2347770/history/?changeid=M:3010291677522787017)
 
 <table>
@@ -32,10 +32,7 @@
 <details>
   <summary>plugify broken signatures</summary>
 
-* `❌Linux ✅Windows` CCSPlayerController_SwitchTeam
-* `❌Linux ✅Windows` DispatchSpawn
 * `❌Linux ✅Windows` CBaseEntity_EmitSoundParams
-* `❌Linux ✅Windows` GetCSWeaponDataFromKey
 
 </details>
 

@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: September 17, 2025 at 7:58:34 AM UTC
+Last updated: September 17, 2025 at 8:14:45 PM UTC
 
 * Manifests: [4830959087082653333](https://steamdb.info/depot/2347771/history/?changeid=M:4830959087082653333), [8195958260327041873](https://steamdb.info/depot/2347773/history/?changeid=M:8195958260327041873), [3010291677522787017](https://steamdb.info/depot/2347770/history/?changeid=M:3010291677522787017)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -26,69 +26,6 @@ Last updated: September 17, 2025 at 7:58:34 AM UTC
 </td><td>
 <pre>
 48 89 5C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 4C 89 74 24 ? 55 48 8D 6C 24 ? 48 81 EC ? ? ? ? 45 33 F6 48 C7 45
-</pre>
-</td></tr></table>
-
-### CCSPlayerController_SwitchTeam
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x0F\xB6\x87
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 0F B6 87
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x53\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\xFA
-</pre>
-</td><td>
-<pre>
-40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA
-</pre>
-</td></tr></table>
-
-### DispatchSpawn
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC
-</pre>
-</td><td>
-<pre>
-48 85 FF 74 ? 55 48 89 E5 41 55 41 54 49 89 FC
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x85\xD2
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 48 85 C9 0F 84 ? ? ? ? 48 85 D2
-</pre>
-</td></tr></table>
-
-### GetCSWeaponDataFromKey
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x31\xD2\x48\x89\xE5\x53\x89\xFB
-</pre>
-</td><td>
-<pre>
-55 31 D2 48 89 E5 53 89 FB
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x33\xED\x48\x8B\xFA\x8B\xF1
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 33 ED 48 8B FA 8B F1
 </pre>
 </td></tr></table>
 
@@ -257,6 +194,27 @@ Last updated: September 17, 2025 at 7:58:34 AM UTC
 </td><td>
 <pre>
 44 88 4C 24 ? 53 57
+</pre>
+</td></tr></table>
+
+### CCSPlayerController_SwitchTeam
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x0F\xB6\x87
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 55 41 54 53 48 89 FB 48 83 EC ? 0F B6 87
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x53\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\xFA
+</pre>
+</td><td>
+<pre>
+40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA
 </pre>
 </td></tr></table>
 
@@ -459,6 +417,48 @@ Last updated: September 17, 2025 at 7:58:34 AM UTC
 </td><td>
 <pre>
 48 83 EC ? C6 44 24 ? ? 4C 8B C1
+</pre>
+</td></tr></table>
+
+### DispatchSpawn
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x49\x89\xFD
+</pre>
+</td><td>
+<pre>
+48 85 FF 74 ? 55 48 89 E5 41 55 49 89 FD
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x85\xD2
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 48 85 C9 0F 84 ? ? ? ? 48 85 D2
+</pre>
+</td></tr></table>
+
+### GetCSWeaponDataFromKey
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x89\xFD\x41\x54\x45\x31\xE4
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 41 89 FD 41 54 45 31 E4
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x33\xED\x48\x8B\xFA\x8B\xF1
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 33 ED 48 8B FA 8B F1
 </pre>
 </td></tr></table>
 
