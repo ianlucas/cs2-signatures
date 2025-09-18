@@ -1,33 +1,12 @@
 # cs2-inventory-simulator-plugin 
 
-Last updated: September 18, 2025 at 1:22:58 AM UTC
+Last updated: September 18, 2025 at 8:53:57 AM UTC
 
 * Manifests: [5108100946580420672](https://steamdb.info/depot/2347771/history/?changeid=M:5108100946580420672), [8675069731254910640](https://steamdb.info/depot/2347773/history/?changeid=M:8675069731254910640), [5405732667928946935](https://steamdb.info/depot/2347770/history/?changeid=M:5405732667928946935)
 * Repository: https://github.com/ianlucas/cs2-inventory-simulator-plugin
 * Gamedata: https://github.com/ianlucas/cs2-inventory-simulator-plugin/blob/main/gamedata/inventory-simulator.json
 
 ## Signatures
-
-### CCSPlayerController_UpdateSelectTeamPreview
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(3)</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x89\x75
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 89 75
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x89\x54\x24\x2A\x55\x48\x81\xEC
-</pre>
-</td><td>
-<pre>
-89 54 24 ? 55 48 81 EC
-</pre>
-</td></tr></table>
 
 ### CAttributeList_SetOrAddAttributeValueByName
 
@@ -68,6 +47,27 @@ Last updated: September 18, 2025 at 1:22:58 AM UTC
 </td><td>
 <pre>
 48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53
+</pre>
+</td></tr></table>
+
+### CCSPlayerController_UpdateSelectTeamPreview
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x89\x75\x2A\xF6\x87
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 89 75 ? F6 87
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x89\x54\x24\x2A\x55\x48\x81\xEC
+</pre>
+</td><td>
+<pre>
+89 54 24 ? 55 48 81 EC
 </pre>
 </td></tr></table>
 
