@@ -1,8 +1,8 @@
 # swiftly 
 
-Last updated: September 17, 2025 at 11:14:53 PM UTC
+Last updated: September 18, 2025 at 1:22:58 AM UTC
 
-* Manifests: [4068573125197688328](https://steamdb.info/depot/2347771/history/?changeid=M:4068573125197688328), [7055475043770421024](https://steamdb.info/depot/2347773/history/?changeid=M:7055475043770421024), [2295386894438056009](https://steamdb.info/depot/2347770/history/?changeid=M:2295386894438056009)
+* Manifests: [5108100946580420672](https://steamdb.info/depot/2347771/history/?changeid=M:5108100946580420672), [8675069731254910640](https://steamdb.info/depot/2347773/history/?changeid=M:8675069731254910640), [5405732667928946935](https://steamdb.info/depot/2347770/history/?changeid=M:5405732667928946935)
 * Repository: https://github.com/swiftly-solution/swiftly
 * Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/cs2/core/signatures.json
 
