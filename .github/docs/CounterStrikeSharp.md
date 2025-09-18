@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: September 18, 2025 at 1:22:58 AM UTC
+Last updated: September 18, 2025 at 6:50:55 AM UTC
 
 * Manifests: [5108100946580420672](https://steamdb.info/depot/2347771/history/?changeid=M:5108100946580420672), [8675069731254910640](https://steamdb.info/depot/2347773/history/?changeid=M:8675069731254910640), [5405732667928946935](https://steamdb.info/depot/2347770/history/?changeid=M:5405732667928946935)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
@@ -11,13 +11,13 @@ Last updated: September 18, 2025 at 1:22:58 AM UTC
 ### CBaseEntity_DispatchSpawn
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC
+\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x49\x89\xFD
 </pre>
 </td><td>
 <pre>
-48 85 FF 74 ? 55 48 89 E5 41 55 41 54 49 89 FC
+48 85 FF 74 ? 55 48 89 E5 41 55 49 89 FD
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -26,90 +26,6 @@ Last updated: September 18, 2025 at 1:22:58 AM UTC
 </td><td>
 <pre>
 48 89 5C 24 10 57 48 83 EC 30 48 8B DA 48 8B F9 48 85 C9
-</pre>
-</td></tr></table>
-
-### CBaseTrigger_StartTouch
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x48\x8B\x07
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 89 FB 48 83 EC ? 48 8B 07
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\x01
-</pre>
-</td><td>
-<pre>
-40 57 41 56 48 83 EC ? 48 8B 01
-</pre>
-</td></tr></table>
-
-### CCSPlayerPawnBase_PostThink
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x58\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x10\x83
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC 58 E8 ? ? ? ? F3 0F 10 83
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x2A\x2A\x55\x53\x56\x57\x41\x2A\x48\x2A\x2A\x2A\x48\x2A\x2A\x2A\x2A\x2A\x2A\x4C\x89\x68
-</pre>
-</td><td>
-<pre>
-48 ? ? 55 53 56 57 41 ? 48 ? ? ? 48 ? ? ? ? ? ? 4C 89 68
-</pre>
-</td></tr></table>
-
-### CheckTransmit
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x89\xD7\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x78\x01\x00\x00
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 89 D7 41 56 41 55 41 54 53 48 81 EC 78 01 00 00
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x4C\x89\x48\x2A\x48\x89\x50\x2A\x48\x89\x48\x2A\x55\x48\x8D\xA8
-</pre>
-</td><td>
-<pre>
-48 8B C4 4C 89 48 ? 48 89 50 ? 48 89 48 ? 55 48 8D A8
-</pre>
-</td></tr></table>
-
-### GetCSWeaponDataFromKey
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x31\xD2\x48\x89\xE5\x53\x89\xFB
-</pre>
-</td><td>
-<pre>
-55 31 D2 48 89 E5 53 89 FB
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x20\x33\xED\x48\x8B\xFA\x8B\xF1
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC 20 33 ED 48 8B FA 8B F1
 </pre>
 </td></tr></table>
 
@@ -239,6 +155,27 @@ Last updated: September 18, 2025 at 1:22:58 AM UTC
 </pre>
 </td></tr></table>
 
+### CBaseTrigger_StartTouch
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x10\x48\x8B\x07
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 49 89 F5 41 54 53 48 89 FB 48 83 EC 10 48 8B 07
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\x01
+</pre>
+</td><td>
+<pre>
+40 57 41 56 48 83 EC ? 48 8B 01
+</pre>
+</td></tr></table>
+
 ### CCSGameRules_TerminateRound
 
 <table>
@@ -278,6 +215,27 @@ Last updated: September 18, 2025 at 1:22:58 AM UTC
 </td><td>
 <pre>
 40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA
+</pre>
+</td></tr></table>
+
+### CCSPlayerPawnBase_PostThink
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x40\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x10\x83
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 48 83 EC 40 E8 ? ? ? ? F3 0F 10 83
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x2A\x2A\x55\x53\x56\x57\x41\x2A\x48\x2A\x2A\x2A\x48\x2A\x2A\x2A\x2A\x2A\x2A\x4C\x89\x68
+</pre>
+</td><td>
+<pre>
+48 ? ? 55 53 56 57 41 ? 48 ? ? ? 48 ? ? ? ? ? ? 4C 89 68
 </pre>
 </td></tr></table>
 
@@ -407,6 +365,27 @@ Last updated: September 18, 2025 at 1:22:58 AM UTC
 </pre>
 </td></tr></table>
 
+### CheckTransmit
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x48\x8D\x3D\x2A\x2A\x2A\x2A\x41\x55\x41\x89\xD5
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 49 89 FF 41 56 48 8D 3D ? ? ? ? 41 55 41 89 D5
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x4C\x89\x48\x2A\x48\x89\x50\x2A\x48\x89\x48\x2A\x55\x48\x8D\xA8
+</pre>
+</td><td>
+<pre>
+48 8B C4 4C 89 48 ? 48 89 50 ? 48 89 48 ? 55 48 8D A8
+</pre>
+</td></tr></table>
+
 ### ClientPrint
 
 <table>
@@ -425,6 +404,27 @@ Last updated: September 18, 2025 at 1:22:58 AM UTC
 </td><td>
 <pre>
 48 85 C9 0F 84 ? ? ? ? 48 89 5C 24 ? 55
+</pre>
+</td></tr></table>
+
+### GetCSWeaponDataFromKey
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x89\xFD\x41\x54\x45\x31\xE4
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 41 89 FD 41 54 45 31 E4
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x20\x33\xED\x48\x8B\xFA\x8B\xF1
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC 20 33 ED 48 8B FA 8B F1
 </pre>
 </td></tr></table>
 
@@ -546,11 +546,11 @@ Last updated: September 18, 2025 at 1:22:58 AM UTC
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x8B\xE9\x49\x8B\xD9
+\x48\x89\x5C\x24\x08\x48\x89\x6C\x24\x10\x48\x89\x74\x24\x18\x57\x48\x83\xEC\x60\x8B\xE9
 </pre>
 </td><td>
 <pre>
-48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 8B E9 49 8B D9
+48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 60 8B E9
 </pre>
 </td></tr></table>
 
