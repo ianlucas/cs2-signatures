@@ -1,12 +1,33 @@
 # CS2Fixes 
 
-Last updated: September 23, 2025 at 12:49:27 AM UTC
+Last updated: September 24, 2025 at 12:48:24 AM UTC
 
-* Manifests: [45148165032158713](https://steamdb.info/depot/2347771/history/?changeid=M:45148165032158713), [4894514668865112027](https://steamdb.info/depot/2347773/history/?changeid=M:4894514668865112027), [4730803088669052728](https://steamdb.info/depot/2347770/history/?changeid=M:4730803088669052728)
+* Manifests: [4380557637532005102](https://steamdb.info/depot/2347771/history/?changeid=M:4380557637532005102), [263294653968097226](https://steamdb.info/depot/2347773/history/?changeid=M:263294653968097226), [1072979040163327379](https://steamdb.info/depot/2347770/history/?changeid=M:1072979040163327379)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
 ## Signatures
+
+### ServerMovementUnlock
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x0F\x87\x2A\x2A\x2A\x2A\xF3\x0F\x10\x3D\x2A\x2A\x2A\x2A\xF3\x0F\x11\xBD
+</pre>
+</td><td>
+<pre>
+0F 87 ? ? ? ? F3 0F 10 3D ? ? ? ? F3 0F 11 BD
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x0F\x86\xB8\x2A\x2A\x2A\xF3\x0F\x58\xD4
+</pre>
+</td><td>
+<pre>
+0F 86 B8 ? ? ? F3 0F 58 D4
+</pre>
+</td></tr></table>
 
 ### CBaseModelEntity_SetModel
 
@@ -984,27 +1005,6 @@ C8 42 EB ? 4C 39 67 30
 </td><td>
 <pre>
 48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53
-</pre>
-</td></tr></table>
-
-### ServerMovementUnlock
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x0F\x87\x2A\x2A\x2A\x2A\xF3\x0F\x10\x3D\x2A\x2A\x2A\x2A\xF3\x0F\x11\xBD
-</pre>
-</td><td>
-<pre>
-0F 87 ? ? ? ? F3 0F 10 3D ? ? ? ? F3 0F 11 BD
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x0F\x86\xB8\x2A\x2A\x2A\xF3\x0F\x58\xD4
-</pre>
-</td><td>
-<pre>
-0F 86 B8 ? ? ? F3 0F 58 D4
 </pre>
 </td></tr></table>
 
