@@ -1,33 +1,12 @@
 # cs2kz-metamod 
 
-Last updated: September 24, 2025 at 12:48:24 AM UTC
+Last updated: September 24, 2025 at 8:33:13 AM UTC
 
 * Manifests: [4380557637532005102](https://steamdb.info/depot/2347771/history/?changeid=M:4380557637532005102), [263294653968097226](https://steamdb.info/depot/2347773/history/?changeid=M:263294653968097226), [1072979040163327379](https://steamdb.info/depot/2347770/history/?changeid=M:1072979040163327379)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
-
-### WalkMove
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xB5\x10\xFF\xFF\xFF\x41\x55\x4C\x8D\xBD\xD8\xFD\xFF\xFF
-</pre>
-</td><td>
-<pre>
-55 66 0F EF C0 48 89 E5 41 57 41 56 4C 8D B5 10 FF FF FF 41 55 4C 8D BD D8 FD FF FF
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x48\x89\x70\x18\x55\x57
-</pre>
-</td><td>
-<pre>
-48 8B C4 48 89 70 18 55 57
-</pre>
-</td></tr></table>
 
 ### AirMove
 
@@ -803,6 +782,27 @@ Last updated: September 24, 2025 at 12:48:24 AM UTC
 </td><td>
 <pre>
 48 8B C4 4C 89 48 20 4C 89 40 18 48 89 50 10 48 89 48 08 55 53 56 57 41 54 41 55 41 56 41 57 48 8D A8 C8 FD FF FF
+</pre>
+</td></tr></table>
+
+### WalkMove
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xB5\x10\xFF\xFF\xFF\x41\x55\x4C\x8D\xBD\xD8\xFD\xFF\xFF
+</pre>
+</td><td>
+<pre>
+55 66 0F EF C0 48 89 E5 41 57 41 56 4C 8D B5 10 FF FF FF 41 55 4C 8D BD D8 FD FF FF
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x48\x89\x70\x10\x48\x89\x78\x18\x55\x41\x54
+</pre>
+</td><td>
+<pre>
+48 8B C4 48 89 70 10 48 89 78 18 55 41 54
 </pre>
 </td></tr></table>
 
