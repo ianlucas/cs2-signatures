@@ -1,33 +1,12 @@
 # cs2kz-metamod 
 
-Last updated: September 25, 2025 at 12:18:38 AM UTC
+Last updated: September 25, 2025 at 11:09:38 PM UTC
 
 * Manifests: [815883671211973919](https://steamdb.info/depot/2347771/history/?changeid=M:815883671211973919), [8860563446281316999](https://steamdb.info/depot/2347773/history/?changeid=M:8860563446281316999), [5861958619896967926](https://steamdb.info/depot/2347770/history/?changeid=M:5861958619896967926)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
-
-### PostPlayerMove
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x50\x48\x8B\x5F
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 56 41 55 49 89 F5 41 54 49 89 FC 53 48 83 EC 50 48 8B 5F
-</pre>
-</td></tr><tr><td>✅⚠️(3)</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x53\x56\x41\x56\x48\x83\xEC\x60
-</pre>
-</td><td>
-<pre>
-40 53 56 41 56 48 83 EC 60
-</pre>
-</td></tr></table>
 
 ### AirMove
 
@@ -572,6 +551,27 @@ Last updated: September 25, 2025 at 12:18:38 AM UTC
 </td><td>
 <pre>
 48 89 74 24 18 57 48 83 EC 50 48 83 79 30 00
+</pre>
+</td></tr></table>
+
+### PostPlayerMove
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x50\x48\x8B\x5F
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 49 89 F5 41 54 49 89 FC 53 48 83 EC 50 48 8B 5F
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x53\x56\x41\x56\x48\x83\xEC\x60\x48\x83\x79\x30\x00
+</pre>
+</td><td>
+<pre>
+40 53 56 41 56 48 83 EC 60 48 83 79 30 00
 </pre>
 </td></tr></table>
 
