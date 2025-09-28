@@ -1,33 +1,12 @@
 # CS2Fixes 
 
-Last updated: September 26, 2025 at 2:40:44 AM UTC
+Last updated: September 28, 2025 at 8:02:50 PM UTC
 
 * Manifests: [1843845740489286185](https://steamdb.info/depot/2347771/history/?changeid=M:1843845740489286185), [360752302814306779](https://steamdb.info/depot/2347773/history/?changeid=M:360752302814306779), [5583519685111111912](https://steamdb.info/depot/2347770/history/?changeid=M:5583519685111111912)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
 ## Signatures
-
-### ServerMovementUnlock
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x0F\x87\x2A\x2A\x2A\x2A\xF3\x0F\x10\x3D\x2A\x2A\x2A\x2A\xF3\x0F\x11\xBD
-</pre>
-</td><td>
-<pre>
-0F 87 ? ? ? ? F3 0F 10 3D ? ? ? ? F3 0F 11 BD
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x0F\x86\xB8\x2A\x2A\x2A\xF3\x0F\x58\xD4
-</pre>
-</td><td>
-<pre>
-0F 86 B8 ? ? ? F3 0F 58 D4
-</pre>
-</td></tr></table>
 
 ### CBaseModelEntity_SetModel
 
@@ -630,27 +609,6 @@ Last updated: September 26, 2025 at 2:40:44 AM UTC
 </pre>
 </td></tr></table>
 
-### CNetworkStringTable_DeleteAllStrings
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Linux</td><td>engine</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x45\x31\xE4\x53\x48\x89\xFB\x48\x83\xEC\x2A\x48\x83\x7F
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 45 31 E4 53 48 89 FB 48 83 EC ? 48 83 7F
-</pre>
-</td></tr><tr><td>❓</td><td>Windows</td><td>engine</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x48\x83\xEC\x2A\x45\x33\xF6
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 45 33 F6
-</pre>
-</td></tr></table>
-
 ### CPhysBox_Use
 
 <table>
@@ -1005,6 +963,27 @@ C8 42 EB ? 4C 39 67 30
 </td><td>
 <pre>
 48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53
+</pre>
+</td></tr></table>
+
+### ServerMovementUnlock
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x0F\x87\x2A\x2A\x2A\x2A\xF3\x0F\x10\x35\x2A\x2A\x2A\x2A\xF3\x0F\x11\xB5\x2A\x2A\x2A\x2A\x48\x89\xDE
+</pre>
+</td><td>
+<pre>
+0F 87 ? ? ? ? F3 0F 10 35 ? ? ? ? F3 0F 11 B5 ? ? ? ? 48 89 DE
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x0F\x86\xB0\x2A\x2A\x2A\xF3\x0F\x58\xD4
+</pre>
+</td><td>
+<pre>
+0F 86 B0 ? ? ? F3 0F 58 D4
 </pre>
 </td></tr></table>
 
