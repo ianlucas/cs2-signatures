@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: October 6, 2025 at 12:51:30 AM UTC
+Last updated: October 6, 2025 at 5:57:49 PM UTC
 
 * Manifests: [805170579354276441](https://steamdb.info/depot/2347771/history/?changeid=M:805170579354276441), [4696256778397078942](https://steamdb.info/depot/2347773/history/?changeid=M:4696256778397078942), [1016023034118768778](https://steamdb.info/depot/2347770/history/?changeid=M:1016023034118768778)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -26,48 +26,6 @@ Last updated: October 6, 2025 at 12:51:30 AM UTC
 </td><td>
 <pre>
 48 89 5C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 4C 89 74 24 ? 55 48 8D 6C 24 ? 48 81 EC ? ? ? ? 45 33 F6 48 C7 45
-</pre>
-</td></tr></table>
-
-### CCSServerPointScriptEntityEnterScope
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x31\xF6\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\x35\xD8\xDF\x8A\xFF
-</pre>
-</td><td>
-<pre>
-55 31 F6 48 89 E5 41 57 41 56 4C 8D 35 D8 DF 8A FF
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x41\x56\x48\x83\xEC\x2A\x48\x89\x11
-</pre>
-</td><td>
-<pre>
-48 89 6C 24 ? 48 89 74 24 ? 41 56 48 83 EC ? 48 89 11
-</pre>
-</td></tr></table>
-
-### CCSScriptConstuctor
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(9346364)</td><td>Linux</td><td>server</td><td>
-<pre>
-\xTODO
-</pre>
-</td><td>
-<pre>
-TODO
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x33\xF6\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\x01\x48\x8B\xD9\x48\x83\xC1
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 33 F6 48 8D 05 ? ? ? ? 48 89 01 48 8B D9 48 83 C1
 </pre>
 </td></tr></table>
 
@@ -312,6 +270,48 @@ TODO
 </td><td>
 <pre>
 48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 E8
+</pre>
+</td></tr></table>
+
+### CCSScriptOnActivate
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x41\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8B\x43
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 41 89 F4 53 48 89 FB 48 83 EC ? E8 ? ? ? ? 48 8B 43
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x8B\xFA\x48\x8B\xD9\xE8\x2A\x2A\x2A\x2A\x48\x8B\x43
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 57 48 83 EC ? 8B FA 48 8B D9 E8 ? ? ? ? 48 8B 43
+</pre>
+</td></tr></table>
+
+### CCSServerPointScriptEntityEnterScope
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x41\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8B\x43
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 41 89 F4 53 48 89 FB 48 83 EC ? E8 ? ? ? ? 48 8B 43
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x41\x56\x48\x83\xEC\x2A\x48\x89\x11
+</pre>
+</td><td>
+<pre>
+48 89 6C 24 ? 48 89 74 24 ? 41 56 48 83 EC ? 48 89 11
 </pre>
 </td></tr></table>
 
