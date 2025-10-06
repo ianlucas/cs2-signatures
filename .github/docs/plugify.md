@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: October 3, 2025 at 11:17:23 PM UTC
+Last updated: October 6, 2025 at 12:13:29 AM UTC
 
 * Manifests: [805170579354276441](https://steamdb.info/depot/2347771/history/?changeid=M:805170579354276441), [4696256778397078942](https://steamdb.info/depot/2347773/history/?changeid=M:4696256778397078942), [1016023034118768778](https://steamdb.info/depot/2347770/history/?changeid=M:1016023034118768778)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -273,6 +273,32 @@ Last updated: October 3, 2025 at 11:17:23 PM UTC
 </pre>
 </td></tr></table>
 
+### CCSScriptConstuctor
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x33\xF6\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\x01\x48\x8B\xD9\x48\x83\xC1
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 33 F6 48 8D 05 ? ? ? ? 48 89 01 48 8B D9 48 83 C1
+</pre>
+</td></tr></table>
+
+### CCSServerPointScriptEntityEnterScope
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x41\x56\x48\x83\xEC\x2A\x48\x89\x11
+</pre>
+</td><td>
+<pre>
+48 89 6C 24 ? 48 89 74 24 ? 41 56 48 83 EC ? 48 89 11
+</pre>
+</td></tr></table>
+
 ### CEntityIOOutput_FireOutputInternal
 
 <table>
@@ -375,6 +401,19 @@ Last updated: October 3, 2025 at 11:17:23 PM UTC
 </td><td>
 <pre>
 48 8B C4 4C 89 48 ? 48 89 48 ? 55 56
+</pre>
+</td></tr></table>
+
+### CSScriptResolveModule
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x53\x56\x57\x41\x55\x41\x56\x48\x8D\xAC\x24
+</pre>
+</td><td>
+<pre>
+48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 48 8D AC 24
 </pre>
 </td></tr></table>
 
