@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: October 6, 2025 at 11:55:05 PM UTC
+Last updated: October 10, 2025 at 10:36:58 AM UTC
 
 * Manifests: [3998075303914883368](https://steamdb.info/depot/2347771/history/?changeid=M:3998075303914883368), [5253369399052761193](https://steamdb.info/depot/2347773/history/?changeid=M:5253369399052761193), [765099922399772114](https://steamdb.info/depot/2347770/history/?changeid=M:765099922399772114)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -197,6 +197,32 @@ Last updated: October 6, 2025 at 11:55:05 PM UTC
 </pre>
 </td></tr></table>
 
+### CCSGameRules::HandleSwapTeams
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x45\x31\xF6\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8D\x25
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 45 31 F6 41 55 41 54 53 48 81 EC ? ? ? ? 4C 8D 25
+</pre>
+</td></tr></table>
+
+### CCSGameRules::OnTeamsSwappedAtRoundReset
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x8B\x97\x2A\x2A\x2A\x2A\x8D\x4A
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 8B 97 ? ? ? ? 8D 4A
+</pre>
+</td></tr></table>
+
 ### CCSPlayerController_SwitchTeam
 
 <table>
@@ -312,6 +338,19 @@ Last updated: October 6, 2025 at 11:55:05 PM UTC
 </td><td>
 <pre>
 48 89 6C 24 ? 48 89 74 24 ? 41 56 48 83 EC ? 48 89 11
+</pre>
+</td></tr></table>
+
+### CEconItemSchema::GetItemDefinitionByName
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x80\xBF\x2A\x2A\x2A\x2A\x00\x75
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC ? 80 BF ? ? ? ? 00 75
 </pre>
 </td></tr></table>
 
