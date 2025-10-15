@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** October 15, 2025 at 9:46:50 AM UTC
+* **Last updated:** October 15, 2025 at 11:52:54 AM UTC
 * **Manifests:** [8823131850246373323](https://steamdb.info/depot/2347771/history/?changeid=M:8823131850246373323), [1602756282803538628](https://steamdb.info/depot/2347773/history/?changeid=M:1602756282803538628), [8910996202863983657](https://steamdb.info/depot/2347770/history/?changeid=M:8910996202863983657)
 
 <table>
@@ -38,11 +38,8 @@
 <details>
   <summary>plugify broken signatures</summary>
 
-* `✅Linux ❌Windows` CCSServer::PointScriptEntityEnterScope
-* `✅Linux ❌Windows` CCSScript::OnActivate
-* `❌Linux ❌Windows` CBaseEntity::EmitSoundParams
-* `✅Linux ❌Windows` CBaseEntity::EmitSoundFilter
-* `✅Linux ❌Windows` GetCSWeaponDataFromKey
+* `❌Linux ❌Windows` CBaseModelEntity::SetModel
+* `❌Linux ✅Windows` CBaseEntity::EmitSoundParams
 
 </details>
 
