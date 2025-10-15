@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: October 14, 2025 at 10:28:52 PM UTC
+Last updated: October 15, 2025 at 1:28:44 AM UTC
 
 * Manifests: [8823131850246373323](https://steamdb.info/depot/2347771/history/?changeid=M:8823131850246373323), [1602756282803538628](https://steamdb.info/depot/2347773/history/?changeid=M:1602756282803538628), [8910996202863983657](https://steamdb.info/depot/2347770/history/?changeid=M:8910996202863983657)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -8,16 +8,16 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 
 ## Signatures
 
-### CBaseEntity_EmitSoundFilter
+### CBaseEntity::EmitSoundFilter
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x49\x89\xCF\x41\x56\x41\x89\xD6
+\x48\xB8\x00\x00\x00\x00\xFF\xFF\xFF\xFF\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55
 </pre>
 </td><td>
 <pre>
-55 48 8D 05 ? ? ? ? 48 89 E5 41 57 49 89 CF 41 56 41 89 D6
+48 B8 00 00 00 00 FF FF FF FF 55 48 89 E5 41 57 41 56 41 55
 </pre>
 </td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -29,7 +29,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CBaseEntity_EmitSoundParams
+### CBaseEntity::EmitSoundParams
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
@@ -50,7 +50,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CCSScriptOnActivate
+### CCSScript::OnActivate
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -71,16 +71,16 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CCSServerPointScriptEntityEnterScope
+### CCSServer::PointScriptEntityEnterScope
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x41\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8B\x43
+\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xFD\x8B\x3D\x7F\x00\x6A\x01
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 41 89 F4 53 48 89 FB 48 83 EC ? E8 ? ? ? ? 48 8B 43
+55 48 89 E5 41 56 41 55 49 89 FD 8B 3D 7F 00 6A 01
 </pre>
 </td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -92,37 +92,16 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CSScriptResolveModule
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xF7\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\xA8\x01\x00\x00
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 49 89 F7 41 56 41 55 41 54 53 48 89 FB 48 81 EC A8 01 00 00
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x53\x56\x57\x41\x55\x41\x56\x48\x8D\xAC\x24
-</pre>
-</td><td>
-<pre>
-48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 48 8D AC 24
-</pre>
-</td></tr></table>
-
 ### GetCSWeaponDataFromKey
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x89\xFD\x41\x54\x45\x31\xE4
+\x55\x31\xD2\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x41\x89\xFC
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 56 41 55 41 89 FD 41 54 45 31 E4
+55 31 D2 48 89 E5 41 57 41 56 41 55 41 54 41 89 FC
 </pre>
 </td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -134,7 +113,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CEntityIOOutput_FireOutputInternal
+### CEntityIOOutput::FireOutputInternal
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -155,7 +134,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CGameEntitySystem_FindEntityByClassName
+### CGameEntitySystem::FindEntityByClassName
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(2)</td><td>Linux</td><td>server</td><td>
@@ -218,7 +197,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CBaseEntity_SetMoveType
+### CBaseEntity::SetMoveType
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -239,7 +218,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CBaseEntity_SetParent
+### CBaseEntity::SetParent
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -260,7 +239,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CBaseModelEntity_SetModel
+### CBaseModelEntity::SetModel
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -281,7 +260,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CBasePlayerController_SetPawn
+### CBasePlayerController::SetPawn
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -328,7 +307,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CCSPlayerController_SwitchTeam
+### CCSPlayerController::SwitchTeam
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -349,7 +328,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CCSPlayer_ItemServices_CanAcquire
+### CCSPlayer_ItemServices::CanAcquire
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -370,20 +349,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CCSPlayer_WeaponServices::Weapon_Equip
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x8B\x77
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 8B 77
-</pre>
-</td></tr></table>
-
-### CCSPlayer_WeaponServices_RemoveItem
+### CCSPlayer_WeaponServices::RemoveItem
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -404,6 +370,19 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
+### CCSPlayer_WeaponServices::Weapon_Equip
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x8B\x77
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 8B 77
+</pre>
+</td></tr></table>
+
 ### CEconItemSchema::GetItemDefinitionByName
 
 <table>
@@ -417,7 +396,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CEntityIdentity_SetEntityName
+### CEntityIdentity::SetEntityName
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -438,7 +417,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CEntityInstance_AcceptInput
+### CEntityInstance::AcceptInput
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -459,7 +438,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CGameEntitySystem_FindEntityByName
+### CGameEntitySystem::FindEntityByName
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -480,7 +459,7 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CGameRules_TerminateRound
+### CGameRules::TerminateRound
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -498,6 +477,48 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </td><td>
 <pre>
 48 8B C4 4C 89 48 ? 48 89 48 ? 55 56
+</pre>
+</td></tr></table>
+
+### CNetworkGameServer::ReplyConnection
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>engine2</td><td>
+<pre>
+\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC
+</pre>
+</td><td>
+<pre>
+55 48 8D 05 ? ? ? ? 66 0F EF C0 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
+<pre>
+\x48\x8B\xC4\x55\x41\x55\x41\x56
+</pre>
+</td><td>
+<pre>
+48 8B C4 55 41 55 41 56
+</pre>
+</td></tr></table>
+
+### CSScript::ResolveModule
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\xA8\x01\x00\x00
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 49 89 F6 41 55 41 54 53 48 89 FB 48 81 EC A8 01 00 00
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x53\x56\x57\x41\x55\x41\x56\x48\x8D\xAC\x24
+</pre>
+</td><td>
+<pre>
+48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 48 8D AC 24
 </pre>
 </td></tr></table>
 
@@ -616,27 +637,6 @@ Last updated: October 14, 2025 at 10:28:52 PM UTC
 </td><td>
 <pre>
 48 89 4C 24 ? 53 56 57 48 83 EC ? 48 8B F1
-</pre>
-</td></tr></table>
-
-### ReplyConnection
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>engine2</td><td>
-<pre>
-\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC
-</pre>
-</td><td>
-<pre>
-55 48 8D 05 ? ? ? ? 66 0F EF C0 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
-<pre>
-\x48\x8B\xC4\x55\x41\x55\x41\x56
-</pre>
-</td><td>
-<pre>
-48 8B C4 55 41 55 41 56
 </pre>
 </td></tr></table>
 
