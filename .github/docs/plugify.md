@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: October 16, 2025 at 12:07:09 AM UTC
+Last updated: October 16, 2025 at 6:55:30 PM UTC
 
 * Manifests: [7536585686390276449](https://steamdb.info/depot/2347770/history/?changeid=M:7536585686390276449), [2938573643839280437](https://steamdb.info/depot/2347771/history/?changeid=M:2938573643839280437), [343418987256972371](https://steamdb.info/depot/2347773/history/?changeid=M:343418987256972371)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -68,6 +68,27 @@ Last updated: October 16, 2025 at 12:07:09 AM UTC
 </td><td>
 <pre>
 40 53 48 83 EC ? 48 8B DA 48 8B D1 48 8B 0D
+</pre>
+</td></tr></table>
+
+### CBaseEntity::DispatchSpawn
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x49\x89\xFD
+</pre>
+</td><td>
+<pre>
+48 85 FF 74 ? 55 48 89 E5 41 55 49 89 FD
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x85\xD2
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 48 85 C9 0F 84 ? ? ? ? 48 85 D2
 </pre>
 </td></tr></table>
 
@@ -207,11 +228,11 @@ Last updated: October 16, 2025 at 12:07:09 AM UTC
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x0F\xB6\x87
+\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x89\xF7
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 55 41 54 53 48 89 FB 48 83 EC ? 0F B6 87
+55 48 89 E5 41 54 49 89 FC 89 F7
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -498,27 +519,6 @@ Last updated: October 16, 2025 at 12:07:09 AM UTC
 </td><td>
 <pre>
 48 83 EC ? C6 44 24 ? ? 4C 8B C1
-</pre>
-</td></tr></table>
-
-### DispatchSpawn
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x49\x89\xFD
-</pre>
-</td><td>
-<pre>
-48 85 FF 74 ? 55 48 89 E5 41 55 49 89 FD
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x85\xD2
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 48 85 C9 0F 84 ? ? ? ? 48 85 D2
 </pre>
 </td></tr></table>
 
