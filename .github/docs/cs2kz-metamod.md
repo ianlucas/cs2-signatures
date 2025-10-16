@@ -1,8 +1,8 @@
 # cs2kz-metamod 
 
-Last updated: October 15, 2025 at 8:23:59 PM UTC
+Last updated: October 16, 2025 at 12:07:09 AM UTC
 
-* Manifests: [8823131850246373323](https://steamdb.info/depot/2347771/history/?changeid=M:8823131850246373323), [1602756282803538628](https://steamdb.info/depot/2347773/history/?changeid=M:1602756282803538628), [8910996202863983657](https://steamdb.info/depot/2347770/history/?changeid=M:8910996202863983657)
+* Manifests: [7536585686390276449](https://steamdb.info/depot/2347770/history/?changeid=M:7536585686390276449), [2938573643839280437](https://steamdb.info/depot/2347771/history/?changeid=M:2938573643839280437), [343418987256972371](https://steamdb.info/depot/2347773/history/?changeid=M:343418987256972371)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
@@ -641,7 +641,7 @@ Last updated: October 15, 2025 at 8:23:59 PM UTC
 ### RecvServerBrowserPacket
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Linux</td><td>steamnetworkingsockets</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>steamnetworkingsockets</td><td>
 <pre>
 \x41\x54\x55\x48\x89\xF5\x53\x48\x89\xFB\x48\x63\x47\x08
 </pre>
@@ -649,7 +649,7 @@ Last updated: October 15, 2025 at 8:23:59 PM UTC
 <pre>
 41 54 55 48 89 F5 53 48 89 FB 48 63 47 08
 </pre>
-</td></tr><tr><td>❓</td><td>Windows</td><td>steamnetworkingsockets</td><td>
+</td></tr><tr><td>✅</td><td>Windows</td><td>steamnetworkingsockets</td><td>
 <pre>
 \x48\x89\x6C\x24\x18\x56\x48\x83\xEC\x20\x48\x8B\xF1\x48\x8B\xEA
 </pre>

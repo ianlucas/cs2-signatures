@@ -1,8 +1,8 @@
 # CS2Fixes 
 
-Last updated: October 14, 2025 at 10:28:52 PM UTC
+Last updated: October 16, 2025 at 12:07:09 AM UTC
 
-* Manifests: [8823131850246373323](https://steamdb.info/depot/2347771/history/?changeid=M:8823131850246373323), [1602756282803538628](https://steamdb.info/depot/2347773/history/?changeid=M:1602756282803538628), [8910996202863983657](https://steamdb.info/depot/2347770/history/?changeid=M:8910996202863983657)
+* Manifests: [7536585686390276449](https://steamdb.info/depot/2347770/history/?changeid=M:7536585686390276449), [2938573643839280437](https://steamdb.info/depot/2347771/history/?changeid=M:2938573643839280437), [343418987256972371](https://steamdb.info/depot/2347773/history/?changeid=M:343418987256972371)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
@@ -801,7 +801,7 @@ C8 42 EB ? 4C 39 67 30
 ### GetFreeClient
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Linux</td><td>engine</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>engine2</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x41\xC6\x01
 </pre>
@@ -809,7 +809,7 @@ C8 42 EB ? 4C 39 67 30
 <pre>
 55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 49 89 F4 53 48 81 EC ? ? ? ? 41 C6 01
 </pre>
-</td></tr><tr><td>❓</td><td>Windows</td><td>engine</td><td>
+</td></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
 <pre>
 \x48\x89\x54\x24\x2A\x53\x56\x57\x41\x56\x48\x83\xEC
 </pre>
@@ -906,7 +906,7 @@ C8 42 EB ? 4C 39 67 30
 ### IsHearingClient
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❓</td><td>Linux</td><td>engine</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>engine2</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x39\x77
 </pre>
@@ -914,7 +914,7 @@ C8 42 EB ? 4C 39 67 30
 <pre>
 55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 39 77
 </pre>
-</td></tr><tr><td>❓</td><td>Windows</td><td>engine</td><td>
+</td></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
 <pre>
 \x40\x53\x48\x83\xEC\x2A\x48\x8B\xD9\x3B\x51
 </pre>
