@@ -1,12 +1,33 @@
 # CS2Fixes 
 
-Last updated: October 17, 2025 at 10:41:11 PM UTC
+Last updated: October 22, 2025 at 11:00:13 PM UTC
 
-* Manifests: [8126241466861951312](https://steamdb.info/depot/2347770/history/?changeid=M:8126241466861951312), [4531903314995317883](https://steamdb.info/depot/2347771/history/?changeid=M:4531903314995317883), [343418987256972371](https://steamdb.info/depot/2347773/history/?changeid=M:343418987256972371)
+* Manifests: [1945382919870505877](https://steamdb.info/depot/2347770/history/?changeid=M:1945382919870505877), [6950094522057512645](https://steamdb.info/depot/2347771/history/?changeid=M:6950094522057512645), [1820147151031780760](https://steamdb.info/depot/2347773/history/?changeid=M:1820147151031780760)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
 ## Signatures
+
+### CheckJumpButtonWater
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\xC8\x42\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x4C\x89\xE7
+</pre>
+</td><td>
+<pre>
+C8 42 41 C7 85 ? ? ? ? ? ? ? ? E9 ? ? ? ? 4C 89 E7
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\xC8\x42\xEB\x2A\x4C\x39\x67\x30
+</pre>
+</td><td>
+<pre>
+C8 42 EB ? 4C 39 67 30
+</pre>
+</td></tr></table>
 
 ### CBaseModelEntity_SetModel
 
@@ -669,27 +690,6 @@ Last updated: October 17, 2025 at 10:41:11 PM UTC
 </td><td>
 <pre>
 48 89 5C 24 ? 57 48 83 EC ? 48 8B 02 48 8B F9 48 8B CA 48 8B DA FF 90 ? ? ? ? 84 C0 74 ? F3 0F 10 8F
-</pre>
-</td></tr></table>
-
-### CheckJumpButtonWater
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\xC8\x42\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x4C\x89\xE7
-</pre>
-</td><td>
-<pre>
-C8 42 41 C7 85 ? ? ? ? ? ? ? ? E9 ? ? ? ? 4C 89 E7
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\xC8\x42\xEB\x2A\x4C\x39\x67\x30
-</pre>
-</td><td>
-<pre>
-C8 42 EB ? 4C 39 67 30
 </pre>
 </td></tr></table>
 

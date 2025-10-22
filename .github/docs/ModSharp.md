@@ -1,12 +1,75 @@
 # ModSharp 
 
-Last updated: October 19, 2025 at 11:52:20 AM UTC
+Last updated: October 22, 2025 at 11:00:13 PM UTC
 
-* Manifests: [8126241466861951312](https://steamdb.info/depot/2347770/history/?changeid=M:8126241466861951312), [4531903314995317883](https://steamdb.info/depot/2347771/history/?changeid=M:4531903314995317883), [343418987256972371](https://steamdb.info/depot/2347773/history/?changeid=M:343418987256972371)
+* Manifests: [1945382919870505877](https://steamdb.info/depot/2347770/history/?changeid=M:1945382919870505877), [6950094522057512645](https://steamdb.info/depot/2347771/history/?changeid=M:6950094522057512645), [1820147151031780760](https://steamdb.info/depot/2347773/history/?changeid=M:1820147151031780760)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/core.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/log.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/tier0.games.jsonc
 
 ## Signatures
+
+### CCSGameRules::CreateEndMatchMapGroupVoteOptions
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x53\x48\x8D\x1D
+</pre>
+</td><td>
+<pre>
+55 BE ? ? ? ? 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 53 48 8D 1D
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x4C\x24\x08\x55\x41\x55\x48\x8D\x6C\x24\xB1
+</pre>
+</td><td>
+<pre>
+48 89 4C 24 08 55 41 55 48 8D 6C 24 B1
+</pre>
+</td></tr></table>
+
+### CCSGameRules::WillTeamHaveRoomForPlayer
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xD6\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x83\xEC\x2A\x48\x8D\x1D
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 89 D6 41 55 49 89 F5 41 54 53 48 83 EC ? 48 8D 1D
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x48\x89\x70\x20\x55\x57
+</pre>
+</td><td>
+<pre>
+48 8B C4 48 89 70 20 55 57
+</pre>
+</td></tr></table>
+
+### CCSPlayer_ItemServices::RemovePlayerItem
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(2)</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3
+</pre>
+</td><td>
+<pre>
+48 85 F6 0F 84 ? ? ? ? 55 48 89 E5 41 54 49 89 FC 53 48 89 F3
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x08\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\xE8\x2A\x2A\x2A\x2A
+</pre>
+</td><td>
+<pre>
+48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 08 57 48 83 EC ? 48 8B DA 48 8B F9 E8 ? ? ? ?
+</pre>
+</td></tr></table>
 
 ### CAttributeList::SetOrAddAttributeValueByName
 
@@ -659,27 +722,6 @@ Last updated: October 19, 2025 at 11:52:20 AM UTC
 </pre>
 </td></tr></table>
 
-### CCSGameRules::CreateEndMatchMapGroupVoteOptions
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x53\x48\x8D\x1D
-</pre>
-</td><td>
-<pre>
-55 BE ? ? ? ? 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 53 48 8D 1D
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x4C\x24\x08\x55\x41\x55\x48\x8D\x6C\x24\xB1
-</pre>
-</td><td>
-<pre>
-48 89 4C 24 08 55 41 55 48 8D 6C 24 B1
-</pre>
-</td></tr></table>
-
 ### CCSGameRules::PlayerCanHearChat
 
 <table>
@@ -740,27 +782,6 @@ Last updated: October 19, 2025 at 11:52:20 AM UTC
 </td><td>
 <pre>
 48 8B C4 4C 89 48 20 48 89 48 08 55 56
-</pre>
-</td></tr></table>
-
-### CCSGameRules::WillTeamHaveRoomForPlayer
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xD6\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x83\xEC\x2A\x48\x8D\x1D
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 89 D6 41 55 49 89 F5 41 54 53 48 83 EC ? 48 8D 1D
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x48\x89\x70\x20\x55\x57
-</pre>
-</td><td>
-<pre>
-48 8B C4 48 89 70 20 55 57
 </pre>
 </td></tr></table>
 
@@ -858,27 +879,6 @@ Last updated: October 19, 2025 at 11:52:20 AM UTC
 </td><td>
 <pre>
 48 89 5C 24 10 48 89 74 24 18 55 57 41 55 41 56 41 57 48 8D 6C 24 E0
-</pre>
-</td></tr></table>
-
-### CCSPlayer_ItemServices::RemovePlayerItem
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3
-</pre>
-</td><td>
-<pre>
-48 85 F6 0F 84 ? ? ? ? 55 48 89 E5 41 54 49 89 FC 53 48 89 F3
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x08\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\xE8\x2A\x2A\x2A\x2A
-</pre>
-</td><td>
-<pre>
-48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 08 57 48 83 EC ? 48 8B DA 48 8B F9 E8 ? ? ? ?
 </pre>
 </td></tr></table>
 

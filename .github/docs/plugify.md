@@ -1,8 +1,8 @@
 # plugify 
 
-Last updated: October 22, 2025 at 4:14:52 PM UTC
+Last updated: October 22, 2025 at 11:00:13 PM UTC
 
-* Manifests: [8126241466861951312](https://steamdb.info/depot/2347770/history/?changeid=M:8126241466861951312), [4531903314995317883](https://steamdb.info/depot/2347771/history/?changeid=M:4531903314995317883), [343418987256972371](https://steamdb.info/depot/2347773/history/?changeid=M:343418987256972371)
+* Manifests: [1945382919870505877](https://steamdb.info/depot/2347770/history/?changeid=M:1945382919870505877), [6950094522057512645](https://steamdb.info/depot/2347771/history/?changeid=M:6950094522057512645), [1820147151031780760](https://steamdb.info/depot/2347773/history/?changeid=M:1820147151031780760)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
@@ -26,6 +26,27 @@ Last updated: October 22, 2025 at 4:14:52 PM UTC
 </td><td>
 <pre>
 48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 41 83 F9 ? 75 ? 48 83 7C 24 ? ? 75 ? 48 85 D2 74 ? 49 8B C8 E8 ? ? ? ? 48 8B D0 48 8B CB FF D7 B0 ? 48 8B 5C 24 ? 48 83 C4 ? 5F C3 48 8B 5C 24 ? 32 C0 48 83 C4 ? 5F C3 CC CC CC 48 83 EC ? 4C 8B D2 4C 8B D9 41 83 F9 ? 75 ? 48 83 7C 24 ? ? 75 ? 48 85 D2 74 ? 49 8B 00
+</pre>
+</td></tr></table>
+
+### CCSPlayer_WeaponServices::RemoveItem
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(2)</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3
+</pre>
+</td><td>
+<pre>
+48 85 F6 0F 84 ? ? ? ? 55 48 89 E5 41 54 49 89 FC 53 48 89 F3
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\xE8
+</pre>
+</td><td>
+<pre>
+48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 E8
 </pre>
 </td></tr></table>
 
@@ -262,27 +283,6 @@ Last updated: October 22, 2025 at 4:14:52 PM UTC
 </td><td>
 <pre>
 44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 41 57 48 8B EC
-</pre>
-</td></tr></table>
-
-### CCSPlayer_WeaponServices::RemoveItem
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3
-</pre>
-</td><td>
-<pre>
-48 85 F6 0F 84 ? ? ? ? 55 48 89 E5 41 54 49 89 FC 53 48 89 F3
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\xE8
-</pre>
-</td><td>
-<pre>
-48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 E8
 </pre>
 </td></tr></table>
 
