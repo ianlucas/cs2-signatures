@@ -1,33 +1,12 @@
 # CS2Fixes 
 
-Last updated: October 24, 2025 at 10:25:04 PM UTC
+Last updated: October 26, 2025 at 9:41:57 PM UTC
 
 * Manifests: [6534858265201267362](https://steamdb.info/depot/2347770/history/?changeid=M:6534858265201267362), [9212826508403275891](https://steamdb.info/depot/2347771/history/?changeid=M:9212826508403275891), [4476430123924488526](https://steamdb.info/depot/2347773/history/?changeid=M:4476430123924488526)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
 ## Signatures
-
-### CheckJumpButtonWater
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\xC8\x42\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x4C\x89\xE7
-</pre>
-</td><td>
-<pre>
-C8 42 41 C7 85 ? ? ? ? ? ? ? ? E9 ? ? ? ? 4C 89 E7
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\xC8\x42\xEB\x2A\x4C\x39\x67\x30
-</pre>
-</td><td>
-<pre>
-C8 42 EB ? 4C 39 67 30
-</pre>
-</td></tr></table>
 
 ### CBaseModelEntity_SetModel
 
@@ -690,6 +669,27 @@ C8 42 EB ? 4C 39 67 30
 </td><td>
 <pre>
 48 89 5C 24 ? 57 48 83 EC ? 48 8B 02 48 8B F9 48 8B CA 48 8B DA FF 90 ? ? ? ? 84 C0 74 ? F3 0F 10 8F
+</pre>
+</td></tr></table>
+
+### CheckJumpButtonWater
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\xC8\x42\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x48\x89\xDF
+</pre>
+</td><td>
+<pre>
+C8 42 41 C7 85 ? ? ? ? ? ? ? ? E9 ? ? ? ? 48 89 DF
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\xC8\x42\xEB\x2A\x4C\x39\x67\x30
+</pre>
+</td><td>
+<pre>
+C8 42 EB ? 4C 39 67 30
 </pre>
 </td></tr></table>
 
