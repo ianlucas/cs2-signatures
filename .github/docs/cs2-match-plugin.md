@@ -1,6 +1,6 @@
 # cs2-match-plugin 
 
-Last updated: October 24, 2025 at 10:25:04 PM UTC
+Last updated: October 26, 2025 at 3:34:51 PM UTC
 
 * Manifests: [6534858265201267362](https://steamdb.info/depot/2347770/history/?changeid=M:6534858265201267362), [9212826508403275891](https://steamdb.info/depot/2347771/history/?changeid=M:9212826508403275891), [4476430123924488526](https://steamdb.info/depot/2347773/history/?changeid=M:4476430123924488526)
 * Repository: https://github.com/ianlucas/cs2-match-plugin
@@ -110,6 +110,27 @@ Last updated: October 24, 2025 at 10:25:04 PM UTC
 </td><td>
 <pre>
 40 53 48 83 EC ? 48 8B D9 BA ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 85 C0 75 ? 48 8B 05 ? ? ? ? 48 8B 40 ? 80 38 ? 0F 84 ? ? ? ? 83 BB
+</pre>
+</td></tr></table>
+
+### MaintainBotQuota
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x31\xF6\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x31\xFF
+</pre>
+</td><td>
+<pre>
+55 31 F6 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 31 FF
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x55\x41\x56\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xF1\xFF\x15
+</pre>
+</td><td>
+<pre>
+40 55 41 56 48 8D 6C 24 ? 48 81 EC ? ? ? ? 4C 8B F1 FF 15
 </pre>
 </td></tr></table>
 
