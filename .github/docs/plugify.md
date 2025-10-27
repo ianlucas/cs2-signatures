@@ -1,33 +1,12 @@
 # plugify 
 
-Last updated: October 26, 2025 at 8:11:56 PM UTC
+Last updated: October 27, 2025 at 1:37:04 AM UTC
 
 * Manifests: [6534858265201267362](https://steamdb.info/depot/2347770/history/?changeid=M:6534858265201267362), [9212826508403275891](https://steamdb.info/depot/2347771/history/?changeid=M:9212826508403275891), [4476430123924488526](https://steamdb.info/depot/2347773/history/?changeid=M:4476430123924488526)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
 ## Signatures
-
-### CGameEntitySystem::FindEntityByClassName
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(2)</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x45\x31\xC0\x31\xC9\x48\x89\xE5\x53
-</pre>
-</td><td>
-<pre>
-55 45 31 C0 31 C9 48 89 E5 53
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x83\xEC\x2A\x45\x33\xC9\xC6\x44\x24\x2A\x2A\x48\x8D\x4C\x24
-</pre>
-</td><td>
-<pre>
-48 83 EC ? 45 33 C9 C6 44 24 ? ? 48 8D 4C 24
-</pre>
-</td></tr></table>
 
 ### AppSystemCreateInterfaceFn
 
@@ -291,27 +270,6 @@ Last updated: October 26, 2025 at 8:11:56 PM UTC
 </pre>
 </td></tr></table>
 
-### CGameEntitySystem::FindEntityByName
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x54\x53\x48\x83\xEC\x2A\x48\x85\xD2
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 54 53 48 83 EC ? 48 85 D2
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x81\xEC\x2A\x2A\x2A\x2A\x4D\x85\xC0\x75
-</pre>
-</td><td>
-<pre>
-48 81 EC ? ? ? ? 4D 85 C0 75
-</pre>
-</td></tr></table>
-
 ### CGameRules::TerminateRound
 
 <table>
@@ -414,27 +372,6 @@ Last updated: October 26, 2025 at 8:11:56 PM UTC
 </td><td>
 <pre>
 48 83 EC ? 48 83 3D ? ? ? ? ? 74 ? 33 C9 E8 ? ? ? ? FF 15
-</pre>
-</td></tr></table>
-
-### CreateEntityByName
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\x8D\x05\x2A\x2A\x2A\x2A\x55\x48\x89\xFA
-</pre>
-</td><td>
-<pre>
-48 8D 05 ? ? ? ? 55 48 89 FA
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x83\xEC\x2A\xC6\x44\x24\x2A\x2A\x4C\x8B\xC1
-</pre>
-</td><td>
-<pre>
-48 83 EC ? C6 44 24 ? ? 4C 8B C1
 </pre>
 </td></tr></table>
 
