@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: October 27, 2025 at 1:37:04 AM UTC
+Last updated: October 28, 2025 at 1:55:34 AM UTC
 
 * Manifests: [6534858265201267362](https://steamdb.info/depot/2347770/history/?changeid=M:6534858265201267362), [9212826508403275891](https://steamdb.info/depot/2347771/history/?changeid=M:9212826508403275891), [4476430123924488526](https://steamdb.info/depot/2347773/history/?changeid=M:4476430123924488526)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -26,27 +26,6 @@ Last updated: October 27, 2025 at 1:37:04 AM UTC
 </td><td>
 <pre>
 40 53 48 83 EC ? 48 8B DA 48 8B D1 48 8B 0D
-</pre>
-</td></tr></table>
-
-### CBaseEntity::DispatchSpawn
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x49\x89\xFD
-</pre>
-</td><td>
-<pre>
-48 85 FF 74 ? 55 48 89 E5 41 55 49 89 FD
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x85\xD2
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 48 85 C9 0F 84 ? ? ? ? 48 85 D2
 </pre>
 </td></tr></table>
 
@@ -267,6 +246,48 @@ Last updated: October 27, 2025 at 1:37:04 AM UTC
 </td><td>
 <pre>
 48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 49 8B F0 48 8B D9 48 8B 0D
+</pre>
+</td></tr></table>
+
+### CGameEntitySystem::CreateEntityByName
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x8D\x05\x2A\x2A\x2A\x2A\x55\x48\x89\xFA
+</pre>
+</td><td>
+<pre>
+48 8D 05 ? ? ? ? 55 48 89 FA
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x83\xEC\x2A\xC6\x44\x24\x2A\x2A\x4C\x8B\xC1
+</pre>
+</td><td>
+<pre>
+48 83 EC ? C6 44 24 ? ? 4C 8B C1
+</pre>
+</td></tr></table>
+
+### CGameEntitySystem::DispatchSpawn
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x49\x89\xFD
+</pre>
+</td><td>
+<pre>
+48 85 FF 74 ? 55 48 89 E5 41 55 49 89 FD
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x85\xD2
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 48 85 C9 0F 84 ? ? ? ? 48 85 D2
 </pre>
 </td></tr></table>
 
