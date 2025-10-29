@@ -1,8 +1,8 @@
 # SwiftlyS2 
 
-Last updated: October 24, 2025 at 11:24:58 PM UTC
+Last updated: October 29, 2025 at 11:36:43 PM UTC
 
-* Manifests: [6534858265201267362](https://steamdb.info/depot/2347770/history/?changeid=M:6534858265201267362), [9212826508403275891](https://steamdb.info/depot/2347771/history/?changeid=M:9212826508403275891), [4476430123924488526](https://steamdb.info/depot/2347773/history/?changeid=M:4476430123924488526)
+* Manifests: [5884182582668887102](https://steamdb.info/depot/2347770/history/?changeid=M:5884182582668887102), [8708821619431915872](https://steamdb.info/depot/2347771/history/?changeid=M:8708821619431915872), [1097443952873228514](https://steamdb.info/depot/2347773/history/?changeid=M:1097443952873228514)
 * Repository: https://github.com/swiftly-solution/swiftlys2
 * Gamedata: https://github.com/swiftly-solution/swiftlys2/blob/master/plugin_files/gamedata/cs2/core/signatures.jsonc
 
