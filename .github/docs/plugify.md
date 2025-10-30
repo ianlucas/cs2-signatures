@@ -1,33 +1,12 @@
 # plugify 
 
-Last updated: October 29, 2025 at 11:36:43 PM UTC
+Last updated: October 30, 2025 at 12:40:33 AM UTC
 
 * Manifests: [5884182582668887102](https://steamdb.info/depot/2347770/history/?changeid=M:5884182582668887102), [8708821619431915872](https://steamdb.info/depot/2347771/history/?changeid=M:8708821619431915872), [1097443952873228514](https://steamdb.info/depot/2347773/history/?changeid=M:1097443952873228514)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
 ## Signatures
-
-### GetCSWeaponDataFromKey
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x31\xD2\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x41\x89\xFC
-</pre>
-</td><td>
-<pre>
-55 31 D2 48 89 E5 41 57 41 56 41 55 41 54 41 89 FC
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x33\xFF\x4C\x8B\xCA\x8B\xD9
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 57 48 83 EC ? 33 FF 4C 8B CA 8B D9
-</pre>
-</td></tr></table>
 
 ### AppSystemCreateInterfaceFn
 
@@ -414,6 +393,27 @@ Last updated: October 29, 2025 at 11:36:43 PM UTC
 </td><td>
 <pre>
 48 83 EC ? 48 83 3D ? ? ? ? ? 74 ? 33 C9 E8 ? ? ? ? FF 15
+</pre>
+</td></tr></table>
+
+### GetCSWeaponDataFromKey
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x31\xD2\x48\x89\xE5\x41\x56\x41\x55\x41\x54
+</pre>
+</td><td>
+<pre>
+55 31 D2 48 89 E5 41 56 41 55 41 54
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x33\xFF\x4C\x8B\xCA\x8B\xD9
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 57 48 83 EC ? 33 FF 4C 8B CA 8B D9
 </pre>
 </td></tr></table>
 
