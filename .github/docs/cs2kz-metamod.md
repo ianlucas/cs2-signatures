@@ -1,54 +1,12 @@
 # cs2kz-metamod 
 
-Last updated: October 29, 2025 at 11:36:43 PM UTC
+Last updated: October 30, 2025 at 12:06:30 AM UTC
 
 * Manifests: [5884182582668887102](https://steamdb.info/depot/2347770/history/?changeid=M:5884182582668887102), [8708821619431915872](https://steamdb.info/depot/2347771/history/?changeid=M:8708821619431915872), [1097443952873228514](https://steamdb.info/depot/2347773/history/?changeid=M:1097443952873228514)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
-
-### MoveInit
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x89\xF7\x48\x83\xEC\x58
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 55 41 54 49 89 F4 53 48 89 FB 48 89 F7 48 83 EC 58
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x18\x56\x48\x83\xEC\x30\x48\x8B\xF2\x48\x8B\xD9\xE8
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 18 56 48 83 EC 30 48 8B F2 48 8B D9 E8
-</pre>
-</td></tr></table>
-
-### WaterMove
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xB5\x10\xFF\xFF\xFF\x41\x55\x41\x54\x49\x89\xFC
-</pre>
-</td><td>
-<pre>
-55 66 0F EF C0 48 89 E5 41 57 41 56 4C 8D B5 10 FF FF FF 41 55 41 54 49 89 FC
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x70\x10\x48\x89\x78\x18\x4C\x89\x70\x20\x55\x48\x8D\xA8\xD8\xFE\xFF\xFF\x48\x81\xEC\x20\x02\x00\x00\x0F\x29\x70\xE8\x45\x33\xF6
-</pre>
-</td><td>
-<pre>
-48 8B C4 48 89 58 08 48 89 70 10 48 89 78 18 4C 89 70 20 55 48 8D A8 D8 FE FF FF 48 81 EC 20 02 00 00 0F 29 70 E8 45 33 F6
-</pre>
-</td></tr></table>
 
 ### AirMove
 
@@ -512,6 +470,27 @@ Last updated: October 29, 2025 at 11:36:43 PM UTC
 </pre>
 </td></tr></table>
 
+### MoveInit
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x89\xF7\x48\x83\xEC\x70
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 89 F7 48 83 EC 70
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x10\x48\x89\x74\x24\x18\x57\x41\x56\x41\x57\x48\x81\xEC\xA0\x00\x00\x00
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 10 48 89 74 24 18 57 41 56 41 57 48 81 EC A0 00 00 00
+</pre>
+</td></tr></table>
+
 ### OnJump
 
 <table>
@@ -824,6 +803,27 @@ Last updated: October 29, 2025 at 11:36:43 PM UTC
 </td><td>
 <pre>
 48 8B C4 48 89 70 10 48 89 78 18 55 41 56 41 57 48 8D A8 08 FE FF FF
+</pre>
+</td></tr></table>
+
+### WaterMove
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x4C\x8D\xAD\x10\xFF\xFF\xFF\x41\x54\x49\x89\xFC\x4C\x89\xEF\x53\x48\x89\xF3\x48\x81\xEC\xC8\x01\x00\x00
+</pre>
+</td><td>
+<pre>
+55 66 0F EF C0 48 89 E5 41 57 41 56 41 55 4C 8D AD 10 FF FF FF 41 54 49 89 FC 4C 89 EF 53 48 89 F3 48 81 EC C8 01 00 00
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x70\x10\x48\x89\x78\x18\x4C\x89\x70\x20\x55\x48\x8D\xA8\xD8\xFE\xFF\xFF\x48\x81\xEC\x20\x02\x00\x00\x0F\x29\x70\xE8\x45\x33\xF6
+</pre>
+</td><td>
+<pre>
+48 8B C4 48 89 58 08 48 89 70 10 48 89 78 18 4C 89 70 20 55 48 8D A8 D8 FE FF FF 48 81 EC 20 02 00 00 0F 29 70 E8 45 33 F6
 </pre>
 </td></tr></table>
 
