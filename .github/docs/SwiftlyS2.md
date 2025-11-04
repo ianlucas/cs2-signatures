@@ -1,6 +1,6 @@
 # SwiftlyS2 
 
-Last updated: October 30, 2025 at 12:03:30 AM UTC
+Last updated: November 4, 2025 at 3:50:20 PM UTC
 
 * Manifests: [5884182582668887102](https://steamdb.info/depot/2347770/history/?changeid=M:5884182582668887102), [8708821619431915872](https://steamdb.info/depot/2347771/history/?changeid=M:8708821619431915872), [1097443952873228514](https://steamdb.info/depot/2347773/history/?changeid=M:1097443952873228514)
 * Repository: https://github.com/swiftly-solution/swiftlys2
@@ -446,6 +446,27 @@ Last updated: October 30, 2025 at 12:03:30 AM UTC
 </td><td>
 <pre>
 48 89 5C 24 ? 4C 89 4C 24 ? 48 89 4C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24
+</pre>
+</td></tr></table>
+
+### DispatchParticleEffect
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x41\x89\xCC\x53\x48\x89\xD3
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 41 89 CC 53 48 89 D3
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x10\x48\x89\x7C\x24\x18\x4C\x89\x74\x24\x20\x55\x48\x8D\x6C\x24\xD1
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 4C 89 74 24 20 55 48 8D 6C 24 D1
 </pre>
 </td></tr></table>
 
