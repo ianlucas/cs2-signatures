@@ -1,54 +1,12 @@
 # CS2Fixes 
 
-Last updated: November 4, 2025 at 11:59:44 PM UTC
+Last updated: November 5, 2025 at 11:02:59 PM UTC
 
 * Manifests: [2600506335270172649](https://steamdb.info/depot/2347770/history/?changeid=M:2600506335270172649), [3222539360393238958](https://steamdb.info/depot/2347771/history/?changeid=M:3222539360393238958), [9200990553433045809](https://steamdb.info/depot/2347773/history/?changeid=M:9200990553433045809)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
 ## Signatures
-
-### CheckJumpButtonWater
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\xC8\x42\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x48\x89\xDF
-</pre>
-</td><td>
-<pre>
-C8 42 41 C7 85 ? ? ? ? ? ? ? ? E9 ? ? ? ? 48 89 DF
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\xC8\x42\xEB\x2A\x4C\x39\x67\x30
-</pre>
-</td><td>
-<pre>
-C8 42 EB ? 4C 39 67 30
-</pre>
-</td></tr></table>
-
-### ServerMovementUnlock
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x0F\x87\x2A\x2A\x2A\x2A\xF3\x0F\x10\x35\x2A\x2A\x2A\x2A\xF3\x0F\x11\xB5\x2A\x2A\x2A\x2A\x48\x89\xDE
-</pre>
-</td><td>
-<pre>
-0F 87 ? ? ? ? F3 0F 10 35 ? ? ? ? F3 0F 11 B5 ? ? ? ? 48 89 DE
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x0F\x86\xB0\x2A\x2A\x2A\xF3\x0F\x58\xD4
-</pre>
-</td><td>
-<pre>
-0F 86 B0 ? ? ? F3 0F 58 D4
-</pre>
-</td></tr></table>
 
 ### CBaseModelEntity_SetModel
 
@@ -714,6 +672,27 @@ C8 42 EB ? 4C 39 67 30
 </pre>
 </td></tr></table>
 
+### CheckJumpButtonWater
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\xC8\x42\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xE9
+</pre>
+</td><td>
+<pre>
+C8 42 41 C7 85 ? ? ? ? ? ? ? ? 41 C7 85 ? ? ? ? ? ? ? ? E9
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\xC8\x42\xEB\x2A\x4C\x39\x67\x30
+</pre>
+</td><td>
+<pre>
+C8 42 EB ? 4C 39 67 30
+</pre>
+</td></tr></table>
+
 ### CreateEntityByName
 
 <table>
@@ -984,6 +963,27 @@ C8 42 EB ? 4C 39 67 30
 </td><td>
 <pre>
 48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53
+</pre>
+</td></tr></table>
+
+### ServerMovementUnlock
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x0F\x87\x2A\x2A\x2A\x2A\xF3\x0F\x10\x35\x2A\x2A\x2A\x2A\xF3\x0F\x11\xB5\x2A\x2A\x2A\x2A\x4C\x89\xEE
+</pre>
+</td><td>
+<pre>
+0F 87 ? ? ? ? F3 0F 10 35 ? ? ? ? F3 0F 11 B5 ? ? ? ? 4C 89 EE
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x0F\x86\xB0\x2A\x2A\x2A\xF3\x0F\x58\xD3
+</pre>
+</td><td>
+<pre>
+0F 86 B0 ? ? ? F3 0F 58 D3
 </pre>
 </td></tr></table>
 
