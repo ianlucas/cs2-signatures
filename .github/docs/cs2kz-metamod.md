@@ -1,12 +1,33 @@
 # cs2kz-metamod 
 
-Last updated: November 5, 2025 at 12:56:29 AM UTC
+Last updated: November 12, 2025 at 1:02:38 PM UTC
 
 * Manifests: [2600506335270172649](https://steamdb.info/depot/2347770/history/?changeid=M:2600506335270172649), [3222539360393238958](https://steamdb.info/depot/2347771/history/?changeid=M:3222539360393238958), [9200990553433045809](https://steamdb.info/depot/2347773/history/?changeid=M:9200990553433045809)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
+
+### SetModel
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(2)</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xF2\x48\x89\xE5\x53\x48\x89\xFB\x48\x8D\x7D\x2A\x48\x83\xEC\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x8B\x30\x48\x8B\x06
+</pre>
+</td><td>
+<pre>
+55 48 89 F2 48 89 E5 53 48 89 FB 48 8D 7D ? 48 83 EC ? 48 8D 05 ? ? ? ? 48 8B 30 48 8B 06
+</pre>
+</td></tr><tr><td>✅⚠️(2)</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x53\x48\x83\xEC\x2A\x48\x8B\xD9\x4C\x8B\xC2\x48\x8B\x0D\x2A\x2A\x2A\x2A\x48\x8D\x54\x24\x2A\x48\x8B\x01\xFF\x50\x2A\x48\x8B\x44\x24
+</pre>
+</td><td>
+<pre>
+40 53 48 83 EC ? 48 8B D9 4C 8B C2 48 8B 0D ? ? ? ? 48 8D 54 24 ? 48 8B 01 FF 50 ? 48 8B 44 24
+</pre>
+</td></tr></table>
 
 ### AirAccelerate
 
@@ -278,6 +299,27 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </td><td>
 <pre>
 48 8B C4 48 89 58 08 48 89 70 10 48 89 78 18 55 48 8D A8 58 FF FF FF
+</pre>
+</td></tr></table>
+
+### CreateBot
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x53\x48\x81\xEC\xC8\x00\x00\x00\x89\xB5\x1C\xFF\xFF\xFF
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53 48 81 EC C8 00 00 00 89 B5 1C FF FF FF
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x55\x57\x48\x81\xEC\xB8\x00\x00\x00\x8B\xEA
+</pre>
+</td><td>
+<pre>
+40 55 57 48 81 EC B8 00 00 00 8B EA
 </pre>
 </td></tr></table>
 
@@ -698,6 +740,27 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </td><td>
 <pre>
 48 85 C9 74 ? 48 8B D1 48 8B 0D ? ? ? ?
+</pre>
+</td></tr></table>
+
+### SetOrAddAttributeValueByName
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x53\x48\x89\xF3\x48\x83\xEC\x78\xF3\x0F\x11\x85\x6C\xFF\xFF\xFF
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53 48 89 F3 48 83 EC 78 F3 0F 11 85 6C FF FF FF
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x53\x55\x41\x56\x48\x81\xEC\x90\x00\x00\x00
+</pre>
+</td><td>
+<pre>
+40 53 55 41 56 48 81 EC 90 00 00 00
 </pre>
 </td></tr></table>
 
