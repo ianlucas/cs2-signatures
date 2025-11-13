@@ -1,75 +1,12 @@
 # ModSharp 
 
-Last updated: November 13, 2025 at 1:37:06 AM UTC
+Last updated: November 13, 2025 at 2:04:58 AM UTC
 
 * Manifests: [5591132092293359704](https://steamdb.info/depot/2347770/history/?changeid=M:5591132092293359704), [1224309238523955046](https://steamdb.info/depot/2347771/history/?changeid=M:1224309238523955046), [269740549545057690](https://steamdb.info/depot/2347773/history/?changeid=M:269740549545057690)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/core.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/log.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/tier0.games.jsonc
 
 ## Signatures
-
-### CCSGameRules::CreateEndMatchMapGroupVoteOptions
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x53\x48\x8D\x1D
-</pre>
-</td><td>
-<pre>
-55 BE ? ? ? ? 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 53 48 8D 1D
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x4C\x24\x08\x55\x41\x54\x48\x8D\x6C\x24\xB1
-</pre>
-</td><td>
-<pre>
-48 89 4C 24 08 55 41 54 48 8D 6C 24 B1
-</pre>
-</td></tr></table>
-
-### CCSPlayer_ItemServices::GiveNamedItem
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\xD8\x00\x00\x00\x48\x89\x8D\x18\xFF\xFF\xFF
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC D8 00 00 00 48 89 8D 18 FF FF FF
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x10\x48\x89\x74\x24\x18\x55\x57\x41\x55\x41\x56\x41\x57\x48\x8D\x6C\x24\xE0
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 10 48 89 74 24 18 55 57 41 55 41 56 41 57 48 8D 6C 24 E0
-</pre>
-</td></tr></table>
-
-### HandleGCBanInfo
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x3D\x2A\x2A\x2A\x2A\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x0F\x84\x2A\x2A\x2A\x2A\x8B\x10
-</pre>
-</td><td>
-<pre>
-55 48 8D 3D ? ? ? ? BE ? ? ? ? 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC ? ? ? ? E8 ? ? ? ? 48 85 C0 0F 84 ? ? ? ? 8B 10
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x41\x54\x48\x81\xEC\x2A\x2A\x2A\x2A\xBA\x2A\x2A\x2A\x2A
-</pre>
-</td><td>
-<pre>
-41 54 48 81 EC ? ? ? ? BA ? ? ? ?
-</pre>
-</td></tr></table>
 
 ### CAttributeList::SetOrAddAttributeValueByName
 
@@ -722,6 +659,27 @@ Last updated: November 13, 2025 at 1:37:06 AM UTC
 </pre>
 </td></tr></table>
 
+### CCSGameRules::CreateEndMatchMapGroupVoteOptions
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x0F\x84\x2A\x2A\x2A\x2A\x48\x8D\x1D
+</pre>
+</td><td>
+<pre>
+55 BE ? ? ? ? 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 8D 3D ? ? ? ? 48 81 EC ? ? ? ? E8 ? ? ? ? 48 85 C0 0F 84 ? ? ? ? 48 8D 1D
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x4C\x24\x08\x55\x41\x54\x48\x8D\x6C\x24\xB1
+</pre>
+</td><td>
+<pre>
+48 89 4C 24 08 55 41 54 48 8D 6C 24 B1
+</pre>
+</td></tr></table>
+
 ### CCSGameRules::PlayerCanHearChat
 
 <table>
@@ -879,6 +837,27 @@ Last updated: November 13, 2025 at 1:37:06 AM UTC
 </td><td>
 <pre>
 40 55 41 56 48 83 EC ? 48 83 79 30 ?
+</pre>
+</td></tr></table>
+
+### CCSPlayer_ItemServices::GiveNamedItem
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\xBD\x2A\x2A\x2A\x2A\x89\x95\x2A\x2A\x2A\x2A\x48\x89\x8D\x2A\x2A\x2A\x2A\x44\x89\x85
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC ? ? ? ? 48 89 BD ? ? ? ? 89 95 ? ? ? ? 48 89 8D ? ? ? ? 44 89 85
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x10\x48\x89\x7C\x24\x20\x44\x89\x44\x24\x18
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 20 44 89 44 24 18
 </pre>
 </td></tr></table>
 
@@ -2065,6 +2044,27 @@ F3 41 0F 11 B7 ? ? ? ? 48 83 7F
 </td><td>
 <pre>
 48 8B 15 ? ? ? ? 48 85 D2 74 ? 83 F9 ? 77 ? 48 63 C1 48 C1 E0 ?
+</pre>
+</td></tr></table>
+
+### HandleGCBanInfo
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x3D\x2A\x2A\x2A\x2A\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC
+</pre>
+</td><td>
+<pre>
+55 48 8D 3D ? ? ? ? BE ? ? ? ? 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x41\x54\x48\x81\xEC\x2A\x2A\x2A\x2A\xBA\x2A\x2A\x2A\x2A
+</pre>
+</td><td>
+<pre>
+41 54 48 81 EC ? ? ? ? BA ? ? ? ?
 </pre>
 </td></tr></table>
 
