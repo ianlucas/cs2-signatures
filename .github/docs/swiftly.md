@@ -1,33 +1,12 @@
 # swiftly 
 
-Last updated: November 13, 2025 at 5:53:10 AM UTC
+Last updated: November 13, 2025 at 7:07:01 PM UTC
 
 * Manifests: [256655791336288498](https://steamdb.info/depot/2347770/history/?changeid=M:256655791336288498), [5816375096523025821](https://steamdb.info/depot/2347771/history/?changeid=M:5816375096523025821), [1371681657601032117](https://steamdb.info/depot/2347773/history/?changeid=M:1371681657601032117)
 * Repository: https://github.com/swiftly-solution/swiftly
 * Gamedata: https://github.com/swiftly-solution/swiftly/blob/master/plugin_files/gamedata/cs2/core/signatures.json
 
 ## Signatures
-
-### GiveNamedItem
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\xD8\x00\x00\x00\x48\x89\x8D\x18\xFF\xFF\xFF
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC D8 00 00 00 48 89 8D 18 FF FF FF
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x55\x57\x41\x55\x41\x56\x41\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4D\x8B\xF9
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 48 89 74 24 ? 55 57 41 55 41 56 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 4D 8B F9
-</pre>
-</td></tr></table>
 
 ### CBaseModelEntity_SetModel
 
@@ -383,6 +362,27 @@ Last updated: November 13, 2025 at 5:53:10 AM UTC
 </td><td>
 <pre>
 4C 89 4C 24 ? 48 89 4C 24 ? 53 56
+</pre>
+</td></tr></table>
+
+### GiveNamedItem
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\xBD\x2A\x2A\x2A\x2A\x89\x95\x2A\x2A\x2A\x2A\x48\x89\x8D\x2A\x2A\x2A\x2A\x44\x89\x85
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC ? ? ? ? 48 89 BD ? ? ? ? 89 95 ? ? ? ? 48 89 8D ? ? ? ? 44 89 85
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x10\x48\x89\x7C\x24\x20\x44\x89\x44\x24\x18
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 20 44 89 44 24 18
 </pre>
 </td></tr></table>
 
