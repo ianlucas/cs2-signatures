@@ -1,33 +1,12 @@
 # CS2Fixes 
 
-Last updated: November 14, 2025 at 1:02:20 AM UTC
+Last updated: November 14, 2025 at 8:43:32 PM UTC
 
 * Manifests: [8138531850274090040](https://steamdb.info/depot/2347770/history/?changeid=M:8138531850274090040), [6616408809382086270](https://steamdb.info/depot/2347771/history/?changeid=M:6616408809382086270), [8734967051957949267](https://steamdb.info/depot/2347773/history/?changeid=M:8734967051957949267)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
 ## Signatures
-
-### GameSystem_Think_CheckSteamBan
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x3D\x2A\x2A\x2A\x2A\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x0F\x84\x2A\x2A\x2A\x2A\x8B\x10
-</pre>
-</td><td>
-<pre>
-55 48 8D 3D ? ? ? ? BE ? ? ? ? 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC ? ? ? ? E8 ? ? ? ? 48 85 C0 0F 84 ? ? ? ? 8B 10
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x41\x54\x48\x81\xEC\x2A\x2A\x2A\x2A\xBA\x2A\x2A\x2A\x2A\x48\x8D\x0D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0
-</pre>
-</td><td>
-<pre>
-41 54 48 81 EC ? ? ? ? BA ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 85 C0
-</pre>
-</td></tr></table>
 
 ### CBaseModelEntity_SetModel
 
@@ -152,27 +131,6 @@ Last updated: November 14, 2025 at 1:02:20 AM UTC
 </td><td>
 <pre>
 48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 41 0F B6 F0
-</pre>
-</td></tr></table>
-
-### CBaseEntity_SetParent
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\x85\xF6\x74\x2A\x48\x8B\x47\x10\xF6\x40\x31\x02\x75\x2A\x48\x8B\x46\x10\xF6\x40\x31\x02\x75\x2A\xB8\x2A\x2A\x2A\x2A
-</pre>
-</td><td>
-<pre>
-48 85 F6 74 ? 48 8B 47 10 F6 40 31 02 75 ? 48 8B 46 10 F6 40 31 02 75 ? B8 ? ? ? ?
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x4D\x8B\xD9\x48\x85\xD2\x74\x2A
-</pre>
-</td><td>
-<pre>
-4D 8B D9 48 85 D2 74 ?
 </pre>
 </td></tr></table>
 
@@ -795,6 +753,27 @@ C8 42 EB ? 4C 39 67 30
 </td><td>
 <pre>
 4C 89 44 24 ? F3 0F 11 4C 24 ? 55 53 56
+</pre>
+</td></tr></table>
+
+### GameSystem_Think_CheckSteamBan
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x3D\x2A\x2A\x2A\x2A\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC
+</pre>
+</td><td>
+<pre>
+55 48 8D 3D ? ? ? ? BE ? ? ? ? 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x41\x54\x48\x81\xEC\x2A\x2A\x2A\x2A\xBA\x2A\x2A\x2A\x2A\x48\x8D\x0D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0
+</pre>
+</td><td>
+<pre>
+41 54 48 81 EC ? ? ? ? BA ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 85 C0
 </pre>
 </td></tr></table>
 
