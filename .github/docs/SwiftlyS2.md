@@ -1,6 +1,6 @@
 # SwiftlyS2 
 
-Last updated: December 6, 2025 at 8:16:06 PM UTC
+Last updated: December 8, 2025 at 4:34:49 PM UTC
 
 * Manifests: [2396441865524723196](https://steamdb.info/depot/2347770/history/?changeid=M:2396441865524723196), [5015169369445136650](https://steamdb.info/depot/2347771/history/?changeid=M:5015169369445136650), [2443161248921497965](https://steamdb.info/depot/2347773/history/?changeid=M:2443161248921497965)
 * Repository: https://github.com/swiftly-solution/swiftlys2
@@ -614,48 +614,6 @@ Last updated: December 6, 2025 at 8:16:06 PM UTC
 </td><td>
 <pre>
 48 8B 1D ? ? ? ? 48 85 DB 0F 84 ? ? ? ? BD
-</pre>
-</td></tr></table>
-
-### IGameSystem::LoopDestroyAllSystems->s_GameSystems
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x8B\x05\x2A\x2A\x2A\x2A\x89\xC2\x83\xEA\x2A\x0F\x88\x2A\x2A\x2A\x2A\x4C\x8D\x3D
-</pre>
-</td><td>
-<pre>
-8B 05 ? ? ? ? 89 C2 83 EA ? 0F 88 ? ? ? ? 4C 8D 3D
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x8B\x05\x2A\x2A\x2A\x2A\x83\xE8\x2A\x48\x63\xF8\x0F\x88
-</pre>
-</td><td>
-<pre>
-8B 05 ? ? ? ? 83 E8 ? 48 63 F8 0F 88
-</pre>
-</td></tr></table>
-
-### IGameSystem::LoopPostInitAllSystems->pEventDispatcher
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x4C\x8B\x25\x2A\x2A\x2A\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x8B\x35
-</pre>
-</td><td>
-<pre>
-4C 8B 25 ? ? ? ? 48 8B 05 ? ? ? ? 8B 35
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x39\x1D\x2A\x2A\x2A\x2A\x74\x2A\x39\x05
-</pre>
-</td><td>
-<pre>
-48 39 1D ? ? ? ? 74 ? 39 05
 </pre>
 </td></tr></table>
 
