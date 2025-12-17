@@ -1,6 +1,6 @@
 # ModSharp 
 
-Last updated: December 9, 2025 at 10:55:38 PM UTC
+Last updated: December 17, 2025 at 1:36:37 PM UTC
 
 * Manifests: [5588812808775234831](https://steamdb.info/depot/2347770/history/?changeid=M:5588812808775234831), [7907986342110018616](https://steamdb.info/depot/2347771/history/?changeid=M:7907986342110018616), [764314433476262163](https://steamdb.info/depot/2347773/history/?changeid=M:764314433476262163)
 * Repository: https://github.com/Kxnrl/modsharp-public
@@ -887,11 +887,11 @@ Last updated: December 9, 2025 at 10:55:38 PM UTC
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x0F\x28\xE9
+\x55\x0F\x28\xF1\x48\x89\xE5
 </pre>
 </td><td>
 <pre>
-55 0F 28 E9
+55 0F 28 F1 48 89 E5
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -1186,11 +1186,11 @@ F3 41 0F 11 B7 ? ? ? ? 48 83 7F
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x2A\x48\x8B\x06\x48\x39\x47
+\x55\x48\x89\xF2\x48\x89\xE5\x41\x55\x41\x54\x53
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 55 41 54 49 89 F4 53 48 89 FB 48 83 EC ? 48 8B 06 48 39 47
+55 48 89 F2 48 89 E5 41 55 41 54 53
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -2842,11 +2842,11 @@ F3 41 0F 11 B7 ? ? ? ? 48 83 7F
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x89\xD3
+\x80\xBF\x2A\x2A\x2A\x2A\x2A\x0F\x85\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x57\x49\x89\xD7
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 89 D3
+80 BF ? ? ? ? ? 0F 85 ? ? ? ? 55 48 89 E5 41 57 49 89 D7
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
