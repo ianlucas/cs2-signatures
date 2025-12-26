@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: December 18, 2025 at 11:50:17 PM UTC
+Last updated: December 26, 2025 at 8:12:52 PM UTC
 
 * Manifests: [4959080239691313767](https://steamdb.info/depot/2347770/history/?changeid=M:4959080239691313767), [3701264129774428822](https://steamdb.info/depot/2347771/history/?changeid=M:3701264129774428822), [8233538962228710423](https://steamdb.info/depot/2347773/history/?changeid=M:8233538962228710423)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -233,11 +233,11 @@ Last updated: December 18, 2025 at 11:50:17 PM UTC
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xF7\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x89\xF7\x48\x83\xEC
+\x55\x48\x89\xF0\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x48\x8D\x7D
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 49 89 F7 41 56 41 55 41 54 53 48 89 FB 48 89 F7 48 83 EC
+55 48 89 F0 48 89 E5 41 57 49 89 FF 41 56 48 8D 7D
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
