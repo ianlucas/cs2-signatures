@@ -1,6 +1,6 @@
 # cs2-ss2-identity 
 
-Last updated: December 28, 2025 at 5:05:44 PM UTC
+Last updated: December 28, 2025 at 5:07:45 PM UTC
 
 * Manifests: [4959080239691313767](https://steamdb.info/depot/2347770/history/?changeid=M:4959080239691313767), [3701264129774428822](https://steamdb.info/depot/2347771/history/?changeid=M:3701264129774428822), [8233538962228710423](https://steamdb.info/depot/2347773/history/?changeid=M:8233538962228710423)
 * Repository: https://github.com/ianlucas/cs2-ss2-identity
@@ -18,6 +18,14 @@ Last updated: December 28, 2025 at 5:05:44 PM UTC
 </td><td>
 <pre>
 48 85 F6 0F 84 ? ? ? ? 55 BA
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x83\xEC\x2A\x48\x85\xD2\x74\x2A\x48\x89\x5C\x24
+</pre>
+</td><td>
+<pre>
+48 83 EC ? 48 85 D2 74 ? 48 89 5C 24
 </pre>
 </td></tr></table>
 
