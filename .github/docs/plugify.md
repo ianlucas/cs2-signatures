@@ -1,6 +1,6 @@
 # plugify 
 
-Last updated: December 26, 2025 at 8:12:52 PM UTC
+Last updated: January 3, 2026 at 1:44:37 PM UTC
 
 * Manifests: [4959080239691313767](https://steamdb.info/depot/2347770/history/?changeid=M:4959080239691313767), [3701264129774428822](https://steamdb.info/depot/2347771/history/?changeid=M:3701264129774428822), [8233538962228710423](https://steamdb.info/depot/2347773/history/?changeid=M:8233538962228710423)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -92,32 +92,6 @@ Last updated: December 26, 2025 at 8:12:52 PM UTC
 </pre>
 </td></tr></table>
 
-### CCSGameRules::HandleSwapTeams
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x45\x31\xF6\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8D\x25
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 45 31 F6 41 55 41 54 53 48 81 EC ? ? ? ? 4C 8D 25
-</pre>
-</td></tr></table>
-
-### CCSGameRules::OnTeamsSwappedAtRoundReset
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x8B\x97\x2A\x2A\x2A\x2A\x8D\x4A
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 8B 97 ? ? ? ? 8D 4A
-</pre>
-</td></tr></table>
-
 ### CCSPlayerController::SwitchTeam
 
 <table>
@@ -178,32 +152,6 @@ Last updated: December 26, 2025 at 8:12:52 PM UTC
 </td><td>
 <pre>
 48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 E8
-</pre>
-</td></tr></table>
-
-### CCSPlayer_WeaponServices::Weapon_Equip
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x8B\x77
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 8B 77
-</pre>
-</td></tr></table>
-
-### CEconItemSchema::GetItemDefinitionByName
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x80\xBF\x2A\x2A\x2A\x2A\x00\x75
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC ? 80 BF ? ? ? ? 00 75
 </pre>
 </td></tr></table>
 
