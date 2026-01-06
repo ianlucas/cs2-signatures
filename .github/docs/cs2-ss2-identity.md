@@ -1,8 +1,8 @@
 # cs2-ss2-identity 
 
-Last updated: December 28, 2025 at 5:07:45 PM UTC
+Last updated: January 6, 2026 at 12:30:50 AM UTC
 
-* Manifests: [4959080239691313767](https://steamdb.info/depot/2347770/history/?changeid=M:4959080239691313767), [3701264129774428822](https://steamdb.info/depot/2347771/history/?changeid=M:3701264129774428822), [8233538962228710423](https://steamdb.info/depot/2347773/history/?changeid=M:8233538962228710423)
+* Manifests: [6318285626835645060](https://steamdb.info/depot/2347770/history/?changeid=M:6318285626835645060), [3970280707550781410](https://steamdb.info/depot/2347771/history/?changeid=M:3970280707550781410), [8128465550651630543](https://steamdb.info/depot/2347773/history/?changeid=M:8128465550651630543)
 * Repository: https://github.com/ianlucas/cs2-ss2-identity
 * Gamedata: https://github.com/ianlucas/cs2-ss2-identity/blob/main/resources/gamedata/signatures.jsonc
 
