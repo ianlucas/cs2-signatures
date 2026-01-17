@@ -1,33 +1,12 @@
 # plugify 
 
-Last updated: January 9, 2026 at 8:46:27 PM UTC
+Last updated: January 17, 2026 at 11:21:25 PM UTC
 
 * Manifests: [8348690621754004818](https://steamdb.info/depot/2347770/history/?changeid=M:8348690621754004818), [3970280707550781410](https://steamdb.info/depot/2347771/history/?changeid=M:3970280707550781410), [8128465550651630543](https://steamdb.info/depot/2347773/history/?changeid=M:8128465550651630543)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
 ## Signatures
-
-### AppSystemCreateInterfaceFn
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>engine2</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x55\x49\x89\xFD\x41\x54\x48\x8D\x7D
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 55 49 89 FD 41 54 48 8D 7D
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>engine2</td><td>
-<pre>
-\x40\x53\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xD1\x48\x8B\x0D
-</pre>
-</td><td>
-<pre>
-40 53 48 83 EC ? 48 8B DA 48 8B D1 48 8B 0D
-</pre>
-</td></tr></table>
 
 ### BotNavIgnore
 
