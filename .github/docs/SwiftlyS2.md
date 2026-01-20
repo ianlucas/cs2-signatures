@@ -1,6 +1,6 @@
 # SwiftlyS2 
 
-Last updated: January 20, 2026 at 12:01:37 AM UTC
+Last updated: January 20, 2026 at 12:17:26 AM UTC
 
 * Manifests: [1429790428215228490](https://steamdb.info/depot/2347770/history/?changeid=M:1429790428215228490), [9206383538391201740](https://steamdb.info/depot/2347771/history/?changeid=M:9206383538391201740), [1580917476677010525](https://steamdb.info/depot/2347773/history/?changeid=M:1580917476677010525)
 * Repository: https://github.com/swiftly-solution/swiftlys2
@@ -551,6 +551,27 @@ Last updated: January 20, 2026 at 12:01:37 AM UTC
 </td><td>
 <pre>
 48 89 5C 24 ? 4C 89 4C 24 ? 48 89 4C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24
+</pre>
+</td></tr></table>
+
+### DispatchDatamapFunction
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x49\x89\xD7\x89\xCA
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 49 89 D7 89 CA
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x7C\x24\x2A\x41\x56\x48\x83\xEC\x2A\xF3\x0F\x10\x05
+</pre>
+</td><td>
+<pre>
+48 89 7C 24 ? 41 56 48 83 EC ? F3 0F 10 05
 </pre>
 </td></tr></table>
 
