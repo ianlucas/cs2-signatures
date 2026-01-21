@@ -1,38 +1,38 @@
 # cs2kz-metamod 
 
-Last updated: January 20, 2026 at 12:01:37 AM UTC
+Last updated: January 21, 2026 at 10:58:29 PM UTC
 
-* Manifests: [1429790428215228490](https://steamdb.info/depot/2347770/history/?changeid=M:1429790428215228490), [9206383538391201740](https://steamdb.info/depot/2347771/history/?changeid=M:9206383538391201740), [1580917476677010525](https://steamdb.info/depot/2347773/history/?changeid=M:1580917476677010525)
+* Manifests: [8784814331666423343](https://steamdb.info/depot/2347770/history/?changeid=M:8784814331666423343), [2990283341107581164](https://steamdb.info/depot/2347771/history/?changeid=M:2990283341107581164), [2558902151054532750](https://steamdb.info/depot/2347773/history/?changeid=M:2558902151054532750)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
 
-### SetModel
+### PostThink
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(2)</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xF2\x48\x89\xE5\x53\x48\x89\xFB\x48\x8D\x7D\x2A\x48\x83\xEC\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x8B\x30\x48\x8B\x06
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x10\x83\x2A\x2A\x2A\x2A\xF3\x0F\x10\x0D
 </pre>
 </td><td>
 <pre>
-55 48 89 F2 48 89 E5 53 48 89 FB 48 8D 7D ? 48 83 EC ? 48 8D 05 ? ? ? ? 48 8B 30 48 8B 06
+55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? E8 ? ? ? ? F3 0F 10 83 ? ? ? ? F3 0F 10 0D
 </pre>
 </td></tr><tr><td>✅⚠️(2)</td><td>Windows</td><td>server</td><td>
 <pre>
-\x40\x53\x48\x83\xEC\x2A\x48\x8B\xD9\x4C\x8B\xC2\x48\x8B\x0D\x2A\x2A\x2A\x2A\x48\x8D\x54\x24\x2A\x48\x8B\x01\xFF\x50\x2A\x48\x8B\x44\x24
+\x48\x2A\x2A\x55\x53\x56\x57\x41\x2A\x48\x2A\x2A\x2A\x48\x2A\x2A\x2A\x2A\x2A\x2A\x4C\x89\x68
 </pre>
 </td><td>
 <pre>
-40 53 48 83 EC ? 48 8B D9 4C 8B C2 48 8B 0D ? ? ? ? 48 8D 54 24 ? 48 8B 01 FF 50 ? 48 8B 44 24
+48 ? ? 55 53 56 57 41 ? 48 ? ? ? 48 ? ? ? ? ? ? 4C 89 68
 </pre>
 </td></tr></table>
 
 ### AirAccelerate
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x55\x49\x89\xD5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x18\x48\x8B\x7F\x30
 </pre>
@@ -53,7 +53,7 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 ### AirMove
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x4C\x8D\xBD\x68\xFF\xFF\xFF
 </pre>
@@ -61,7 +61,7 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 <pre>
 55 48 89 E5 41 57 4C 8D BD 68 FF FF FF
 </pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x48\x89\x58\x20\x55\x56\x57\x48\x81\xEC\xC0\x00\x00\x00
 </pre>
@@ -74,7 +74,7 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 ### CBasePlayerController_SetPawn
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x8D\x87\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xCE\x41\x55\x45\x89\xCD
 </pre>
@@ -89,6 +89,468 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </td><td>
 <pre>
 44 88 4C 24 ? 53 57 41 54 41 56 41 57 48 83 EC
+</pre>
+</td></tr></table>
+
+### CanUnduck
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x78\x01\x00\x00\x48\x8B\x7F\x30
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 89 FB 48 81 EC 78 01 00 00 48 8B 7F 30
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x55\x56\x41\x54\x48\x8D\xAC\x24\xE0\xFE\xFF\xFF
+</pre>
+</td><td>
+<pre>
+40 55 56 41 54 48 8D AC 24 E0 FE FF FF
+</pre>
+</td></tr></table>
+
+### CategorizePosition
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x48\x8D\x85\x2A\x2A\x2A\x2A\x41\x55
+</pre>
+</td><td>
+<pre>
+55 66 0F EF C0 48 89 E5 41 57 41 56 48 8D 85 ? ? ? ? 41 55
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x55\x56\x57\x41\x55\x48\x8D\xAC\x24\x18\xFE\xFF\xFF
+</pre>
+</td><td>
+<pre>
+40 55 56 57 41 55 48 8D AC 24 18 FE FF FF
+</pre>
+</td></tr></table>
+
+### CheckJumpButton
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xF4\xBE\x02\x00\x00\x00\x53\x48\x89\xFB\x48\x83\xEC\x68
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 55 41 54 49 89 F4 BE 02 00 00 00 53 48 89 FB 48 83 EC 68
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x18\x55\x48\x83\xEC\x40\x48\x8B\xEA
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 18 55 48 83 EC 40 48 8B EA
+</pre>
+</td></tr></table>
+
+### CheckParameters
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x81\xEC\x88\x01\x00\x00\xE8
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 89 F3 48 81 EC 88 01 00 00 E8
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x48\x89\x58\x20\x55\x56\x57\x41\x56\x41\x57\x48\x8D\x68\xA1\x48\x81\xEC\xC0\x00\x00\x00\x0F\xB6\x79\x50
+</pre>
+</td><td>
+<pre>
+48 8B C4 48 89 58 20 55 56 57 41 56 41 57 48 8D 68 A1 48 81 EC C0 00 00 00 0F B6 79 50
+</pre>
+</td></tr></table>
+
+### CheckVelocity
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x49\x89\xF7\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x68\x48\x8B\x7F\x30
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 49 89 F7 41 56 41 55 41 54 49 89 FC 53 48 83 EC 68 48 8B 7F 30
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x4C\x89\x40\x18\x55\x53\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\x68\xA1
+</pre>
+</td><td>
+<pre>
+48 8B C4 4C 89 40 18 55 53 56 57 41 54 41 55 41 56 41 57 48 8D 68 A1
+</pre>
+</td></tr></table>
+
+### CheckWater
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x68\x01\x00\x00
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 55 49 89 F5 41 54 53 48 89 FB 48 81 EC 68 01 00 00
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x70\x10\x48\x89\x78\x18\x55\x48\x8D\xA8\x58\xFF\xFF\xFF
+</pre>
+</td><td>
+<pre>
+48 8B C4 48 89 58 08 48 89 70 10 48 89 78 18 55 48 8D A8 58 FF FF FF
+</pre>
+</td></tr></table>
+
+### Duck
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x88\x01\x00\x00\x48\x89\xB5
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC 88 01 00 00 48 89 B5
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x55\x53\x56\x57\x41\x56\x41\x57\x48\x8D\xA8\xA8\xFE\xFF\xFF
+</pre>
+</td><td>
+<pre>
+48 8B C4 55 53 56 57 41 56 41 57 48 8D A8 A8 FE FF FF
+</pre>
+</td></tr></table>
+
+### Friction
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x38\x48\x8B\x7F\x30
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC 38 48 8B 7F 30
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x10\x57\x48\x83\xEC\x70\x48\x83\x79\x30\x00
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 70 48 83 79 30 00
+</pre>
+</td></tr></table>
+
+### GetLegacyGameEventListener
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x83\xFF\x2A\x77\x2A\x48\x63\xFF\x48\xC1\xE7\x2A\x48\x8D\x44\x38
+</pre>
+</td><td>
+<pre>
+48 8B 05 ? ? ? ? 48 85 C0 74 ? 83 FF ? 77 ? 48 63 FF 48 C1 E7 ? 48 8D 44 38
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x83\xF9\x2A\x77\x2A\x48\x63\xC1\x48\xC1\xE0
+</pre>
+</td><td>
+<pre>
+48 8B 15 ? ? ? ? 48 85 D2 74 ? 83 F9 ? 77 ? 48 63 C1 48 C1 E0
+</pre>
+</td></tr></table>
+
+### LadderMove
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x4C\x8D\xAD\x2A\x2A\x2A\x2A\x41\x54\x49\x89\xF4\x53\x48\x89\xFB
+</pre>
+</td><td>
+<pre>
+55 66 0F EF C0 48 89 E5 41 57 41 56 41 55 4C 8D AD ? ? ? ? 41 54 49 89 F4 53 48 89 FB
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x55\x53\x56\x57\x41\x57\x48\x8D\xAC\x24\x10\xFD\xFF\xFF
+</pre>
+</td><td>
+<pre>
+40 55 53 56 57 41 57 48 8D AC 24 10 FD FF FF
+</pre>
+</td></tr></table>
+
+### MoveInit
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x89\xF7\x48\x83\xEC\x70
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 89 F7 48 83 EC 70
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x10\x48\x89\x74\x24\x18\x57\x41\x56\x41\x57\x48\x81\xEC\xA0\x00\x00\x00
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 10 48 89 74 24 18 57 41 56 41 57 48 81 EC A0 00 00 00
+</pre>
+</td></tr></table>
+
+### OnJump
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x58\x48\x8B\x7F\x30
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 89 FB 48 83 EC 58 48 8B 7F 30
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x56\x57\x48\x81\xEC\xE8\x00\x00\x00\x48\x83\x79\x30\x00
+</pre>
+</td><td>
+<pre>
+40 56 57 48 81 EC E8 00 00 00 48 83 79 30 00
+</pre>
+</td></tr></table>
+
+### PlayerMove
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x8B\x7F\x2A\x48\x85\xFF\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x07\xFF\x90
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 54 49 89 F4 53 48 89 FB 48 8B 7F ? 48 85 FF 0F 84 ? ? ? ? 48 8B 07 FF 90
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x20\x57\x48\x83\xEC\x50\x48\x83\x79\x30\x00
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 20 57 48 83 EC 50 48 83 79 30 00
+</pre>
+</td></tr></table>
+
+### PostPlayerMove
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x50\x48\x8B\x5F
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 49 89 F5 41 54 49 89 FC 53 48 83 EC 50 48 8B 5F
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x53\x56\x41\x56\x48\x83\xEC\x60\x48\x83\x79\x30\x00
+</pre>
+</td><td>
+<pre>
+40 53 56 41 56 48 83 EC 60 48 83 79 30 00
+</pre>
+</td></tr></table>
+
+### ProcessMovement
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x38\x48\x8B\x7F\x30
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 83 EC 38 48 8B 7F 30
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x57\x41\x57\x48\x81\xEC\xB8\x00\x00\x00
+</pre>
+</td><td>
+<pre>
+40 57 41 57 48 81 EC B8 00 00 00
+</pre>
+</td></tr></table>
+
+### SetupMove
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xD4\x53\x48\x89\xFB\x48\x83\xEC\x28\xE8
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 49 89 D4 53 48 89 FB 48 83 EC 28 E8
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x48\x89\x74\x24\x20\x57\x41\x56\x41\x57\x48\x83\xEC\x20\x49\x8B\xF0
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 10 48 89 6C 24 18 48 89 74 24 20 57 41 56 41 57 48 83 EC 20 49 8B F0
+</pre>
+</td></tr></table>
+
+### TracePlayerBBox
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x49\x89\xCE\x41\x55\x49\x89\xD5
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 49 89 FF 41 56 49 89 CE 41 55 49 89 D5
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x4C\x89\x44\x24\x18\x55\x53\x56\x57\x41\x55\x41\x56\x48\x8D\xAC\x24\xF8\xFE\xFF\xFF
+</pre>
+</td><td>
+<pre>
+4C 89 44 24 18 55 53 56 57 41 55 41 56 48 8D AC 24 F8 FE FF FF
+</pre>
+</td></tr></table>
+
+### TryPlayerMove
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x41\x55\x49\x89\xD5
+</pre>
+</td><td>
+<pre>
+55 66 0F EF C0 48 89 E5 41 57 41 56 49 89 F6 41 55 49 89 D5
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x4C\x89\x48\x20\x4C\x89\x40\x18\x48\x89\x50\x10\x48\x89\x48\x08\x55\x53\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xA8\xC8\xFD\xFF\xFF
+</pre>
+</td><td>
+<pre>
+48 8B C4 4C 89 48 20 4C 89 40 18 48 89 50 10 48 89 48 08 55 53 56 57 41 54 41 55 41 56 41 57 48 8D A8 C8 FD FF FF
+</pre>
+</td></tr></table>
+
+### WalkMove
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xBD\xD8\xFD\xFF\xFF
+</pre>
+</td><td>
+<pre>
+55 66 0F EF C0 48 89 E5 41 57 41 56 4C 8D BD D8 FD FF FF
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x48\x89\x70\x10\x48\x89\x78\x18\x55\x41\x56
+</pre>
+</td><td>
+<pre>
+48 8B C4 48 89 70 10 48 89 78 18 55 41 56
+</pre>
+</td></tr></table>
+
+### WaterMove
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x4C\x8D\xAD\x10\xFF\xFF\xFF\x41\x54\x49\x89\xFC\x4C\x89\xEF\x53\x48\x89\xF3\x48\x81\xEC\xC8\x01\x00\x00
+</pre>
+</td><td>
+<pre>
+55 66 0F EF C0 48 89 E5 41 57 41 56 41 55 4C 8D AD 10 FF FF FF 41 54 49 89 FC 4C 89 EF 53 48 89 F3 48 81 EC C8 01 00 00
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x70\x10\x48\x89\x78\x18\x4C\x89\x60\x20\x55\x41\x56\x41\x57\x48\x8D\xA8\xD8\xFE\xFF\xFF
+</pre>
+</td><td>
+<pre>
+48 8B C4 48 89 58 08 48 89 70 10 48 89 78 18 4C 89 60 20 55 41 56 41 57 48 8D A8 D8 FE FF FF
+</pre>
+</td></tr></table>
+
+### CheckFalling
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x68\x48\x8B\x7F
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 55 41 54 49 89 F4 53 48 89 FB 48 83 EC 68 48 8B 7F
+</pre>
+</td></tr><tr><td>✅⚠️(2)</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x10\x57\x48\x81\xEC\x80\x00\x00\x00\x48\x8B\xD9
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 10 57 48 81 EC 80 00 00 00 48 8B D9
+</pre>
+</td></tr></table>
+
+### SetModel
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(2)</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xF2\x48\x89\xE5\x53\x48\x89\xFB\x48\x8D\x7D\x2A\x48\x83\xEC\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x8B\x30\x48\x8B\x06
+</pre>
+</td><td>
+<pre>
+55 48 89 F2 48 89 E5 53 48 89 FB 48 8D 7D ? 48 83 EC ? 48 8D 05 ? ? ? ? 48 8B 30 48 8B 06
+</pre>
+</td></tr><tr><td>✅⚠️(2)</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x53\x48\x83\xEC\x2A\x48\x8B\xD9\x4C\x8B\xC2\x48\x8B\x0D\x2A\x2A\x2A\x2A\x48\x8D\x54\x24\x2A\x48\x8B\x01\xFF\x50\x2A\x48\x8B\x44\x24
+</pre>
+</td><td>
+<pre>
+40 53 48 83 EC ? 48 8B D9 4C 8B C2 48 8B 0D ? ? ? ? 48 8D 54 24 ? 48 8B 01 FF 50 ? 48 8B 44 24
 </pre>
 </td></tr></table>
 
@@ -152,153 +614,6 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </td><td>
 <pre>
 40 57 48 83 EC 30 48 8B F9 BA FF FF FF FF
-</pre>
-</td></tr></table>
-
-### CanUnduck
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x78\x01\x00\x00\x48\x8B\x7F\x30
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 89 FB 48 81 EC 78 01 00 00 48 8B 7F 30
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x55\x56\x41\x54\x48\x8D\xAC\x24\xE0\xFE\xFF\xFF
-</pre>
-</td><td>
-<pre>
-40 55 56 41 54 48 8D AC 24 E0 FE FF FF
-</pre>
-</td></tr></table>
-
-### CategorizePosition
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x48\x8D\x85\x2A\x2A\x2A\x2A\x41\x55
-</pre>
-</td><td>
-<pre>
-55 66 0F EF C0 48 89 E5 41 57 41 56 48 8D 85 ? ? ? ? 41 55
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x55\x56\x57\x41\x55\x48\x8D\xAC\x24\x18\xFE\xFF\xFF
-</pre>
-</td><td>
-<pre>
-40 55 56 57 41 55 48 8D AC 24 18 FE FF FF
-</pre>
-</td></tr></table>
-
-### CheckFalling
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x68\x48\x8B\x7F
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 55 41 54 49 89 F4 53 48 89 FB 48 83 EC 68 48 8B 7F
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x10\x57\x48\x81\xEC\x80\x00\x00\x00\x48\x8B\xD9
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 10 57 48 81 EC 80 00 00 00 48 8B D9
-</pre>
-</td></tr></table>
-
-### CheckJumpButton
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xF4\xBE\x02\x00\x00\x00\x53\x48\x89\xFB\x48\x83\xEC\x68
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 55 41 54 49 89 F4 BE 02 00 00 00 53 48 89 FB 48 83 EC 68
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x18\x55\x48\x83\xEC\x40\x48\x8B\xEA
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 18 55 48 83 EC 40 48 8B EA
-</pre>
-</td></tr></table>
-
-### CheckParameters
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x81\xEC\x88\x01\x00\x00\xE8
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 89 F3 48 81 EC 88 01 00 00 E8
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x48\x89\x58\x20\x55\x56\x57\x41\x56\x41\x57\x48\x8D\x68\xA1\x48\x81\xEC\xC0\x00\x00\x00\x0F\xB6\x79\x50
-</pre>
-</td><td>
-<pre>
-48 8B C4 48 89 58 20 55 56 57 41 56 41 57 48 8D 68 A1 48 81 EC C0 00 00 00 0F B6 79 50
-</pre>
-</td></tr></table>
-
-### CheckVelocity
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xF7\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x68\x48\x8B\x7F\x30
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 49 89 F7 41 56 41 55 41 54 49 89 FC 53 48 83 EC 68 48 8B 7F 30
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x4C\x89\x40\x18\x55\x53\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\x68\xA1
-</pre>
-</td><td>
-<pre>
-48 8B C4 4C 89 40 18 55 53 56 57 41 54 41 55 41 56 41 57 48 8D 68 A1
-</pre>
-</td></tr></table>
-
-### CheckWater
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x68\x01\x00\x00
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 55 49 89 F5 41 54 53 48 89 FB 48 81 EC 68 01 00 00
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x70\x10\x48\x89\x78\x18\x55\x48\x8D\xA8\x58\xFF\xFF\xFF
-</pre>
-</td><td>
-<pre>
-48 8B C4 48 89 58 08 48 89 70 10 48 89 78 18 55 48 8D A8 58 FF FF FF
 </pre>
 </td></tr></table>
 
@@ -386,27 +701,6 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </pre>
 </td></tr></table>
 
-### Duck
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x88\x01\x00\x00\x48\x89\xB5
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC 88 01 00 00 48 89 B5
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x55\x53\x56\x57\x41\x56\x41\x57\x48\x8D\xA8\xA8\xFE\xFF\xFF
-</pre>
-</td><td>
-<pre>
-48 8B C4 55 53 56 57 41 56 41 57 48 8D A8 A8 FE FF FF
-</pre>
-</td></tr></table>
-
 ### EmitSound
 
 <table>
@@ -425,27 +719,6 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </td><td>
 <pre>
 40 53 48 83 EC ? 4C 89 4C 24 ? 48 8B D9 45 8B C8
-</pre>
-</td></tr></table>
-
-### Friction
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x38\x48\x8B\x7F\x30
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC 38 48 8B 7F 30
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x10\x57\x48\x83\xEC\x70\x48\x83\x79\x30\x00
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 70 48 83 79 30 00
 </pre>
 </td></tr></table>
 
@@ -491,90 +764,6 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </pre>
 </td></tr></table>
 
-### GetLegacyGameEventListener
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x83\xFF\x2A\x77\x2A\x48\x63\xFF\x48\xC1\xE7\x2A\x48\x8D\x44\x38
-</pre>
-</td><td>
-<pre>
-48 8B 05 ? ? ? ? 48 85 C0 74 ? 83 FF ? 77 ? 48 63 FF 48 C1 E7 ? 48 8D 44 38
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x83\xF9\x2A\x77\x2A\x48\x63\xC1\x48\xC1\xE0
-</pre>
-</td><td>
-<pre>
-48 8B 15 ? ? ? ? 48 85 D2 74 ? 83 F9 ? 77 ? 48 63 C1 48 C1 E0
-</pre>
-</td></tr></table>
-
-### LadderMove
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x4C\x8D\xAD\x2A\x2A\x2A\x2A\x41\x54\x49\x89\xF4\x53\x48\x89\xFB
-</pre>
-</td><td>
-<pre>
-55 66 0F EF C0 48 89 E5 41 57 41 56 41 55 4C 8D AD ? ? ? ? 41 54 49 89 F4 53 48 89 FB
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x55\x53\x56\x57\x41\x57\x48\x8D\xAC\x24\x10\xFD\xFF\xFF
-</pre>
-</td><td>
-<pre>
-40 55 53 56 57 41 57 48 8D AC 24 10 FD FF FF
-</pre>
-</td></tr></table>
-
-### MoveInit
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x89\xF7\x48\x83\xEC\x70
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 89 F7 48 83 EC 70
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x10\x48\x89\x74\x24\x18\x57\x41\x56\x41\x57\x48\x81\xEC\xA0\x00\x00\x00
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 10 48 89 74 24 18 57 41 56 41 57 48 81 EC A0 00 00 00
-</pre>
-</td></tr></table>
-
-### OnJump
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x58\x48\x8B\x7F\x30
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 89 FB 48 83 EC 58 48 8B 7F 30
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x56\x57\x48\x81\xEC\xE8\x00\x00\x00\x48\x83\x79\x30\x00
-</pre>
-</td><td>
-<pre>
-40 56 57 48 81 EC E8 00 00 00 48 83 79 30 00
-</pre>
-</td></tr></table>
-
 ### PhysicsSimulate
 
 <table>
@@ -593,90 +782,6 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </td><td>
 <pre>
 40 55 53 56 48 8D 6C 24 A0
-</pre>
-</td></tr></table>
-
-### PlayerMove
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x8B\x7F\x2A\x48\x85\xFF\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x07\xFF\x90
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 54 49 89 F4 53 48 89 FB 48 8B 7F ? 48 85 FF 0F 84 ? ? ? ? 48 8B 07 FF 90
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x20\x57\x48\x83\xEC\x50\x48\x83\x79\x30\x00
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 20 57 48 83 EC 50 48 83 79 30 00
-</pre>
-</td></tr></table>
-
-### PostPlayerMove
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x50\x48\x8B\x5F
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 56 41 55 49 89 F5 41 54 49 89 FC 53 48 83 EC 50 48 8B 5F
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x53\x56\x41\x56\x48\x83\xEC\x60\x48\x83\x79\x30\x00
-</pre>
-</td><td>
-<pre>
-40 53 56 41 56 48 83 EC 60 48 83 79 30 00
-</pre>
-</td></tr></table>
-
-### PostThink
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x10\x83\x2A\x2A\x2A\x2A\xF3\x0F\x10\x0D
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? E8 ? ? ? ? F3 0F 10 83 ? ? ? ? F3 0F 10 0D
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x2A\x2A\x55\x53\x56\x57\x41\x2A\x48\x2A\x2A\x2A\x48\x2A\x2A\x2A\x2A\x2A\x2A\x4C\x89\x68
-</pre>
-</td><td>
-<pre>
-48 ? ? 55 53 56 57 41 ? 48 ? ? ? 48 ? ? ? ? ? ? 4C 89 68
-</pre>
-</td></tr></table>
-
-### ProcessMovement
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x38\x48\x8B\x7F\x30
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 83 EC 38 48 8B 7F 30
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x57\x41\x57\x48\x81\xEC\xB8\x00\x00\x00
-</pre>
-</td><td>
-<pre>
-40 57 41 57 48 81 EC B8 00 00 00
 </pre>
 </td></tr></table>
 
@@ -764,27 +869,6 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </pre>
 </td></tr></table>
 
-### SetupMove
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xD4\x53\x48\x89\xFB\x48\x83\xEC\x28\xE8
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 49 89 D4 53 48 89 FB 48 83 EC 28 E8
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x48\x89\x74\x24\x20\x57\x41\x56\x41\x57\x48\x83\xEC\x20\x49\x8B\xF0
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 10 48 89 6C 24 18 48 89 74 24 20 57 41 56 41 57 48 83 EC 20 49 8B F0
-</pre>
-</td></tr></table>
-
 ### SnapViewAngles
 
 <table>
@@ -806,27 +890,6 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </pre>
 </td></tr></table>
 
-### TracePlayerBBox
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x49\x89\xCE\x41\x55\x49\x89\xD5
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 49 89 FF 41 56 49 89 CE 41 55 49 89 D5
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x4C\x89\x44\x24\x18\x55\x53\x56\x57\x41\x55\x41\x56\x48\x8D\xAC\x24\xF8\xFE\xFF\xFF
-</pre>
-</td><td>
-<pre>
-4C 89 44 24 18 55 53 56 57 41 55 41 56 48 8D AC 24 F8 FE FF FF
-</pre>
-</td></tr></table>
-
 ### TraceShape
 
 <table>
@@ -845,69 +908,6 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </td><td>
 <pre>
 48 89 5C 24 20 48 89 4C 24 08 55 57
-</pre>
-</td></tr></table>
-
-### TryPlayerMove
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x41\x55\x49\x89\xD5
-</pre>
-</td><td>
-<pre>
-55 66 0F EF C0 48 89 E5 41 57 41 56 49 89 F6 41 55 49 89 D5
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x4C\x89\x48\x20\x4C\x89\x40\x18\x48\x89\x50\x10\x48\x89\x48\x08\x55\x53\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xA8\xC8\xFD\xFF\xFF
-</pre>
-</td><td>
-<pre>
-48 8B C4 4C 89 48 20 4C 89 40 18 48 89 50 10 48 89 48 08 55 53 56 57 41 54 41 55 41 56 41 57 48 8D A8 C8 FD FF FF
-</pre>
-</td></tr></table>
-
-### WalkMove
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xBD\xD8\xFD\xFF\xFF
-</pre>
-</td><td>
-<pre>
-55 66 0F EF C0 48 89 E5 41 57 41 56 4C 8D BD D8 FD FF FF
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x48\x89\x70\x10\x48\x89\x78\x18\x55\x41\x56
-</pre>
-</td><td>
-<pre>
-48 8B C4 48 89 70 10 48 89 78 18 55 41 56
-</pre>
-</td></tr></table>
-
-### WaterMove
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x4C\x8D\xAD\x10\xFF\xFF\xFF\x41\x54\x49\x89\xFC\x4C\x89\xEF\x53\x48\x89\xF3\x48\x81\xEC\xC8\x01\x00\x00
-</pre>
-</td><td>
-<pre>
-55 66 0F EF C0 48 89 E5 41 57 41 56 41 55 4C 8D AD 10 FF FF FF 41 54 49 89 FC 4C 89 EF 53 48 89 F3 48 81 EC C8 01 00 00
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x48\x89\x58\x08\x48\x89\x70\x10\x48\x89\x78\x18\x4C\x89\x60\x20\x55\x41\x56\x41\x57\x48\x8D\xA8\xD8\xFE\xFF\xFF
-</pre>
-</td><td>
-<pre>
-48 8B C4 48 89 58 08 48 89 70 10 48 89 78 18 4C 89 60 20 55 41 56 41 57 48 8D A8 D8 FE FF FF
 </pre>
 </td></tr></table>
 

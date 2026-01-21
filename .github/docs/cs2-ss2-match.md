@@ -1,12 +1,33 @@
 # cs2-ss2-match 
 
-Last updated: January 20, 2026 at 12:01:37 AM UTC
+Last updated: January 21, 2026 at 10:58:29 PM UTC
 
-* Manifests: [1429790428215228490](https://steamdb.info/depot/2347770/history/?changeid=M:1429790428215228490), [9206383538391201740](https://steamdb.info/depot/2347771/history/?changeid=M:9206383538391201740), [1580917476677010525](https://steamdb.info/depot/2347773/history/?changeid=M:1580917476677010525)
+* Manifests: [8784814331666423343](https://steamdb.info/depot/2347770/history/?changeid=M:8784814331666423343), [2990283341107581164](https://steamdb.info/depot/2347771/history/?changeid=M:2990283341107581164), [2558902151054532750](https://steamdb.info/depot/2347773/history/?changeid=M:2558902151054532750)
 * Repository: https://github.com/ianlucas/cs2-ss2-match
 * Gamedata: https://github.com/ianlucas/cs2-ss2-match/blob/main/resources/gamedata/signatures.jsonc
 
 ## Signatures
+
+### CCSGameRules::IsLastRoundBeforeHalfTime
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x74
+</pre>
+</td><td>
+<pre>
+55 BE ? ? ? ? 48 89 E5 41 55 41 54 53 48 89 FB 48 8D 3D ? ? ? ? 48 83 EC ? E8 ? ? ? ? 48 85 C0 74
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x53\x48\x83\xEC\x2A\x48\x8B\xD9\xBA\x2A\x2A\x2A\x2A\x48\x8D\x0D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x75\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x8B\x40\x2A\x80\x38\x2A\x0F\x84\x2A\x2A\x2A\x2A\x83\xBB
+</pre>
+</td><td>
+<pre>
+40 53 48 83 EC ? 48 8B D9 BA ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 85 C0 75 ? 48 8B 05 ? ? ? ? 48 8B 40 ? 80 38 ? 0F 84 ? ? ? ? 83 BB
+</pre>
+</td></tr></table>
 
 ### CCSBotManager::MaintainBotQuota
 
@@ -68,27 +89,6 @@ Last updated: January 20, 2026 at 12:01:37 AM UTC
 </td><td>
 <pre>
 48 8B C4 48 89 48 ? 41 54 48 81 EC ? ? ? ? 48 89 58
-</pre>
-</td></tr></table>
-
-### CCSGameRules::IsLastRoundBeforeHalfTime
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x74
-</pre>
-</td><td>
-<pre>
-55 BE ? ? ? ? 48 89 E5 41 55 41 54 53 48 89 FB 48 8D 3D ? ? ? ? 48 83 EC ? E8 ? ? ? ? 48 85 C0 74
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x53\x48\x83\xEC\x2A\x48\x8B\xD9\xBA\x2A\x2A\x2A\x2A\x48\x8D\x0D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x75\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x8B\x40\x2A\x80\x38\x2A\x0F\x84\x2A\x2A\x2A\x2A\x83\xBB
-</pre>
-</td><td>
-<pre>
-40 53 48 83 EC ? 48 8B D9 BA ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 85 C0 75 ? 48 8B 05 ? ? ? ? 48 8B 40 ? 80 38 ? 0F 84 ? ? ? ? 83 BB
 </pre>
 </td></tr></table>
 
