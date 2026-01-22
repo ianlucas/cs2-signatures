@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** January 22, 2026 at 10:55:02 PM UTC
+* **Last updated:** January 22, 2026 at 11:28:45 PM UTC
 * **Manifests:** [646639460456066902](https://steamdb.info/depot/2347770/history/?changeid=M:646639460456066902), [6331696283281783696](https://steamdb.info/depot/2347771/history/?changeid=M:6331696283281783696), [6957342874894207001](https://steamdb.info/depot/2347773/history/?changeid=M:6957342874894207001)
 
 <table>
@@ -110,11 +110,8 @@
 <details>
   <summary>cs2kz-metamod broken signatures</summary>
 
-* `❌Linux ✅Windows` CBasePlayerController_SetPawn
-* `✅Linux ❌Windows` GetLegacyGameEventListener
 * `❌Linux ❌Windows` TracePlayerBBox
 * `❌Linux ❌Windows` SetupMove
-* `❌Linux ✅Windows` ProcessMovement
 * `❌Linux ❌Windows` PlayerMove
 * `✅Linux ❌Windows` CheckParameters
 * `❌Linux ❌Windows` MoveInit
@@ -133,7 +130,6 @@
 * `✅Linux ❌Windows` TryPlayerMove
 * `❌Linux ❌Windows` CategorizePosition
 * `✅Linux ❌Windows` PostPlayerMove
-* `❌Linux ✅Windows` PostThink
 
 </details>
 
