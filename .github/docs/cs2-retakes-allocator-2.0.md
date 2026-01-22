@@ -1,33 +1,12 @@
 # cs2-retakes-allocator-2.0 
 
-Last updated: January 22, 2026 at 3:07:36 AM UTC
+Last updated: January 22, 2026 at 5:45:38 PM UTC
 
 * Manifests: [6362784861484773478](https://steamdb.info/depot/2347770/history/?changeid=M:6362784861484773478), [1152241223114544985](https://steamdb.info/depot/2347771/history/?changeid=M:1152241223114544985), [2766739100351032354](https://steamdb.info/depot/2347773/history/?changeid=M:2766739100351032354)
 * Repository: https://github.com/Micka2302/cs2-retakes-allocator-2.0
 * Gamedata: https://github.com/Micka2302/cs2-retakes-allocator-2.0/blob/main/Resources/RetakesAllocator_gamedata.json
 
 ## Signatures
-
-### GetCSWeaponDataFromKey
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x31\xD2\x48\x89\xE5\x41\x56\x41\x55\x41\x54
-</pre>
-</td><td>
-<pre>
-55 31 D2 48 89 E5 41 56 41 55 41 54
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x33\xFF\x4C\x8B\xCA\x8B\xD9
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 57 48 83 EC ? 33 FF 4C 8B CA 8B D9
-</pre>
-</td></tr></table>
 
 ### CCSPlayer_ItemServices_CanAcquire
 
@@ -47,6 +26,27 @@ Last updated: January 22, 2026 at 3:07:36 AM UTC
 </td><td>
 <pre>
 44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 41 57 48 8B EC
+</pre>
+</td></tr></table>
+
+### GetCSWeaponDataFromKey
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x31\xD2\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x41\x89\xFC
+</pre>
+</td><td>
+<pre>
+55 31 D2 48 89 E5 41 57 41 56 41 55 41 54 41 89 FC
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x33\xFF\x4C\x8B\xCA\x8B\xD9
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 57 48 83 EC ? 33 FF 4C 8B CA 8B D9
 </pre>
 </td></tr></table>
 
