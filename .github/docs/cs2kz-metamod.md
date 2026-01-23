@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: January 23, 2026 at 1:16:48 AM UTC
+Last updated: January 23, 2026 at 4:22:49 AM UTC
 
 * Manifests: [646639460456066902](https://steamdb.info/depot/2347770/history/?changeid=M:646639460456066902), [6331696283281783696](https://steamdb.info/depot/2347771/history/?changeid=M:6331696283281783696), [6957342874894207001](https://steamdb.info/depot/2347773/history/?changeid=M:6957342874894207001)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
@@ -155,7 +155,7 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </pre>
 </td></tr></table>
 
-### OnJump
+### OnJumpLegacy
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
@@ -278,6 +278,27 @@ TODO
 </td><td>
 <pre>
 40 55 53 56 57 41 54 41 55 41 56 48 8D 6C 24 D9 48 81 EC 90 00 00 00
+</pre>
+</td></tr></table>
+
+### OnJumpModern
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(10057737)</td><td>Linux</td><td>server</td><td>
+<pre>
+\xTODO
+</pre>
+</td><td>
+<pre>
+TODO
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x55\x56\x57\x41\x56\x48\x8D\x6C\x24\xC8\x48\x81\xEC\x38\x01\x00\x00\x4C\x8B\x71\x08
+</pre>
+</td><td>
+<pre>
+40 55 56 57 41 56 48 8D 6C 24 C8 48 81 EC 38 01 00 00 4C 8B 71 08
 </pre>
 </td></tr></table>
 
