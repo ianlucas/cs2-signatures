@@ -1,8 +1,8 @@
 # ModSharp 
 
-Last updated: January 22, 2026 at 10:55:02 PM UTC
+Last updated: January 24, 2026 at 12:44:40 AM UTC
 
-* Manifests: [646639460456066902](https://steamdb.info/depot/2347770/history/?changeid=M:646639460456066902), [6331696283281783696](https://steamdb.info/depot/2347771/history/?changeid=M:6331696283281783696), [6957342874894207001](https://steamdb.info/depot/2347773/history/?changeid=M:6957342874894207001)
+* Manifests: [1805363966843028663](https://steamdb.info/depot/2347770/history/?changeid=M:1805363966843028663), [6959765395387142211](https://steamdb.info/depot/2347771/history/?changeid=M:6959765395387142211), [2883306748488478518](https://steamdb.info/depot/2347773/history/?changeid=M:2883306748488478518)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/core.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/log.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/tier0.games.jsonc
 
@@ -26,6 +26,27 @@ Last updated: January 22, 2026 at 10:55:02 PM UTC
 </td><td>
 <pre>
 48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 83 EC ? 48 8B DA 48 8B F1
+</pre>
+</td></tr></table>
+
+### CGameEntitySystem::GetSpawnOriginOffset
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(2)</td><td>Linux</td><td>server</td><td>
+<pre>
+\x83\xBF\x2A\x2A\x2A\x2A\x2A\x48\x8D\x05
+</pre>
+</td><td>
+<pre>
+83 BF ? ? ? ? ? 48 8D 05
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x83\xB9\xF0\x0B\x00\x00\x2A\x48\x8D\x81\xA0\x1F\x00\x00
+</pre>
+</td><td>
+<pre>
+83 B9 F0 0B 00 00 ? 48 8D 81 A0 1F 00 00
 </pre>
 </td></tr></table>
 
@@ -551,27 +572,6 @@ Last updated: January 22, 2026 at 10:55:02 PM UTC
 </td><td>
 <pre>
 48 89 6C 24 18 48 89 7C 24 20 41 56 48 83 EC 20 48 8B F9 48 8B EA 33 C9 4C 63 B7 20 21 00 00
-</pre>
-</td></tr></table>
-
-### CGameEntitySystem::GetSpawnOriginOffset
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x83\xBF\x2A\x2A\x2A\x2A\x2A\x48\x8D\x05
-</pre>
-</td><td>
-<pre>
-83 BF ? ? ? ? ? 48 8D 05
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x83\xB9\xF0\x0B\x00\x00\x2A\x48\x8D\x81\xA0\x1F\x00\x00
-</pre>
-</td><td>
-<pre>
-83 B9 F0 0B 00 00 ? 48 8D 81 A0 1F 00 00
 </pre>
 </td></tr></table>
 
