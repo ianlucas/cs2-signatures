@@ -1,6 +1,6 @@
 # SwiftlyS2 
 
-Last updated: January 24, 2026 at 12:44:40 AM UTC
+Last updated: January 24, 2026 at 7:35:46 PM UTC
 
 * Manifests: [1805363966843028663](https://steamdb.info/depot/2347770/history/?changeid=M:1805363966843028663), [6959765395387142211](https://steamdb.info/depot/2347771/history/?changeid=M:6959765395387142211), [2883306748488478518](https://steamdb.info/depot/2347773/history/?changeid=M:2883306748488478518)
 * Repository: https://github.com/swiftly-solution/swiftlys2
@@ -244,11 +244,11 @@ Last updated: January 24, 2026 at 12:44:40 AM UTC
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xCD\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x78
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xCD\x41\x54\x49\x89\xFC\x53\x48\x89
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 49 89 CD 41 54 49 89 FC 53 48 89 F3 48 83 EC 78
+55 48 89 E5 41 57 41 56 41 55 49 89 CD 41 54 49 89 FC 53 48 89
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
