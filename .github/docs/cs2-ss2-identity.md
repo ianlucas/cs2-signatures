@@ -1,6 +1,6 @@
 # cs2-ss2-identity 
 
-Last updated: January 24, 2026 at 12:44:40 AM UTC
+Last updated: January 26, 2026 at 10:17:02 PM UTC
 
 * Manifests: [1805363966843028663](https://steamdb.info/depot/2347770/history/?changeid=M:1805363966843028663), [6959765395387142211](https://steamdb.info/depot/2347771/history/?changeid=M:6959765395387142211), [2883306748488478518](https://steamdb.info/depot/2347773/history/?changeid=M:2883306748488478518)
 * Repository: https://github.com/ianlucas/cs2-ss2-identity
@@ -29,7 +29,7 @@ Last updated: January 24, 2026 at 12:44:40 AM UTC
 </pre>
 </td></tr></table>
 
-### CCSPlayerController::m_iCompetitiveRankTypePatch
+### CCSPlayerController::m_iCompetitiveRankType1
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -50,28 +50,7 @@ Last updated: January 24, 2026 at 12:44:40 AM UTC
 </pre>
 </td></tr></table>
 
-### CCSPlayerController::m_iCompetitiveRankingCleanupPatch
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\xC7\x83\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x66\x0F\x1F\x44\x00\x2A\x31\xFF
-</pre>
-</td><td>
-<pre>
-C7 83 ? ? ? ? ? ? ? ? 85 D2 0F 84 ? ? ? ? E9 ? ? ? ? 66 0F 1F 44 00 ? 31 FF
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x44\x89\xAF\x2A\x2A\x2A\x2A\x44\x39\xAF\x2A\x2A\x2A\x2A\x74\x2A\xBA\x2A\x2A\x2A\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\x41\xB8\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x44\x89\xAF\x2A\x2A\x2A\x2A\x48\x83\xC4
-</pre>
-</td><td>
-<pre>
-44 89 AF ? ? ? ? 44 39 AF ? ? ? ? 74 ? BA ? ? ? ? 48 8D 8F ? ? ? ? 41 B8 ? ? ? ? E8 ? ? ? ? 44 89 AF ? ? ? ? 48 83 C4
-</pre>
-</td></tr></table>
-
-### CCSPlayerController::m_iCompetitiveRankingPatch
+### CCSPlayerController::m_iCompetitiveRanking1
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
@@ -89,6 +68,27 @@ C7 83 ? ? ? ? ? ? ? ? 85 D2 0F 84 ? ? ? ? E9 ? ? ? ? 66 0F 1F 44 00 ? 31 FF
 </td><td>
 <pre>
 89 AF ? ? ? ? 48 8B 0D ? ? ? ? 48 8B 44 D9 ? 8B 68 ? 39 AF ? ? ? ? 74 ? BA ? ? ? ? 48 8D 8F ? ? ? ? 41 B8 ? ? ? ? E8 ? ? ? ? 89 AF ? ? ? ? 48 8B 0D ? ? ? ? 48 8B 44 D9 ? 0F B6 68
+</pre>
+</td></tr></table>
+
+### CCSPlayerController::m_iCompetitiveRanking2
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\xC7\x83\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x66\x0F\x1F\x44\x00\x2A\x31\xFF
+</pre>
+</td><td>
+<pre>
+C7 83 ? ? ? ? ? ? ? ? 85 D2 0F 84 ? ? ? ? E9 ? ? ? ? 66 0F 1F 44 00 ? 31 FF
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x44\x89\xAF\x2A\x2A\x2A\x2A\x44\x39\xAF\x2A\x2A\x2A\x2A\x74\x2A\xBA\x2A\x2A\x2A\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\x41\xB8\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x44\x89\xAF\x2A\x2A\x2A\x2A\x48\x83\xC4
+</pre>
+</td><td>
+<pre>
+44 89 AF ? ? ? ? 44 39 AF ? ? ? ? 74 ? BA ? ? ? ? 48 8D 8F ? ? ? ? 41 B8 ? ? ? ? E8 ? ? ? ? 44 89 AF ? ? ? ? 48 83 C4
 </pre>
 </td></tr></table>
 
