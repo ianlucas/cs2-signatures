@@ -1,12 +1,33 @@
 # cs2kz-metamod 
 
-Last updated: January 27, 2026 at 5:30:12 PM UTC
+Last updated: January 30, 2026 at 12:17:58 AM UTC
 
-* Manifests: [6607184789471232528](https://steamdb.info/depot/2347770/history/?changeid=M:6607184789471232528), [7192545732919714899](https://steamdb.info/depot/2347771/history/?changeid=M:7192545732919714899), [8521981681483882645](https://steamdb.info/depot/2347773/history/?changeid=M:8521981681483882645)
+* Manifests: [909958675887528121](https://steamdb.info/depot/2347770/history/?changeid=M:909958675887528121), [7510112164403307907](https://steamdb.info/depot/2347771/history/?changeid=M:7510112164403307907), [5672962755276521498](https://steamdb.info/depot/2347773/history/?changeid=M:5672962755276521498)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
+
+### MoveInit
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\xBE\xFF\xFF\xFF\xFF\x53\x48\x89\xFB\x48\x8D\x3D\x93\xAC\x1C\x01
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 41 54 49 89 F4 BE FF FF FF FF 53 48 89 FB 48 8D 3D 93 AC 1C 01
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x10\x48\x89\x74\x24\x18\x57\x41\x56\x41\x57\x48\x81\xEC\xB0\x00\x00\x00
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 10 48 89 74 24 18 57 41 56 41 57 48 81 EC B0 00 00 00
+</pre>
+</td></tr></table>
 
 ### SetModel
 
@@ -551,27 +572,6 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </td><td>
 <pre>
 40 55 53 56 57 41 57 48 8D AC 24 F0 FC FF FF
-</pre>
-</td></tr></table>
-
-### MoveInit
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\xBE\xFF\xFF\xFF\xFF\x53\x48\x89\xFB\x48\x8D\x3D\x93\xAC\x1C\x01
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 56 41 55 41 54 49 89 F4 BE FF FF FF FF 53 48 89 FB 48 8D 3D 93 AC 1C 01
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x10\x48\x89\x74\x24\x18\x57\x41\x56\x41\x57\x48\x81\xEC\xB0\x00\x00\x00
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 10 48 89 74 24 18 57 41 56 41 57 48 81 EC B0 00 00 00
 </pre>
 </td></tr></table>
 
