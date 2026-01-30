@@ -1,33 +1,12 @@
 # ModSharp 
 
-Last updated: January 30, 2026 at 12:17:58 AM UTC
+Last updated: January 30, 2026 at 1:08:49 AM UTC
 
 * Manifests: [909958675887528121](https://steamdb.info/depot/2347770/history/?changeid=M:909958675887528121), [7510112164403307907](https://steamdb.info/depot/2347771/history/?changeid=M:7510112164403307907), [5672962755276521498](https://steamdb.info/depot/2347773/history/?changeid=M:5672962755276521498)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/core.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/log.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/tier0.games.jsonc
 
 ## Signatures
-
-### CPointServerCommand::InputCommand
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xF3\x48\x83\xEC\x2A\x0F\xB6\x46\x18
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 F3 48 83 EC ? 0F B6 46 18
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x08\x48\x89\x6C\x24\x10\x48\x89\x74\x24\x18\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x0F\xB6\x42\x18\x48\x8D\x72\x10\x33\xED
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 81 EC ? ? ? ? 0F B6 42 18 48 8D 72 10 33 ED
-</pre>
-</td></tr></table>
 
 ### CAttributeList::SetOrAddAttributeValueByName
 
@@ -1892,6 +1871,27 @@ F3 41 0F 11 B7 ? ? ? ? 48 83 7F
 </td><td>
 <pre>
 40 55 56 57 48 81 EC ? ? ? ? 0F 29 74 24
+</pre>
+</td></tr></table>
+
+### CPointServerCommand::InputCommand
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x55\x41\x54\x4C\x8D\x66
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 55 41 54 4C 8D 66
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x10\x48\x89\x7C\x24\x18\x4C\x89\x74\x24\x20\x55\x48\x8D\x6C\x24\xA9\x48\x81\xEC\x2A\x2A\x2A\x2A\x0F\xB6\x42\x18
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 4C 89 74 24 20 55 48 8D 6C 24 A9 48 81 EC ? ? ? ? 0F B6 42 18
 </pre>
 </td></tr></table>
 
