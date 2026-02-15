@@ -1,33 +1,12 @@
 # cs2-ss2-identity 
 
-Last updated: February 10, 2026 at 6:14:30 PM GMT
+Last updated: February 15, 2026 at 1:21:24 AM GMT
 
 * Manifests: [4203720348571784882](https://steamdb.info/depot/2347770/history/?changeid=M:4203720348571784882), [6940105521937895955](https://steamdb.info/depot/2347771/history/?changeid=M:6940105521937895955), [6429314027710117564](https://steamdb.info/depot/2347773/history/?changeid=M:6429314027710117564)
 * Repository: https://github.com/ianlucas/cs2-ss2-identity
 * Gamedata: https://github.com/ianlucas/cs2-ss2-identity/blob/main/resources/gamedata/signatures.jsonc
 
 ## Signatures
-
-### CCSPlayerController::SetPlayerName
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x55\xBA
-</pre>
-</td><td>
-<pre>
-48 85 F6 0F 84 ? ? ? ? 55 BA
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x83\xEC\x2A\x48\x85\xD2\x74\x2A\x48\x89\x5C\x24
-</pre>
-</td><td>
-<pre>
-48 83 EC ? 48 85 D2 74 ? 48 89 5C 24
-</pre>
-</td></tr></table>
 
 ### CCSPlayerController::m_iCompetitiveRankType1
 
