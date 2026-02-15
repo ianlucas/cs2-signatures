@@ -1,6 +1,6 @@
 # cs2-ss2-identity 
 
-Last updated: February 15, 2026 at 1:21:24 AM GMT
+Last updated: February 15, 2026 at 6:34:34 PM GMT
 
 * Manifests: [4203720348571784882](https://steamdb.info/depot/2347770/history/?changeid=M:4203720348571784882), [6940105521937895955](https://steamdb.info/depot/2347771/history/?changeid=M:6940105521937895955), [6429314027710117564](https://steamdb.info/depot/2347773/history/?changeid=M:6429314027710117564)
 * Repository: https://github.com/ianlucas/cs2-ss2-identity
@@ -68,6 +68,90 @@ C7 83 ? ? ? ? ? ? ? ? 85 D2 0F 84 ? ? ? ? E9 ? ? ? ? 66 0F 1F 44 00 ? 31 FF
 </td><td>
 <pre>
 44 89 AF ? ? ? ? 44 39 AF ? ? ? ? 74 ? BA ? ? ? ? 48 8D 8F ? ? ? ? 41 B8 ? ? ? ? E8 ? ? ? ? 44 89 AF ? ? ? ? 48 83 C4
+</pre>
+</td></tr></table>
+
+### CCSPlayerController::m_iszPlayerName1
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x55\xBA
+</pre>
+</td><td>
+<pre>
+48 85 F6 0F 84 ? ? ? ? 55 BA
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x83\xEC\x2A\x48\x85\xD2\x74\x2A\x48\x89\x5C\x24
+</pre>
+</td><td>
+<pre>
+48 83 EC ? 48 85 D2 74 ? 48 89 5C 24
+</pre>
+</td></tr></table>
+
+### CCSPlayerController::m_iszPlayerName2
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x89\xD5\x41\x54\x49\x89\xCC
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 41 89 D5 41 54 49 89 CC
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x49\x8B\xD9\x41\x0F\xB6\xE8
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 49 8B D9 41 0F B6 E8
+</pre>
+</td></tr></table>
+
+### CCSPlayerController::m_iszPlayerName3
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x4C\x8D\x6D\x2A\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x4C\x8D\x35
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 4C 8D 6D ? 41 54 49 89 F4 53 48 89 FB 48 83 EC ? E8 ? ? ? ? 4C 8D 35
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xEA\x48\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x48\x8B\x05
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B EA 48 8B F9 E8 ? ? ? ? 48 8B 05
+</pre>
+</td></tr></table>
+
+### CCSPlayerController::m_iszPlayerName4
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x83\xF8
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? E8 ? ? ? ? 83 F8
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x53\x56\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\x68\x2A\x48\x8D\x50
+</pre>
+</td><td>
+<pre>
+48 8B C4 53 56 48 81 EC ? ? ? ? 48 89 68 ? 48 8D 50
 </pre>
 </td></tr></table>
 
