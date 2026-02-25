@@ -1,12 +1,33 @@
 # SwiftlyS2 
 
-Last updated: February 23, 2026 at 11:38:47 PM GMT
+Last updated: February 25, 2026 at 10:53:31 PM GMT
 
-* Manifests: [7138855853134977810](https://steamdb.info/depot/2347770/history/?changeid=M:7138855853134977810), [8834848504425077966](https://steamdb.info/depot/2347771/history/?changeid=M:8834848504425077966), [3232204801470429576](https://steamdb.info/depot/2347773/history/?changeid=M:3232204801470429576)
+* Manifests: [95266041593678892](https://steamdb.info/depot/2347770/history/?changeid=M:95266041593678892), [2494477347297489090](https://steamdb.info/depot/2347771/history/?changeid=M:2494477347297489090), [1992530672291928196](https://steamdb.info/depot/2347773/history/?changeid=M:1992530672291928196)
 * Repository: https://github.com/swiftly-solution/swiftlys2
 * Gamedata: https://github.com/swiftly-solution/swiftlys2/blob/master/plugin_files/gamedata/cs2/core/signatures.jsonc
 
 ## Signatures
+
+### CEntitySystem::AddEntityIOEvent
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(3)</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x55\x49\x89\xCD\x41\x54\x49\x89\xFC
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 55 49 89 CD 41 54 49 89 FC
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x18\x4C\x89\x4C\x24\x20\x48\x89\x4C\x24\x08\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x20
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 18 4C 89 4C 24 20 48 89 4C 24 08 55 56 57 41 54 41 55 41 56 41 57 48 83 EC 20
+</pre>
+</td></tr></table>
 
 ### BotNavIgnore1
 
@@ -341,27 +362,6 @@ Last updated: February 23, 2026 at 11:38:47 PM GMT
 </td><td>
 <pre>
 48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 49 8B F0 48 8B D9 48 8B 0D
-</pre>
-</td></tr></table>
-
-### CEntitySystem::AddEntityIOEvent
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x55\x49\x89\xCD\x41\x54\x49\x89\xFC
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 55 49 89 CD 41 54 49 89 FC
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x18\x4C\x89\x4C\x24\x20\x48\x89\x4C\x24\x08\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x20
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 18 4C 89 4C 24 20 48 89 4C 24 08 55 56 57 41 54 41 55 41 56 41 57 48 83 EC 20
 </pre>
 </td></tr></table>
 

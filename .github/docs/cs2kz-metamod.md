@@ -1,8 +1,8 @@
 # cs2kz-metamod 
 
-Last updated: February 23, 2026 at 11:38:47 PM GMT
+Last updated: February 25, 2026 at 10:53:30 PM GMT
 
-* Manifests: [7138855853134977810](https://steamdb.info/depot/2347770/history/?changeid=M:7138855853134977810), [8834848504425077966](https://steamdb.info/depot/2347771/history/?changeid=M:8834848504425077966), [3232204801470429576](https://steamdb.info/depot/2347773/history/?changeid=M:3232204801470429576)
+* Manifests: [95266041593678892](https://steamdb.info/depot/2347770/history/?changeid=M:95266041593678892), [2494477347297489090](https://steamdb.info/depot/2347771/history/?changeid=M:2494477347297489090), [1992530672291928196](https://steamdb.info/depot/2347773/history/?changeid=M:1992530672291928196)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
