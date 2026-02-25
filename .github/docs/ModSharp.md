@@ -1,6 +1,6 @@
 # ModSharp 
 
-Last updated: February 23, 2026 at 11:38:47 PM GMT
+Last updated: February 25, 2026 at 1:02:04 PM GMT
 
 * Manifests: [7138855853134977810](https://steamdb.info/depot/2347770/history/?changeid=M:7138855853134977810), [8834848504425077966](https://steamdb.info/depot/2347771/history/?changeid=M:8834848504425077966), [3232204801470429576](https://steamdb.info/depot/2347773/history/?changeid=M:3232204801470429576)
 * Repository: https://github.com/Kxnrl/modsharp-public
@@ -1178,27 +1178,6 @@ F3 41 0F 11 B7 ? ? ? ? 48 83 7F
 </td><td>
 <pre>
 48 89 5C 24 18 48 89 54 24 10 48 89 4C 24 08 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 70 FF FF FF
-</pre>
-</td></tr></table>
-
-### CEntityIdentity::SetEntityName
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xF2\x48\x89\xE5\x41\x55\x41\x54\x53
-</pre>
-</td><td>
-<pre>
-55 48 89 F2 48 89 E5 41 55 41 54 53
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x10\x57\x48\x83\xEC\x2A\x48\x8B\xD9\x4C\x8B\xC2
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 10 57 48 83 EC ? 48 8B D9 4C 8B C2
 </pre>
 </td></tr></table>
 
