@@ -1,33 +1,12 @@
 # cs2-ss2-inventory-simulator 
 
-Last updated: February 25, 2026 at 10:53:31 PM GMT
+Last updated: February 26, 2026 at 4:15:42 PM GMT
 
 * Manifests: [95266041593678892](https://steamdb.info/depot/2347770/history/?changeid=M:95266041593678892), [2494477347297489090](https://steamdb.info/depot/2347771/history/?changeid=M:2494477347297489090), [1992530672291928196](https://steamdb.info/depot/2347773/history/?changeid=M:1992530672291928196)
 * Repository: https://github.com/ianlucas/cs2-ss2-inventory-simulator
 * Gamedata: https://github.com/ianlucas/cs2-ss2-inventory-simulator/blob/main/resources/gamedata/signatures.jsonc
 
 ## Signatures
-
-### CCSPlayerPawn::SetModelFromClass
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(12)</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x4C\x8D\xAF\x2A\x2A\x2A\x2A\x41\x54\x53
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 56 41 55 4C 8D AF ? ? ? ? 41 54 53
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x56\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\xD9
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 56 57 41 56 48 83 EC ? 48 8B D9
-</pre>
-</td></tr></table>
 
 ### CCSPlayerInventory::GetItemInLoadout
 
@@ -89,6 +68,27 @@ Last updated: February 25, 2026 at 10:53:31 PM GMT
 </td><td>
 <pre>
 48 8B C4 48 89 58 ? 48 89 70 ? 48 89 78 ? 55 48 8D A8 ? ? ? ? 48 81 EC ? ? ? ? 4C 89 70
+</pre>
+</td></tr></table>
+
+### CCSPlayerPawn::SetModelFromClass
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x56\x41\x55\x4C\x8D\xAF\x2A\x2A\x2A\x2A\x41\x54\x53\x48\x89\xFB
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 56 41 55 4C 8D AF ? ? ? ? 41 54 53 48 89 FB
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x56\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\xD9
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 56 57 41 56 48 83 EC ? 48 8B D9
 </pre>
 </td></tr></table>
 
