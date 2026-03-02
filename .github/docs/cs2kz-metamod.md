@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: February 25, 2026 at 10:53:30 PM GMT
+Last updated: March 2, 2026 at 2:02:15 AM GMT
 
 * Manifests: [95266041593678892](https://steamdb.info/depot/2347770/history/?changeid=M:95266041593678892), [2494477347297489090](https://steamdb.info/depot/2347771/history/?changeid=M:2494477347297489090), [1992530672291928196](https://steamdb.info/depot/2347773/history/?changeid=M:1992530672291928196)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
@@ -13,11 +13,11 @@ Last updated: February 25, 2026 at 10:53:30 PM GMT
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\xBE\xFF\xFF\xFF\xFF\x53\x48\x89\xFB\x48\x8D\x3D\x93\xAC\x1C\x01
+\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\xBE\x00\x00\x00\x00\x53\x48\x89\xFB\x48\x8D\x3D\x00\x00\x00\x00\x48\x83\xEC\x00\xE8\x00\x00\x00\x00\x48\x85\xC0\x0F\x84\x00\x00\x00\x00\x0F\xB6\x00\x84\xC0\x0F\x85
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 56 41 55 41 54 49 89 F4 BE FF FF FF FF 53 48 89 FB 48 8D 3D 93 AC 1C 01
+55 48 89 E5 41 56 41 55 41 54 49 89 F4 BE 00 00 00 00 53 48 89 FB 48 8D 3D 00 00 00 00 48 83 EC 00 E8 00 00 00 00 48 85 C0 0F 84 00 00 00 00 0F B6 00 84 C0 0F 85
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -32,7 +32,7 @@ Last updated: February 25, 2026 at 10:53:30 PM GMT
 ### SetModel
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(2)</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>⚠️(2)</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xF2\x48\x89\xE5\x53\x48\x89\xFB\x48\x8D\x7D\x2A\x48\x83\xEC\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x8B\x30\x48\x8B\x06
 </pre>
@@ -40,7 +40,7 @@ Last updated: February 25, 2026 at 10:53:30 PM GMT
 <pre>
 55 48 89 F2 48 89 E5 53 48 89 FB 48 8D 7D ? 48 83 EC ? 48 8D 05 ? ? ? ? 48 8B 30 48 8B 06
 </pre>
-</td></tr><tr><td>✅⚠️(2)</td><td>Windows</td><td>server</td><td>
+</td></tr><tr><td>⚠️(2)</td><td>Windows</td><td>server</td><td>
 <pre>
 \x40\x53\x48\x83\xEC\x2A\x48\x8B\xD9\x4C\x8B\xC2\x48\x8B\x0D\x2A\x2A\x2A\x2A\x48\x8D\x54\x24\x2A\x48\x8B\x01\xFF\x50\x2A\x48\x8B\x44\x24
 </pre>
