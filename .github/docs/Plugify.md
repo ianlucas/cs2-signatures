@@ -1,8 +1,8 @@
 # Plugify 
 
-Last updated: February 25, 2026 at 10:53:31 PM GMT
+Last updated: March 4, 2026 at 10:51:52 PM GMT
 
-* Manifests: [95266041593678892](https://steamdb.info/depot/2347770/history/?changeid=M:95266041593678892), [2494477347297489090](https://steamdb.info/depot/2347771/history/?changeid=M:2494477347297489090), [1992530672291928196](https://steamdb.info/depot/2347773/history/?changeid=M:1992530672291928196)
+* Manifests: [7267363631121416322](https://steamdb.info/depot/2347770/history/?changeid=M:7267363631121416322), [7203263331180024506](https://steamdb.info/depot/2347771/history/?changeid=M:7203263331180024506), [9112377048682665190](https://steamdb.info/depot/2347773/history/?changeid=M:9112377048682665190)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
@@ -11,7 +11,7 @@ Last updated: February 25, 2026 at 10:53:31 PM GMT
 ### CCSPlayer_WeaponServices::RemoveItem
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(2)</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>⚠️(2)</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\xE8\x2A\x2A\x2A\x2A\x48\x39\xC3
 </pre>
@@ -32,7 +32,7 @@ Last updated: February 25, 2026 at 10:53:31 PM GMT
 ### CEntityIOOutput::FireOutputInternal
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅⚠️(2)</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>⚠️(2)</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x49\x89\xD4\x53\x48\x89\xF3
 </pre>
@@ -61,7 +61,7 @@ Last updated: February 25, 2026 at 10:53:31 PM GMT
 <pre>
 55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53 48 81 EC ? ? ? ? 48 8D 05 ? ? ? ? F3 0F 11 85
 </pre>
-</td></tr><tr><td>✅⚠️(2)</td><td>Windows</td><td>server</td><td>
+</td></tr><tr><td>⚠️(2)</td><td>Windows</td><td>server</td><td>
 <pre>
 \x48\x8B\xC4\x4C\x89\x48\x2A\x48\x89\x48\x2A\x55\x56
 </pre>
