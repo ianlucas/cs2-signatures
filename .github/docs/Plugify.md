@@ -1,33 +1,12 @@
 # Plugify 
 
-Last updated: March 9, 2026 at 7:59:24 PM GMT
+Last updated: March 11, 2026 at 11:00:02 PM GMT
 
-* Manifests: [2410942732846929785](https://steamdb.info/depot/2347770/history/?changeid=M:2410942732846929785), [2674279755785384335](https://steamdb.info/depot/2347771/history/?changeid=M:2674279755785384335), [2327508901895589993](https://steamdb.info/depot/2347773/history/?changeid=M:2327508901895589993)
+* Manifests: [797109404962426540](https://steamdb.info/depot/2347770/history/?changeid=M:797109404962426540), [6185603299704679227](https://steamdb.info/depot/2347771/history/?changeid=M:6185603299704679227), [5878245834097517699](https://steamdb.info/depot/2347773/history/?changeid=M:5878245834097517699)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
 ## Signatures
-
-### CCSPlayer_WeaponServices::RemoveItem
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>⚠️(2)</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\xE8\x2A\x2A\x2A\x2A\x48\x39\xC3
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 54 49 89 FC 53 48 89 F3 E8 ? ? ? ? 48 39 C3
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\xE8
-</pre>
-</td><td>
-<pre>
-48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 E8
-</pre>
-</td></tr></table>
 
 ### CEntityIOOutput::FireOutputInternal
 
@@ -194,6 +173,27 @@ Last updated: March 9, 2026 at 7:59:24 PM GMT
 </td><td>
 <pre>
 44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 41 57 48 8B EC
+</pre>
+</td></tr></table>
+
+### CCSPlayer_WeaponServices::RemoveItem
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\xE8\x2A\x2A\x2A\x2A\x48\x39\xC3
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 54 49 89 FC 53 48 89 F3 E8 ? ? ? ? 48 39 C3
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\xE8
+</pre>
+</td><td>
+<pre>
+48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 E8
 </pre>
 </td></tr></table>
 

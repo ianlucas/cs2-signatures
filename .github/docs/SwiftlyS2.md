@@ -1,12 +1,33 @@
 # SwiftlyS2 
 
-Last updated: March 9, 2026 at 7:59:24 PM GMT
+Last updated: March 11, 2026 at 11:00:02 PM GMT
 
-* Manifests: [2410942732846929785](https://steamdb.info/depot/2347770/history/?changeid=M:2410942732846929785), [2674279755785384335](https://steamdb.info/depot/2347771/history/?changeid=M:2674279755785384335), [2327508901895589993](https://steamdb.info/depot/2347773/history/?changeid=M:2327508901895589993)
+* Manifests: [797109404962426540](https://steamdb.info/depot/2347770/history/?changeid=M:797109404962426540), [6185603299704679227](https://steamdb.info/depot/2347771/history/?changeid=M:6185603299704679227), [5878245834097517699](https://steamdb.info/depot/2347773/history/?changeid=M:5878245834097517699)
 * Repository: https://github.com/swiftly-solution/swiftlys2
 * Gamedata: https://github.com/swiftly-solution/swiftlys2/blob/master/plugin_files/gamedata/cs2/core/signatures.jsonc
 
 ## Signatures
+
+### CCSPlayerPawn::PostThink
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x41\x80\xBF
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 53 48 81 EC ? ? ? ? E8 ? ? ? ? 41 80 BF
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x55\x53\x56\x57\x41\x54\x48\x8D\x68\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x89\x68\x2A\x48\x8B\xF9
+</pre>
+</td><td>
+<pre>
+48 8B C4 55 53 56 57 41 54 48 8D 68 ? 48 81 EC ? ? ? ? 4C 89 68 ? 48 8B F9
+</pre>
+</td></tr></table>
 
 ### CBaseModelEntity::SetModel
 
@@ -215,27 +236,6 @@ Last updated: March 9, 2026 at 7:59:24 PM GMT
 </td><td>
 <pre>
 40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA
-</pre>
-</td></tr></table>
-
-### CCSPlayerPawn::PostThink
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x41\x80\xBF
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 53 48 81 EC ? ? ? ? E8 ? ? ? ? 41 80 BF
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x55\x53\x56\x57\x41\x54\x48\x8D\x68\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x89\x68\x2A\x48\x8B\xF9
-</pre>
-</td><td>
-<pre>
-48 8B C4 55 53 56 57 41 54 48 8D 68 ? 48 81 EC ? ? ? ? 4C 89 68 ? 48 8B F9
 </pre>
 </td></tr></table>
 
