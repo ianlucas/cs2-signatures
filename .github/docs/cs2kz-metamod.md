@@ -1,33 +1,12 @@
 # cs2kz-metamod 
 
-Last updated: March 12, 2026 at 2:07:02 AM GMT
+Last updated: March 12, 2026 at 6:57:58 AM GMT
 
 * Manifests: [6343848714233028296](https://steamdb.info/depot/2347770/history/?changeid=M:6343848714233028296), [3767343507728558184](https://steamdb.info/depot/2347771/history/?changeid=M:3767343507728558184), [5878245834097517699](https://steamdb.info/depot/2347773/history/?changeid=M:5878245834097517699)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
-
-### PostThink
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x41\x80\xBF
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 53 48 81 EC ? ? ? ? E8 ? ? ? ? 41 80 BF
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x55\x53\x56\x57\x41\x54\x48\x8D\x68\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x89\x68\x2A\x48\x8B\xF9
-</pre>
-</td><td>
-<pre>
-48 8B C4 55 53 56 57 41 54 48 8D 68 ? 48 81 EC ? ? ? ? 4C 89 68 ? 48 8B F9
-</pre>
-</td></tr></table>
 
 ### SetModel
 
@@ -698,6 +677,27 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </td><td>
 <pre>
 40 53 56 41 56 48 83 EC 60
+</pre>
+</td></tr></table>
+
+### PostThink
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x80\xBB\x2A\x2A\x2A\x2A\x2A\x74
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? E8 ? ? ? ? 80 BB ? ? ? ? ? 74
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x55\x53\x56\x57\x41\x54\x48\x8D\x68\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x89\x68\x2A\x48\x8B\xF9
+</pre>
+</td><td>
+<pre>
+48 8B C4 55 53 56 57 41 54 48 8D 68 ? 48 81 EC ? ? ? ? 4C 89 68 ? 48 8B F9
 </pre>
 </td></tr></table>
 
