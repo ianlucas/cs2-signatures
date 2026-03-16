@@ -1,8 +1,8 @@
 # CS2Fixes 
 
-Last updated: March 13, 2026 at 9:10:33 PM GMT
+Last updated: March 16, 2026 at 10:06:12 PM GMT
 
-* Manifests: [7997426439936920849](https://steamdb.info/depot/2347770/history/?changeid=M:7997426439936920849), [4440995957784276968](https://steamdb.info/depot/2347771/history/?changeid=M:4440995957784276968), [2090616244597141296](https://steamdb.info/depot/2347773/history/?changeid=M:2090616244597141296)
+* Manifests: [7975266678209987094](https://steamdb.info/depot/2347770/history/?changeid=M:7975266678209987094), [6915803388788561343](https://steamdb.info/depot/2347771/history/?changeid=M:6915803388788561343), [7295746430231283199](https://steamdb.info/depot/2347773/history/?changeid=M:7295746430231283199)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
