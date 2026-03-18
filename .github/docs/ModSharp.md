@@ -1,12 +1,33 @@
 # ModSharp 
 
-Last updated: March 16, 2026 at 10:06:12 PM GMT
+Last updated: March 18, 2026 at 10:35:39 PM GMT
 
-* Manifests: [7975266678209987094](https://steamdb.info/depot/2347770/history/?changeid=M:7975266678209987094), [6915803388788561343](https://steamdb.info/depot/2347771/history/?changeid=M:6915803388788561343), [7295746430231283199](https://steamdb.info/depot/2347773/history/?changeid=M:7295746430231283199)
+* Manifests: [7897748756427508276](https://steamdb.info/depot/2347770/history/?changeid=M:7897748756427508276), [1193593513373838944](https://steamdb.info/depot/2347771/history/?changeid=M:1193593513373838944), [8513129453196989852](https://steamdb.info/depot/2347773/history/?changeid=M:8513129453196989852)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/core.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/log.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/tier0.games.jsonc
 
 ## Signatures
+
+### CCSGameRules::TerminateRound
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\xF3\x0F\x11\x85
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53 48 81 EC ? ? ? ? 48 8D 05 ? ? ? ? F3 0F 11 85
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x8B\xC4\x4C\x89\x48\x2A\x48\x89\x48\x2A\x55\x56\x41\x56
+</pre>
+</td><td>
+<pre>
+48 8B C4 4C 89 48 ? 48 89 48 ? 55 56 41 56
+</pre>
+</td></tr></table>
 
 ### CAttributeList::SetOrAddAttributeValueByName
 
@@ -719,27 +740,6 @@ Last updated: March 16, 2026 at 10:06:12 PM GMT
 </td><td>
 <pre>
 48 8B C4 48 89 48 08 55 48 8D A8 08 FC FF FF
-</pre>
-</td></tr></table>
-
-### CCSGameRules::TerminateRound
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\xF3\x0F\x11\x85
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53 48 81 EC ? ? ? ? 48 8D 05 ? ? ? ? F3 0F 11 85
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x4C\x89\x48\x2A\x48\x89\x48\x2A\x55\x56\x41\x56
-</pre>
-</td><td>
-<pre>
-48 8B C4 4C 89 48 ? 48 89 48 ? 55 56 41 56
 </pre>
 </td></tr></table>
 
