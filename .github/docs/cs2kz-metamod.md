@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: March 19, 2026 at 8:27:43 PM GMT
+Last updated: March 20, 2026 at 9:36:44 AM GMT
 
 * Manifests: [182905529794151220](https://steamdb.info/depot/2347770/history/?changeid=M:182905529794151220), [5464981068936726616](https://steamdb.info/depot/2347771/history/?changeid=M:5464981068936726616), [4097529384292806754](https://steamdb.info/depot/2347773/history/?changeid=M:4097529384292806754)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
@@ -383,6 +383,27 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </td><td>
 <pre>
 48 89 4C 24 08 55 53 57 41 54 41 55 48 8D AC 24 40 FF FF FF
+</pre>
+</td></tr></table>
+
+### DecalTrace
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\xF3\x0F\x10\x05\xE8\xD4\x28\xFF
+</pre>
+</td><td>
+<pre>
+F3 0F 10 05 E8 D4 28 FF
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x83\xEC\x28\xF3\x0F\x10\x81\xAC\x00\x00\x00
+</pre>
+</td><td>
+<pre>
+48 83 EC 28 F3 0F 10 81 AC 00 00 00
 </pre>
 </td></tr></table>
 
