@@ -1,6 +1,6 @@
 # Plugify 
 
-Last updated: April 2, 2026 at 10:26:23 PM GMT
+Last updated: April 19, 2026 at 3:24:26 PM GMT
 
 * Manifests: [7643209663222864337](https://steamdb.info/depot/2347770/history/?changeid=M:7643209663222864337), [5302572154886330081](https://steamdb.info/depot/2347771/history/?changeid=M:5302572154886330081), [5549971910709061943](https://steamdb.info/depot/2347773/history/?changeid=M:5549971910709061943)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
@@ -26,27 +26,6 @@ Last updated: April 2, 2026 at 10:26:23 PM GMT
 </td><td>
 <pre>
 4C 89 4C 24 ? 48 89 4C 24 ? 53 56
-</pre>
-</td></tr></table>
-
-### BotNavIgnore
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x0F\x84\x2A\x2A\x2A\x2A\x44\x0F\xB6\xB0\x2A\x2A\x2A\x2A\x45\x84\xF6\x0F\x84
-</pre>
-</td><td>
-<pre>
-0F 84 ? ? ? ? 44 0F B6 B0 ? ? ? ? 45 84 F6 0F 84
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x0F\x84\x2A\x2A\x2A\x2A\x80\xB8\x2A\x2A\x2A\x2A\x00\x0F\x84\x2A\x2A\x2A\x2A\x80\x3D\x2A\x2A\x2A\x2A\x00\x74\x15
-</pre>
-</td><td>
-<pre>
-0F 84 ? ? ? ? 80 B8 ? ? ? ? 00 0F 84 ? ? ? ? 80 3D ? ? ? ? 00 74 15
 </pre>
 </td></tr></table>
 
@@ -302,27 +281,6 @@ Last updated: April 2, 2026 at 10:26:23 PM GMT
 </pre>
 </td></tr></table>
 
-### CPhysBox_Use
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x49\x8B\x54\x24\x2A\x45\x31\xC9\x45\x31\xC0\xC7\x45\x2A\x2A\x2A\x2A\x2A\x49\x8B\x34\x24\x48\x8D\x4D\x2A\x66\x0F\xEF\xC0\x48\xC7\x45\x2A\x2A\x2A\x2A\x2A\x48\x8D\xBB\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\xF6\x45\x2A\x2A\x74\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x8B\x75\x2A\x48\x8B\x38\x48\x8B\x07\xFF\x50\x2A\x48\x83\xC4
-</pre>
-</td><td>
-<pre>
-49 8B 54 24 ? 45 31 C9 45 31 C0 C7 45 ? ? ? ? ? 49 8B 34 24 48 8D 4D ? 66 0F EF C0 48 C7 45 ? ? ? ? ? 48 8D BB ? ? ? ? E8 ? ? ? ? F6 45 ? ? 74 ? 48 8B 05 ? ? ? ? 48 8B 75 ? 48 8B 38 48 8B 07 FF 50 ? 48 83 C4
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x4C\x8B\x43\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\x48\x8B\x13\xE8\x2A\x2A\x2A\x2A\x48\x8B\x5C\x24\x2A\x48\x83\xC4\x2A\x5F\xC3\xCC\xCC\xCC\xCC\x48\x89\x5C\x24
-</pre>
-</td><td>
-<pre>
-4C 8B 43 ? 48 8D 8F ? ? ? ? 48 8B 13 E8 ? ? ? ? 48 8B 5C 24 ? 48 83 C4 ? 5F C3 CC CC CC CC 48 89 5C 24
-</pre>
-</td></tr></table>
-
 ### CSScript::ResolveModule
 
 <table>
@@ -362,48 +320,6 @@ Last updated: April 2, 2026 at 10:26:23 PM GMT
 </td><td>
 <pre>
 48 83 EC ? 48 83 3D ? ? ? ? ? 74 ? 33 C9 E8 ? ? ? ? FF 15
-</pre>
-</td></tr></table>
-
-### CheckJumpButtonWater
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\xC8\x42\x41\xC7\x84\x24\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x41\xC7\x84\x24\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x66\x90
-</pre>
-</td><td>
-<pre>
-C8 42 41 C7 84 24 ? ? ? ? ? ? ? ? 41 C7 84 24 ? ? ? ? ? ? ? ? E9 ? ? ? ? 66 90
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\xC8\x42\xEB\x2A\x4C\x8B\x77\x2A\x4D\x39\x6E
-</pre>
-</td><td>
-<pre>
-C8 42 EB ? 4C 8B 77 ? 4D 39 6E
-</pre>
-</td></tr></table>
-
-### EmitSoundVolume
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x6F\x03\x48\x83\xEC\x2A\x45\x31\xC9\x89\xC2\x45\x31\xC0\x4C\x89\xFE\x0F\x11\x04\x24\x8B\x43\x2A\x4C\x89\xE7
-</pre>
-</td><td>
-<pre>
-E8 ? ? ? ? F3 0F 6F 03 48 83 EC ? 45 31 C9 89 C2 45 31 C0 4C 89 FE 0F 11 04 24 8B 43 ? 4C 89 E7
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x41\xB9\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x2A\x49\x8B\xD5
-</pre>
-</td><td>
-<pre>
-41 B9 ? ? ? ? 48 89 5C 24 ? 49 8B D5
 </pre>
 </td></tr></table>
 
@@ -459,27 +375,6 @@ E8 ? ? ? ? F3 0F 6F 03 48 83 EC ? 45 31 C9 89 C2 45 31 C0 4C 89 FE 0F 11 04 24 8
 </td><td>
 <pre>
 48 89 4C 24 ? 53 56 57 48 83 EC ? 48 8B F1
-</pre>
-</td></tr></table>
-
-### ServerMovementUnlock
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x0F\x87\x2A\x2A\x2A\x2A\xF3\x0F\x12\xC2
-</pre>
-</td><td>
-<pre>
-0F 87 ? ? ? ? F3 0F 12 C2
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x0F\x86\x2A\x2A\x2A\x2A\x0F\x57\xC0\x0F\x2E\xC2
-</pre>
-</td><td>
-<pre>
-0F 86 ? ? ? ? 0F 57 C0 0F 2E C2
 </pre>
 </td></tr></table>
 
