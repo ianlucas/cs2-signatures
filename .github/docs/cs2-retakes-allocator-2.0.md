@@ -1,12 +1,33 @@
 # cs2-retakes-allocator-2.0 
 
-Last updated: April 2, 2026 at 10:26:23 PM GMT
+Last updated: April 20, 2026 at 10:59:05 PM GMT
 
-* Manifests: [7643209663222864337](https://steamdb.info/depot/2347770/history/?changeid=M:7643209663222864337), [5302572154886330081](https://steamdb.info/depot/2347771/history/?changeid=M:5302572154886330081), [5549971910709061943](https://steamdb.info/depot/2347773/history/?changeid=M:5549971910709061943)
+* Manifests: [5046069333423020110](https://steamdb.info/depot/2347770/history/?changeid=M:5046069333423020110), [3075703127502321901](https://steamdb.info/depot/2347771/history/?changeid=M:3075703127502321901), [718727844179008805](https://steamdb.info/depot/2347773/history/?changeid=M:718727844179008805)
 * Repository: https://github.com/Micka2302/cs2-retakes-allocator-2.0
 * Gamedata: https://github.com/Micka2302/cs2-retakes-allocator-2.0/blob/main/Resources/RetakesAllocator_gamedata.json
 
 ## Signatures
+
+### GetCSWeaponDataFromKey
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x31\xD2\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x41\x89\xFC
+</pre>
+</td><td>
+<pre>
+55 31 D2 48 89 E5 41 57 41 56 41 55 41 54 41 89 FC
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x33\xFF\x4C\x8B\xCA\x8B\xD9
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 57 48 83 EC ? 33 FF 4C 8B CA 8B D9
+</pre>
+</td></tr></table>
 
 ### CCSPlayer_ItemServices_CanAcquire
 
@@ -26,27 +47,6 @@ Last updated: April 2, 2026 at 10:26:23 PM GMT
 </td><td>
 <pre>
 44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 41 57 48 8B EC
-</pre>
-</td></tr></table>
-
-### GetCSWeaponDataFromKey
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x31\xD2\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x41\x89\xFC
-</pre>
-</td><td>
-<pre>
-55 31 D2 48 89 E5 41 57 41 56 41 55 41 54 41 89 FC
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x33\xFF\x4C\x8B\xCA\x8B\xD9
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 57 48 83 EC ? 33 FF 4C 8B CA 8B D9
 </pre>
 </td></tr></table>
 

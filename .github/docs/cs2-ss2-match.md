@@ -1,17 +1,38 @@
 # cs2-ss2-match 
 
-Last updated: April 2, 2026 at 10:26:23 PM GMT
+Last updated: April 20, 2026 at 10:59:05 PM GMT
 
-* Manifests: [7643209663222864337](https://steamdb.info/depot/2347770/history/?changeid=M:7643209663222864337), [5302572154886330081](https://steamdb.info/depot/2347771/history/?changeid=M:5302572154886330081), [5549971910709061943](https://steamdb.info/depot/2347773/history/?changeid=M:5549971910709061943)
+* Manifests: [5046069333423020110](https://steamdb.info/depot/2347770/history/?changeid=M:5046069333423020110), [3075703127502321901](https://steamdb.info/depot/2347771/history/?changeid=M:3075703127502321901), [718727844179008805](https://steamdb.info/depot/2347773/history/?changeid=M:718727844179008805)
 * Repository: https://github.com/ianlucas/cs2-ss2-match
 * Gamedata: https://github.com/ianlucas/cs2-ss2-match/blob/main/resources/gamedata/signatures.jsonc
 
 ## Signatures
 
+### CCSPlayerPawnBase::IncrementNumMVPs
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x8D\x3D\x2A\x2A\x2A\x2A\x89\xF3
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 8D 3D ? ? ? ? 89 F3
+</pre>
+</td></tr><tr><td>⚠️(2)</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x55\x57\x41\x57\x48\x8B\xEC\x48\x81\xEC
+</pre>
+</td><td>
+<pre>
+40 55 57 41 57 48 8B EC 48 81 EC
+</pre>
+</td></tr></table>
+
 ### CCSBotManager::MaintainBotQuota
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x55\x31\xF6\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x31\xFF
 </pre>
@@ -89,27 +110,6 @@ Last updated: April 2, 2026 at 10:26:23 PM GMT
 </td><td>
 <pre>
 48 89 5C 24 ? 57 48 83 EC ? 83 B9 ? ? ? ? ? 48 8B D9 0F BF B9
-</pre>
-</td></tr></table>
-
-### CCSPlayerPawnBase::IncrementNumMVPs
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x8D\x3D\x2A\x2A\x2A\x2A\x89\xF3
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 8D 3D ? ? ? ? 89 F3
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x55\x57\x41\x57\x48\x8B\xEC\x48\x81\xEC
-</pre>
-</td><td>
-<pre>
-40 55 57 41 57 48 8B EC 48 81 EC
 </pre>
 </td></tr></table>
 
