@@ -1,33 +1,12 @@
 # cs2-css-inventory-simulator 
 
-Last updated: April 20, 2026 at 10:59:05 PM GMT
+Last updated: April 21, 2026 at 12:03:46 AM GMT
 
 * Manifests: [5046069333423020110](https://steamdb.info/depot/2347770/history/?changeid=M:5046069333423020110), [3075703127502321901](https://steamdb.info/depot/2347771/history/?changeid=M:3075703127502321901), [718727844179008805](https://steamdb.info/depot/2347773/history/?changeid=M:718727844179008805)
 * Repository: https://github.com/ianlucas/cs2-css-inventory-simulator
 * Gamedata: https://github.com/ianlucas/cs2-css-inventory-simulator/blob/main/gamedata/inventory-simulator.json
 
 ## Signatures
-
-### CEconItemView::CEconItemView
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\x3D
-</pre>
-</td><td>
-<pre>
-55 48 8D 05 ? ? ? ? 66 0F EF C0 48 89 E5 41 57 41 56 4C 8D 3D
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x2A\x48\x8B\xF9\x48\x8D\x05
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 54 41 55 41 56 41 57 48 83 EC ? 48 8B F9 48 8D 05
-</pre>
-</td></tr></table>
 
 ### CAttributeList::SetOrAddAttributeValueByName
 
@@ -236,6 +215,27 @@ Last updated: April 20, 2026 at 10:59:05 PM GMT
 </td><td>
 <pre>
 48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 80 B9
+</pre>
+</td></tr></table>
+
+### CEconItemView::CEconItemView
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x45\x31\xFF
+</pre>
+</td><td>
+<pre>
+55 48 8D 05 ? ? ? ? 66 0F EF C0 48 89 E5 41 57 45 31 FF
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x2A\x48\x8B\xF9\x48\x8D\x05
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 54 41 55 41 56 41 57 48 83 EC ? 48 8B F9 48 8D 05
 </pre>
 </td></tr></table>
 
