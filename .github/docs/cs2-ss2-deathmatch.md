@@ -1,8 +1,8 @@
 # cs2-ss2-deathmatch 
 
-Last updated: April 21, 2026 at 4:52:03 AM GMT
+Last updated: April 21, 2026 at 10:31:07 PM GMT
 
-* Manifests: [1331857836442243142](https://steamdb.info/depot/2347770/history/?changeid=M:1331857836442243142), [6246639270691797946](https://steamdb.info/depot/2347771/history/?changeid=M:6246639270691797946), [1269453905342800514](https://steamdb.info/depot/2347773/history/?changeid=M:1269453905342800514)
+* Manifests: [3020863579609573520](https://steamdb.info/depot/2347770/history/?changeid=M:3020863579609573520), [8080645698460415951](https://steamdb.info/depot/2347771/history/?changeid=M:8080645698460415951), [7690142062169194120](https://steamdb.info/depot/2347773/history/?changeid=M:7690142062169194120)
 * Repository: https://github.com/ianlucas/cs2-ss2-deathmatch
 * Gamedata: https://github.com/ianlucas/cs2-ss2-deathmatch/blob/main/resources/gamedata/signatures.jsonc
 

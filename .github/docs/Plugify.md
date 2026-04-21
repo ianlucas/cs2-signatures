@@ -1,12 +1,33 @@
 # Plugify 
 
-Last updated: April 21, 2026 at 7:19:57 PM GMT
+Last updated: April 21, 2026 at 10:31:07 PM GMT
 
-* Manifests: [1331857836442243142](https://steamdb.info/depot/2347770/history/?changeid=M:1331857836442243142), [6246639270691797946](https://steamdb.info/depot/2347771/history/?changeid=M:6246639270691797946), [1269453905342800514](https://steamdb.info/depot/2347773/history/?changeid=M:1269453905342800514)
+* Manifests: [3020863579609573520](https://steamdb.info/depot/2347770/history/?changeid=M:3020863579609573520), [8080645698460415951](https://steamdb.info/depot/2347771/history/?changeid=M:8080645698460415951), [7690142062169194120](https://steamdb.info/depot/2347773/history/?changeid=M:7690142062169194120)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
 ## Signatures
+
+### CPhysBox_Use
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x49\x8B\x54\x24\x2A\x45\x31\xC9\x45\x31\xC0\xC7\x45\x2A\x2A\x2A\x2A\x2A\x49\x8B\x34\x24\x48\x8D\x4D\x2A\x66\x0F\xEF\xC0\x48\xC7\x45\x2A\x2A\x2A\x2A\x2A\x48\x8D\xBB\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\xF6\x45\x2A\x2A\x74\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x8B\x75\x2A\x48\x8B\x38\x48\x8B\x07\xFF\x50\x2A\x48\x83\xC4
+</pre>
+</td><td>
+<pre>
+49 8B 54 24 ? 45 31 C9 45 31 C0 C7 45 ? ? ? ? ? 49 8B 34 24 48 8D 4D ? 66 0F EF C0 48 C7 45 ? ? ? ? ? 48 8D BB ? ? ? ? E8 ? ? ? ? F6 45 ? ? 74 ? 48 8B 05 ? ? ? ? 48 8B 75 ? 48 8B 38 48 8B 07 FF 50 ? 48 83 C4
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x4C\x8B\x43\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\x48\x8B\x13\xE8\x2A\x2A\x2A\x2A\x48\x8B\x5C\x24\x2A\x48\x83\xC4\x2A\x5F\xC3\xCC\xCC\xCC\xCC\x40\x53
+</pre>
+</td><td>
+<pre>
+4C 8B 43 ? 48 8D 8F ? ? ? ? 48 8B 13 E8 ? ? ? ? 48 8B 5C 24 ? 48 83 C4 ? 5F C3 CC CC CC CC 40 53
+</pre>
+</td></tr></table>
 
 ### CGameRules::TerminateRound
 
@@ -341,27 +362,6 @@ Last updated: April 21, 2026 at 7:19:57 PM GMT
 </td><td>
 <pre>
 48 8B C4 55 41 55 41 56
-</pre>
-</td></tr></table>
-
-### CPhysBox_Use
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x49\x8B\x54\x24\x2A\x45\x31\xC9\x45\x31\xC0\xC7\x45\x2A\x2A\x2A\x2A\x2A\x49\x8B\x34\x24\x48\x8D\x4D\x2A\x66\x0F\xEF\xC0\x48\xC7\x45\x2A\x2A\x2A\x2A\x2A\x48\x8D\xBB\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\xF6\x45\x2A\x2A\x74\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x8B\x75\x2A\x48\x8B\x38\x48\x8B\x07\xFF\x50\x2A\x48\x83\xC4
-</pre>
-</td><td>
-<pre>
-49 8B 54 24 ? 45 31 C9 45 31 C0 C7 45 ? ? ? ? ? 49 8B 34 24 48 8D 4D ? 66 0F EF C0 48 C7 45 ? ? ? ? ? 48 8D BB ? ? ? ? E8 ? ? ? ? F6 45 ? ? 74 ? 48 8B 05 ? ? ? ? 48 8B 75 ? 48 8B 38 48 8B 07 FF 50 ? 48 83 C4
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x4C\x8B\x43\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\x48\x8B\x13\xE8\x2A\x2A\x2A\x2A\x48\x8B\x5C\x24\x2A\x48\x83\xC4\x2A\x5F\xC3\xCC\xCC\xCC\xCC\x40\x53
-</pre>
-</td><td>
-<pre>
-4C 8B 43 ? 48 8D 8F ? ? ? ? 48 8B 13 E8 ? ? ? ? 48 8B 5C 24 ? 48 83 C4 ? 5F C3 CC CC CC CC 40 53
 </pre>
 </td></tr></table>
 
