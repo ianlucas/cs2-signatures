@@ -1,33 +1,12 @@
 # cs2kz-metamod 
 
-Last updated: April 21, 2026 at 8:28:00 PM GMT
+Last updated: April 21, 2026 at 8:46:58 PM GMT
 
 * Manifests: [1331857836442243142](https://steamdb.info/depot/2347770/history/?changeid=M:1331857836442243142), [6246639270691797946](https://steamdb.info/depot/2347771/history/?changeid=M:6246639270691797946), [1269453905342800514](https://steamdb.info/depot/2347773/history/?changeid=M:1269453905342800514)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
-
-### PostPlayerMove
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x50\x48\x8B\x5F
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 56 41 55 49 89 F5 41 54 49 89 FC 53 48 83 EC 50 48 8B 5F
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x53\x56\x41\x56\x48\x83\xEC\x60
-</pre>
-</td><td>
-<pre>
-40 53 56 41 56 48 83 EC 60
-</pre>
-</td></tr></table>
 
 ### SetModel
 
@@ -131,6 +110,19 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </td><td>
 <pre>
 40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA
+</pre>
+</td></tr></table>
+
+### CNetworkViewOffsetVector_Set
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x48\x89\x7C\x24\x20\x41\x56\x48\x83\xEC\x30\xF3\x0F\x10\x0A\x48\x8B\xD9\xF3\x0F\x10\x01\x41\xBE\xFF\x7F\x00\x00\x0F\x2E\xC1\x48\x89\x74\x24\x40\x48\x8B\xF2\x7A\x2A\x74\x2A\x48\x8D\x79\x10\xF3\x0F\x11\x09\x48\x8D\x4F\x04\xFF\x15\x51\xD8\x37\x01
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 10 48 89 6C 24 18 48 89 7C 24 20 41 56 48 83 EC 30 F3 0F 10 0A 48 8B D9 F3 0F 10 01 41 BE FF 7F 00 00 0F 2E C1 48 89 74 24 40 48 8B F2 7A ? 74 ? 48 8D 79 10 F3 0F 11 09 48 8D 4F 04 FF 15 51 D8 37 01
 </pre>
 </td></tr></table>
 
