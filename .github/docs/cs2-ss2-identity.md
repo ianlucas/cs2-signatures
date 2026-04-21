@@ -1,33 +1,12 @@
 # cs2-ss2-identity 
 
-Last updated: April 21, 2026 at 10:31:07 PM GMT
+Last updated: April 21, 2026 at 11:00:40 PM GMT
 
 * Manifests: [3020863579609573520](https://steamdb.info/depot/2347770/history/?changeid=M:3020863579609573520), [8080645698460415951](https://steamdb.info/depot/2347771/history/?changeid=M:8080645698460415951), [7690142062169194120](https://steamdb.info/depot/2347773/history/?changeid=M:7690142062169194120)
 * Repository: https://github.com/ianlucas/cs2-ss2-identity
 * Gamedata: https://github.com/ianlucas/cs2-ss2-identity/blob/main/resources/gamedata/signatures.jsonc
 
 ## Signatures
-
-### CCSPlayerController::m_iCompetitiveRanking1
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x44\x89\xBB\x2A\x2A\x2A\x2A\x48\x8B\x40\x2A\x4A\x8B\x44\xF0\x2A\x44\x8B\x78\x2A\x44\x39\xBB\x2A\x2A\x2A\x2A\x0F\x84\x2A\x2A\x2A\x2A\x31\xC0
-</pre>
-</td><td>
-<pre>
-44 89 BB ? ? ? ? 48 8B 40 ? 4A 8B 44 F0 ? 44 8B 78 ? 44 39 BB ? ? ? ? 0F 84 ? ? ? ? 31 C0
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x89\xAF\x2A\x2A\x2A\x2A\x48\x8B\x0D\x2A\x2A\x2A\x2A\x48\x8B\x44\xD9\x2A\x8B\x68\x2A\x39\xAF\x2A\x2A\x2A\x2A\x74\x2A\xBA\x2A\x2A\x2A\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\x41\xB8\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x89\xAF\x2A\x2A\x2A\x2A\x48\x8B\x0D\x2A\x2A\x2A\x2A\x48\x8B\x44\xD9\x2A\x0F\xB6\x68
-</pre>
-</td><td>
-<pre>
-89 AF ? ? ? ? 48 8B 0D ? ? ? ? 48 8B 44 D9 ? 8B 68 ? 39 AF ? ? ? ? 74 ? BA ? ? ? ? 48 8D 8F ? ? ? ? 41 B8 ? ? ? ? E8 ? ? ? ? 89 AF ? ? ? ? 48 8B 0D ? ? ? ? 48 8B 44 D9 ? 0F B6 68
-</pre>
-</td></tr></table>
 
 ### CCSPlayerController::m_iCompetitiveRankType1
 
@@ -47,6 +26,27 @@ Last updated: April 21, 2026 at 10:31:07 PM GMT
 </td><td>
 <pre>
 40 88 AF ? ? ? ? 48 8B 0D
+</pre>
+</td></tr></table>
+
+### CCSPlayerController::m_iCompetitiveRanking1
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x44\x89\xBB\x2A\x2A\x2A\x2A\x48\x8B\x40\x2A\x4A\x8B\x44\xF0\x2A\x44\x8B\x78\x2A\x44\x39\xBB\x2A\x2A\x2A\x2A\x74
+</pre>
+</td><td>
+<pre>
+44 89 BB ? ? ? ? 48 8B 40 ? 4A 8B 44 F0 ? 44 8B 78 ? 44 39 BB ? ? ? ? 74
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x89\xAF\x2A\x2A\x2A\x2A\x48\x8B\x0D\x2A\x2A\x2A\x2A\x48\x8B\x44\xD9\x2A\x8B\x68\x2A\x39\xAF\x2A\x2A\x2A\x2A\x74\x2A\xBA\x2A\x2A\x2A\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\x41\xB8\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x89\xAF\x2A\x2A\x2A\x2A\x48\x8B\x0D\x2A\x2A\x2A\x2A\x48\x8B\x44\xD9\x2A\x0F\xB6\x68
+</pre>
+</td><td>
+<pre>
+89 AF ? ? ? ? 48 8B 0D ? ? ? ? 48 8B 44 D9 ? 8B 68 ? 39 AF ? ? ? ? 74 ? BA ? ? ? ? 48 8D 8F ? ? ? ? 41 B8 ? ? ? ? E8 ? ? ? ? 89 AF ? ? ? ? 48 8B 0D ? ? ? ? 48 8B 44 D9 ? 0F B6 68
 </pre>
 </td></tr></table>
 
