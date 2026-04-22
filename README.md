@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** April 22, 2026 at 9:50:40 AM GMT
+* **Last updated:** April 22, 2026 at 10:36:41 AM GMT
 * **Manifests:** [3020863579609573520](https://steamdb.info/depot/2347770/history/?changeid=M:3020863579609573520), [8080645698460415951](https://steamdb.info/depot/2347771/history/?changeid=M:8080645698460415951), [7690142062169194120](https://steamdb.info/depot/2347773/history/?changeid=M:7690142062169194120)
 
 <table>
@@ -44,31 +44,10 @@
   <summary>ModSharp broken signatures</summary>
 
 * `✅Linux ❌Windows` IScriptVM::CreateVM
-* `❌Linux ✅Windows` CBaseEntity::DispatchSpawn
 * `✅Linux ❌Windows` CBaseEntity::DispatchTraceAttack
-* `❌Linux ✅Windows` CBaseEntity::SetAbsAngles
-* `❌Linux ❌Windows` CBaseEntity::SetAbsOrigin
-* `❌Linux ✅Windows` CBaseEntity::SetGravityScale
-* `❌Linux ✅Windows` CBaseEntity::SetGroundEntity
-* `❌Linux ✅Windows` CBaseEntity::SetMoveType
-* `❌Linux ✅Windows` CCSGameRules::CreateEndMatchMapGroupVoteOptions
 * `✅Linux ❌Windows` CCSGameRules::RestartRound
-* `❌Linux ❌Windows` CCSPlayer_MovementServices::TracePlayerBBox
-* `❌Linux ⚠️Windows` CCSPlayer_MovementServices::WalkMove
-* `❌Linux ✅Windows` CCSPlayer_WeaponServices::DetachWeapon
-* `❌Linux ✅Windows` CEntityKeyValues::CEntityKeyValues
-* `❌Linux ✅Windows` CGameEntitySystem::FindInSphere
-* `✅Linux ❌Windows` CGamePhysicsQueryInterface::EntitiesAlongRay
-* `❌Linux ❌Windows` CNavMesh::GetNearestNavArea
-* `❌Linux ✅Windows` FindWeaponVDataByName
-* `❌Linux ✅Windows` HandleGCBanInfo
-* `❌Linux ✅Windows` KeyValues3::ReadArrayInt32
+* `✅Linux ❌Windows` CNavMesh::GetNearestNavArea
 * `❌Linux ✅Windows` StateChanged
-* `❌Linux ❌Windows` StudioModel::GetAttachment
-* `❌Linux ✅Windows` UTIL_DispatchParticleEffectFilter_Attachment
-* `❌Linux ❌Windows` UTIL_DispatchParticleEffectFilter_Position
-* `❌Linux ✅Windows` UTIL_GetParticleSystemIndex
-* `❌Linux ❌Windows` UTIL_SetModel
 
 </details>
 
