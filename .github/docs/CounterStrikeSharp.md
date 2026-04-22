@@ -1,6 +1,6 @@
 # CounterStrikeSharp 
 
-Last updated: April 22, 2026 at 9:50:40 AM GMT
+Last updated: April 22, 2026 at 12:40:40 PM GMT
 
 * Manifests: [3020863579609573520](https://steamdb.info/depot/2347770/history/?changeid=M:3020863579609573520), [8080645698460415951](https://steamdb.info/depot/2347771/history/?changeid=M:8080645698460415951), [7690142062169194120](https://steamdb.info/depot/2347773/history/?changeid=M:7690142062169194120)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
@@ -97,11 +97,11 @@ Last updated: April 22, 2026 at 9:50:40 AM GMT
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x49\x89\xF4\x53\x48\x89\xD3\x48\x83\xEC\x2A\x48\x85\xD2
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x31\xFF
 </pre>
 </td><td>
 <pre>
-55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 49 89 F4 53 48 89 D3 48 83 EC ? 48 85 D2
+55 48 89 E5 41 57 41 56 41 55 49 89 FD 31 FF
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
