@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: April 22, 2026 at 2:46:40 AM GMT
+Last updated: April 22, 2026 at 4:17:37 AM GMT
 
 * Manifests: [3020863579609573520](https://steamdb.info/depot/2347770/history/?changeid=M:3020863579609573520), [8080645698460415951](https://steamdb.info/depot/2347771/history/?changeid=M:8080645698460415951), [7690142062169194120](https://steamdb.info/depot/2347773/history/?changeid=M:7690142062169194120)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
@@ -76,11 +76,11 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x55\x48\x8D\x87\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x89\xCF
+\x55\x48\x8D\x87\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xCE\x41\x55\x45\x89\xCD
 </pre>
 </td><td>
 <pre>
-55 48 8D 87 ? ? ? ? 48 89 E5 41 57 41 89 CF
+55 48 8D 87 ? ? ? ? 48 89 E5 41 57 41 56 41 89 CE 41 55 45 89 CD
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
