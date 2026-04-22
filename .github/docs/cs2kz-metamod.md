@@ -1,33 +1,12 @@
 # cs2kz-metamod 
 
-Last updated: April 21, 2026 at 10:31:07 PM GMT
+Last updated: April 22, 2026 at 2:46:40 AM GMT
 
 * Manifests: [3020863579609573520](https://steamdb.info/depot/2347770/history/?changeid=M:3020863579609573520), [8080645698460415951](https://steamdb.info/depot/2347771/history/?changeid=M:8080645698460415951), [7690142062169194120](https://steamdb.info/depot/2347773/history/?changeid=M:7690142062169194120)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
-
-### OnJumpModern
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\x48\x81\xEC\xD8\x00\x00\x00
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 49 89 FC 53 48 81 EC D8 00 00 00
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x55\x56\x57\x41\x56\x48\x8D\x6C\x24\xC8\x48\x81\xEC\x38\x01\x00\x00\x4C\x8B\x71\x08
-</pre>
-</td><td>
-<pre>
-40 55 56 57 41 56 48 8D 6C 24 C8 48 81 EC 38 01 00 00 4C 8B 71 08
-</pre>
-</td></tr></table>
 
 ### SetModel
 
@@ -635,6 +614,27 @@ F3 0F 10 05 ? ? ? ? 0F 2E 87 ? ? ? ? 7A ? 74 ? 48 8B 47
 </td><td>
 <pre>
 40 55 53 56 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 48 8B 59
+</pre>
+</td></tr></table>
+
+### OnJumpModern
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\x77\x2A\x4D\x8B\x66
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 89 FB 48 81 EC ? ? ? ? 4C 8B 77 ? 4D 8B 66
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x55\x56\x57\x41\x56\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\x71
+</pre>
+</td><td>
+<pre>
+40 55 56 57 41 56 48 8D 6C 24 ? 48 81 EC ? ? ? ? 4C 8B 71
 </pre>
 </td></tr></table>
 
