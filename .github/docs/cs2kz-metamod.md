@@ -1,6 +1,6 @@
 # cs2kz-metamod 
 
-Last updated: April 29, 2026 at 9:46:13 PM GMT
+Last updated: April 29, 2026 at 11:46:51 PM GMT
 
 * Manifests: [6871635658321698480](https://steamdb.info/depot/2347770/history/?changeid=M:6871635658321698480), [8730709599943296195](https://steamdb.info/depot/2347771/history/?changeid=M:8730709599943296195), [957430691718296828](https://steamdb.info/depot/2347773/history/?changeid=M:957430691718296828)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
@@ -845,27 +845,6 @@ F3 0F 10 05 ? ? ? ? 0F 2E 87 ? ? ? ? 7A ? 74 ? 48 8B 47
 </td><td>
 <pre>
 48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 55 48 8D 6C 24 A9 48 81 EC C0 00 00 00
-</pre>
-</td></tr></table>
-
-### TracePlayerBBox
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xD6\x41\x55\x49\x89\xCD\x41\x54\x53\x48\x89\xF3
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 49 89 D6 41 55 49 89 CD 41 54 53 48 89 F3
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x8B\xC4\x4C\x89\x40\x2A\x48\x89\x48\x2A\x55\x53\x56\x57
-</pre>
-</td><td>
-<pre>
-48 8B C4 4C 89 40 ? 48 89 48 ? 55 53 56 57
 </pre>
 </td></tr></table>
 
