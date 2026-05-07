@@ -1,33 +1,12 @@
 # cs2-ss2-identity 
 
-Last updated: May 7, 2026 at 10:09:30 PM GMT
+Last updated: May 7, 2026 at 11:37:15 PM GMT
 
 * Manifests: [2562546595906122008](https://steamdb.info/depot/2347770/history/?changeid=M:2562546595906122008), [7514165481174355955](https://steamdb.info/depot/2347771/history/?changeid=M:7514165481174355955), [6635306441079103314](https://steamdb.info/depot/2347773/history/?changeid=M:6635306441079103314)
 * Repository: https://github.com/ianlucas/cs2-ss2-identity
 * Gamedata: https://github.com/ianlucas/cs2-ss2-identity/blob/main/resources/gamedata/signatures.jsonc
 
 ## Signatures
-
-### CCSPlayerController::m_iszPlayerName3
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x4C\x8D\x6D\x2A\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x4C\x8D\x35
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 41 55 4C 8D 6D ? 41 54 49 89 F4 53 48 89 FB 48 83 EC ? E8 ? ? ? ? 4C 8D 35
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xEA\x48\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x48\x8B\x05
-</pre>
-</td><td>
-<pre>
-48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B EA 48 8B F9 E8 ? ? ? ? 48 8B 05
-</pre>
-</td></tr></table>
 
 ### CCSPlayerController::m_iCompetitiveRankType1
 
@@ -131,6 +110,27 @@ C7 83 ? ? ? ? ? ? ? ? 85 D2 0F 84 ? ? ? ? E9 ? ? ? ? 0F 1F 80
 </td><td>
 <pre>
 48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 49 8B D9 41 0F B6 E8
+</pre>
+</td></tr></table>
+
+### CCSPlayerController::m_iszPlayerName3
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x4C\x8D\x6D\x2A\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x4C\x8D\x35
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 41 55 4C 8D 6D ? 41 54 49 89 F4 53 48 89 FB 48 83 EC ? E8 ? ? ? ? 4C 8D 35
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x56\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\xEA\x48\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x48\x8B\x05
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 56 48 83 EC ? 48 8B EA 48 8B F9 E8 ? ? ? ? 48 8B 05
 </pre>
 </td></tr></table>
 
