@@ -1,12 +1,33 @@
 # Plugify 
 
-Last updated: May 11, 2026 at 11:50:35 PM GMT
+Last updated: May 14, 2026 at 10:23:43 PM GMT
 
-* Manifests: [7194546508064327600](https://steamdb.info/depot/2347770/history/?changeid=M:7194546508064327600), [4627272066782974571](https://steamdb.info/depot/2347771/history/?changeid=M:4627272066782974571), [6418317850857259129](https://steamdb.info/depot/2347773/history/?changeid=M:6418317850857259129)
+* Manifests: [546149233531837297](https://steamdb.info/depot/2347770/history/?changeid=M:546149233531837297), [6999933698852825529](https://steamdb.info/depot/2347771/history/?changeid=M:6999933698852825529), [1005161166845732962](https://steamdb.info/depot/2347773/history/?changeid=M:1005161166845732962)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
 ## Signatures
+
+### BotNavIgnore
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x0F\x84\x2A\x2A\x2A\x2A\x44\x0F\xB6\xB0\x2A\x2A\x2A\x2A\x45\x84\xF6\x0F\x84
+</pre>
+</td><td>
+<pre>
+0F 84 ? ? ? ? 44 0F B6 B0 ? ? ? ? 45 84 F6 0F 84
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x0F\x84\x2A\x2A\x2A\x2A\x80\xB8\x2A\x2A\x2A\x2A\x00\x0F\x84\x2A\x2A\x2A\x2A\x80\x3D\x2A\x2A\x2A\x2A\x00\x74\x15
+</pre>
+</td><td>
+<pre>
+0F 84 ? ? ? ? 80 B8 ? ? ? ? 00 0F 84 ? ? ? ? 80 3D ? ? ? ? 00 74 15
+</pre>
+</td></tr></table>
 
 ### CPhysBox_Use
 
@@ -68,27 +89,6 @@ Last updated: May 11, 2026 at 11:50:35 PM GMT
 </td><td>
 <pre>
 0F 86 ? ? ? ? 0F 57 C0 0F 2E C2
-</pre>
-</td></tr></table>
-
-### BotNavIgnore
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x0F\x84\x2A\x2A\x2A\x2A\x44\x0F\xB6\xB0\x2A\x2A\x2A\x2A\x45\x84\xF6\x0F\x84
-</pre>
-</td><td>
-<pre>
-0F 84 ? ? ? ? 44 0F B6 B0 ? ? ? ? 45 84 F6 0F 84
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x0F\x84\x2A\x2A\x2A\x2A\x80\xB8\x2A\x2A\x2A\x2A\x00\x0F\x84\x2A\x2A\x2A\x2A\x80\x3D\x2A\x2A\x2A\x2A\x00\x74\x15
-</pre>
-</td><td>
-<pre>
-0F 84 ? ? ? ? 80 B8 ? ? ? ? 00 0F 84 ? ? ? ? 80 3D ? ? ? ? 00 74 15
 </pre>
 </td></tr></table>
 

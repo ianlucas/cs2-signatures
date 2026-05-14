@@ -1,8 +1,8 @@
 # SwiftlyS2 
 
-Last updated: May 11, 2026 at 11:50:35 PM GMT
+Last updated: May 14, 2026 at 10:23:43 PM GMT
 
-* Manifests: [7194546508064327600](https://steamdb.info/depot/2347770/history/?changeid=M:7194546508064327600), [4627272066782974571](https://steamdb.info/depot/2347771/history/?changeid=M:4627272066782974571), [6418317850857259129](https://steamdb.info/depot/2347773/history/?changeid=M:6418317850857259129)
+* Manifests: [546149233531837297](https://steamdb.info/depot/2347770/history/?changeid=M:546149233531837297), [6999933698852825529](https://steamdb.info/depot/2347771/history/?changeid=M:6999933698852825529), [1005161166845732962](https://steamdb.info/depot/2347773/history/?changeid=M:1005161166845732962)
 * Repository: https://github.com/swiftly-solution/swiftlys2
 * Gamedata: https://github.com/swiftly-solution/swiftlys2/blob/master/plugin_files/gamedata/cs2/core/signatures.jsonc
 
@@ -11,7 +11,7 @@ Last updated: May 11, 2026 at 11:50:35 PM GMT
 ### BotNavIgnore1
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x0F\x84\x2A\x2A\x2A\x2A\x44\x0F\xB6\xB0
 </pre>
@@ -32,7 +32,7 @@ Last updated: May 11, 2026 at 11:50:35 PM GMT
 ### BotNavIgnore2
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x0F\x84\x2A\x2A\x2A\x2A\x44\x0F\xB6\xB0
 </pre>
@@ -53,7 +53,7 @@ Last updated: May 11, 2026 at 11:50:35 PM GMT
 ### BotNavIgnore3
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x0F\x84\x2A\x2A\x2A\x2A\x44\x0F\xB6\xB0
 </pre>
