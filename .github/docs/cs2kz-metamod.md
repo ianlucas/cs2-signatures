@@ -1,54 +1,12 @@
 # cs2kz-metamod 
 
-Last updated: May 14, 2026 at 10:23:43 PM GMT
+Last updated: May 15, 2026 at 8:03:35 AM GMT
 
 * Manifests: [546149233531837297](https://steamdb.info/depot/2347770/history/?changeid=M:546149233531837297), [6999933698852825529](https://steamdb.info/depot/2347771/history/?changeid=M:6999933698852825529), [1005161166845732962](https://steamdb.info/depot/2347773/history/?changeid=M:1005161166845732962)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
-
-### CategorizePosition
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x48\xB8\x00\x00\x00\x00\x00\x00\x00\x07\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x89\xD5
-</pre>
-</td><td>
-<pre>
-48 B8 00 00 00 00 00 00 00 07 55 66 0F EF C0 48 89 E5 41 57 41 56 41 55 41 89 D5
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x55\x56\x57\x41\x55\x48\x8D\xAC\x24\xF8\xFD\xFF\xFF
-</pre>
-</td><td>
-<pre>
-40 55 56 57 41 55 48 8D AC 24 F8 FD FF FF
-</pre>
-</td></tr></table>
-
-### CreateBot
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x53\x48\x81\xEC\xC8\x00\x00\x00\x89\xB5\x1C\xFF\xFF\xFF
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53 48 81 EC C8 00 00 00 89 B5 1C FF FF FF
-</pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
-<pre>
-\x40\x55\x57\x48\x81\xEC\xB8\x00\x00\x00\x8B\xEA
-</pre>
-</td><td>
-<pre>
-40 55 57 48 81 EC B8 00 00 00 8B EA
-</pre>
-</td></tr></table>
 
 ### SetModel
 
@@ -218,6 +176,27 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </pre>
 </td></tr></table>
 
+### CategorizePosition
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x48\xB8\x00\x00\x00\x00\x00\x00\x00\x07\x55\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x89\xD5
+</pre>
+</td><td>
+<pre>
+48 B8 00 00 00 00 00 00 00 07 55 66 0F EF C0 48 89 E5 41 57 41 56 41 55 41 89 D5
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x40\x55\x56\x57\x41\x54\x41\x55\x48\x8D\xAC\x24\xF0\xFD\xFF\xFF
+</pre>
+</td><td>
+<pre>
+40 55 56 57 41 54 41 55 48 8D AC 24 F0 FD FF FF
+</pre>
+</td></tr></table>
+
 ### CheckFalling
 
 <table>
@@ -341,6 +320,27 @@ F3 0F 11 5C 24 20 53 56 57 48 83 EC 60
 </td><td>
 <pre>
 48 8B C4 48 89 58 ? 55 48 8D 6C 24
+</pre>
+</td></tr></table>
+
+### CreateBot
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x41\x89\xD4\x53\x48\x81\xEC\xC8\x00\x00\x00
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 41 89 D4 53 48 81 EC C8 00 00 00
+</pre>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x57\x48\x81\xEC\xC0\x00\x00\x00\x41\x0F\xB6\xD8
+</pre>
+</td><td>
+<pre>
+48 89 5C 24 10 48 89 6C 24 18 57 48 81 EC C0 00 00 00 41 0F B6 D8
 </pre>
 </td></tr></table>
 
