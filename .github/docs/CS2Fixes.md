@@ -1,8 +1,8 @@
 # CS2Fixes 
 
-Last updated: May 14, 2026 at 10:23:43 PM GMT
+Last updated: May 18, 2026 at 11:35:56 PM GMT
 
-* Manifests: [546149233531837297](https://steamdb.info/depot/2347770/history/?changeid=M:546149233531837297), [6999933698852825529](https://steamdb.info/depot/2347771/history/?changeid=M:6999933698852825529), [1005161166845732962](https://steamdb.info/depot/2347773/history/?changeid=M:1005161166845732962)
+* Manifests: [2040174343226015246](https://steamdb.info/depot/2347770/history/?changeid=M:2040174343226015246), [2946404506655889380](https://steamdb.info/depot/2347771/history/?changeid=M:2946404506655889380), [5214061773672293775](https://steamdb.info/depot/2347773/history/?changeid=M:5214061773672293775)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.games.txt
 
@@ -176,6 +176,27 @@ Last updated: May 14, 2026 at 10:23:43 PM GMT
 </pre>
 </td></tr></table>
 
+### CPhysBox_Use
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x49\x8B\x54\x24\x2A\x45\x31\xC9\x45\x31\xC0\xC7\x45\x2A\x2A\x2A\x2A\x2A\x49\x8B\x34\x24\x48\x8D\x4D\x2A\x66\x0F\xEF\xC0\x48\xC7\x45\x2A\x2A\x2A\x2A\x2A\x48\x8D\xBB\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\xF6\x45\x2A\x2A\x74\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x8B\x75\x2A\x48\x8B\x38\x48\x8B\x07\xFF\x50\x2A\x48\x83\xC4
+</pre>
+</td><td>
+<pre>
+49 8B 54 24 ? 45 31 C9 45 31 C0 C7 45 ? ? ? ? ? 49 8B 34 24 48 8D 4D ? 66 0F EF C0 48 C7 45 ? ? ? ? ? 48 8D BB ? ? ? ? E8 ? ? ? ? F6 45 ? ? 74 ? 48 8B 05 ? ? ? ? 48 8B 75 ? 48 8B 38 48 8B 07 FF 50 ? 48 83 C4
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x4C\x8B\x43\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\x48\x8B\x13\xE8\x2A\x2A\x2A\x2A\x48\x8B\x5C\x24\x2A\x48\x83\xC4\x2A\x5F\xC3\xCC\xCC\xCC\xCC\x48\x89\x5C\x24
+</pre>
+</td><td>
+<pre>
+4C 8B 43 ? 48 8D 8F ? ? ? ? 48 8B 13 E8 ? ? ? ? 48 8B 5C 24 ? 48 83 C4 ? 5F C3 CC CC CC CC 48 89 5C 24
+</pre>
+</td></tr></table>
+
 ### CheckJumpButtonWater
 
 <table>
@@ -292,7 +313,7 @@ C8 42 EB ? 4C 8B 77 ? 4D 39 6E
 <pre>
 0F 87 ? ? ? ? F3 0F 10 3D ? ? ? ? F3 0F 11 BD ? ? ? ? 48 89 DE
 </pre>
-</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
 \x0F\x86\xAF\x2A\x2A\x2A\x0F\x57\xC0\x0F\x2E\xC2
 </pre>
@@ -732,27 +753,6 @@ C8 42 EB ? 4C 8B 77 ? 4D 39 6E
 </td><td>
 <pre>
 48 8B C4 4C 89 48 ? 48 89 48 ? 55 56 41 56
-</pre>
-</td></tr></table>
-
-### CPhysBox_Use
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x49\x8B\x54\x24\x2A\x45\x31\xC9\x45\x31\xC0\xC7\x45\x2A\x2A\x2A\x2A\x2A\x49\x8B\x34\x24\x48\x8D\x4D\x2A\x66\x0F\xEF\xC0\x48\xC7\x45\x2A\x2A\x2A\x2A\x2A\x48\x8D\xBB\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\xF6\x45\x2A\x2A\x74\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x8B\x75\x2A\x48\x8B\x38\x48\x8B\x07\xFF\x50\x2A\x48\x83\xC4
-</pre>
-</td><td>
-<pre>
-49 8B 54 24 ? 45 31 C9 45 31 C0 C7 45 ? ? ? ? ? 49 8B 34 24 48 8D 4D ? 66 0F EF C0 48 C7 45 ? ? ? ? ? 48 8D BB ? ? ? ? E8 ? ? ? ? F6 45 ? ? 74 ? 48 8B 05 ? ? ? ? 48 8B 75 ? 48 8B 38 48 8B 07 FF 50 ? 48 83 C4
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x4C\x8B\x43\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\x48\x8B\x13\xE8\x2A\x2A\x2A\x2A\x48\x8B\x5C\x24\x2A\x48\x83\xC4\x2A\x5F\xC3\xCC\xCC\xCC\xCC\x48\x89\x5C\x24
-</pre>
-</td><td>
-<pre>
-4C 8B 43 ? 48 8D 8F ? ? ? ? 48 8B 13 E8 ? ? ? ? 48 8B 5C 24 ? 48 83 C4 ? 5F C3 CC CC CC CC 48 89 5C 24
 </pre>
 </td></tr></table>
 

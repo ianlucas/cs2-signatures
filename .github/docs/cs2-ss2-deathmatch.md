@@ -1,12 +1,33 @@
 # cs2-ss2-deathmatch 
 
-Last updated: May 14, 2026 at 10:23:43 PM GMT
+Last updated: May 18, 2026 at 11:35:56 PM GMT
 
-* Manifests: [546149233531837297](https://steamdb.info/depot/2347770/history/?changeid=M:546149233531837297), [6999933698852825529](https://steamdb.info/depot/2347771/history/?changeid=M:6999933698852825529), [1005161166845732962](https://steamdb.info/depot/2347773/history/?changeid=M:1005161166845732962)
+* Manifests: [2040174343226015246](https://steamdb.info/depot/2347770/history/?changeid=M:2040174343226015246), [2946404506655889380](https://steamdb.info/depot/2347771/history/?changeid=M:2946404506655889380), [5214061773672293775](https://steamdb.info/depot/2347773/history/?changeid=M:5214061773672293775)
 * Repository: https://github.com/ianlucas/cs2-ss2-deathmatch
 * Gamedata: https://github.com/ianlucas/cs2-ss2-deathmatch/blob/main/resources/gamedata/signatures.jsonc
 
 ## Signatures
+
+### RespawnSoundPatch
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<pre>
+\xE8\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x0F\x1F\x00\x31\xC0\xBE
+</pre>
+</td><td>
+<pre>
+E8 ? ? ? ? E9 ? ? ? ? 0F 1F 00 31 C0 BE
+</pre>
+</td></tr><tr><td>⚠️(2)</td><td>Windows</td><td>server</td><td>
+<pre>
+\xE8\x2A\x2A\x2A\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x84\xC0
+</pre>
+</td><td>
+<pre>
+E8 ? ? ? ? 48 8D 15 ? ? ? ? 48 8D 8F ? ? ? ? E8 ? ? ? ? 84 C0
+</pre>
+</td></tr></table>
 
 ### DeathmatchScorePatch
 
@@ -47,27 +68,6 @@ E8 ? ? ? ? 48 8B AC 24 ? ? ? ? 4C 8D 9C 24
 </td><td>
 <pre>
 74 ? BA ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 8B C8 48 85 C0 75 ? 48 8B 05 ? ? ? ? 48 8B 48 ? 0F B6 86
-</pre>
-</td></tr></table>
-
-### RespawnSoundPatch
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\xE8\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x0F\x1F\x00\x31\xC0\xBE
-</pre>
-</td><td>
-<pre>
-E8 ? ? ? ? E9 ? ? ? ? 0F 1F 00 31 C0 BE
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\xE8\x2A\x2A\x2A\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x84\xC0
-</pre>
-</td><td>
-<pre>
-E8 ? ? ? ? 48 8D 15 ? ? ? ? 48 8D 8F ? ? ? ? E8 ? ? ? ? 84 C0
 </pre>
 </td></tr></table>
 

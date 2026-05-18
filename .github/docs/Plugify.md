@@ -1,8 +1,8 @@
 # Plugify 
 
-Last updated: May 16, 2026 at 9:13:57 AM GMT
+Last updated: May 18, 2026 at 11:35:56 PM GMT
 
-* Manifests: [546149233531837297](https://steamdb.info/depot/2347770/history/?changeid=M:546149233531837297), [6999933698852825529](https://steamdb.info/depot/2347771/history/?changeid=M:6999933698852825529), [1005161166845732962](https://steamdb.info/depot/2347773/history/?changeid=M:1005161166845732962)
+* Manifests: [2040174343226015246](https://steamdb.info/depot/2347770/history/?changeid=M:2040174343226015246), [2946404506655889380](https://steamdb.info/depot/2347771/history/?changeid=M:2946404506655889380), [5214061773672293775](https://steamdb.info/depot/2347773/history/?changeid=M:5214061773672293775)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
@@ -11,7 +11,7 @@ Last updated: May 16, 2026 at 9:13:57 AM GMT
 ### CPhysBox_Use
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
 <pre>
 \x49\x8B\x54\x24\x2A\x45\x31\xC9\x45\x31\xC0\xC7\x45\x2A\x2A\x2A\x2A\x2A\x49\x8B\x34\x24\x48\x8D\x4D\x2A\x66\x0F\xEF\xC0\x48\xC7\x45\x2A\x2A\x2A\x2A\x2A\x48\x8D\xBB\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\xF6\x45\x2A\x2A\x74\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x8B\x75\x2A\x48\x8B\x38\x48\x8B\x07\xFF\x50\x2A\x48\x83\xC4
 </pre>
@@ -26,6 +26,27 @@ Last updated: May 16, 2026 at 9:13:57 AM GMT
 </td><td>
 <pre>
 4C 8B 43 ? 48 8D 8F ? ? ? ? 48 8B 13 E8 ? ? ? ? 48 8B 5C 24 ? 48 83 C4 ? 5F C3 CC CC CC CC 40 53
+</pre>
+</td></tr></table>
+
+### CSScript::ResolveModule
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<pre>
+\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\xB5
+</pre>
+</td><td>
+<pre>
+55 48 89 E5 41 57 41 56 49 89 F6 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? 48 89 B5
+</pre>
+</td></tr><tr><td>❌</td><td>Windows</td><td>server</td><td>
+<pre>
+\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x53\x56\x57\x41\x55\x41\x56\x48\x8D\xAC\x24
+</pre>
+</td><td>
+<pre>
+48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 48 8D AC 24
 </pre>
 </td></tr></table>
 
@@ -362,27 +383,6 @@ Last updated: May 16, 2026 at 9:13:57 AM GMT
 </td><td>
 <pre>
 48 8B C4 55 41 55 41 56
-</pre>
-</td></tr></table>
-
-### CSScript::ResolveModule
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
-<pre>
-\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\xB5
-</pre>
-</td><td>
-<pre>
-55 48 89 E5 41 57 41 56 49 89 F6 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? 48 89 B5
-</pre>
-</td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
-<pre>
-\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x53\x56\x57\x41\x55\x41\x56\x48\x8D\xAC\x24
-</pre>
-</td><td>
-<pre>
-48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 48 8D AC 24
 </pre>
 </td></tr></table>
 
