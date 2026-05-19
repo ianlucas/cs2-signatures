@@ -1,6 +1,6 @@
 # SwiftlyS2 
 
-Last updated: May 18, 2026 at 11:35:56 PM GMT
+Last updated: May 19, 2026 at 10:27:08 PM GMT
 
 * Manifests: [2040174343226015246](https://steamdb.info/depot/2347770/history/?changeid=M:2040174343226015246), [2946404506655889380](https://steamdb.info/depot/2347771/history/?changeid=M:2946404506655889380), [5214061773672293775](https://steamdb.info/depot/2347773/history/?changeid=M:5214061773672293775)
 * Repository: https://github.com/swiftly-solution/swiftlys2
@@ -11,13 +11,13 @@ Last updated: May 18, 2026 at 11:35:56 PM GMT
 ### BotNavIgnore1
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x0F\x84\x2A\x2A\x2A\x2A\x44\x0F\xB6\xB0
+\x0F\x84\x2A\x2A\x2A\x2A\x44\x0F\xB6\xB8\x2A\x2A\x2A\x2A\x45\x84\xFF\x0F\x84
 </pre>
 </td><td>
 <pre>
-0F 84 ? ? ? ? 44 0F B6 B0
+0F 84 ? ? ? ? 44 0F B6 B8 ? ? ? ? 45 84 FF 0F 84
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -32,13 +32,13 @@ Last updated: May 18, 2026 at 11:35:56 PM GMT
 ### BotNavIgnore2
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x0F\x84\x2A\x2A\x2A\x2A\x44\x0F\xB6\xB0
+\x0F\x84\x2A\x2A\x2A\x2A\x44\x0F\xB6\xB8\x2A\x2A\x2A\x2A\x45\x84\xFF\x0F\x84
 </pre>
 </td><td>
 <pre>
-0F 84 ? ? ? ? 44 0F B6 B0
+0F 84 ? ? ? ? 44 0F B6 B8 ? ? ? ? 45 84 FF 0F 84
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
@@ -53,13 +53,13 @@ Last updated: May 18, 2026 at 11:35:56 PM GMT
 ### BotNavIgnore3
 
 <table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>❌</td><td>Linux</td><td>server</td><td>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr><tr><td>✅</td><td>Linux</td><td>server</td><td>
 <pre>
-\x0F\x84\x2A\x2A\x2A\x2A\x44\x0F\xB6\xB0
+\x0F\x84\x2A\x2A\x2A\x2A\x44\x0F\xB6\xB8\x2A\x2A\x2A\x2A\x45\x84\xFF\x0F\x84
 </pre>
 </td><td>
 <pre>
-0F 84 ? ? ? ? 44 0F B6 B0
+0F 84 ? ? ? ? 44 0F B6 B8 ? ? ? ? 45 84 FF 0F 84
 </pre>
 </td></tr><tr><td>✅</td><td>Windows</td><td>server</td><td>
 <pre>
