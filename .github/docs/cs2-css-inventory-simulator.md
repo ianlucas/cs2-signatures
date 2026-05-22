@@ -1,8 +1,8 @@
 # cs2-css-inventory-simulator 
 
-Last updated: May 22, 2026 at 2:35:58 AM GMT
+Last updated: May 22, 2026 at 10:32:47 PM GMT
 
-* Manifests: [1936087852547613802](https://steamdb.info/depot/2347770/history/?changeid=M:1936087852547613802), [3763108184985172506](https://steamdb.info/depot/2347771/history/?changeid=M:3763108184985172506), [4413229048617437987](https://steamdb.info/depot/2347773/history/?changeid=M:4413229048617437987)
+* Manifests: [2228861118498014425](https://steamdb.info/depot/2347770/history/?changeid=M:2228861118498014425), [3763108184985172506](https://steamdb.info/depot/2347771/history/?changeid=M:3763108184985172506), [4413229048617437987](https://steamdb.info/depot/2347773/history/?changeid=M:4413229048617437987)
 * Repository: https://github.com/ianlucas/cs2-css-inventory-simulator
 * Gamedata: https://github.com/ianlucas/cs2-css-inventory-simulator/blob/main/gamedata/inventory-simulator.json
 
