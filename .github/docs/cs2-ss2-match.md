@@ -1,8 +1,8 @@
 # cs2-ss2-match 
 
-Last updated: May 30, 2026 at 1:01:17 AM GMT
+Last updated: June 2, 2026 at 1:10:02 AM GMT
 
-* Manifests: [79055299587331168](https://steamdb.info/depot/2347770/history/?changeid=M:79055299587331168), [4528134269095473702](https://steamdb.info/depot/2347771/history/?changeid=M:4528134269095473702), [1124590235628779800](https://steamdb.info/depot/2347773/history/?changeid=M:1124590235628779800)
+* Manifests: [32787317784354335](https://steamdb.info/depot/2347770/history/?changeid=M:32787317784354335), [7770553761225942394](https://steamdb.info/depot/2347771/history/?changeid=M:7770553761225942394), [3695111963241036921](https://steamdb.info/depot/2347773/history/?changeid=M:3695111963241036921)
 * Repository: https://github.com/ianlucas/cs2-ss2-match
 * Gamedata: https://github.com/ianlucas/cs2-ss2-match/blob/main/resources/gamedata/signatures.jsonc
 
