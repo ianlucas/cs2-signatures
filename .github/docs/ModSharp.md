@@ -1,8 +1,8 @@
 # ModSharp
 
-Last updated: July 1, 2026 at 4:49:47 PM GMT
+Last updated: July 1, 2026 at 8:21:38 PM GMT
 
-* Manifests: [1948240346581197019](https://steamdb.info/depot/2347773/history/?changeid=M:1948240346581197019), [2638437279544401110](https://steamdb.info/depot/2347771/history/?changeid=M:2638437279544401110), [4954609067435093414](https://steamdb.info/depot/2347770/history/?changeid=M:4954609067435093414)
+* Manifests: [1948240346581197019](https://steamdb.info/depot/2347773/history/?changeid=M:1948240346581197019), [2638437279544401110](https://steamdb.info/depot/2347771/history/?changeid=M:2638437279544401110), [8910988576493132875](https://steamdb.info/depot/2347770/history/?changeid=M:8910988576493132875)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc
 
