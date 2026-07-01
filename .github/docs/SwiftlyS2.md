@@ -1,6 +1,6 @@
 # SwiftlyS2
 
-Last updated: July 1, 2026 at 4:49:47 PM GMT
+Last updated: July 1, 2026 at 7:44:33 PM GMT
 
 * Manifests: [1948240346581197019](https://steamdb.info/depot/2347773/history/?changeid=M:1948240346581197019), [2638437279544401110](https://steamdb.info/depot/2347771/history/?changeid=M:2638437279544401110), [4954609067435093414](https://steamdb.info/depot/2347770/history/?changeid=M:4954609067435093414)
 * Repository: https://github.com/swiftly-solution/swiftlys2
@@ -517,14 +517,6 @@ Last updated: July 1, 2026 at 4:49:47 PM GMT
 
 * Gamedata: https://github.com/swiftly-solution/swiftlys2/blob/beta/plugin_files/gamedata/cs2/core/signatures.jsonc
 
-### CTakeDamageInfo::Constructor
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x48\x83\xEC\x2A\x45\x33\xF6\x48\xC7\x41</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 45 33 F6 48 C7 41</pre></td></tr>
-<tr><td>⚠️(2)</td><td>Linux</td><td>server</td><td><pre>\x49\xBB\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x55</pre></td><td><pre>49 BB ? ? ? ? ? ? ? ? 55</pre></td></tr>
-</table>
-
 ### BotNavIgnore1
 
 <table>
@@ -593,8 +585,8 @@ Last updated: July 1, 2026 at 4:49:47 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x44\x88\x4C\x24\x2A\x53\x57\x41\x54\x41\x56\x41\x57\x48\x83\xEC</pre></td><td><pre>44 88 4C 24 ? 53 57 41 54 41 56 41 57 48 83 EC</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x87\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xCE\x41\x55\x45\x89\xCD</pre></td><td><pre>55 48 8D 87 ? ? ? ? 48 89 E5 41 57 41 56 41 89 CE 41 55 45 89 CD</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x44\x88\x4C\x24\x2A\x53\x57\x41\x54\x41\x56\x41\x57\x48\x83\xEC</pre></td><td><pre>44 88 4C 24 ? 53 57 41 54 41 56 41 57 48 83 EC</pre></td></tr>
 </table>
 
 ### CCSPlayerController::ProcessUserCmd
@@ -923,6 +915,14 @@ Last updated: July 1, 2026 at 4:49:47 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x83\xEC\x08\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x83\x38\x00</pre></td><td><pre>55 48 89 E5 41 55 41 54 53 48 83 EC 08 48 8D 05 ? ? ? ? 48 83 38 00</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x2A\x48\x83\x3D\x2A\x2A\x2A\x2A\x2A\x74\x2A\x33\xC9\xE8\x2A\x2A\x2A\x2A\xFF\x15\x2A\x2A\x2A\x2A</pre></td><td><pre>48 83 EC ? 48 83 3D ? ? ? ? ? 74 ? 33 C9 E8 ? ? ? ? FF 15 ? ? ? ?</pre></td></tr>
+</table>
+
+### CTakeDamageInfo::Constructor
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x48\x83\xEC\x2A\x45\x33\xF6\x48\xC7\x41</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 45 33 F6 48 C7 41</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x49\xBB\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x55\x48\x89\xE5</pre></td><td><pre>49 BB ? ? ? ? ? ? ? ? 55 48 89 E5</pre></td></tr>
 </table>
 
 ### Cmd_ExecuteCommand
