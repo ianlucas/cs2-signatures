@@ -1,8 +1,8 @@
 # CS2Fixes
 
-Last updated: July 1, 2026 at 2:57:47 AM GMT
+Last updated: July 1, 2026 at 4:22:44 AM GMT
 
-* Manifests: [7876177741206264053](https://steamdb.info/depot/2347770/history/?changeid=M:7876177741206264053), [8151905718539343625](https://steamdb.info/depot/2347773/history/?changeid=M:8151905718539343625), [8759087663939613324](https://steamdb.info/depot/2347771/history/?changeid=M:8759087663939613324)
+* Manifests: [944758116929856743](https://steamdb.info/depot/2347773/history/?changeid=M:944758116929856743), [6159035318043222293](https://steamdb.info/depot/2347771/history/?changeid=M:6159035318043222293), [7855283821485622845](https://steamdb.info/depot/2347770/history/?changeid=M:7855283821485622845)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.jsonc
 
@@ -251,8 +251,8 @@ Last updated: July 1, 2026 at 2:57:47 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x49\xBB\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x48\x83\xEC\x2A\x4C\x8D\x15</pre></td><td><pre>49 BB ? ? ? ? ? ? ? ? 55 48 89 E5 48 83 EC ? 4C 8D 15</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x48\x83\xEC\x2A\x45\x33\xF6\x48\xC7\x41</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 45 33 F6 48 C7 41</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x49\xBB\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x48\x83\xEC\x2A\x4C\x8D\x15</pre></td><td><pre>49 BB ? ? ? ? ? ? ? ? 55 48 89 E5 48 83 EC ? 4C 8D 15</pre></td></tr>
 </table>
 
 ### CTriggerGravity_GravityTouch
@@ -267,16 +267,16 @@ Last updated: July 1, 2026 at 2:57:47 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xC8\x42\xEB\x2A\x4C\x8B\x77\x2A\x4D\x39\x66</pre></td><td><pre>C8 42 EB ? 4C 8B 77 ? 4D 39 66</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xC8\x42\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xE9</pre></td><td><pre>C8 42 41 C7 85 ? ? ? ? ? ? ? ? 41 C7 85 ? ? ? ? ? ? ? ? E9</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xC8\x42\xEB\x2A\x4C\x8B\x77\x2A\x4D\x39\x66</pre></td><td><pre>C8 42 EB ? 4C 8B 77 ? 4D 39 66</pre></td></tr>
 </table>
 
 ### CreateEntityByName
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x48\xC6\x44\x24\x30\x00</pre></td><td><pre>48 83 EC 48 C6 44 24 30 00</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8D\x05\x2A\x2A\x2A\x2A\x55\x48\x89\xFA</pre></td><td><pre>48 8D 05 ? ? ? ? 55 48 89 FA</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x48\xC6\x44\x24\x30\x00</pre></td><td><pre>48 83 EC 48 C6 44 24 30 00</pre></td></tr>
 </table>
 
 ### DispatchParticleEffect
