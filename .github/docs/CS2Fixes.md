@@ -1,8 +1,8 @@
 # CS2Fixes
 
-Last updated: June 17, 2026 at 3:08:56 PM GMT
+Last updated: July 1, 2026 at 2:57:47 AM GMT
 
-* Manifests: [2155969443043729044](https://steamdb.info/depot/2347773/history/?changeid=M:2155969443043729044), [8287382081622299196](https://steamdb.info/depot/2347771/history/?changeid=M:8287382081622299196), [9084223690997339133](https://steamdb.info/depot/2347770/history/?changeid=M:9084223690997339133)
+* Manifests: [7876177741206264053](https://steamdb.info/depot/2347770/history/?changeid=M:7876177741206264053), [8151905718539343625](https://steamdb.info/depot/2347773/history/?changeid=M:8151905718539343625), [8759087663939613324](https://steamdb.info/depot/2347771/history/?changeid=M:8759087663939613324)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.jsonc
 
@@ -267,16 +267,16 @@ Last updated: June 17, 2026 at 3:08:56 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xC8\x42\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xE9</pre></td><td><pre>C8 42 41 C7 85 ? ? ? ? ? ? ? ? 41 C7 85 ? ? ? ? ? ? ? ? E9</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xC8\x42\xEB\x2A\x4C\x8B\x77\x2A\x4D\x39\x66</pre></td><td><pre>C8 42 EB ? 4C 8B 77 ? 4D 39 66</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xC8\x42\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x41\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xE9</pre></td><td><pre>C8 42 41 C7 85 ? ? ? ? ? ? ? ? 41 C7 85 ? ? ? ? ? ? ? ? E9</pre></td></tr>
 </table>
 
 ### CreateEntityByName
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8D\x05\x2A\x2A\x2A\x2A\x55\x48\x89\xFA</pre></td><td><pre>48 8D 05 ? ? ? ? 55 48 89 FA</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x48\xC6\x44\x24\x30\x00</pre></td><td><pre>48 83 EC 48 C6 44 24 30 00</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8D\x05\x2A\x2A\x2A\x2A\x55\x48\x89\xFA</pre></td><td><pre>48 8D 05 ? ? ? ? 55 48 89 FA</pre></td></tr>
 </table>
 
 ### DispatchParticleEffect
