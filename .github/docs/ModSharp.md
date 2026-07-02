@@ -1,8 +1,8 @@
 # ModSharp
 
-Last updated: July 2, 2026 at 4:37:45 AM GMT
+Last updated: July 2, 2026 at 8:35:44 PM GMT
 
-* Manifests: [4343525210669847157](https://steamdb.info/depot/2347773/history/?changeid=M:4343525210669847157), [7963383663697550666](https://steamdb.info/depot/2347771/history/?changeid=M:7963383663697550666), [8771972941754739099](https://steamdb.info/depot/2347770/history/?changeid=M:8771972941754739099)
+* Manifests: [5545771420695540303](https://steamdb.info/depot/2347770/history/?changeid=M:5545771420695540303), [6854081659881519160](https://steamdb.info/depot/2347771/history/?changeid=M:6854081659881519160), [8851847688975518786](https://steamdb.info/depot/2347773/history/?changeid=M:8851847688975518786)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc
 
@@ -52,8 +52,8 @@ Last updated: July 2, 2026 at 4:37:45 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x44\x89\xC6</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 F5 44 89 C6</pre></td></tr>
 <tr><td>⚠️(2)</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x48\x2A\x53\x57</pre></td><td><pre>48 8B C4 48 89 48 ? 53 57</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x44\x89\xC6</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 F5 44 89 C6</pre></td></tr>
 </table>
 
 ### CAttributeList::SetOrAddAttributeValueByName
@@ -260,8 +260,8 @@ Last updated: July 2, 2026 at 4:37:45 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\xFA</pre></td><td><pre>40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\x75\x2A\x41\x55\x41\x54\x41\x89\xF4</pre></td><td><pre>55 48 89 E5 41 57 41 56 4C 8D 75 ? 41 55 41 54 41 89 F4</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\xFA</pre></td><td><pre>40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA</pre></td></tr>
 </table>
 
 ### CBasePlayerPawn::FindMatchingWeaponsForTeamLoadout
@@ -410,8 +410,8 @@ Last updated: July 2, 2026 at 4:37:45 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x80\xBF</pre></td><td><pre>48 85 F6 0F 84 ? ? ? ? 55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 81 EC ? ? ? ? 80 BF</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x53\x56\x57\x41\x56\x41\x57\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xF2</pre></td><td><pre>40 55 53 56 57 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 4C 8B F2</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x80\xBF</pre></td><td><pre>48 85 F6 0F 84 ? ? ? ? 55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 81 EC ? ? ? ? 80 BF</pre></td></tr>
 </table>
 
 ### CCSPlayer_WeaponServices::CanSwitch
@@ -482,8 +482,8 @@ Last updated: July 2, 2026 at 4:37:45 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x83\x7F\x18\x2A\x74\x2A\xC3\x0F\x1F\x84\x00\x00\x00\x00\x00\x55\x48\x89\xE5\x53</pre></td><td><pre>48 83 7F 18 ? 74 ? C3 0F 1F 84 00 00 00 00 00 55 48 89 E5 53</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x48\x83\xEC\x20\x48\x83\x79\x18\x00\x48\x8B\xD9\x75\x2A\xE8\x2A\x2A\x2A\x2A</pre></td><td><pre>40 53 48 83 EC 20 48 83 79 18 00 48 8B D9 75 ? E8 ? ? ? ?</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x83\x7F\x18\x2A\x74\x2A\xC3\x0F\x1F\x84\x00\x00\x00\x00\x00\x55\x48\x89\xE5\x53</pre></td><td><pre>48 83 7F 18 ? 74 ? C3 0F 1F 84 00 00 00 00 00 55 48 89 E5 53</pre></td></tr>
 </table>
 
 ### CEntityInstance::GetOrCreatePublicScriptScope
@@ -905,8 +905,8 @@ Last updated: July 2, 2026 at 4:37:45 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x0F\xB7\x07\x66\xC1\xE8\x2A\x83\xE0\x2A\x3C\x2A\x74\x2A\x31\xC0\xC3\x0F\x1F\x80\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x54\x53\x48\x8D\x4D</pre></td><td><pre>0F B7 07 66 C1 E8 ? 83 E0 ? 3C ? 74 ? 31 C0 C3 0F 1F 80 ? ? ? ? 55 48 89 E5 41 54 53 48 8D 4D</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x0F\xB6\x01\x48\x8B\xD9</pre></td><td><pre>48 89 5C 24 ? 57 48 83 EC ? 0F B6 01 48 8B D9</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x0F\xB7\x07\x66\xC1\xE8\x2A\x83\xE0\x2A\x3C\x2A\x74\x2A\x31\xC0\xC3\x0F\x1F\x80\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x54\x53\x48\x8D\x4D</pre></td><td><pre>0F B7 07 66 C1 E8 ? 83 E0 ? 3C ? 74 ? 31 C0 C3 0F 1F 80 ? ? ? ? 55 48 89 E5 41 54 53 48 8D 4D</pre></td></tr>
 </table>
 
 ### KeyValues3::SetString
