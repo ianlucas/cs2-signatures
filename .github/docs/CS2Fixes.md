@@ -1,8 +1,8 @@
 # CS2Fixes
 
-Last updated: July 1, 2026 at 8:21:38 PM GMT
+Last updated: July 2, 2026 at 4:37:45 AM GMT
 
-* Manifests: [1948240346581197019](https://steamdb.info/depot/2347773/history/?changeid=M:1948240346581197019), [2638437279544401110](https://steamdb.info/depot/2347771/history/?changeid=M:2638437279544401110), [8910988576493132875](https://steamdb.info/depot/2347770/history/?changeid=M:8910988576493132875)
+* Manifests: [4343525210669847157](https://steamdb.info/depot/2347773/history/?changeid=M:4343525210669847157), [7963383663697550666](https://steamdb.info/depot/2347771/history/?changeid=M:7963383663697550666), [8771972941754739099](https://steamdb.info/depot/2347770/history/?changeid=M:8771972941754739099)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.jsonc
 
@@ -20,8 +20,8 @@ Last updated: July 1, 2026 at 8:21:38 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x0F\x2E\x87\x2A\x2A\x2A\x2A\x7A\x2A\x75\x2A\x48\x81\xC4\x2A\x2A\x2A\x2A\x5B\x41\x5C\x41\x5D\x41\x5E\x41\x5F\x5D\xC3\x0F\x1F\x40\x2A\x31\xC9\xBE\x2A\x2A\x2A\x2A\x66\x0F\xEF\xC9\xF3\x0F\x11\x85\x2A\x2A\x2A\x2A\x48\x8D\xBD\x2A\x2A\x2A\x2A\x48\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x0F\x29\x8D\x2A\x2A\x2A\x2A\x4C\x8D\xA5\x2A\x2A\x2A\x2A\x48\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x48\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x48\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x48\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x66\x89\x8D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8B\x85\x2A\x2A\x2A\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x83\x85\x2A\x2A\x2A\x2A\x2A\xF3\x0F\x10\x85\x2A\x2A\x2A\x2A\xC7\x00\x2A\x2A\x2A\x2A\x48\x8B\x03\x48\x8B\x80\x2A\x2A\x2A\x2A\x48\x39\xD0\x0F\x85\x2A\x2A\x2A\x2A\x8B\x95\x2A\x2A\x2A\x2A\x4C\x8D\x7B\x2A\x85\xD2\x0F\x85\x2A\x2A\x2A\x2A\x80\xBB\x2A\x2A\x2A\x2A\x2A\x75</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? 0F 2E 87 ? ? ? ? 7A ? 75 ? 48 81 C4 ? ? ? ? 5B 41 5C 41 5D 41 5E 41 5F 5D C3 0F 1F 40 ? 31 C9 BE ? ? ? ? 66 0F EF C9 F3 0F 11 85 ? ? ? ? 48 8D BD ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 0F 29 8D ? ? ? ? 4C 8D A5 ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? C7 85 ? ? ? ? ? ? ? ? 66 89 8D ? ? ? ? E8 ? ? ? ? 48 8B 85 ? ? ? ? 48 8D 15 ? ? ? ? 83 85 ? ? ? ? ? F3 0F 10 85 ? ? ? ? C7 00 ? ? ? ? 48 8B 03 48 8B 80 ? ? ? ? 48 39 D0 0F 85 ? ? ? ? 8B 95 ? ? ? ? 4C 8D 7B ? 85 D2 0F 85 ? ? ? ? 80 BB ? ? ? ? ? 75</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\xF3\x0F\x10\x81\x2A\x2A\x2A\x2A\x48\x8B\xF9\x0F\x29\x74\x24\x2A\x0F\x28\xF1\x0F\x2E\xC6\x7A\x2A\x74</pre></td><td><pre>48 89 5C 24 ? 57 48 83 EC ? F3 0F 10 81 ? ? ? ? 48 8B F9 0F 29 74 24 ? 0F 28 F1 0F 2E C6 7A ? 74</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x0F\x2E\x87\x2A\x2A\x2A\x2A\x7A\x2A\x75\x2A\x48\x81\xC4\x2A\x2A\x2A\x2A\x5B\x41\x5C\x41\x5D\x41\x5E\x41\x5F\x5D\xC3\x0F\x1F\x40\x2A\x31\xC9\xBE\x2A\x2A\x2A\x2A\x66\x0F\xEF\xC9\xF3\x0F\x11\x85\x2A\x2A\x2A\x2A\x48\x8D\xBD\x2A\x2A\x2A\x2A\x48\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x0F\x29\x8D\x2A\x2A\x2A\x2A\x4C\x8D\xA5\x2A\x2A\x2A\x2A\x48\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x48\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x48\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x48\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xC7\x85\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x66\x89\x8D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8B\x85\x2A\x2A\x2A\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x83\x85\x2A\x2A\x2A\x2A\x2A\xF3\x0F\x10\x85\x2A\x2A\x2A\x2A\xC7\x00\x2A\x2A\x2A\x2A\x48\x8B\x03\x48\x8B\x80\x2A\x2A\x2A\x2A\x48\x39\xD0\x0F\x85\x2A\x2A\x2A\x2A\x8B\x95\x2A\x2A\x2A\x2A\x4C\x8D\x7B\x2A\x85\xD2\x0F\x85\x2A\x2A\x2A\x2A\x80\xBB\x2A\x2A\x2A\x2A\x2A\x75</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? 0F 2E 87 ? ? ? ? 7A ? 75 ? 48 81 C4 ? ? ? ? 5B 41 5C 41 5D 41 5E 41 5F 5D C3 0F 1F 40 ? 31 C9 BE ? ? ? ? 66 0F EF C9 F3 0F 11 85 ? ? ? ? 48 8D BD ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 0F 29 8D ? ? ? ? 4C 8D A5 ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? 48 C7 85 ? ? ? ? ? ? ? ? C7 85 ? ? ? ? ? ? ? ? 66 89 8D ? ? ? ? E8 ? ? ? ? 48 8B 85 ? ? ? ? 48 8D 15 ? ? ? ? 83 85 ? ? ? ? ? F3 0F 10 85 ? ? ? ? C7 00 ? ? ? ? 48 8B 03 48 8B 80 ? ? ? ? 48 39 D0 0F 85 ? ? ? ? 8B 95 ? ? ? ? 4C 8D 7B ? 85 D2 0F 85 ? ? ? ? 80 BB ? ? ? ? ? 75</pre></td></tr>
 </table>
 
 ### CBaseEntity_EmitSoundFilter
@@ -36,8 +36,8 @@ Last updated: July 1, 2026 at 8:21:38 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\xB8\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x55\x0F\x28\xD0</pre></td><td><pre>48 B8 ? ? ? ? ? ? ? ? 55 0F 28 D0</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x55\x48\x8B\xEC\x48\x81\xEC\x2A\x2A\x2A\x2A\x33\xC0</pre></td><td><pre>48 89 5C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 55 48 8B EC 48 81 EC ? ? ? ? 33 C0</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\xB8\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x55\x0F\x28\xD0</pre></td><td><pre>48 B8 ? ? ? ? ? ? ? ? 55 0F 28 D0</pre></td></tr>
 </table>
 
 ### CBaseEntity_SetMoveType
@@ -283,8 +283,8 @@ Last updated: July 1, 2026 at 8:21:38 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x89\xCD\x41\x54\x53\x48\x89\xD3</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 89 CD 41 54 53 48 89 D3</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x10\x48\x89\x7C\x24\x18\x4C\x89\x74\x24\x20\x55\x48\x8D\x6C\x24\xD1</pre></td><td><pre>48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 4C 89 74 24 20 55 48 8D 6C 24 D1</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x89\xCD\x41\x54\x53\x48\x89\xD3</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 89 CD 41 54 53 48 89 D3</pre></td></tr>
 </table>
 
 ### DispatchSpawn
