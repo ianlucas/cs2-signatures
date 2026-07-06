@@ -1,8 +1,8 @@
 # cs2-css-inventory-simulator
 
-Last updated: July 3, 2026 at 7:47:44 PM GMT
+Last updated: July 6, 2026 at 8:20:45 PM GMT
 
-* Manifests: [5443921723055292523](https://steamdb.info/depot/2347770/history/?changeid=M:5443921723055292523), [8344780363095656278](https://steamdb.info/depot/2347771/history/?changeid=M:8344780363095656278), [8898904655046099225](https://steamdb.info/depot/2347773/history/?changeid=M:8898904655046099225)
+* Manifests: [801866638738702671](https://steamdb.info/depot/2347773/history/?changeid=M:801866638738702671), [3747240284300062741](https://steamdb.info/depot/2347771/history/?changeid=M:3747240284300062741), [7169488960211596754](https://steamdb.info/depot/2347770/history/?changeid=M:7169488960211596754)
 * Repository: https://github.com/ianlucas/cs2-css-inventory-simulator
 * Gamedata: https://github.com/ianlucas/cs2-css-inventory-simulator/blob/main/gamedata/inventory-simulator.json
 
@@ -36,8 +36,8 @@ Last updated: July 3, 2026 at 7:47:44 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x31\xC0\x83\x7F\x2A\x2A\x75\x2A\x48\x8B\x47\x2A\x48\x89\xC7</pre></td><td><pre>31 C0 83 7F ? ? 75 ? 48 8B 47 ? 48 89 C7</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x83\x79\x2A\x2A\x0F\x10\x49</pre></td><td><pre>83 79 ? ? 0F 10 49</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x31\xC0\x83\x7F\x2A\x2A\x75\x2A\x48\x8B\x47\x2A\x48\x89\xC7</pre></td><td><pre>31 C0 83 7F ? ? 75 ? 48 8B 47 ? 48 89 C7</pre></td></tr>
 </table>
 
 ### CCSPlayerPawn::IsAbleToApplySpray
@@ -68,8 +68,8 @@ Last updated: July 3, 2026 at 7:47:44 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x2A\x48\x8B\x5F\x2A\x48\x85\xDB</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 83 EC ? 48 8B 5F ? 48 85 DB</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x41\x56\x48\x83\xEC\x2A\x48\x83\x79</pre></td><td><pre>40 55 41 56 48 83 EC ? 48 83 79</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x2A\x48\x8B\x5F\x2A\x48\x85\xDB</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 83 EC ? 48 8B 5F ? 48 85 DB</pre></td></tr>
 </table>
 
 ### CEconItemSchema::GetItemDefinition
