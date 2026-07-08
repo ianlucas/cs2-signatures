@@ -1,12 +1,20 @@
 # cs2-ss2-deathmatch
 
-Last updated: July 6, 2026 at 8:20:45 PM GMT
+Last updated: July 8, 2026 at 10:50:46 PM GMT
 
-* Manifests: [801866638738702671](https://steamdb.info/depot/2347773/history/?changeid=M:801866638738702671), [3747240284300062741](https://steamdb.info/depot/2347771/history/?changeid=M:3747240284300062741), [7169488960211596754](https://steamdb.info/depot/2347770/history/?changeid=M:7169488960211596754)
+* Manifests: [3583953281387649656](https://steamdb.info/depot/2347771/history/?changeid=M:3583953281387649656), [4726829370494514989](https://steamdb.info/depot/2347770/history/?changeid=M:4726829370494514989), [5404769359433308252](https://steamdb.info/depot/2347773/history/?changeid=M:5404769359433308252)
 * Repository: https://github.com/ianlucas/cs2-ss2-deathmatch
 * Gamedata: https://github.com/ianlucas/cs2-ss2-deathmatch/blob/main/resources/gamedata/signatures.jsonc
 
 ## Signatures
+
+### RespawnSoundPatch
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x0F\x1F\x00\x31\xC0\xBE</pre></td><td><pre>E8 ? ? ? ? E9 ? ? ? ? 0F 1F 00 31 C0 BE</pre></td></tr>
+<tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74</pre></td><td><pre>E8 ? ? ? ? 48 8D 15 ? ? ? ? 48 8D 8F ? ? ? ? E8 ? ? ? ? 84 C0 74</pre></td></tr>
+</table>
 
 ### DeathmatchScorePatch
 
@@ -22,12 +30,4 @@ Last updated: July 6, 2026 at 8:20:45 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x0F\x85\x2A\x2A\x2A\x2A\x41\x0F\xB6\x84\x24\x2A\x2A\x2A\x2A\x83\xF8</pre></td><td><pre>0F 85 ? ? ? ? 41 0F B6 84 24 ? ? ? ? 83 F8</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x74\x2A\xBA\x2A\x2A\x2A\x2A\x48\x8D\x0D\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8B\xC8\x48\x85\xC0\x75\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x8B\x48\x2A\x0F\xB6\x86</pre></td><td><pre>74 ? BA ? ? ? ? 48 8D 0D ? ? ? ? E8 ? ? ? ? 48 8B C8 48 85 C0 75 ? 48 8B 05 ? ? ? ? 48 8B 48 ? 0F B6 86</pre></td></tr>
-</table>
-
-### RespawnSoundPatch
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x0F\x1F\x00\x31\xC0\xBE</pre></td><td><pre>E8 ? ? ? ? E9 ? ? ? ? 0F 1F 00 31 C0 BE</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74</pre></td><td><pre>E8 ? ? ? ? 48 8D 15 ? ? ? ? 48 8D 8F ? ? ? ? E8 ? ? ? ? 84 C0 74</pre></td></tr>
 </table>

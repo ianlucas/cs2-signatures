@@ -1,12 +1,20 @@
 # cs2-ss2-match
 
-Last updated: July 6, 2026 at 8:20:45 PM GMT
+Last updated: July 8, 2026 at 10:50:46 PM GMT
 
-* Manifests: [801866638738702671](https://steamdb.info/depot/2347773/history/?changeid=M:801866638738702671), [3747240284300062741](https://steamdb.info/depot/2347771/history/?changeid=M:3747240284300062741), [7169488960211596754](https://steamdb.info/depot/2347770/history/?changeid=M:7169488960211596754)
+* Manifests: [3583953281387649656](https://steamdb.info/depot/2347771/history/?changeid=M:3583953281387649656), [4726829370494514989](https://steamdb.info/depot/2347770/history/?changeid=M:4726829370494514989), [5404769359433308252](https://steamdb.info/depot/2347773/history/?changeid=M:5404769359433308252)
 * Repository: https://github.com/ianlucas/cs2-ss2-match
 * Gamedata: https://github.com/ianlucas/cs2-ss2-match/blob/main/resources/gamedata/signatures.jsonc
 
 ## Signatures
+
+### CCSGameRules::HandleSwapTeams
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x45\x31\xF6\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8D\x25</pre></td><td><pre>55 48 89 E5 41 57 41 56 45 31 F6 41 55 41 54 53 48 81 EC ? ? ? ? 4C 8D 25</pre></td></tr>
+<tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x48\x2A\x41\x54\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\x58</pre></td><td><pre>48 8B C4 48 89 48 ? 41 54 48 81 EC ? ? ? ? 48 89 58</pre></td></tr>
+</table>
 
 ### CCSBotManager::MaintainBotQuota
 
@@ -22,14 +30,6 @@ Last updated: July 6, 2026 at 8:20:45 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x8B\x87\x2A\x2A\x2A\x2A\x8B\x97</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 8B 87 ? ? ? ? 8B 97</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x48\x83\xEC\x2A\x8B\x81\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\x91</pre></td><td><pre>40 53 48 83 EC ? 8B 81 ? ? ? ? 48 8B D9 8B 91</pre></td></tr>
-</table>
-
-### CCSGameRules::HandleSwapTeams
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x45\x31\xF6\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8D\x25</pre></td><td><pre>55 48 89 E5 41 57 41 56 45 31 F6 41 55 41 54 53 48 81 EC ? ? ? ? 4C 8D 25</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x48\x2A\x41\x54\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\x58</pre></td><td><pre>48 8B C4 48 89 48 ? 41 54 48 81 EC ? ? ? ? 48 89 58</pre></td></tr>
 </table>
 
 ### CCSGameRules::IsLastRoundBeforeHalfTime
