@@ -1,7 +1,7 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** July 9, 2026 at 12:42:32 AM GMT
-* **Manifests:** [3583953281387649656](https://steamdb.info/depot/2347771/history/?changeid=M:3583953281387649656), [4726829370494514989](https://steamdb.info/depot/2347770/history/?changeid=M:4726829370494514989), [5404769359433308252](https://steamdb.info/depot/2347773/history/?changeid=M:5404769359433308252)
+* **Last updated:** July 9, 2026 at 12:54:44 AM GMT
+* **Manifests:** [1343007427012947960](https://steamdb.info/depot/2347770/history/?changeid=M:1343007427012947960), [1966178532936074640](https://steamdb.info/depot/2347771/history/?changeid=M:1966178532936074640), [8099352397812357222](https://steamdb.info/depot/2347773/history/?changeid=M:8099352397812357222)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
@@ -73,12 +73,12 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Subroutine</th></tr>
+<tr><td>❌</td><td>✅</td><td>CBaseEntity::TakeDamage</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckVelocity</td></tr>
 <tr><td>❌</td><td>✅</td><td>Cmd_ExecuteCommand</td></tr>
 <tr><td>❌</td><td>✅</td><td>INetworkMessageProcessingPreFilter::FilterMessage</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity::TakeDamage</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::PostThink</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::CanUnduck</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckVelocity</td></tr>
 <tr><td>⚠️</td><td>❌</td><td>CCSPlayer_MovementServices::LadderMove</td></tr>
 <tr><td>❌</td><td>⚠️</td><td>CCSPlayer_MovementServices::WalkMove</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::WaterMove</td></tr>
@@ -89,9 +89,9 @@
 <tr><td>❌</td><td>❌</td><td>CGameRules::TerminateRound</td></tr>
 <tr><td>❌</td><td>❌</td><td>CHEGrenadeProjectile::EmitGrenade</td></tr>
 <tr><td>❌</td><td>❌</td><td>DispatchDatamapFunction</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CategorizePosition</td></tr>
 <tr><td>❌</td><td>❌</td><td>TracePlayerBBox</td></tr>
 <tr><td>⚠️</td><td>❌</td><td>TraceShape</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CategorizePosition</td></tr>
 <tr><td>✅</td><td>❌</td><td>LegacyGameEventListener</td></tr>
 <tr><td>❌</td><td>✅</td><td>SetSchemaHammerUniqueId</td></tr>
 </table>
@@ -103,6 +103,7 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Subroutine</th></tr>
+<tr><td>⚠️</td><td>❌</td><td>TraceShape</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBaseEntity_TakeDamageOld</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBasePlayerPawn_GetEyeAngles</td></tr>
 <tr><td>✅</td><td>❌</td><td>CBasePlayerPawn_GetEyePosition</td></tr>
@@ -116,11 +117,10 @@
 <tr><td>❌</td><td>❌</td><td>CNavMesh_GetNearestNavArea</td></tr>
 <tr><td>❌</td><td>✅</td><td>FindUseEntity</td></tr>
 <tr><td>❌</td><td>✅</td><td>GameSystem_Think_CheckSteamBan</td></tr>
-<tr><td>❌</td><td>✅</td><td>SetSchemaHammerUniqueId</td></tr>
-<tr><td>⚠️</td><td>❌</td><td>TraceShape</td></tr>
-<tr><td>✅</td><td>❌</td><td>TriggerPush_Touch</td></tr>
 <tr><td>❌</td><td>✅</td><td>GetFreeClient</td></tr>
 <tr><td>❌</td><td>✅</td><td>IsHearingClient</td></tr>
+<tr><td>❌</td><td>✅</td><td>SetSchemaHammerUniqueId</td></tr>
+<tr><td>✅</td><td>❌</td><td>TriggerPush_Touch</td></tr>
 </table>
 
 </details>
@@ -137,11 +137,15 @@
 <tr><td>❌</td><td>❌</td><td>CBaseEntity::AbsOrigin</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBaseEntity::AcceptInput</td></tr>
 <tr><td>❌</td><td>❌</td><td>CBaseEntity::DispatchTraceAttack</td></tr>
+<tr><td>❌</td><td>✅</td><td>CBaseEntity::LocalVelocity</td></tr>
 <tr><td>❌</td><td>❌</td><td>CBaseModelEntity::GetBoneTransform</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBasePlayerController::HandleCommandJoinTeam</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBasePlayerController::SwitchSteam</td></tr>
+<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::GetFreeClient</td></tr>
+<tr><td>❌</td><td>⚠️</td><td>CNetworkGameServer::PrintStatus</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSGameRules::CreateEndMatchMapGroupVoteOptions</td></tr>
 <tr><td>✅</td><td>❌</td><td>CCSGameRules::PlayerCanHearChat</td></tr>
+<tr><td>✅</td><td>❌</td><td>CBaseEntity::ApplyAbsVelocityImpulse</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSGameRules::TerminateRound</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSGameRules::WillTeamHaveRoomForPlayer</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
@@ -150,20 +154,16 @@
 <tr><td>❌</td><td>❌</td><td>CEntityIdentity::AcceptInput</td></tr>
 <tr><td>✅</td><td>❌</td><td>CGameEntitySystem::FindEntityClassByClassname</td></tr>
 <tr><td>❌</td><td>❌</td><td>CGamePhysicsQueryInterface::EntitiesAlongRay</td></tr>
+<tr><td>⚠️</td><td>❌</td><td>CGamePhysicsQueryInterface::TraceShape</td></tr>
 <tr><td>✅</td><td>❌</td><td>GetLegacyGameEventListener</td></tr>
 <tr><td>❌</td><td>✅</td><td>HandleGCBanInfo</td></tr>
 <tr><td>❌</td><td>✅</td><td>HostSay</td></tr>
 <tr><td>✅</td><td>❌</td><td>KeyValues3::KeyValues3</td></tr>
+<tr><td>❌</td><td>✅</td><td>CNavMesh::GetNearestNavArea</td></tr>
 <tr><td>❌</td><td>❌</td><td>ScriptSetConVarString</td></tr>
 <tr><td>❌</td><td>✅</td><td>SoundOpGameSystem::StopSoundEventFilter</td></tr>
 <tr><td>❌</td><td>❌</td><td>StateChanged</td></tr>
 <tr><td>❌</td><td>❌</td><td>StudioModel::GetAttachment</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity::LocalVelocity</td></tr>
-<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::GetFreeClient</td></tr>
-<tr><td>❌</td><td>⚠️</td><td>CNetworkGameServer::PrintStatus</td></tr>
-<tr><td>✅</td><td>❌</td><td>CBaseEntity::ApplyAbsVelocityImpulse</td></tr>
-<tr><td>⚠️</td><td>❌</td><td>CGamePhysicsQueryInterface::TraceShape</td></tr>
-<tr><td>❌</td><td>✅</td><td>CNavMesh::GetNearestNavArea</td></tr>
 </table>
 
 </details>
@@ -173,11 +173,11 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Subroutine</th></tr>
+<tr><td>❌</td><td>❌</td><td>CGameRules::TerminateRound</td></tr>
+<tr><td>❌</td><td>✅</td><td>CSScript::ResolveModule</td></tr>
 <tr><td>❌</td><td>✅</td><td>CHostStateMgr::StartNewRequest</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNetworkGameServer::ReplyConnection</td></tr>
 <tr><td>❌</td><td>✅</td><td>CEntityInstance::AcceptInput</td></tr>
-<tr><td>❌</td><td>❌</td><td>CGameRules::TerminateRound</td></tr>
-<tr><td>❌</td><td>✅</td><td>CSScript::ResolveModule</td></tr>
 <tr><td>✅</td><td>❌</td><td>LegacyGameEventListener</td></tr>
 </table>
 
