@@ -1,8 +1,8 @@
 # cs2kz-metamod
 
-Last updated: July 9, 2026 at 12:54:44 AM GMT
+Last updated: July 9, 2026 at 6:26:44 AM GMT
 
-* Manifests: [1343007427012947960](https://steamdb.info/depot/2347770/history/?changeid=M:1343007427012947960), [1966178532936074640](https://steamdb.info/depot/2347771/history/?changeid=M:1966178532936074640), [8099352397812357222](https://steamdb.info/depot/2347773/history/?changeid=M:8099352397812357222)
+* Manifests: [2410782554857596728](https://steamdb.info/depot/2347773/history/?changeid=M:2410782554857596728), [2853479544375896262](https://steamdb.info/depot/2347771/history/?changeid=M:2853479544375896262), [3030058169296419362](https://steamdb.info/depot/2347770/history/?changeid=M:3030058169296419362)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
@@ -76,8 +76,8 @@ Last updated: July 9, 2026 at 12:54:44 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>⚠️(2)</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xCF\x41\x56\x49\x89\xF6\x41\x55\x4D\x89\xC5</pre></td><td><pre>55 48 89 E5 41 57 49 89 CF 41 56 49 89 F6 41 55 4D 89 C5</pre></td></tr>
 <tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x20\x48\x89\x4C\x24\x08\x55\x57</pre></td><td><pre>48 89 5C 24 20 48 89 4C 24 08 55 57</pre></td></tr>
+<tr><td>⚠️(2)</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xCF\x41\x56\x49\x89\xF6\x41\x55\x4D\x89\xC5</pre></td><td><pre>55 48 89 E5 41 57 49 89 CF 41 56 49 89 F6 41 55 4D 89 C5</pre></td></tr>
 </table>
 
 ### WalkMove
