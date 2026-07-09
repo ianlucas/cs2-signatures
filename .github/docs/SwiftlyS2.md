@@ -1,6 +1,6 @@
 # SwiftlyS2
 
-Last updated: July 9, 2026 at 11:11:33 AM GMT
+Last updated: July 9, 2026 at 7:47:34 PM GMT
 
 * Manifests: [2410782554857596728](https://steamdb.info/depot/2347773/history/?changeid=M:2410782554857596728), [2853479544375896262](https://steamdb.info/depot/2347771/history/?changeid=M:2853479544375896262), [3030058169296419362](https://steamdb.info/depot/2347770/history/?changeid=M:3030058169296419362)
 * Repository: https://github.com/swiftly-solution/swiftlys2
@@ -961,15 +961,15 @@ Last updated: July 9, 2026 at 11:11:33 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x4C\x8B\x35\x2A\x2A\x2A\x2A\x4D\x85\xF6\x75\x2A\xE9</pre></td><td><pre>4C 8B 35 ? ? ? ? 4D 85 F6 75 ? E9</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\x1D\x2A\x2A\x2A\x2A\x48\x85\xDB\x0F\x84\x2A\x2A\x2A\x2A\xBD</pre></td><td><pre>48 8B 1D ? ? ? ? 48 85 DB 0F 84 ? ? ? ? BD</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x4C\x8B\x35\x2A\x2A\x2A\x2A\x4D\x85\xF6\x75\x2A\xE9</pre></td><td><pre>4C 8B 35 ? ? ? ? 4D 85 F6 75 ? E9</pre></td></tr>
 </table>
 
 ### INetworkMessageProcessingPreFilter::FilterMessage
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>engine2</td><td><pre>\x55\x48\x89\xE5\x41\x54\x53\x48\x8B\x06\x48\x89\xFB\x48\x89\xF7\xFF\x50\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x31\xC9\x48\x8B\x12\x48\x85\xD2\x74\x2A\x48\x39\x42</pre></td><td><pre>55 48 89 E5 41 54 53 48 8B 06 48 89 FB 48 89 F7 FF 50 ? 48 8D 15 ? ? ? ? 31 C9 48 8B 12 48 85 D2 74 ? 48 39 42</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>engine2</td><td><pre>\x55\x48\x89\xE5\x41\x54\x53\x2A\x2A\x2A\x48\x89\xFB\x48\x89\xF7\xFF\x50\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x31\xC9\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x48\x3B\x42</pre></td><td><pre>55 48 89 E5 41 54 53 ? ? ? 48 89 FB 48 89 F7 FF 50 ? 48 8D 15 ? ? ? ? 31 C9 ? ? ? 48 85 D2 74 ? 48 3B 42</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>engine2</td><td><pre>\x40\x53\x48\x83\xEC\x2A\x48\x8B\x02\x48\x8B\xD9\x48\x8B\xCA</pre></td><td><pre>40 53 48 83 EC ? 48 8B 02 48 8B D9 48 8B CA</pre></td></tr>
 </table>
 
