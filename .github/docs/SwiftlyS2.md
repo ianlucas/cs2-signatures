@@ -1,6 +1,6 @@
 # SwiftlyS2
 
-Last updated: July 9, 2026 at 8:03:33 AM GMT
+Last updated: July 9, 2026 at 11:11:33 AM GMT
 
 * Manifests: [2410782554857596728](https://steamdb.info/depot/2347773/history/?changeid=M:2410782554857596728), [2853479544375896262](https://steamdb.info/depot/2347771/history/?changeid=M:2853479544375896262), [3030058169296419362](https://steamdb.info/depot/2347770/history/?changeid=M:3030058169296419362)
 * Repository: https://github.com/swiftly-solution/swiftlys2
@@ -994,7 +994,7 @@ Last updated: July 9, 2026 at 8:03:33 AM GMT
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x4D\x89\xCA\x48\x89\xE5\x41\x57\x49\x89\xCF</pre></td><td><pre>55 4D 89 CA 48 89 E5 41 57 49 89 CF</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x74\x24\x2A\x55\x57\x41\x54\x41\x55\x41\x56\x48\x8D\xAC\x24</pre></td><td><pre>48 89 74 24 ? 55 57 41 54 41 55 41 56 48 8D AC 24</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x4C\x89\x40\x2A\x55\x53\x57</pre></td><td><pre>48 8B C4 4C 89 40 ? 55 53 57</pre></td></tr>
 </table>
 
 ### TraceShape
