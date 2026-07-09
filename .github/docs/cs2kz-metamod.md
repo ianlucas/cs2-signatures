@@ -1,20 +1,12 @@
 # cs2kz-metamod
 
-Last updated: July 9, 2026 at 3:19:33 PM GMT
+Last updated: July 9, 2026 at 3:25:33 PM GMT
 
 * Manifests: [2410782554857596728](https://steamdb.info/depot/2347773/history/?changeid=M:2410782554857596728), [2853479544375896262](https://steamdb.info/depot/2347771/history/?changeid=M:2853479544375896262), [3030058169296419362](https://steamdb.info/depot/2347770/history/?changeid=M:3030058169296419362)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
-
-### CanUnduck
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\x7F</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 81 EC ? ? ? ? 48 8B 7F</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x56\x41\x55\x48\x8D\xAC\x24</pre></td><td><pre>40 55 56 41 55 48 8D AC 24</pre></td></tr>
-</table>
 
 ### SetModel
 
@@ -70,6 +62,14 @@ Last updated: July 9, 2026 at 3:19:33 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\xBE\xFF\xFF\xFF\xFF\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x83\xEC\x08\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x0F\x84</pre></td><td><pre>55 BE FF FF FF FF 48 89 E5 41 55 41 54 53 48 89 FB 48 8D 3D ? ? ? ? 48 83 EC 08 E8 ? ? ? ? 48 85 C0 0F 84</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x57\x48\x83\xEC\x30\x48\x8B\xF9\xBA\xFF\xFF\xFF\xFF</pre></td><td><pre>40 57 48 83 EC 30 48 8B F9 BA FF FF FF FF</pre></td></tr>
+</table>
+
+### CanUnduck
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x81\xEC\x60\x01\x00\x00</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 81 EC 60 01 00 00</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x56\x41\x55\x48\x8D\xAC\x24</pre></td><td><pre>40 55 56 41 55 48 8D AC 24</pre></td></tr>
 </table>
 
 ### CategorizePosition
