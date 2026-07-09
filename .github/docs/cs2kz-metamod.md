@@ -1,12 +1,20 @@
 # cs2kz-metamod
 
-Last updated: July 9, 2026 at 8:21:33 PM GMT
+Last updated: July 9, 2026 at 9:46:44 PM GMT
 
-* Manifests: [2410782554857596728](https://steamdb.info/depot/2347773/history/?changeid=M:2410782554857596728), [2853479544375896262](https://steamdb.info/depot/2347771/history/?changeid=M:2853479544375896262), [3030058169296419362](https://steamdb.info/depot/2347770/history/?changeid=M:3030058169296419362)
+* Manifests: [2809027269665125439](https://steamdb.info/depot/2347770/history/?changeid=M:2809027269665125439), [5502194087696430282](https://steamdb.info/depot/2347773/history/?changeid=M:5502194087696430282), [7679405674131902105](https://steamdb.info/depot/2347771/history/?changeid=M:7679405674131902105)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
 ## Signatures
+
+### CheckWater
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\x7F</pre></td><td><pre>55 48 89 E5 41 54 49 89 F4 53 48 89 FB 48 81 EC ? ? ? ? 48 8B 7F</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x58\x2A\x55\x48\x8D\x6C\x24</pre></td><td><pre>48 8B C4 48 89 58 ? 55 48 8D 6C 24</pre></td></tr>
+</table>
 
 ### SetModel
 
@@ -120,20 +128,12 @@ Last updated: July 9, 2026 at 8:21:33 PM GMT
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x58\x2A\x4C\x89\x40\x2A\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\x68</pre></td><td><pre>48 8B C4 48 89 58 ? 4C 89 40 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D 68</pre></td></tr>
 </table>
 
-### CheckWater
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\x7F</pre></td><td><pre>55 48 89 E5 41 54 49 89 F4 53 48 89 FB 48 81 EC ? ? ? ? 48 8B 7F</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x58\x2A\x55\x48\x8D\x6C\x24</pre></td><td><pre>48 8B C4 48 89 58 ? 55 48 8D 6C 24</pre></td></tr>
-</table>
-
 ### CreateBot
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x57\x48\x81\xEC\xC0\x00\x00\x00\x41\x0F\xB6\xD8</pre></td><td><pre>48 89 5C 24 10 48 89 6C 24 18 57 48 81 EC C0 00 00 00 41 0F B6 D8</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x41\x89\xD4\x53\x48\x81\xEC\xC8\x00\x00\x00</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 41 89 D4 53 48 81 EC C8 00 00 00</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x57\x48\x81\xEC\xC0\x00\x00\x00\x41\x0F\xB6\xD8</pre></td><td><pre>48 89 5C 24 10 48 89 6C 24 18 57 48 81 EC C0 00 00 00 41 0F B6 D8</pre></td></tr>
 </table>
 
 ### CreateEntityByName
@@ -204,8 +204,8 @@ Last updated: July 9, 2026 at 8:21:33 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8D\x0D\x2A\x2A\x2A\x2A\x49\x8B\x04\x38</pre></td><td><pre>48 8D 0D ? ? ? ? 49 8B 04 38</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x4C\x8D\x25\x2A\x2A\x2A\x2A\x31\xDB\x48\x83\xEC\x08</pre></td><td><pre>4C 8D 25 ? ? ? ? 31 DB 48 83 EC 08</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8D\x0D\x2A\x2A\x2A\x2A\x49\x8B\x04\x38</pre></td><td><pre>48 8D 0D ? ? ? ? 49 8B 04 38</pre></td></tr>
 </table>
 
 ### GetLegacyGameEventListener
@@ -228,8 +228,8 @@ Last updated: July 9, 2026 at 8:21:33 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x58\x2A\x48\x89\x70\x2A\x48\x89\x78\x2A\x41\x56\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xF2</pre></td><td><pre>48 8B C4 48 89 58 ? 48 89 70 ? 48 89 78 ? 41 56 48 81 EC ? ? ? ? 48 8B F2</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\xBE\x2A\x2A\x2A\x2A\x53\x48\x89\xFB\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x4C\x89\xE7</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 49 89 F4 BE ? ? ? ? 53 48 89 FB 48 8D 3D ? ? ? ? 48 83 EC ? E8 ? ? ? ? 4C 89 E7</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x58\x2A\x48\x89\x70\x2A\x48\x89\x78\x2A\x41\x56\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xF2</pre></td><td><pre>48 8B C4 48 89 58 ? 48 89 70 ? 48 89 78 ? 41 56 48 81 EC ? ? ? ? 48 8B F2</pre></td></tr>
 </table>
 
 ### OnJumpLegacy

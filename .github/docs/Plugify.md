@@ -1,8 +1,8 @@
 # Plugify
 
-Last updated: July 9, 2026 at 6:26:44 AM GMT
+Last updated: July 9, 2026 at 9:46:44 PM GMT
 
-* Manifests: [2410782554857596728](https://steamdb.info/depot/2347773/history/?changeid=M:2410782554857596728), [2853479544375896262](https://steamdb.info/depot/2347771/history/?changeid=M:2853479544375896262), [3030058169296419362](https://steamdb.info/depot/2347770/history/?changeid=M:3030058169296419362)
+* Manifests: [2809027269665125439](https://steamdb.info/depot/2347770/history/?changeid=M:2809027269665125439), [5502194087696430282](https://steamdb.info/depot/2347773/history/?changeid=M:5502194087696430282), [7679405674131902105](https://steamdb.info/depot/2347771/history/?changeid=M:7679405674131902105)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
@@ -52,16 +52,16 @@ Last updated: July 9, 2026 at 6:26:44 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x83\xF9\x2A\x77</pre></td><td><pre>48 8B 15 ? ? ? ? 48 85 D2 74 ? 83 F9 ? 77</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x83\xFF\x2A\x77\x2A\x48\x63\xFF\x48\xC1\xE7\x2A\x48\x8D\x44\x38</pre></td><td><pre>48 8B 05 ? ? ? ? 48 85 C0 74 ? 83 FF ? 77 ? 48 63 FF 48 C1 E7 ? 48 8D 44 38</pre></td></tr>
+<tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x83\xF9\x2A\x77</pre></td><td><pre>48 8B 15 ? ? ? ? 48 85 D2 74 ? 83 F9 ? 77</pre></td></tr>
 </table>
 
 ### GetCSWeaponDataFromKey
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x33\xFF\x4C\x8B\xCA\x8B\xD9</pre></td><td><pre>48 89 5C 24 ? 57 48 83 EC ? 33 FF 4C 8B CA 8B D9</pre></td></tr>
 <tr><td>⚠️(2)</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x80\x3E\x2A\x75\x2A\x31\xC0\x48\x81\xC4\x2A\x2A\x2A\x2A\x5B\x41\x5C\x41\x5D\x41\x5E\x41\x5F\x5D\xC3\x0F\x1F\x80\x2A\x2A\x2A\x2A\x4C\x8D\xA5</pre></td><td><pre>48 85 F6 0F 84 ? ? ? ? 55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 81 EC ? ? ? ? 80 3E ? 75 ? 31 C0 48 81 C4 ? ? ? ? 5B 41 5C 41 5D 41 5E 41 5F 5D C3 0F 1F 80 ? ? ? ? 4C 8D A5</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x33\xFF\x4C\x8B\xCA\x8B\xD9</pre></td><td><pre>48 89 5C 24 ? 57 48 83 EC ? 33 FF 4C 8B CA 8B D9</pre></td></tr>
 </table>
 
 ### CBaseEntity::EmitSoundFilter
@@ -140,8 +140,8 @@ Last updated: July 9, 2026 at 6:26:44 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x85\xF6\x74\x2A\x4C\x8D\x2D</pre></td><td><pre>48 85 FF 74 ? 55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 85 F6 74 ? 4C 8D 2D</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x85\xD2</pre></td><td><pre>48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 48 85 C9 0F 84 ? ? ? ? 48 85 D2</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x85\xF6\x74\x2A\x4C\x8D\x2D</pre></td><td><pre>48 85 FF 74 ? 55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 85 F6 74 ? 4C 8D 2D</pre></td></tr>
 </table>
 
 ### CSource2Server::Init

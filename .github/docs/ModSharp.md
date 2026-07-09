@@ -1,10 +1,10 @@
 # ModSharp
 
-Last updated: July 9, 2026 at 6:26:44 AM GMT
+Last updated: July 9, 2026 at 9:46:44 PM GMT
 
-* Manifests: [2410782554857596728](https://steamdb.info/depot/2347773/history/?changeid=M:2410782554857596728), [2853479544375896262](https://steamdb.info/depot/2347771/history/?changeid=M:2853479544375896262), [3030058169296419362](https://steamdb.info/depot/2347770/history/?changeid=M:3030058169296419362)
+* Manifests: [2809027269665125439](https://steamdb.info/depot/2347770/history/?changeid=M:2809027269665125439), [5502194087696430282](https://steamdb.info/depot/2347773/history/?changeid=M:5502194087696430282), [7679405674131902105](https://steamdb.info/depot/2347771/history/?changeid=M:7679405674131902105)
 * Repository: https://github.com/Kxnrl/modsharp-public
-* Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc
+* Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc
 
 ## Signatures
 
@@ -76,8 +76,8 @@ Last updated: July 9, 2026 at 6:26:44 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\x75\x2A\x41\x55\x41\x54\x41\x89\xF4</pre></td><td><pre>55 48 89 E5 41 57 41 56 4C 8D 75 ? 41 55 41 54 41 89 F4</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\xFA</pre></td><td><pre>40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA</pre></td></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\x75\x2A\x41\x55\x41\x54\x41\x89\xF4</pre></td><td><pre>55 48 89 E5 41 57 41 56 4C 8D 75 ? 41 55 41 54 41 89 F4</pre></td></tr>
 </table>
 
 ### CCSGameRules::CreateEndMatchMapGroupVoteOptions
@@ -571,8 +571,8 @@ Last updated: July 9, 2026 at 6:26:44 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x41\x54\x41\x55\x41\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\xF2\x41\x0F\x10\x01</pre></td><td><pre>40 53 41 54 41 55 41 57 48 81 EC ? ? ? ? F2 41 0F 10 01</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x0F\x28\xF1\x48\x89\xE5</pre></td><td><pre>55 0F 28 F1 48 89 E5</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x41\x54\x41\x55\x41\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\xF2\x41\x0F\x10\x01</pre></td><td><pre>40 53 41 54 41 55 41 57 48 81 EC ? ? ? ? F2 41 0F 10 01</pre></td></tr>
 </table>
 
 ### CCSPlayer_MovementServices::ProcessMove
