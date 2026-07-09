@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** July 9, 2026 at 1:06:33 AM GMT
+* **Last updated:** July 9, 2026 at 1:24:33 AM GMT
 * **Manifests:** [1343007427012947960](https://steamdb.info/depot/2347770/history/?changeid=M:1343007427012947960), [1966178532936074640](https://steamdb.info/depot/2347771/history/?changeid=M:1966178532936074640), [8099352397812357222](https://steamdb.info/depot/2347773/history/?changeid=M:8099352397812357222)
 
 <table>
@@ -14,7 +14,7 @@
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr>
 <tr><td>⚠️</td><td>✅</td><td><a href="https://github.com/Micka2302/cs2-retakes-allocator-2.0">cs2-retakes-allocator-2.0</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-retakes-allocator-2.0.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-css-inventory-simulator">cs2-css-inventory-simulator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-css-inventory-simulator.md">View signatures →</a></td></tr>
-<tr><td>❌</td><td>❌</td><td><a href="https://github.com/ianlucas/cs2-ss2-deathmatch">cs2-ss2-deathmatch</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-deathmatch.md">View signatures →</a></td></tr>
+<tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-deathmatch">cs2-ss2-deathmatch</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-deathmatch.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-identity">cs2-ss2-identity</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-identity.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-inventory-simulator">cs2-ss2-inventory-simulator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-inventory-simulator.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/ianlucas/cs2-ss2-match">cs2-ss2-match</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-match.md">View signatures →</a></td></tr>
@@ -199,16 +199,6 @@
 <tr><td>⚠️</td><td>❌</td><td>TraceShape</td></tr>
 <tr><td>❌</td><td>⚠️</td><td>WalkMove</td></tr>
 <tr><td>❌</td><td>❌</td><td>WaterMove</td></tr>
-</table>
-
-</details>
-
-<details>
-<summary>cs2-ss2-deathmatch broken signatures</summary>
-
-<table>
-<tr><th>Linux</th><th>Windows</th><th>Subroutine</th></tr>
-<tr><td>❌</td><td>❌</td><td>RespawnSoundPatch</td></tr>
 </table>
 
 </details>

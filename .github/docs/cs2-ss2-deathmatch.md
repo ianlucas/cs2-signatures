@@ -1,20 +1,12 @@
 # cs2-ss2-deathmatch
 
-Last updated: July 9, 2026 at 1:06:33 AM GMT
+Last updated: July 9, 2026 at 1:24:33 AM GMT
 
 * Manifests: [1343007427012947960](https://steamdb.info/depot/2347770/history/?changeid=M:1343007427012947960), [1966178532936074640](https://steamdb.info/depot/2347771/history/?changeid=M:1966178532936074640), [8099352397812357222](https://steamdb.info/depot/2347773/history/?changeid=M:8099352397812357222)
 * Repository: https://github.com/ianlucas/cs2-ss2-deathmatch
 * Gamedata: https://github.com/ianlucas/cs2-ss2-deathmatch/blob/main/resources/gamedata/signatures.jsonc
 
 ## Signatures
-
-### RespawnSoundPatch
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x0F\x1F\x00\x31\xC0\xBE</pre></td><td><pre>E8 ? ? ? ? E9 ? ? ? ? 0F 1F 00 31 C0 BE</pre></td></tr>
-<tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74</pre></td><td><pre>E8 ? ? ? ? 48 8D 15 ? ? ? ? 48 8D 8F ? ? ? ? E8 ? ? ? ? 84 C0 74</pre></td></tr>
-</table>
 
 ### DeathmatchScorePatch
 
@@ -25,6 +17,14 @@ Last updated: July 9, 2026 at 1:06:33 AM GMT
 </table>
 
 ### RandomSpawnPatch
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x0F\x1F\x00\x48\x8B\xBD\x2A\x2A\x2A\x2A\x4C\x8D\x3D</pre></td><td><pre>E8 ? ? ? ? E9 ? ? ? ? 0F 1F 00 48 8B BD ? ? ? ? 4C 8D 3D</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x10\x87\x2A\x2A\x2A\x2A\x0F\x2E\xC6\x0F\x28\xB4\x24\x2A\x2A\x2A\x2A\x7A\x2A\x74\x2A\xBA</pre></td><td><pre>E8 ? ? ? ? F3 0F 10 87 ? ? ? ? 0F 2E C6 0F 28 B4 24 ? ? ? ? 7A ? 74 ? BA</pre></td></tr>
+</table>
+
+### RespawnSoundPatch
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
