@@ -1,12 +1,12 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** July 10, 2026 at 9:40:32 AM GMT
+* **Last updated:** July 10, 2026 at 10:38:33 AM GMT
 * **Manifests:** [2809027269665125439](https://steamdb.info/depot/2347770/history/?changeid=M:2809027269665125439), [5502194087696430282](https://steamdb.info/depot/2347773/history/?changeid=M:5502194087696430282), [7679405674131902105](https://steamdb.info/depot/2347771/history/?changeid=M:7679405674131902105)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr>
-<tr><td>❌</td><td>❌</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
+<tr><td>❌</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
 <tr><td>❌</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Kxnrl/modsharp-public">ModSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/ModSharp.md">View signatures →</a></td></tr>
@@ -25,28 +25,7 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Subroutine</th></tr>
-<tr><td>❌</td><td>✅</td><td>Cmd_ExecuteCommand</td></tr>
-<tr><td>❌</td><td>✅</td><td>INetworkMessageProcessingPreFilter::FilterMessage</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::PostThink</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::CanUnduck</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CategorizePosition</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckVelocity</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::CheckWater</td></tr>
-<tr><td>⚠️</td><td>❌</td><td>CCSPlayer_MovementServices::LadderMove</td></tr>
-<tr><td>❌</td><td>⚠️</td><td>CCSPlayer_MovementServices::WalkMove</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::WaterMove</td></tr>
-<tr><td>❌</td><td>✅</td><td>CDecoyProjectile::EmitGrenade</td></tr>
-<tr><td>❌</td><td>❌</td><td>CEntityIdentity::AcceptInput</td></tr>
-<tr><td>❌</td><td>✅</td><td>CEntityInstance::AcceptInput</td></tr>
-<tr><td>❌</td><td>⚠️</td><td>CFlashbangProjectile::EmitGrenade</td></tr>
-<tr><td>❌</td><td>❌</td><td>CGameRules::TerminateRound</td></tr>
-<tr><td>❌</td><td>❌</td><td>CHEGrenadeProjectile::EmitGrenade</td></tr>
-<tr><td>❌</td><td>❌</td><td>DispatchDatamapFunction</td></tr>
-<tr><td>✅</td><td>❌</td><td>LegacyGameEventListener</td></tr>
-<tr><td>❌</td><td>✅</td><td>SetSchemaHammerUniqueId</td></tr>
-<tr><td>❌</td><td>❌</td><td>TracePlayerBBox</td></tr>
-<tr><td>⚠️</td><td>❌</td><td>TraceShape</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity::TakeDamage</td></tr>
 </table>
 
 </details>
