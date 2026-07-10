@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** July 10, 2026 at 10:38:33 AM GMT
+* **Last updated:** July 10, 2026 at 10:20:19 PM GMT
 * **Manifests:** [2809027269665125439](https://steamdb.info/depot/2347770/history/?changeid=M:2809027269665125439), [5502194087696430282](https://steamdb.info/depot/2347773/history/?changeid=M:5502194087696430282), [7679405674131902105](https://steamdb.info/depot/2347771/history/?changeid=M:7679405674131902105)
 
 <table>
@@ -8,7 +8,7 @@
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
 <tr><td>❌</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
-<tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
+<tr><td>✅</td><td>✅</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Kxnrl/modsharp-public">ModSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/ModSharp.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/untrustedmodders/plugify-source-2">Plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/Plugify.md">View signatures →</a></td></tr>
 <tr><td>⚠️</td><td>⚠️</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr>
@@ -36,33 +36,6 @@
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Subroutine</th></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::CheckWater</td></tr>
-</table>
-
-</details>
-
-<details>
-<summary>CS2Fixes broken signatures</summary>
-
-<table>
-<tr><th>Linux</th><th>Windows</th><th>Subroutine</th></tr>
-<tr><td>❌</td><td>✅</td><td>CBasePlayerPawn_GetEyeAngles</td></tr>
-<tr><td>✅</td><td>❌</td><td>CBasePlayerPawn_GetEyePosition</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSGameRules__sm_mapGcBanInformation</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity_TakeDamageOld</td></tr>
-<tr><td>❌</td><td>❌</td><td>CEntityIdentity_AcceptInput</td></tr>
-<tr><td>❌</td><td>✅</td><td>CEntityInstance_AcceptInput</td></tr>
-<tr><td>❌</td><td>❌</td><td>CGameRules_TerminateRound</td></tr>
-<tr><td>❌</td><td>❌</td><td>CNavMesh_GetNearestNavArea</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSGameRules_GoToIntermission</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSPlayer_WeaponServices_CanUse</td></tr>
-<tr><td>❌</td><td>✅</td><td>FindUseEntity</td></tr>
-<tr><td>❌</td><td>✅</td><td>GameSystem_Think_CheckSteamBan</td></tr>
-<tr><td>❌</td><td>❌</td><td>CGamePlayerEquip_InputTriggerForAllPlayers</td></tr>
-<tr><td>❌</td><td>✅</td><td>SetSchemaHammerUniqueId</td></tr>
-<tr><td>⚠️</td><td>❌</td><td>TraceShape</td></tr>
-<tr><td>✅</td><td>❌</td><td>TriggerPush_Touch</td></tr>
-<tr><td>❌</td><td>✅</td><td>GetFreeClient</td></tr>
-<tr><td>❌</td><td>✅</td><td>IsHearingClient</td></tr>
 </table>
 
 </details>
