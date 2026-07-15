@@ -1,7 +1,7 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** July 14, 2026 at 10:58:33 AM GMT
-* **Manifests:** [2809027269665125439](https://steamdb.info/depot/2347770/history/?changeid=M:2809027269665125439), [5502194087696430282](https://steamdb.info/depot/2347773/history/?changeid=M:5502194087696430282), [7679405674131902105](https://steamdb.info/depot/2347771/history/?changeid=M:7679405674131902105)
+* **Last updated:** July 15, 2026 at 12:36:38 AM GMT
+* **Manifests:** [118363704811264052](https://steamdb.info/depot/2347770/history/?changeid=M:118363704811264052), [691317421146420894](https://steamdb.info/depot/2347773/history/?changeid=M:691317421146420894), [7294023515323721822](https://steamdb.info/depot/2347771/history/?changeid=M:7294023515323721822)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
@@ -35,13 +35,13 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Subroutine</th></tr>
-<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::SpawnServer</td></tr>
-<tr><td>❌</td><td>✅</td><td>HostStateRequest</td></tr>
-<tr><td>❌</td><td>❌</td><td>Source2_Init</td></tr>
 <tr><td>❌</td><td>❌</td><td>CBaseEntity::AbsAngles</td></tr>
 <tr><td>❌</td><td>❌</td><td>CBaseEntity::AbsOrigin</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBaseEntity::AcceptInput</td></tr>
 <tr><td>❌</td><td>❌</td><td>CBaseEntity::DispatchTraceAttack</td></tr>
+<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::SpawnServer</td></tr>
+<tr><td>❌</td><td>✅</td><td>HostStateRequest</td></tr>
+<tr><td>❌</td><td>❌</td><td>Source2_Init</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBaseEntity::LocalVelocity</td></tr>
 <tr><td>❌</td><td>❌</td><td>CBaseModelEntity::GetBoneTransform</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBasePlayerController::HandleCommandJoinTeam</td></tr>
@@ -51,13 +51,7 @@
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::TracePlayerBBox</td></tr>
 <tr><td>❌</td><td>❌</td><td>CEntityIdentity::AcceptInput</td></tr>
-<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::GetFreeClient</td></tr>
-<tr><td>❌</td><td>⚠️</td><td>CNetworkGameServer::PrintStatus</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSGameRules::CreateEndMatchMapGroupVoteOptions</td></tr>
-<tr><td>✅</td><td>❌</td><td>CBaseEntity::ApplyAbsVelocityImpulse</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSGameRules::TerminateRound</td></tr>
 <tr><td>✅</td><td>❌</td><td>CGameEntitySystem::FindEntityClassByClassname</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCollisionProperty::SetSolid</td></tr>
 <tr><td>❌</td><td>❌</td><td>CGamePhysicsQueryInterface::EntitiesAlongRay</td></tr>
 <tr><td>⚠️</td><td>❌</td><td>CGamePhysicsQueryInterface::TraceShape</td></tr>
 <tr><td>✅</td><td>❌</td><td>GetLegacyGameEventListener</td></tr>
@@ -68,6 +62,12 @@
 <tr><td>❌</td><td>✅</td><td>SoundOpGameSystem::StopSoundEventFilter</td></tr>
 <tr><td>❌</td><td>❌</td><td>StateChanged</td></tr>
 <tr><td>❌</td><td>❌</td><td>StudioModel::GetAttachment</td></tr>
+<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::GetFreeClient</td></tr>
+<tr><td>❌</td><td>⚠️</td><td>CNetworkGameServer::PrintStatus</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSGameRules::CreateEndMatchMapGroupVoteOptions</td></tr>
+<tr><td>✅</td><td>❌</td><td>CBaseEntity::ApplyAbsVelocityImpulse</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSGameRules::TerminateRound</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCollisionProperty::SetSolid</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNavMesh::GetNearestNavArea</td></tr>
 </table>
 

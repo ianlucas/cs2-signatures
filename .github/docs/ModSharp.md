@@ -1,8 +1,8 @@
 # ModSharp
 
-Last updated: July 9, 2026 at 9:46:44 PM GMT
+Last updated: July 15, 2026 at 12:36:38 AM GMT
 
-* Manifests: [2809027269665125439](https://steamdb.info/depot/2347770/history/?changeid=M:2809027269665125439), [5502194087696430282](https://steamdb.info/depot/2347773/history/?changeid=M:5502194087696430282), [7679405674131902105](https://steamdb.info/depot/2347771/history/?changeid=M:7679405674131902105)
+* Manifests: [118363704811264052](https://steamdb.info/depot/2347770/history/?changeid=M:118363704811264052), [691317421146420894](https://steamdb.info/depot/2347773/history/?changeid=M:691317421146420894), [7294023515323721822](https://steamdb.info/depot/2347771/history/?changeid=M:7294023515323721822)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc
 
@@ -1017,8 +1017,8 @@ Last updated: July 9, 2026 at 9:46:44 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x0E\x85\xC9\x0F\x84</pre></td><td><pre>8B 0E 85 C9 0F 84</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x56\x48\x83\xEC\x2A\x83\x3A</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 56 48 83 EC ? 83 3A</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x0E\x85\xC9\x0F\x84</pre></td><td><pre>8B 0E 85 C9 0F 84</pre></td></tr>
 </table>
 
 ### StudioModel::LookupAttachment
