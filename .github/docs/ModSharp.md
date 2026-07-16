@@ -1,8 +1,8 @@
 # ModSharp
 
-Last updated: July 15, 2026 at 12:36:38 AM GMT
+Last updated: July 16, 2026 at 11:47:12 PM GMT
 
-* Manifests: [118363704811264052](https://steamdb.info/depot/2347770/history/?changeid=M:118363704811264052), [691317421146420894](https://steamdb.info/depot/2347773/history/?changeid=M:691317421146420894), [7294023515323721822](https://steamdb.info/depot/2347771/history/?changeid=M:7294023515323721822)
+* Manifests: [5183754434502602414](https://steamdb.info/depot/2347773/history/?changeid=M:5183754434502602414), [5957664385369805541](https://steamdb.info/depot/2347771/history/?changeid=M:5957664385369805541), [8243926021199121453](https://steamdb.info/depot/2347770/history/?changeid=M:8243926021199121453)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc
 
@@ -76,8 +76,8 @@ Last updated: July 15, 2026 at 12:36:38 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\xFA</pre></td><td><pre>40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA</pre></td></tr>
 <tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\x75\x2A\x41\x55\x41\x54\x41\x89\xF4</pre></td><td><pre>55 48 89 E5 41 57 41 56 4C 8D 75 ? 41 55 41 54 41 89 F4</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\xFA</pre></td><td><pre>40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA</pre></td></tr>
 </table>
 
 ### CCSGameRules::CreateEndMatchMapGroupVoteOptions
@@ -156,16 +156,16 @@ Last updated: July 15, 2026 at 12:36:38 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xF8\x45\x89\xC2</pre></td><td><pre>55 48 89 F8 45 89 C2</pre></td></tr>
 <tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x56\x57\x41\x54\x41\x57\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\xB8\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x2B\xE0\x44\x0F\xB6\x52</pre></td><td><pre>40 55 56 57 41 54 41 57 48 8D AC 24 ? ? ? ? B8 ? ? ? ? E8 ? ? ? ? 48 2B E0 44 0F B6 52</pre></td></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xF8\x45\x89\xC2</pre></td><td><pre>55 48 89 F8 45 89 C2</pre></td></tr>
 </table>
 
 ### CGamePhysicsQueryInterface::TraceShape
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>⚠️(2)</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xCF\x41\x56\x49\x89\xF6\x41\x55\x4D\x89\xC5</pre></td><td><pre>55 48 89 E5 41 57 49 89 CF 41 56 49 89 F6 41 55 4D 89 C5</pre></td></tr>
 <tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x20\x48\x89\x4C\x24\x08\x55\x57</pre></td><td><pre>48 89 5C 24 20 48 89 4C 24 08 55 57</pre></td></tr>
+<tr><td>⚠️(2)</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xCF\x41\x56\x49\x89\xF6\x41\x55\x4D\x89\xC5</pre></td><td><pre>55 48 89 E5 41 57 49 89 CF 41 56 49 89 F6 41 55 4D 89 C5</pre></td></tr>
 </table>
 
 ### CNavMesh::GetNearestNavArea
@@ -372,8 +372,8 @@ Last updated: July 15, 2026 at 12:36:38 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x53\x48\x89\xFB\x48\x83\xEC\x2A\x80\xBF\x2A\x2A\x2A\x2A\x2A\x74\x2A\xF6\x87\x2A\x2A\x2A\x2A\x2A\x75\x2A\x48\x8B\x83\x2A\x2A\x2A\x2A\x48\x89\x45</pre></td><td><pre>55 48 89 E5 53 48 89 FB 48 83 EC ? 80 BF ? ? ? ? ? 74 ? F6 87 ? ? ? ? ? 75 ? 48 8B 83 ? ? ? ? 48 89 45</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x80\xB9\x2A\x2A\x2A\x2A\x2A\x48\x8B\xFA\x48\x8B\xD9\x0F\x85</pre></td><td><pre>48 89 5C 24 ? 57 48 83 EC ? 80 B9 ? ? ? ? ? 48 8B FA 48 8B D9 0F 85</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x53\x48\x89\xFB\x48\x83\xEC\x2A\x80\xBF\x2A\x2A\x2A\x2A\x2A\x74\x2A\xF6\x87\x2A\x2A\x2A\x2A\x2A\x75\x2A\x48\x8B\x83\x2A\x2A\x2A\x2A\x48\x89\x45</pre></td><td><pre>55 48 89 E5 53 48 89 FB 48 83 EC ? 80 BF ? ? ? ? ? 74 ? F6 87 ? ? ? ? ? 75 ? 48 8B 83 ? ? ? ? 48 89 45</pre></td></tr>
 </table>
 
 ### CBaseEntity::DispatchSpawn
@@ -937,8 +937,8 @@ Last updated: July 15, 2026 at 12:36:38 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x0F\xB7\x07\x66\xC1\xE8\x2A\x83\xE0\x2A\x3C\x2A\x74\x2A\xC3</pre></td><td><pre>0F B7 07 66 C1 E8 ? 83 E0 ? 3C ? 74 ? C3</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x56\x41\x56\x48\x83\xEC\x2A\x0F\xB6\x01</pre></td><td><pre>40 55 56 41 56 48 83 EC ? 0F B6 01</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x0F\xB7\x07\x66\xC1\xE8\x2A\x83\xE0\x2A\x3C\x2A\x74\x2A\xC3</pre></td><td><pre>0F B7 07 66 C1 E8 ? 83 E0 ? 3C ? 74 ? C3</pre></td></tr>
 </table>
 
 ### KeyValues3::RemoveMember_MemberName

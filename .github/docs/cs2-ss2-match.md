@@ -1,8 +1,8 @@
 # cs2-ss2-match
 
-Last updated: July 15, 2026 at 12:36:38 AM GMT
+Last updated: July 16, 2026 at 11:47:12 PM GMT
 
-* Manifests: [118363704811264052](https://steamdb.info/depot/2347770/history/?changeid=M:118363704811264052), [691317421146420894](https://steamdb.info/depot/2347773/history/?changeid=M:691317421146420894), [7294023515323721822](https://steamdb.info/depot/2347771/history/?changeid=M:7294023515323721822)
+* Manifests: [5183754434502602414](https://steamdb.info/depot/2347773/history/?changeid=M:5183754434502602414), [5957664385369805541](https://steamdb.info/depot/2347771/history/?changeid=M:5957664385369805541), [8243926021199121453](https://steamdb.info/depot/2347770/history/?changeid=M:8243926021199121453)
 * Repository: https://github.com/ianlucas/cs2-ss2-match
 * Gamedata: https://github.com/ianlucas/cs2-ss2-match/blob/main/resources/gamedata/signatures.jsonc
 
@@ -28,8 +28,8 @@ Last updated: July 15, 2026 at 12:36:38 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x45\x31\xFF\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8D\x2D</pre></td><td><pre>55 48 89 E5 41 57 45 31 FF 41 56 41 55 41 54 53 48 81 EC ? ? ? ? 4C 8D 2D</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x4C\x24\x2A\x53\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x2A\x33\xC0</pre></td><td><pre>48 89 4C 24 ? 53 55 56 57 41 54 41 55 41 56 41 57 48 83 EC ? 33 C0</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x45\x31\xFF\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8D\x2D</pre></td><td><pre>55 48 89 E5 41 57 45 31 FF 41 56 41 55 41 54 53 48 81 EC ? ? ? ? 4C 8D 2D</pre></td></tr>
 </table>
 
 ### CCSGameRules::IsLastRoundBeforeHalfTime

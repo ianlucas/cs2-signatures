@@ -1,8 +1,8 @@
 # cs2-ss2-inventory-simulator
 
-Last updated: July 15, 2026 at 12:36:38 AM GMT
+Last updated: July 16, 2026 at 11:47:12 PM GMT
 
-* Manifests: [118363704811264052](https://steamdb.info/depot/2347770/history/?changeid=M:118363704811264052), [691317421146420894](https://steamdb.info/depot/2347773/history/?changeid=M:691317421146420894), [7294023515323721822](https://steamdb.info/depot/2347771/history/?changeid=M:7294023515323721822)
+* Manifests: [5183754434502602414](https://steamdb.info/depot/2347773/history/?changeid=M:5183754434502602414), [5957664385369805541](https://steamdb.info/depot/2347771/history/?changeid=M:5957664385369805541), [8243926021199121453](https://steamdb.info/depot/2347770/history/?changeid=M:8243926021199121453)
 * Repository: https://github.com/ianlucas/cs2-ss2-inventory-simulator
 * Gamedata: https://github.com/ianlucas/cs2-ss2-inventory-simulator/blob/main/resources/gamedata/signatures.jsonc
 
@@ -12,8 +12,8 @@ Last updated: July 15, 2026 at 12:36:38 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x83\xFA</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC ? 83 FA</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x56\x48\x83\xEC\x2A\x49\x63\xF0</pre></td><td><pre>48 8B C4 56 48 83 EC ? 49 63 F0</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x83\xFA</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC ? 83 FA</pre></td></tr>
 </table>
 
 ### CCSPlayerInventory::SendInventoryUpdateEvent
@@ -76,8 +76,8 @@ Last updated: July 15, 2026 at 12:36:38 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x80\xBF\x2A\x2A\x2A\x2A\x2A\x75</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC ? 80 BF ? ? ? ? ? 75</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x80\xB9</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 80 B9</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x80\xBF\x2A\x2A\x2A\x2A\x2A\x75</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC ? 80 BF ? ? ? ? ? 75</pre></td></tr>
 </table>
 
 ### CEconItemView::CEconItemView
