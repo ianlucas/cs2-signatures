@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** July 16, 2026 at 11:47:12 PM GMT
+* **Last updated:** July 17, 2026 at 10:41:21 PM GMT
 * **Manifests:** [5183754434502602414](https://steamdb.info/depot/2347773/history/?changeid=M:5183754434502602414), [5957664385369805541](https://steamdb.info/depot/2347771/history/?changeid=M:5957664385369805541), [8243926021199121453](https://steamdb.info/depot/2347770/history/?changeid=M:8243926021199121453)
 
 <table>
@@ -60,11 +60,11 @@
 <tr><td>❌</td><td>❌</td><td>StudioModel::GetAttachment</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNetworkGameServer::SpawnServer</td></tr>
 <tr><td>❌</td><td>✅</td><td>HostStateRequest</td></tr>
-<tr><td>❌</td><td>❌</td><td>Source2_Init</td></tr>
+<tr><td>❌</td><td>✅</td><td>Source2_Init</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBaseEntity::LocalVelocity</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNetworkGameServer::GetFreeClient</td></tr>
-<tr><td>❌</td><td>⚠️</td><td>CNetworkGameServer::PrintStatus</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSGameRules::CreateEndMatchMapGroupVoteOptions</td></tr>
+<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::PrintStatus</td></tr>
 <tr><td>✅</td><td>❌</td><td>CBaseEntity::ApplyAbsVelocityImpulse</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSGameRules::TerminateRound</td></tr>
 <tr><td>✅</td><td>❌</td><td>CCollisionProperty::SetSolid</td></tr>

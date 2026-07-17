@@ -1,6 +1,6 @@
 # ModSharp
 
-Last updated: July 16, 2026 at 11:47:12 PM GMT
+Last updated: July 17, 2026 at 10:41:21 PM GMT
 
 * Manifests: [5183754434502602414](https://steamdb.info/depot/2347773/history/?changeid=M:5183754434502602414), [5957664385369805541](https://steamdb.info/depot/2347771/history/?changeid=M:5957664385369805541), [8243926021199121453](https://steamdb.info/depot/2347770/history/?changeid=M:8243926021199121453)
 * Repository: https://github.com/Kxnrl/modsharp-public
@@ -189,7 +189,7 @@ Last updated: July 16, 2026 at 11:47:12 PM GMT
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>❌</td><td>Linux</td><td>engine2</td><td><pre>\x48\xB8\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x53</pre></td><td><pre>48 B8 ? ? ? ? ? ? ? ? 55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53</pre></td></tr>
-<tr><td>⚠️(2)</td><td>Windows</td><td>engine2</td><td><pre>\x48\x89\x5C\x24\x20\x44\x89\x44\x24\x18\x89\x54\x24\x10</pre></td><td><pre>48 89 5C 24 20 44 89 44 24 18 89 54 24 10</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>engine2</td><td><pre>\x48\x89\x5C\x24\x2A\x44\x89\x44\x24\x2A\x89\x54\x24\x2A\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x33\xDB</pre></td><td><pre>48 89 5C 24 ? 44 89 44 24 ? 89 54 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 33 DB</pre></td></tr>
 </table>
 
 ### CNetworkGameServer::SpawnServer
@@ -261,7 +261,7 @@ Last updated: July 16, 2026 at 11:47:12 PM GMT
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>❌</td><td>Linux</td><td>engine2</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\xBD\x2A\x2A\x2A\x2A\x48\x8B\x3D\x2A\x2A\x2A\x2A\x48\x85\xFF</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC ? ? ? ? 48 89 BD ? ? ? ? 48 8B 3D ? ? ? ? 48 85 FF</pre></td></tr>
-<tr><td>❌</td><td>Windows</td><td>engine2</td><td><pre>\x40\x55\x53\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xE1</pre></td><td><pre>40 55 53 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 4C 8B E1</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>engine2</td><td><pre>\x40\x55\x53\x56\x57\x41\x54\x41\x56\x41\x57\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xE1</pre></td><td><pre>40 55 53 56 57 41 54 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 4C 8B E1</pre></td></tr>
 </table>
 
 ### StateChanged
