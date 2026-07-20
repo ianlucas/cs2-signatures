@@ -1,8 +1,8 @@
 # SwiftlyS2
 
-Last updated: July 16, 2026 at 11:47:12 PM GMT
+Last updated: July 20, 2026 at 11:13:32 PM GMT
 
-* Manifests: [5183754434502602414](https://steamdb.info/depot/2347773/history/?changeid=M:5183754434502602414), [5957664385369805541](https://steamdb.info/depot/2347771/history/?changeid=M:5957664385369805541), [8243926021199121453](https://steamdb.info/depot/2347770/history/?changeid=M:8243926021199121453)
+* Manifests: [1756429801267405217](https://steamdb.info/depot/2347771/history/?changeid=M:1756429801267405217), [4042805601783611185](https://steamdb.info/depot/2347773/history/?changeid=M:4042805601783611185), [7673916425787288234](https://steamdb.info/depot/2347770/history/?changeid=M:7673916425787288234)
 * Repository: https://github.com/swiftly-solution/swiftlys2
 
 ## master
@@ -317,8 +317,8 @@ Last updated: July 16, 2026 at 11:47:12 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x89\xD5\x41\x54\x49\x89\xFC\x48\x89\xF7</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 89 D5 41 54 49 89 FC 48 89 F7</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x74\x24\x20\x57\x41\x54\x41\x57\x48\x83\xEC\x40\x45</pre></td><td><pre>48 89 74 24 20 57 41 54 41 57 48 83 EC 40 45</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x89\xD5\x41\x54\x49\x89\xFC\x48\x89\xF7</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 89 D5 41 54 49 89 FC 48 89 F7</pre></td></tr>
 </table>
 
 ### CDecoyProjectile::EmitGrenade
@@ -341,8 +341,8 @@ Last updated: July 16, 2026 at 11:47:12 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xBD\x2A\x2A\x2A\x2A\x4D\x89\xCE</pre></td><td><pre>55 48 89 E5 41 57 41 56 4C 8D BD ? ? ? ? 4D 89 CE</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\x02</pre></td><td><pre>48 89 5C 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 48 8B 02</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xBD\x2A\x2A\x2A\x2A\x4D\x89\xCE</pre></td><td><pre>55 48 89 E5 41 57 41 56 4C 8D BD ? ? ? ? 4D 89 CE</pre></td></tr>
 </table>
 
 ### CEntityInstance::AcceptInput
@@ -761,8 +761,8 @@ Last updated: July 16, 2026 at 11:47:12 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x4C\x8B\x67\x2A\x49\x8B\x7C\x24</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 89 FB 48 83 EC ? 4C 8B 67 ? 49 8B 7C 24</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x53\x56\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\x59</pre></td><td><pre>40 55 53 56 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 48 8B 59</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x4C\x8B\x67\x2A\x49\x8B\x7C\x24</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 89 FB 48 83 EC ? 4C 8B 67 ? 49 8B 7C 24</pre></td></tr>
 </table>
 
 ### CCSPlayer_MovementServices::OnJumpModern
@@ -937,8 +937,8 @@ Last updated: July 16, 2026 at 11:47:12 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x8D\x41</pre></td><td><pre>55 8D 41</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x56\x41\x56\x48\x83\xEC\x2A\x0F\x29\x74\x24</pre></td><td><pre>40 53 56 41 56 48 83 EC ? 0F 29 74 24</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x8D\x41</pre></td><td><pre>55 8D 41</pre></td></tr>
 </table>
 
 ### DispatchParticleEffect
