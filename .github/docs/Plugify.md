@@ -1,20 +1,12 @@
 # Plugify
 
-Last updated: July 21, 2026 at 3:15:59 PM GMT
+Last updated: July 21, 2026 at 8:36:06 PM GMT
 
 * Manifests: [1756429801267405217](https://steamdb.info/depot/2347771/history/?changeid=M:1756429801267405217), [4042805601783611185](https://steamdb.info/depot/2347773/history/?changeid=M:4042805601783611185), [7673916425787288234](https://steamdb.info/depot/2347770/history/?changeid=M:7673916425787288234)
 * Repository: https://github.com/untrustedmodders/plugify-source-2
 * Gamedata: https://github.com/untrustedmodders/plugify-source-2/blob/main/assets/gamedata.jsonc
 
 ## Signatures
-
-### CSScript::ResolveModule
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xF7\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\xB5\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x89\xC7</pre></td><td><pre>55 48 89 E5 41 57 49 89 F7 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? 48 89 B5 ? ? ? ? E8 ? ? ? ? 48 89 C7</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x49\x8B\xF8</pre></td><td><pre>48 89 5C 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 49 8B F8</pre></td></tr>
-</table>
 
 ### BotNavIgnore
 
@@ -133,6 +125,14 @@ Last updated: July 21, 2026 at 3:15:59 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>engine2</td><td><pre>\x55\xB9\x2A\x2A\x2A\x2A\x41\xB8</pre></td><td><pre>55 B9 ? ? ? ? 41 B8</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>engine2</td><td><pre>\x48\x8B\xC4\x55\x41\x55\x41\x56</pre></td><td><pre>48 8B C4 55 41 55 41 56</pre></td></tr>
+</table>
+
+### CSScript::ResolveModule
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x89\xC7</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 89 FB 48 81 EC ? ? ? ? E8 ? ? ? ? 48 89 C7</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x49\x8B\xF8</pre></td><td><pre>48 89 5C 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 49 8B F8</pre></td></tr>
 </table>
 
 ### CSource2Server::Init
