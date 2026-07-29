@@ -1,7 +1,7 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** July 24, 2026 at 7:34:06 PM GMT
-* **Manifests:** [1756429801267405217](https://steamdb.info/depot/2347771/history/?changeid=M:1756429801267405217), [4042805601783611185](https://steamdb.info/depot/2347773/history/?changeid=M:4042805601783611185), [7673916425787288234](https://steamdb.info/depot/2347770/history/?changeid=M:7673916425787288234)
+* **Last updated:** July 29, 2026 at 12:38:20 AM GMT
+* **Manifests:** [56114211749641557](https://steamdb.info/depot/2347773/history/?changeid=M:56114211749641557), [5814144478477689230](https://steamdb.info/depot/2347771/history/?changeid=M:5814144478477689230), [7357001356549703767](https://steamdb.info/depot/2347770/history/?changeid=M:7357001356549703767)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
@@ -35,25 +35,25 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity::AbsOrigin</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity::DispatchTraceAttack</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBasePlayerController::HandleCommandJoinTeam</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBasePlayerController::SwitchSteam</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity::AbsAngles</td></tr>
-<tr><td>❌</td><td>✅</td><td>HandleGCBanInfo</td></tr>
-<tr><td>❌</td><td>✅</td><td>HostSay</td></tr>
-<tr><td>❌</td><td>❌</td><td>StateChanged</td></tr>
-<tr><td>❌</td><td>✅</td><td>HostStateRequest</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNetworkGameServer::SpawnServer</td></tr>
+<tr><td>❌</td><td>✅</td><td>HostStateRequest</td></tr>
 <tr><td>❌</td><td>✅</td><td>Source2_Init</td></tr>
 <tr><td>❌</td><td>✅</td><td>CreateTriggerInternal</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBaseEntity::LocalVelocity</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSGameRules::CreateEndMatchMapGroupVoteOptions</td></tr>
+<tr><td>❌</td><td>✅</td><td>CBaseEntity::AbsAngles</td></tr>
+<tr><td>❌</td><td>✅</td><td>CBaseEntity::AbsOrigin</td></tr>
+<tr><td>❌</td><td>✅</td><td>CBaseEntity::DispatchTraceAttack</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNetworkGameServer::GetFreeClient</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNetworkGameServer::PrintStatus</td></tr>
+<tr><td>❌</td><td>✅</td><td>CBasePlayerController::HandleCommandJoinTeam</td></tr>
+<tr><td>❌</td><td>✅</td><td>CBasePlayerController::SwitchSteam</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSGameRules::CreateEndMatchMapGroupVoteOptions</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSGameRules::TerminateRound</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNavMesh::GetNearestNavArea</td></tr>
+<tr><td>❌</td><td>✅</td><td>HandleGCBanInfo</td></tr>
+<tr><td>❌</td><td>✅</td><td>HostSay</td></tr>
+<tr><td>❌</td><td>❌</td><td>StateChanged</td></tr>
 </table>
 
 </details>
