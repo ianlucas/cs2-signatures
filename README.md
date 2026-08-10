@@ -1,7 +1,7 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** August 10, 2026 at 9:55:16 PM GMT
-* **Manifests:** [1309483716239998645](https://steamdb.info/depot/2347773/history/?changeid=M:1309483716239998645), [3218384253253746367](https://steamdb.info/depot/2347771/history/?changeid=M:3218384253253746367), [8384824051934566073](https://steamdb.info/depot/2347770/history/?changeid=M:8384824051934566073)
+* **Last updated:** August 10, 2026 at 11:49:16 PM GMT
+* **Manifests:** [816091078217593486](https://steamdb.info/depot/2347770/history/?changeid=M:816091078217593486), [4426952802600100986](https://steamdb.info/depot/2347773/history/?changeid=M:4426952802600100986), [5408352382264162408](https://steamdb.info/depot/2347771/history/?changeid=M:5408352382264162408)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
@@ -25,22 +25,22 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
-<tr><td>❌</td><td>✅</td><td>Source2_Init</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity::LocalVelocity</td></tr>
-<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::SpawnServer</td></tr>
-<tr><td>❌</td><td>✅</td><td>HostStateRequest</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBaseEntity::AbsAngles</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBaseEntity::AbsOrigin</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBasePlayerController::SwitchSteam</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSGameRules::CreateEndMatchMapGroupVoteOptions</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSGameRules::TerminateRound</td></tr>
-<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::GetFreeClient</td></tr>
-<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::PrintStatus</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBasePlayerController::HandleCommandJoinTeam</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
 <tr><td>❌</td><td>✅</td><td>CreateTriggerInternal</td></tr>
 <tr><td>❌</td><td>✅</td><td>HandleGCBanInfo</td></tr>
 <tr><td>❌</td><td>✅</td><td>HostSay</td></tr>
+<tr><td>❌</td><td>✅</td><td>Source2_Init</td></tr>
+<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::SpawnServer</td></tr>
+<tr><td>❌</td><td>✅</td><td>CBaseEntity::LocalVelocity</td></tr>
+<tr><td>❌</td><td>✅</td><td>HostStateRequest</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSGameRules::CreateEndMatchMapGroupVoteOptions</td></tr>
+<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::GetFreeClient</td></tr>
+<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::PrintStatus</td></tr>
+<tr><td>❌</td><td>✅</td><td>CBasePlayerController::HandleCommandJoinTeam</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNavMesh::GetNearestNavArea</td></tr>
 </table>
 
