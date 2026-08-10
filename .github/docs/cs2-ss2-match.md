@@ -1,8 +1,8 @@
 # cs2-ss2-match
 
-Last updated: August 3, 2026 at 9:19:19 PM GMT
+Last updated: August 10, 2026 at 9:55:16 PM GMT
 
-* Manifests: [3132779792492138697](https://steamdb.info/depot/2347771/history/?changeid=M:3132779792492138697), [6966900685090593016](https://steamdb.info/depot/2347770/history/?changeid=M:6966900685090593016), [8127770850217610141](https://steamdb.info/depot/2347773/history/?changeid=M:8127770850217610141)
+* Manifests: [1309483716239998645](https://steamdb.info/depot/2347773/history/?changeid=M:1309483716239998645), [3218384253253746367](https://steamdb.info/depot/2347771/history/?changeid=M:3218384253253746367), [8384824051934566073](https://steamdb.info/depot/2347770/history/?changeid=M:8384824051934566073)
 * Repository: https://github.com/ianlucas/cs2-ss2-match
 * Gamedata: https://github.com/ianlucas/cs2-ss2-match/blob/main/resources/gamedata/signatures.jsonc
 
@@ -20,8 +20,8 @@ Last updated: August 3, 2026 at 9:19:19 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x48\x83\xEC\x2A\x8B\x81\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\x91</pre></td><td><pre>40 53 48 83 EC ? 8B 81 ? ? ? ? 48 8B D9 8B 91</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x8B\x87\x2A\x2A\x2A\x2A\x8B\x97</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 8B 87 ? ? ? ? 8B 97</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x48\x83\xEC\x2A\x8B\x81\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\x91</pre></td><td><pre>40 53 48 83 EC ? 8B 81 ? ? ? ? 48 8B D9 8B 91</pre></td></tr>
 </table>
 
 ### CCSGameRules::HandleSwapTeams
@@ -60,8 +60,8 @@ Last updated: August 3, 2026 at 9:19:19 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x80\xB9</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 80 B9</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x80\xBF\x2A\x2A\x2A\x2A\x2A\x75</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC ? 80 BF ? ? ? ? ? 75</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x80\xB9</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 80 B9</pre></td></tr>
 </table>
 
 ### GetItemSchema

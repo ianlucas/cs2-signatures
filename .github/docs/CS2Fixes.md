@@ -1,8 +1,8 @@
 # CS2Fixes
 
-Last updated: August 3, 2026 at 9:19:19 PM GMT
+Last updated: August 10, 2026 at 9:55:16 PM GMT
 
-* Manifests: [3132779792492138697](https://steamdb.info/depot/2347771/history/?changeid=M:3132779792492138697), [6966900685090593016](https://steamdb.info/depot/2347770/history/?changeid=M:6966900685090593016), [8127770850217610141](https://steamdb.info/depot/2347773/history/?changeid=M:8127770850217610141)
+* Manifests: [1309483716239998645](https://steamdb.info/depot/2347773/history/?changeid=M:1309483716239998645), [3218384253253746367](https://steamdb.info/depot/2347771/history/?changeid=M:3218384253253746367), [8384824051934566073](https://steamdb.info/depot/2347770/history/?changeid=M:8384824051934566073)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.jsonc
 
@@ -147,8 +147,8 @@ Last updated: August 3, 2026 at 9:19:19 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x56\x57\x41\x54\x41\x56\x41\x57\x48\x83\xEC\x2A\x48\x8B\x01\x48\x8B\xFA</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 54 41 56 41 57 48 83 EC ? 48 8B 01 48 8B FA</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x8B\x07\x48\x8B\x80</pre></td><td><pre>55 48 8D 15 ? ? ? ? 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 8B 07 48 8B 80</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x56\x57\x41\x54\x41\x56\x41\x57\x48\x83\xEC\x2A\x48\x8B\x01\x48\x8B\xFA</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 54 41 56 41 57 48 83 EC ? 48 8B 01 48 8B FA</pre></td></tr>
 </table>
 
 ### CCSPlayer_WeaponServices_EquipWeapon
@@ -395,8 +395,8 @@ Last updated: August 3, 2026 at 9:19:19 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x49\x89\xD4\x53\x48\x89\xF3\x48\x81\xEC</pre></td><td><pre>55 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 49 89 D4 53 48 89 F3 48 81 EC</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x55\x56\x57\x41\x55\x41\x57\x48\x83\xEC\x2A\x44\x8B\x89</pre></td><td><pre>48 89 5C 24 ? 55 56 57 41 55 41 57 48 83 EC ? 44 8B 89</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x49\x89\xD4\x53\x48\x89\xF3\x48\x81\xEC</pre></td><td><pre>55 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 49 89 D4 53 48 89 F3 48 81 EC</pre></td></tr>
 </table>
 
 ### SetSchemaHammerUniqueId
@@ -443,6 +443,6 @@ Last updated: August 3, 2026 at 9:19:19 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\x75\x2A\x41\x55\x41\x89\xCD\x41\x54\x49\x89\xD4</pre></td><td><pre>55 48 8D 05 ? ? ? ? 48 89 E5 41 57 41 56 4C 8D 75 ? 41 55 41 89 CD 41 54 49 89 D4</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x55\x41\x56\x41\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x49\x8B\xF8</pre></td><td><pre>48 89 5C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 55 41 56 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 49 8B F8</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\x75\x2A\x41\x55\x41\x89\xCD\x41\x54\x49\x89\xD4</pre></td><td><pre>55 48 8D 05 ? ? ? ? 48 89 E5 41 57 41 56 4C 8D 75 ? 41 55 41 89 CD 41 54 49 89 D4</pre></td></tr>
 </table>
