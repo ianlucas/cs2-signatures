@@ -1,8 +1,8 @@
 # cs2kz-metamod
 
-Last updated: August 10, 2026 at 11:49:16 PM GMT
+Last updated: August 12, 2026 at 10:49:22 PM GMT
 
-* Manifests: [816091078217593486](https://steamdb.info/depot/2347770/history/?changeid=M:816091078217593486), [4426952802600100986](https://steamdb.info/depot/2347773/history/?changeid=M:4426952802600100986), [5408352382264162408](https://steamdb.info/depot/2347771/history/?changeid=M:5408352382264162408)
+* Manifests: [358563799254497787](https://steamdb.info/depot/2347771/history/?changeid=M:358563799254497787), [3612056480687749066](https://steamdb.info/depot/2347773/history/?changeid=M:3612056480687749066), [7645176062026597595](https://steamdb.info/depot/2347770/history/?changeid=M:7645176062026597595)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
@@ -140,8 +140,8 @@ Last updated: August 10, 2026 at 11:49:16 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8D\x05\x2A\x2A\x2A\x2A\x55\x48\x89\xFA</pre></td><td><pre>48 8D 05 ? ? ? ? 55 48 89 FA</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x48\xC6\x44\x24\x30\x00</pre></td><td><pre>48 83 EC 48 C6 44 24 30 00</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8D\x05\x2A\x2A\x2A\x2A\x55\x48\x89\xFA</pre></td><td><pre>48 8D 05 ? ? ? ? 55 48 89 FA</pre></td></tr>
 </table>
 
 ### DebugDrawMesh
@@ -252,8 +252,8 @@ Last updated: August 10, 2026 at 11:49:16 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x53\x56\x57\x41\x55\x41\x56\x48\x8D\xAC\x24\x08\xF9\xFF\xFF</pre></td><td><pre>40 55 53 56 57 41 55 41 56 48 8D AC 24 08 F9 FF FF</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x00\x00\x00</pre></td><td><pre>55 ? ? ? ? ? ? ? ? ? ? ? ? ? ? 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 8D 3D ? ? ? ? 48 81 EC ? 00 00 00</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x53\x56\x57\x41\x55\x41\x56\x48\x8D\xAC\x24\x08\xF9\xFF\xFF</pre></td><td><pre>40 55 53 56 57 41 55 41 56 48 8D AC 24 08 F9 FF FF</pre></td></tr>
 </table>
 
 ### PlayerMove
