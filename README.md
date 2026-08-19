@@ -1,13 +1,13 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** August 18, 2026 at 7:11:05 PM GMT
-* **Manifests:** [358563799254497787](https://steamdb.info/depot/2347771/history/?changeid=M:358563799254497787), [3612056480687749066](https://steamdb.info/depot/2347773/history/?changeid=M:3612056480687749066), [7645176062026597595](https://steamdb.info/depot/2347770/history/?changeid=M:7645176062026597595)
+* **Last updated:** August 19, 2026 at 11:36:16 PM GMT
+* **Manifests:** [1670443425869204360](https://steamdb.info/depot/2347773/history/?changeid=M:1670443425869204360), [4814468113142569832](https://steamdb.info/depot/2347770/history/?changeid=M:4814468113142569832), [4846265837652631529](https://steamdb.info/depot/2347771/history/?changeid=M:4846265837652631529)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr>
-<tr><td>⚠️</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
-<tr><td>⚠️</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
+<tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
+<tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Kxnrl/modsharp-public">ModSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/ModSharp.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/untrustedmodders/plugify-plugin-s2sdk">Plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/Plugify.md">View signatures →</a></td></tr>
@@ -26,21 +26,21 @@
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
 <tr><td>❌</td><td>✅</td><td>CBaseEntity::AbsOrigin</td></tr>
+<tr><td>❌</td><td>✅</td><td>CBaseEntity::AbsAngles</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBasePlayerController::SwitchSteam</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSGameRules::TerminateRound</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity::AbsAngles</td></tr>
 <tr><td>❌</td><td>✅</td><td>CreateTriggerInternal</td></tr>
 <tr><td>❌</td><td>✅</td><td>HandleGCBanInfo</td></tr>
 <tr><td>❌</td><td>✅</td><td>HostSay</td></tr>
 <tr><td>❌</td><td>✅</td><td>Source2_Init</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity::LocalVelocity</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNetworkGameServer::SpawnServer</td></tr>
+<tr><td>❌</td><td>✅</td><td>CBaseEntity::LocalVelocity</td></tr>
 <tr><td>❌</td><td>✅</td><td>HostStateRequest</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSGameRules::CreateEndMatchMapGroupVoteOptions</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBasePlayerController::HandleCommandJoinTeam</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNetworkGameServer::GetFreeClient</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNetworkGameServer::PrintStatus</td></tr>
+<tr><td>❌</td><td>✅</td><td>CBasePlayerController::HandleCommandJoinTeam</td></tr>
 <tr><td>❌</td><td>✅</td><td>CNavMesh::GetNearestNavArea</td></tr>
 </table>
 

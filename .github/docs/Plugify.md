@@ -1,8 +1,8 @@
 # Plugify
 
-Last updated: August 12, 2026 at 10:49:22 PM GMT
+Last updated: August 19, 2026 at 11:36:16 PM GMT
 
-* Manifests: [358563799254497787](https://steamdb.info/depot/2347771/history/?changeid=M:358563799254497787), [3612056480687749066](https://steamdb.info/depot/2347773/history/?changeid=M:3612056480687749066), [7645176062026597595](https://steamdb.info/depot/2347770/history/?changeid=M:7645176062026597595)
+* Manifests: [1670443425869204360](https://steamdb.info/depot/2347773/history/?changeid=M:1670443425869204360), [4814468113142569832](https://steamdb.info/depot/2347770/history/?changeid=M:4814468113142569832), [4846265837652631529](https://steamdb.info/depot/2347771/history/?changeid=M:4846265837652631529)
 * Repository: https://github.com/untrustedmodders/plugify-plugin-s2sdk
 * Gamedata: https://github.com/untrustedmodders/plugify-plugin-s2sdk/blob/main/assets/gamedata.jsonc
 
@@ -67,8 +67,8 @@ Last updated: August 12, 2026 at 10:49:22 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x8B\x77</pre></td><td><pre>55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 8B 77</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x83\x79\x2A\x2A\x48\x8B\xFA\x48\x8B\xD9\x75\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8B\x53</pre></td><td><pre>48 89 5C 24 ? 57 48 83 EC ? 48 83 79 ? ? 48 8B FA 48 8B D9 75 ? E8 ? ? ? ? 48 8B 53</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x8B\x77</pre></td><td><pre>55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 8B 77</pre></td></tr>
 </table>
 
 ### CEntityIOOutput::FireOutputInternal
@@ -115,8 +115,8 @@ Last updated: August 12, 2026 at 10:49:22 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>engine2</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x83\x7F</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 83 7F</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>engine2</td><td><pre>\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x33\xF6\x48\x8B\xFA\x48\x39\x35</pre></td><td><pre>48 89 74 24 ? 57 48 83 EC ? 33 F6 48 8B FA 48 39 35</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>engine2</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x83\x7F</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 83 7F</pre></td></tr>
 </table>
 
 ### CNetworkGameServer::ReplyConnection
@@ -169,8 +169,8 @@ Last updated: August 12, 2026 at 10:49:22 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x85\xC9</pre></td><td><pre>48 8B 15 ? ? ? ? 48 85 D2 74 ? 85 C9</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x83\xFF\x2A\x77\x2A\x48\x63\xFF\x48\xC1\xE7\x2A\x48\x8D\x44\x38</pre></td><td><pre>48 8B 05 ? ? ? ? 48 85 C0 74 ? 83 FF ? 77 ? 48 63 FF 48 C1 E7 ? 48 8D 44 38</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x85\xC9</pre></td><td><pre>48 8B 15 ? ? ? ? 48 85 D2 74 ? 85 C9</pre></td></tr>
 </table>
 
 ### PreloadLibrary

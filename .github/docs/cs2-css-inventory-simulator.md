@@ -1,8 +1,8 @@
 # cs2-css-inventory-simulator
 
-Last updated: August 12, 2026 at 10:49:22 PM GMT
+Last updated: August 19, 2026 at 11:36:16 PM GMT
 
-* Manifests: [358563799254497787](https://steamdb.info/depot/2347771/history/?changeid=M:358563799254497787), [3612056480687749066](https://steamdb.info/depot/2347773/history/?changeid=M:3612056480687749066), [7645176062026597595](https://steamdb.info/depot/2347770/history/?changeid=M:7645176062026597595)
+* Manifests: [1670443425869204360](https://steamdb.info/depot/2347773/history/?changeid=M:1670443425869204360), [4814468113142569832](https://steamdb.info/depot/2347770/history/?changeid=M:4814468113142569832), [4846265837652631529](https://steamdb.info/depot/2347771/history/?changeid=M:4846265837652631529)
 * Repository: https://github.com/ianlucas/cs2-css-inventory-simulator
 * Gamedata: https://github.com/ianlucas/cs2-css-inventory-simulator/blob/main/gamedata/inventory-simulator.json
 
@@ -92,8 +92,8 @@ Last updated: August 12, 2026 at 10:49:22 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x45\x31\xFF</pre></td><td><pre>55 48 8D 05 ? ? ? ? 66 0F EF C0 48 89 E5 41 57 45 31 FF</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x2A\x48\x8B\xF9\x48\x8D\x05</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 54 41 55 41 56 41 57 48 83 EC ? 48 8B F9 48 8D 05</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x66\x0F\xEF\xC0\x48\x89\xE5\x41\x57\x45\x31\xFF</pre></td><td><pre>55 48 8D 05 ? ? ? ? 66 0F EF C0 48 89 E5 41 57 45 31 FF</pre></td></tr>
 </table>
 
 ### CEconItemView::operator=
