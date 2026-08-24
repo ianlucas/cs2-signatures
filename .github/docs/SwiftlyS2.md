@@ -1,13 +1,21 @@
 # SwiftlyS2
 
-Last updated: August 22, 2026 at 8:31:06 PM GMT
+Last updated: August 24, 2026 at 11:38:40 PM GMT
 
-* Manifests: [1670443425869204360](https://steamdb.info/depot/2347773/history/?changeid=M:1670443425869204360), [4814468113142569832](https://steamdb.info/depot/2347770/history/?changeid=M:4814468113142569832), [4846265837652631529](https://steamdb.info/depot/2347771/history/?changeid=M:4846265837652631529)
+* Manifests: [2988082166379903189](https://steamdb.info/depot/2347770/history/?changeid=M:2988082166379903189), [3204075245827788235](https://steamdb.info/depot/2347773/history/?changeid=M:3204075245827788235), [4506841409834636555](https://steamdb.info/depot/2347771/history/?changeid=M:4506841409834636555)
 * Repository: https://github.com/swiftly-solution/swiftlys2
 
 ## master
 
 * Gamedata: https://github.com/swiftly-solution/swiftlys2/blob/master/plugin_files/gamedata/cs2/core/signatures.jsonc
+
+### CGameRules::TerminateRound
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x89\xF7\x41\x56\x48\x8D\x35</pre></td><td><pre>55 48 89 E5 41 57 41 89 F7 41 56 48 8D 35</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x4C\x89\x48\x2A\x48\x89\x48\x2A\x55\x41\x54</pre></td><td><pre>48 8B C4 4C 89 48 ? 48 89 48 ? 55 41 54</pre></td></tr>
+</table>
 
 ### BotNavIgnore1
 
@@ -117,8 +125,8 @@ Last updated: August 22, 2026 at 8:31:06 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x44\x89\x44\x24\x2A\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x53\x56\x57\x41\x55\x41\x56\x41\x57\x48\x8B\xEC</pre></td><td><pre>44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 41 57 48 8B EC</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xCD\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 CD 41 54 49 89 FC 53 48 89 F3 48 83 EC</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x44\x89\x44\x24\x2A\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x53\x56\x57\x41\x55\x41\x56\x41\x57\x48\x8B\xEC</pre></td><td><pre>44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 55 41 56 41 57 48 8B EC</pre></td></tr>
 </table>
 
 ### CCSPlayer_MovementServices::AirAccelerate
@@ -367,14 +375,6 @@ Last updated: August 22, 2026 at 8:31:06 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x4C\x89\xC1\x48\x89\xE5\x41\x57\x45\x89\xCF\x41\x56\x49\x89\xFE\x41\x55\x49\x89\xD5\x48\x89\xF2\x48\x89\xFE\x41\x54\x48\x8D\x3D\x2A\x2A\x2A\x2A\x4D\x89\xC4\x53\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x4C\x89\xEE</pre></td><td><pre>55 4C 89 C1 48 89 E5 41 57 45 89 CF 41 56 49 89 FE 41 55 49 89 D5 48 89 F2 48 89 FE 41 54 48 8D 3D ? ? ? ? 4D 89 C4 53 48 83 EC ? E8 ? ? ? ? 4C 89 EE</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\x6C\x24\x2A\x49\x8B\xF8\x4C\x8B\xC2\x48\x8B\xD9</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B 6C 24 ? 49 8B F8 4C 8B C2 48 8B D9</pre></td></tr>
-</table>
-
-### CGameRules::TerminateRound
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x89\xF7\x41\x56\x48\x8D\x35</pre></td><td><pre>55 48 89 E5 41 57 41 89 F7 41 56 48 8D 35</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x4C\x89\x48\x2A\x48\x89\x48\x2A\x55\x41\x54</pre></td><td><pre>48 8B C4 4C 89 48 ? 48 89 48 ? 55 41 54</pre></td></tr>
 </table>
 
 ### CHEGrenadeProjectile::EmitGrenade
@@ -437,8 +437,8 @@ Last updated: August 22, 2026 at 8:31:06 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x80\x3E\x2A\x75\x2A\x31\xC0\x48\x81\xC4\x2A\x2A\x2A\x2A\x5B\x41\x5C\x41\x5D\x41\x5E\x41\x5F\x5D\xC3\x0F\x1F\x80\x2A\x2A\x2A\x2A\x4C\x8D\xA5\x2A\x2A\x2A\x2A\x89\xFB</pre></td><td><pre>48 85 F6 0F 84 ? ? ? ? 55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 81 EC ? ? ? ? 80 3E ? 75 ? 31 C0 48 81 C4 ? ? ? ? 5B 41 5C 41 5D 41 5E 41 5F 5D C3 0F 1F 80 ? ? ? ? 4C 8D A5 ? ? ? ? 89 FB</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x33\xFF\x4C\x8B\xCA\x8B\xD9</pre></td><td><pre>48 89 5C 24 ? 57 48 83 EC ? 33 FF 4C 8B CA 8B D9</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x80\x3E\x2A\x75\x2A\x31\xC0\x48\x81\xC4\x2A\x2A\x2A\x2A\x5B\x41\x5C\x41\x5D\x41\x5E\x41\x5F\x5D\xC3\x0F\x1F\x80\x2A\x2A\x2A\x2A\x4C\x8D\xA5\x2A\x2A\x2A\x2A\x89\xFB</pre></td><td><pre>48 85 F6 0F 84 ? ? ? ? 55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 81 EC ? ? ? ? 80 3E ? 75 ? 31 C0 48 81 C4 ? ? ? ? 5B 41 5C 41 5D 41 5E 41 5F 5D C3 0F 1F 80 ? ? ? ? 4C 8D A5 ? ? ? ? 89 FB</pre></td></tr>
 </table>
 
 ### IGameSystem::InitAllSystems->pFirst
@@ -469,8 +469,8 @@ Last updated: August 22, 2026 at 8:31:06 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x75\x2A\x48\x8B\x03\x48\x89\xDF\xFF\x90\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x48\x8D\x05</pre></td><td><pre>75 ? 48 8B 03 48 89 DF FF 90 ? ? ? ? 84 C0 74 ? 48 8D 05</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x75\x2A\x48\x8B\x03\x48\x8B\xCB\xFF\x90\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x48\x8D\x05</pre></td><td><pre>75 ? 48 8B 03 48 8B CB FF 90 ? ? ? ? 84 C0 74 ? 48 8D 05</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x75\x2A\x48\x8B\x03\x48\x89\xDF\xFF\x90\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x48\x8D\x05</pre></td><td><pre>75 ? 48 8B 03 48 89 DF FF 90 ? ? ? ? 84 C0 74 ? 48 8D 05</pre></td></tr>
 </table>
 
 ### TraceShape
@@ -500,6 +500,14 @@ Last updated: August 22, 2026 at 8:31:06 PM GMT
 ## beta
 
 * Gamedata: https://github.com/swiftly-solution/swiftlys2/blob/beta/plugin_files/gamedata/cs2/core/signatures.jsonc
+
+### CGameRules::TerminateRound
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x89\xF7\x41\x56\x48\x8D\x35</pre></td><td><pre>55 48 89 E5 41 57 41 89 F7 41 56 48 8D 35</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x4C\x89\x48\x2A\x48\x89\x48\x2A\x55\x41\x54</pre></td><td><pre>48 8B C4 4C 89 48 ? 48 89 48 ? 55 41 54</pre></td></tr>
+</table>
 
 ### BotNavIgnore1
 
@@ -593,16 +601,16 @@ Last updated: August 22, 2026 at 8:31:06 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x57\x48\x83\xEC\x30\x48\x8B\xF9\xBA\xFF\xFF\xFF\xFF</pre></td><td><pre>40 57 48 83 EC 30 48 8B F9 BA FF FF FF FF</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x53\x48\x89\xFB\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x0F\xB6\x10\x31\xC0</pre></td><td><pre>55 BE ? ? ? ? 48 89 E5 53 48 89 FB 48 8D 3D ? ? ? ? 48 83 EC ? E8 ? ? ? ? 48 85 C0 74 ? 0F B6 10 31 C0</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x57\x48\x83\xEC\x30\x48\x8B\xF9\xBA\xFF\xFF\xFF\xFF</pre></td><td><pre>40 57 48 83 EC 30 48 8B F9 BA FF FF FF FF</pre></td></tr>
 </table>
 
 ### CCSPlayerPawn::PostThink
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x80\xBB</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? E8 ? ? ? ? 80 BB</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x56\x41\x54\x48\x8B\xEC</pre></td><td><pre>40 55 56 41 54 48 8B EC</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x80\xBB</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? E8 ? ? ? ? 80 BB</pre></td></tr>
 </table>
 
 ### CCSPlayer_ItemServices::CanAcquire
@@ -721,8 +729,8 @@ Last updated: August 22, 2026 at 8:31:06 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x41\x54\x41\x55\x41\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\xF2\x41\x0F\x10\x01</pre></td><td><pre>40 53 41 54 41 55 41 57 48 81 EC ? ? ? ? F2 41 0F 10 01</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x0F\x28\xF1\x48\x89\xE5</pre></td><td><pre>55 0F 28 F1 48 89 E5</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x41\x54\x41\x55\x41\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\xF2\x41\x0F\x10\x01</pre></td><td><pre>40 53 41 54 41 55 41 57 48 81 EC ? ? ? ? F2 41 0F 10 01</pre></td></tr>
 </table>
 
 ### CCSPlayer_MovementServices::LadderMove
@@ -861,14 +869,6 @@ Last updated: August 22, 2026 at 8:31:06 PM GMT
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\x6C\x24\x2A\x49\x8B\xF8\x4C\x8B\xC2\x48\x8B\xD9</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B 6C 24 ? 49 8B F8 4C 8B C2 48 8B D9</pre></td></tr>
 </table>
 
-### CGameRules::TerminateRound
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x89\xF7\x41\x56\x48\x8D\x35</pre></td><td><pre>55 48 89 E5 41 57 41 89 F7 41 56 48 8D 35</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x4C\x89\x48\x2A\x48\x89\x48\x2A\x55\x41\x54</pre></td><td><pre>48 8B C4 4C 89 48 ? 48 89 48 ? 55 41 54</pre></td></tr>
-</table>
-
 ### CHEGrenadeProjectile::EmitGrenade
 
 <table>
@@ -897,8 +897,8 @@ Last updated: August 22, 2026 at 8:31:06 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x2A\x48\x83\x3D\x2A\x2A\x2A\x2A\x2A\x74\x2A\x33\xC9\xE8\x2A\x2A\x2A\x2A\xFF\x15\x2A\x2A\x2A\x2A</pre></td><td><pre>48 83 EC ? 48 83 3D ? ? ? ? ? 74 ? 33 C9 E8 ? ? ? ? FF 15 ? ? ? ?</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x83\xEC\x08\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x83\x38\x00</pre></td><td><pre>55 48 89 E5 41 55 41 54 53 48 83 EC 08 48 8D 05 ? ? ? ? 48 83 38 00</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x2A\x48\x83\x3D\x2A\x2A\x2A\x2A\x2A\x74\x2A\x33\xC9\xE8\x2A\x2A\x2A\x2A\xFF\x15\x2A\x2A\x2A\x2A</pre></td><td><pre>48 83 EC ? 48 83 3D ? ? ? ? ? 74 ? 33 C9 E8 ? ? ? ? FF 15 ? ? ? ?</pre></td></tr>
 </table>
 
 ### CTakeDamageInfo::Constructor

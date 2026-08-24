@@ -1,8 +1,8 @@
 # cs2kz-metamod
 
-Last updated: August 19, 2026 at 11:36:16 PM GMT
+Last updated: August 24, 2026 at 11:38:40 PM GMT
 
-* Manifests: [1670443425869204360](https://steamdb.info/depot/2347773/history/?changeid=M:1670443425869204360), [4814468113142569832](https://steamdb.info/depot/2347770/history/?changeid=M:4814468113142569832), [4846265837652631529](https://steamdb.info/depot/2347771/history/?changeid=M:4846265837652631529)
+* Manifests: [2988082166379903189](https://steamdb.info/depot/2347770/history/?changeid=M:2988082166379903189), [3204075245827788235](https://steamdb.info/depot/2347773/history/?changeid=M:3204075245827788235), [4506841409834636555](https://steamdb.info/depot/2347771/history/?changeid=M:4506841409834636555)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
@@ -20,8 +20,8 @@ Last updated: August 19, 2026 at 11:36:16 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x49\x89\xD5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x18\x48\x8B\x7F\x38</pre></td><td><pre>55 48 89 E5 41 55 49 89 D5 41 54 49 89 FC 53 48 89 F3 48 83 EC 18 48 8B 7F 38</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xF3\x0F\x11\x5C\x24\x20\x53\x56\x57\x48\x83\xEC\x60</pre></td><td><pre>F3 0F 11 5C 24 20 53 56 57 48 83 EC 60</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x49\x89\xD5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x18\x48\x8B\x7F\x38</pre></td><td><pre>55 48 89 E5 41 55 49 89 D5 41 54 49 89 FC 53 48 89 F3 48 83 EC 18 48 8B 7F 38</pre></td></tr>
 </table>
 
 ### AirMove
@@ -140,8 +140,8 @@ Last updated: August 19, 2026 at 11:36:16 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x48\xC6\x44\x24\x30\x00</pre></td><td><pre>48 83 EC 48 C6 44 24 30 00</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8D\x05\x2A\x2A\x2A\x2A\x55\x48\x89\xFA</pre></td><td><pre>48 8D 05 ? ? ? ? 55 48 89 FA</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x48\xC6\x44\x24\x30\x00</pre></td><td><pre>48 83 EC 48 C6 44 24 30 00</pre></td></tr>
 </table>
 
 ### DebugDrawMesh
@@ -268,8 +268,8 @@ Last updated: August 19, 2026 at 11:36:16 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x56\x41\x54\x48\x8B\xEC</pre></td><td><pre>40 55 56 41 54 48 8B EC</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x80\xBB</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? E8 ? ? ? ? 80 BB</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x56\x41\x54\x48\x8B\xEC</pre></td><td><pre>40 55 56 41 54 48 8B EC</pre></td></tr>
 </table>
 
 ### ProcessMovement
@@ -324,8 +324,8 @@ Last updated: August 19, 2026 at 11:36:16 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x53\x56\x57\x41\x56\x41\x57\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\xB8</pre></td><td><pre>48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 56 41 57 48 8D AC 24 ? ? ? ? B8</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xCF\x41\x56\x49\x89\xF6\x41\x55\x4D\x89\xC5\x41\x54\x49\x89\xD4</pre></td><td><pre>55 48 89 E5 41 57 49 89 CF 41 56 49 89 F6 41 55 4D 89 C5 41 54 49 89 D4</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x53\x56\x57\x41\x56\x41\x57\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\xB8</pre></td><td><pre>48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 56 41 57 48 8D AC 24 ? ? ? ? B8</pre></td></tr>
 </table>
 
 ### TryPlayerMove

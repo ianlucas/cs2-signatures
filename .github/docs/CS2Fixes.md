@@ -1,12 +1,28 @@
 # CS2Fixes
 
-Last updated: August 19, 2026 at 11:36:16 PM GMT
+Last updated: August 24, 2026 at 11:38:40 PM GMT
 
-* Manifests: [1670443425869204360](https://steamdb.info/depot/2347773/history/?changeid=M:1670443425869204360), [4814468113142569832](https://steamdb.info/depot/2347770/history/?changeid=M:4814468113142569832), [4846265837652631529](https://steamdb.info/depot/2347771/history/?changeid=M:4846265837652631529)
+* Manifests: [2988082166379903189](https://steamdb.info/depot/2347770/history/?changeid=M:2988082166379903189), [3204075245827788235](https://steamdb.info/depot/2347773/history/?changeid=M:3204075245827788235), [4506841409834636555](https://steamdb.info/depot/2347771/history/?changeid=M:4506841409834636555)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.jsonc
 
 ## Signatures
+
+### CCSGameRules_GoToIntermission
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x31\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x48\x8D\x3D</pre></td><td><pre>55 31 C0 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 48 8D 3D</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xE9</pre></td><td><pre>48 89 5C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 4C 8B E9</pre></td></tr>
+</table>
+
+### CGameRules_TerminateRound
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x89\xF7\x41\x56\x48\x8D\x35</pre></td><td><pre>55 48 89 E5 41 57 41 89 F7 41 56 48 8D 35</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x4C\x89\x48\x2A\x48\x89\x48\x2A\x55\x41\x54</pre></td><td><pre>48 8B C4 4C 89 48 ? 48 89 48 ? 55 41 54</pre></td></tr>
+</table>
 
 ### BotNavIgnore
 
@@ -102,14 +118,6 @@ Last updated: August 19, 2026 at 11:36:16 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x48\x89\xF7\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8</pre></td><td><pre>55 48 89 E5 41 57 49 89 FF 48 89 F7 41 56 41 55 41 54 53 48 81 EC ? ? ? ? E8</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x55\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xDA\x48\x8B\xF1\x48\x8D\x55</pre></td><td><pre>48 89 5C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 55 48 8D 6C 24 ? 48 81 EC ? ? ? ? 48 8B DA 48 8B F1 48 8D 55</pre></td></tr>
-</table>
-
-### CCSGameRules_GoToIntermission
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x31\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x48\x8D\x3D</pre></td><td><pre>55 31 C0 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 48 8D 3D</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xE9</pre></td><td><pre>48 89 5C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 4C 8B E9</pre></td></tr>
 </table>
 
 ### CCSGameRules__sm_mapGcBanInformation
@@ -231,20 +239,12 @@ Last updated: August 19, 2026 at 11:36:16 PM GMT
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x55\x57\x41\x54\x41\x56\x41\x57\x48\x8B\xEC\x48\x83\xEC\x2A\x4C\x8B\xF1</pre></td><td><pre>48 89 5C 24 ? 48 89 74 24 ? 55 57 41 54 41 56 41 57 48 8B EC 48 83 EC ? 4C 8B F1</pre></td></tr>
 </table>
 
-### CGameRules_TerminateRound
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x89\xF7\x41\x56\x48\x8D\x35</pre></td><td><pre>55 48 89 E5 41 57 41 89 F7 41 56 48 8D 35</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x4C\x89\x48\x2A\x48\x89\x48\x2A\x55\x41\x54</pre></td><td><pre>48 8B C4 4C 89 48 ? 48 89 48 ? 55 41 54</pre></td></tr>
-</table>
-
 ### CNavMesh_GetNearestNavArea
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x89\xCE</pre></td><td><pre>55 48 89 E5 41 57 49 89 FF 41 56 41 89 CE</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x44\x89\x4C\x24\x2A\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24</pre></td><td><pre>48 89 5C 24 ? 44 89 4C 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x89\xCE</pre></td><td><pre>55 48 89 E5 41 57 49 89 FF 41 56 41 89 CE</pre></td></tr>
 </table>
 
 ### CS_Script_SetModel
