@@ -1,8 +1,8 @@
 # cs2-ss2-match
 
-Last updated: August 24, 2026 at 11:38:40 PM GMT
+Last updated: August 25, 2026 at 7:53:38 PM GMT
 
-* Manifests: [2988082166379903189](https://steamdb.info/depot/2347770/history/?changeid=M:2988082166379903189), [3204075245827788235](https://steamdb.info/depot/2347773/history/?changeid=M:3204075245827788235), [4506841409834636555](https://steamdb.info/depot/2347771/history/?changeid=M:4506841409834636555)
+* Manifests: [3075687913968839709](https://steamdb.info/depot/2347771/history/?changeid=M:3075687913968839709), [4322456088840983890](https://steamdb.info/depot/2347770/history/?changeid=M:4322456088840983890), [4438670448538289168](https://steamdb.info/depot/2347773/history/?changeid=M:4438670448538289168)
 * Repository: https://github.com/ianlucas/cs2-ss2-match
 * Gamedata: https://github.com/ianlucas/cs2-ss2-match/blob/main/resources/gamedata/signatures.jsonc
 
@@ -44,8 +44,8 @@ Last updated: August 24, 2026 at 11:38:40 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x41\x89\xF4\xBE</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 41 89 F4 BE</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x57\x41\x57\x48\x8B\xEC\x48\x81\xEC\x2A\x2A\x2A\x2A\x44\x8B\xFA</pre></td><td><pre>40 55 57 41 57 48 8B EC 48 81 EC ? ? ? ? 44 8B FA</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x41\x89\xF4\xBE</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 41 89 F4 BE</pre></td></tr>
 </table>
 
 ### CEconItemSchema::GetItemDefinition
@@ -68,6 +68,6 @@ Last updated: August 24, 2026 at 11:38:40 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x48\x8B\x40\x2A\xC3\x0F\x1F\x80\x2A\x2A\x2A\x2A\x55\xBF\x2A\x2A\x2A\x2A\x48\x89\xE5\x53\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\xBF\x2A\x2A\x2A\x2A\x48\x89\xC3\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\xC7\x43\x2A\x2A\x2A\x2A\x2A\x48\x89\x03\xE8\x2A\x2A\x2A\x2A\x48\x89\xC7\x48\x89\x45\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8B\x45\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x89\x1D\x2A\x2A\x2A\x2A\x48\x89\x13\x48\x89\x43\x2A\x48\x8B\x5D\x2A\xC9\xC3\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\x55</pre></td><td><pre>48 8B 05 ? ? ? ? 48 85 C0 74 ? 48 8B 40 ? C3 0F 1F 80 ? ? ? ? 55 BF ? ? ? ? 48 89 E5 53 48 83 EC ? E8 ? ? ? ? BF ? ? ? ? 48 89 C3 48 8D 05 ? ? ? ? 48 C7 43 ? ? ? ? ? 48 89 03 E8 ? ? ? ? 48 89 C7 48 89 45 ? E8 ? ? ? ? 48 8B 45 ? 48 8D 15 ? ? ? ? 48 89 1D ? ? ? ? 48 89 13 48 89 43 ? 48 8B 5D ? C9 C3 CC CC CC CC CC CC CC CC CC CC CC 55</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x0F\x85\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x2A\xB9\x2A\x2A\x2A\x2A\x48\x89\x7C\x24\x2A\xE8\x2A\x2A\x2A\x2A\x33\xFF\x48\x8B\xD8\x48\x85\xC0\x74\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\x7B\x2A\xB9\x2A\x2A\x2A\x2A\x48\x89\x03\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x48\x8B\xC8\xE8\x2A\x2A\x2A\x2A\x48\x8B\xF8\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\x7B\x2A\x48\x89\x03\x48\x8B\xC7\x48\x8B\x7C\x24\x2A\x48\x89\x1D\x2A\x2A\x2A\x2A\x48\x8B\x5C\x24\x2A\x48\x83\xC4\x2A\xC3\x48\x8B\x47\x2A\x48\x8B\x5C\x24\x2A\x48\x89\x3D\x2A\x2A\x2A\x2A\x48\x8B\x7C\x24\x2A\x48\x83\xC4\x2A\xC3\x48\x8B\x40\x2A\x48\x83\xC4\x2A\xC3\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\x48\x8B\x41</pre></td><td><pre>48 83 EC ? 48 8B 05 ? ? ? ? 48 85 C0 0F 85 ? ? ? ? 48 89 5C 24 ? B9 ? ? ? ? 48 89 7C 24 ? E8 ? ? ? ? 33 FF 48 8B D8 48 85 C0 74 ? 48 8D 05 ? ? ? ? 48 89 7B ? B9 ? ? ? ? 48 89 03 E8 ? ? ? ? 48 85 C0 74 ? 48 8B C8 E8 ? ? ? ? 48 8B F8 48 8D 05 ? ? ? ? 48 89 7B ? 48 89 03 48 8B C7 48 8B 7C 24 ? 48 89 1D ? ? ? ? 48 8B 5C 24 ? 48 83 C4 ? C3 48 8B 47 ? 48 8B 5C 24 ? 48 89 3D ? ? ? ? 48 8B 7C 24 ? 48 83 C4 ? C3 48 8B 40 ? 48 83 C4 ? C3 CC CC CC CC CC CC CC CC CC CC CC CC 48 8B 41</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x48\x8B\x40\x2A\xC3\x0F\x1F\x80\x2A\x2A\x2A\x2A\x55\xBF\x2A\x2A\x2A\x2A\x48\x89\xE5\x53\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\xBF\x2A\x2A\x2A\x2A\x48\x89\xC3\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\xC7\x43\x2A\x2A\x2A\x2A\x2A\x48\x89\x03\xE8\x2A\x2A\x2A\x2A\x48\x89\xC7\x48\x89\x45\x2A\xE8\x2A\x2A\x2A\x2A\x48\x8B\x45\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x89\x1D\x2A\x2A\x2A\x2A\x48\x89\x13\x48\x89\x43\x2A\x48\x8B\x5D\x2A\xC9\xC3\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\x55</pre></td><td><pre>48 8B 05 ? ? ? ? 48 85 C0 74 ? 48 8B 40 ? C3 0F 1F 80 ? ? ? ? 55 BF ? ? ? ? 48 89 E5 53 48 83 EC ? E8 ? ? ? ? BF ? ? ? ? 48 89 C3 48 8D 05 ? ? ? ? 48 C7 43 ? ? ? ? ? 48 89 03 E8 ? ? ? ? 48 89 C7 48 89 45 ? E8 ? ? ? ? 48 8B 45 ? 48 8D 15 ? ? ? ? 48 89 1D ? ? ? ? 48 89 13 48 89 43 ? 48 8B 5D ? C9 C3 CC CC CC CC CC CC CC CC CC CC CC 55</pre></td></tr>
 </table>
