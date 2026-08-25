@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** August 25, 2026 at 10:39:27 AM GMT
+* **Last updated:** August 25, 2026 at 12:11:28 PM GMT
 * **Manifests:** [2988082166379903189](https://steamdb.info/depot/2347770/history/?changeid=M:2988082166379903189), [3204075245827788235](https://steamdb.info/depot/2347773/history/?changeid=M:3204075245827788235), [4506841409834636555](https://steamdb.info/depot/2347771/history/?changeid=M:4506841409834636555)
 
 <table>
@@ -56,22 +56,8 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity::AbsOrigin</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSGameRules::TerminateRound</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity::AbsAngles</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBasePlayerController::SwitchSteam</td></tr>
 <tr><td>❌</td><td>✅</td><td>CreateTriggerInternal</td></tr>
-<tr><td>❌</td><td>✅</td><td>Source2_Init</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseEntity::LocalVelocity</td></tr>
-<tr><td>❌</td><td>✅</td><td>HandleGCBanInfo</td></tr>
-<tr><td>❌</td><td>✅</td><td>HostSay</td></tr>
-<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::SpawnServer</td></tr>
-<tr><td>❌</td><td>✅</td><td>HostStateRequest</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBasePlayerController::HandleCommandJoinTeam</td></tr>
-<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::GetFreeClient</td></tr>
-<tr><td>❌</td><td>✅</td><td>CNetworkGameServer::PrintStatus</td></tr>
-<tr><td>❌</td><td>✅</td><td>CNavMesh::GetNearestNavArea</td></tr>
 </table>
 
 </details>
