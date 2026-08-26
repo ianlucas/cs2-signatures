@@ -1,8 +1,8 @@
 # CS2Fixes
 
-Last updated: August 25, 2026 at 7:53:38 PM GMT
+Last updated: August 26, 2026 at 9:16:17 PM GMT
 
-* Manifests: [3075687913968839709](https://steamdb.info/depot/2347771/history/?changeid=M:3075687913968839709), [4322456088840983890](https://steamdb.info/depot/2347770/history/?changeid=M:4322456088840983890), [4438670448538289168](https://steamdb.info/depot/2347773/history/?changeid=M:4438670448538289168)
+* Manifests: [2844536608884402770](https://steamdb.info/depot/2347770/history/?changeid=M:2844536608884402770), [5543898279197610779](https://steamdb.info/depot/2347773/history/?changeid=M:5543898279197610779), [6581019893274903321](https://steamdb.info/depot/2347771/history/?changeid=M:6581019893274903321)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.jsonc
 
@@ -100,8 +100,8 @@ Last updated: August 25, 2026 at 7:53:38 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xF9\x48\x8B\xDA\x48\x8B\x89\x2A\x2A\x2A\x2A\x48\x85\xC9</pre></td><td><pre>48 89 5C 24 ? 57 48 81 EC ? ? ? ? 48 8B F9 48 8B DA 48 8B 89 ? ? ? ? 48 85 C9</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x53\x48\x89\xFB\x48\x83\xC4\x2A\x48\x8B\xBF\x2A\x2A\x2A\x2A\x48\x85\xFF</pre></td><td><pre>55 48 89 E5 41 54 53 48 89 FB 48 83 C4 ? 48 8B BF ? ? ? ? 48 85 FF</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xF9\x48\x8B\xDA\x48\x8B\x89\x2A\x2A\x2A\x2A\x48\x85\xC9</pre></td><td><pre>48 89 5C 24 ? 57 48 81 EC ? ? ? ? 48 8B F9 48 8B DA 48 8B 89 ? ? ? ? 48 85 C9</pre></td></tr>
 </table>
 
 ### CBasePlayerPawn_GetEyePosition

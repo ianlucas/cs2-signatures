@@ -1,8 +1,8 @@
 # SwiftlyS2
 
-Last updated: August 25, 2026 at 7:53:38 PM GMT
+Last updated: August 26, 2026 at 9:16:17 PM GMT
 
-* Manifests: [3075687913968839709](https://steamdb.info/depot/2347771/history/?changeid=M:3075687913968839709), [4322456088840983890](https://steamdb.info/depot/2347770/history/?changeid=M:4322456088840983890), [4438670448538289168](https://steamdb.info/depot/2347773/history/?changeid=M:4438670448538289168)
+* Manifests: [2844536608884402770](https://steamdb.info/depot/2347770/history/?changeid=M:2844536608884402770), [5543898279197610779](https://steamdb.info/depot/2347773/history/?changeid=M:5543898279197610779), [6581019893274903321](https://steamdb.info/depot/2347771/history/?changeid=M:6581019893274903321)
 * Repository: https://github.com/swiftly-solution/swiftlys2
 
 ## master
@@ -397,8 +397,8 @@ Last updated: August 25, 2026 at 7:53:38 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x58\x2A\x48\x89\x68\x2A\x48\x89\x70\x2A\x57\x41\x56\x41\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xB4\x24\x2A\x2A\x2A\x2A\x4D\x8B\xF8</pre></td><td><pre>48 8B C4 48 89 58 ? 48 89 68 ? 48 89 70 ? 57 41 56 41 57 48 81 EC ? ? ? ? 48 8B B4 24 ? ? ? ? 4D 8B F8</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x4C\x89\xC1\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x45\x89\xCE</pre></td><td><pre>55 4C 89 C1 48 89 E5 41 57 49 89 FF 41 56 45 89 CE</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x58\x2A\x48\x89\x68\x2A\x48\x89\x70\x2A\x57\x41\x56\x41\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xB4\x24\x2A\x2A\x2A\x2A\x4D\x8B\xF8</pre></td><td><pre>48 8B C4 48 89 58 ? 48 89 68 ? 48 89 70 ? 57 41 56 41 57 48 81 EC ? ? ? ? 48 8B B4 24 ? ? ? ? 4D 8B F8</pre></td></tr>
 </table>
 
 ### CSource2Server::g_GameEventManager
@@ -593,8 +593,8 @@ Last updated: August 25, 2026 at 7:53:38 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x57\x48\x83\xEC\x30\x48\x8B\xF9\xBA\xFF\xFF\xFF\xFF</pre></td><td><pre>40 57 48 83 EC 30 48 8B F9 BA FF FF FF FF</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\xBE\x2A\x2A\x2A\x2A\x48\x89\xE5\x53\x48\x89\xFB\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x0F\xB6\x10\x31\xC0</pre></td><td><pre>55 BE ? ? ? ? 48 89 E5 53 48 89 FB 48 8D 3D ? ? ? ? 48 83 EC ? E8 ? ? ? ? 48 85 C0 74 ? 0F B6 10 31 C0</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x57\x48\x83\xEC\x30\x48\x8B\xF9\xBA\xFF\xFF\xFF\xFF</pre></td><td><pre>40 57 48 83 EC 30 48 8B F9 BA FF FF FF FF</pre></td></tr>
 </table>
 
 ### CCSPlayerPawn::PostThink
@@ -881,8 +881,8 @@ Last updated: August 25, 2026 at 7:53:38 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x58\x2A\x4C\x89\x40\x2A\x48\x89\x48\x2A\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\x6C\x24</pre></td><td><pre>48 8B C4 48 89 58 ? 4C 89 40 ? 48 89 48 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D 6C 24</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8D\x35</pre></td><td><pre>55 48 8D 05 ? ? ? ? 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 81 EC ? ? ? ? 4C 8D 35</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x58\x2A\x4C\x89\x40\x2A\x48\x89\x48\x2A\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\x6C\x24</pre></td><td><pre>48 8B C4 48 89 58 ? 4C 89 40 ? 48 89 48 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D 6C 24</pre></td></tr>
 </table>
 
 ### CSmokeGrenadeProjectile::EmitGrenade

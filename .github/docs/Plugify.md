@@ -1,8 +1,8 @@
 # Plugify
 
-Last updated: August 26, 2026 at 6:37:04 AM GMT
+Last updated: August 26, 2026 at 9:16:17 PM GMT
 
-* Manifests: [3075687913968839709](https://steamdb.info/depot/2347771/history/?changeid=M:3075687913968839709), [4322456088840983890](https://steamdb.info/depot/2347770/history/?changeid=M:4322456088840983890), [4438670448538289168](https://steamdb.info/depot/2347773/history/?changeid=M:4438670448538289168)
+* Manifests: [2844536608884402770](https://steamdb.info/depot/2347770/history/?changeid=M:2844536608884402770), [5543898279197610779](https://steamdb.info/depot/2347773/history/?changeid=M:5543898279197610779), [6581019893274903321](https://steamdb.info/depot/2347771/history/?changeid=M:6581019893274903321)
 * Repository: https://github.com/untrustedmodders/plugify-plugin-s2sdk
 * Gamedata: https://github.com/untrustedmodders/plugify-plugin-s2sdk/blob/main/assets/gamedata.jsonc
 
@@ -27,8 +27,8 @@ Last updated: August 26, 2026 at 6:37:04 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x53\x89\xD3\x48\x81\xEC\x2A\x2A\x2A\x2A\x40\x38\xB7</pre></td><td><pre>55 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 53 89 D3 48 81 EC ? ? ? ? 40 38 B7</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x48\x83\xEC\x2A\x41\x0F\xB6\xF0</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 41 0F B6 F0</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x53\x89\xD3\x48\x81\xEC\x2A\x2A\x2A\x2A\x40\x38\xB7</pre></td><td><pre>55 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 53 89 D3 48 81 EC ? ? ? ? 40 38 B7</pre></td></tr>
 </table>
 
 ### CBasePlayerController::SetPawn
@@ -43,8 +43,8 @@ Last updated: August 26, 2026 at 6:37:04 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\xFA</pre></td><td><pre>40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x89\xF7</pre></td><td><pre>55 48 89 E5 41 54 49 89 FC 89 F7</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\xFA</pre></td><td><pre>40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA</pre></td></tr>
 </table>
 
 ### CCSPlayer_ItemServices::CanAcquire

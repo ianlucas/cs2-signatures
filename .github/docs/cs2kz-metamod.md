@@ -1,8 +1,8 @@
 # cs2kz-metamod
 
-Last updated: August 25, 2026 at 7:53:38 PM GMT
+Last updated: August 26, 2026 at 9:16:17 PM GMT
 
-* Manifests: [3075687913968839709](https://steamdb.info/depot/2347771/history/?changeid=M:3075687913968839709), [4322456088840983890](https://steamdb.info/depot/2347770/history/?changeid=M:4322456088840983890), [4438670448538289168](https://steamdb.info/depot/2347773/history/?changeid=M:4438670448538289168)
+* Manifests: [2844536608884402770](https://steamdb.info/depot/2347770/history/?changeid=M:2844536608884402770), [5543898279197610779](https://steamdb.info/depot/2347773/history/?changeid=M:5543898279197610779), [6581019893274903321](https://steamdb.info/depot/2347771/history/?changeid=M:6581019893274903321)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
@@ -212,8 +212,8 @@ Last updated: August 25, 2026 at 7:53:38 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x83\xFF\x2A\x77\x2A\x48\x63\xFF\x48\xC1\xE7\x2A\x48\x8D\x44\x38</pre></td><td><pre>48 8B 05 ? ? ? ? 48 85 C0 74 ? 83 FF ? 77 ? 48 63 FF 48 C1 E7 ? 48 8D 44 38</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x85\xC9</pre></td><td><pre>48 8B 15 ? ? ? ? 48 85 D2 74 ? 85 C9</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x83\xFF\x2A\x77\x2A\x48\x63\xFF\x48\xC1\xE7\x2A\x48\x8D\x44\x38</pre></td><td><pre>48 8B 05 ? ? ? ? 48 85 C0 74 ? 83 FF ? 77 ? 48 63 FF 48 C1 E7 ? 48 8D 44 38</pre></td></tr>
 </table>
 
 ### LadderMove
