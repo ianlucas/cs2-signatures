@@ -1,6 +1,6 @@
 # ModSharp
 
-Last updated: August 26, 2026 at 9:16:17 PM GMT
+Last updated: August 27, 2026 at 6:12:04 PM GMT
 
 * Manifests: [2844536608884402770](https://steamdb.info/depot/2347770/history/?changeid=M:2844536608884402770), [5543898279197610779](https://steamdb.info/depot/2347773/history/?changeid=M:5543898279197610779), [6581019893274903321](https://steamdb.info/depot/2347771/history/?changeid=M:6581019893274903321)
 * Repository: https://github.com/Kxnrl/modsharp-public
@@ -14,6 +14,22 @@ Last updated: August 26, 2026 at 9:16:17 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xFF\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x41\x89\xF4</pre></td><td><pre>48 85 FF 0F 84 ? ? ? ? 55 48 89 E5 41 56 41 55 41 54 41 89 F4</pre></td></tr>
 <tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x2A\x56\x48\x83\xEC\x2A\x0F\xB6\xF2</pre></td><td><pre>48 85 C9 0F 84 ? ? ? ? 48 89 5C 24 ? 56 48 83 EC ? 0F B6 F2</pre></td></tr>
+</table>
+
+### CCSScript::ScriptStackPop
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x83\x2D\x39\x9F\xC2\x01\x01</pre></td><td><pre>83 2D 39 9F C2 01 01</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xFF\x0D\x32\xA0\xC0\x01</pre></td><td><pre>FF 0D 32 A0 C0 01</pre></td></tr>
+</table>
+
+### CCSScript::ScriptStackPush
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xFD\x8B\x3D\x7F\xA0\xC2\x01</pre></td><td><pre>55 48 89 E5 41 56 41 55 49 89 FD 8B 3D 7F A0 C2 01</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x6C\x24\x18\x56\x48\x83\xEC\x20\x48\x63\x05\x37\xDF\xC0\x01</pre></td><td><pre>48 89 6C 24 18 56 48 83 EC 20 48 63 05 37 DF C0 01</pre></td></tr>
 </table>
 
 ### CreateTriggerInternal
@@ -292,8 +308,8 @@ Last updated: August 26, 2026 at 9:16:17 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x35\x2A\x2A\x2A\x2A\xBA\x2A\x2A\x2A\x2A\x48\x89\xE5</pre></td><td><pre>55 48 8D 35 ? ? ? ? BA ? ? ? ? 48 89 E5</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x48\x08\x55\x48\x8D\xA8\x08\xFC\xFF\xFF</pre></td><td><pre>48 8B C4 48 89 48 08 55 48 8D A8 08 FC FF FF</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x35\x2A\x2A\x2A\x2A\xBA\x2A\x2A\x2A\x2A\x48\x89\xE5</pre></td><td><pre>55 48 8D 35 ? ? ? ? BA ? ? ? ? 48 89 E5</pre></td></tr>
 </table>
 
 ### CCSGameRules::TerminateRound
@@ -459,6 +475,28 @@ Last updated: August 26, 2026 at 9:16:17 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x89\xF3\x48\x83\xEC\x2A\x48\x63\x77</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 89 F3 48 83 EC ? 48 63 77</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x08\x48\x89\x6C\x24\x10\x48\x89\x74\x24\x18\x48\x89\x7C\x24\x20\x41\x54\x41\x56\x41\x57\x48\x83\xEC\x20\x45\x33\xE4\x45\x8B\xF0</pre></td><td><pre>48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 54 41 56 41 57 48 83 EC 20 45 33 E4 45 8B F0</pre></td></tr>
+</table>
+
+### CCSScript::CreateEntityWrapper
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x10\x55\x56\x57\x48\x83\xEC\x30\x49\x8B\xE8\x48\xC7\x44\x24\x60\x00\x00\x00\x00\x48\x8B\xDA\x48\x8B\xF9</pre></td><td><pre>48 89 5C 24 10 55 56 57 48 83 EC 30 49 8B E8 48 C7 44 24 60 00 00 00 00 48 8B DA 48 8B F9</pre></td></tr>
+</table>
+
+### CCSScript::CreateEntityWrapperDispatcher
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x48\x8B\x07\xFF\x90\x2A\x2A\x2A\x2A\x48\x8D\x3D</pre></td><td><pre>55 48 89 E5 41 54 53 48 89 FB 48 83 EC ? 48 8B 07 FF 90 ? ? ? ? 48 8D 3D</pre></td></tr>
+</table>
+
+### CCSScript::GetCurrentScript
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x05\x2A\x2A\x2A\x2A\x31\xD2\x85\xC0</pre></td><td><pre>8B 05 ? ? ? ? 31 D2 85 C0</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x8B\x05\x2A\x2A\x2A\x2A\x85\xC0\x7E\x2A\xFF\xC8</pre></td><td><pre>8B 05 ? ? ? ? 85 C0 7E ? FF C8</pre></td></tr>
 </table>
 
 ### CCollisionProperty::SetSolid

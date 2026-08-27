@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** August 27, 2026 at 8:20:04 AM GMT
+* **Last updated:** August 27, 2026 at 6:12:04 PM GMT
 * **Manifests:** [2844536608884402770](https://steamdb.info/depot/2347770/history/?changeid=M:2844536608884402770), [5543898279197610779](https://steamdb.info/depot/2347773/history/?changeid=M:5543898279197610779), [6581019893274903321](https://steamdb.info/depot/2347771/history/?changeid=M:6581019893274903321)
 
 <table>
@@ -37,6 +37,8 @@
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
 <tr><td>❌</td><td>✅</td><td>CreateTriggerInternal</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSScript::ScriptStackPop</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSScript::ScriptStackPush</td></tr>
 </table>
 
 </details>
