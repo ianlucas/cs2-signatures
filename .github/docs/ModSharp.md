@@ -1,8 +1,8 @@
 # ModSharp
 
-Last updated: August 27, 2026 at 6:12:04 PM GMT
+Last updated: August 28, 2026 at 8:52:18 PM GMT
 
-* Manifests: [2844536608884402770](https://steamdb.info/depot/2347770/history/?changeid=M:2844536608884402770), [5543898279197610779](https://steamdb.info/depot/2347773/history/?changeid=M:5543898279197610779), [6581019893274903321](https://steamdb.info/depot/2347771/history/?changeid=M:6581019893274903321)
+* Manifests: [3098867400317391293](https://steamdb.info/depot/2347773/history/?changeid=M:3098867400317391293), [5122228181560116426](https://steamdb.info/depot/2347771/history/?changeid=M:5122228181560116426), [6839025807341874757](https://steamdb.info/depot/2347770/history/?changeid=M:6839025807341874757)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc
 
@@ -308,8 +308,8 @@ Last updated: August 27, 2026 at 6:12:04 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x48\x08\x55\x48\x8D\xA8\x08\xFC\xFF\xFF</pre></td><td><pre>48 8B C4 48 89 48 08 55 48 8D A8 08 FC FF FF</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x35\x2A\x2A\x2A\x2A\xBA\x2A\x2A\x2A\x2A\x48\x89\xE5</pre></td><td><pre>55 48 8D 35 ? ? ? ? BA ? ? ? ? 48 89 E5</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x48\x89\x48\x08\x55\x48\x8D\xA8\x08\xFC\xFF\xFF</pre></td><td><pre>48 8B C4 48 89 48 08 55 48 8D A8 08 FC FF FF</pre></td></tr>
 </table>
 
 ### CCSGameRules::TerminateRound
@@ -1148,8 +1148,8 @@ Last updated: August 27, 2026 at 6:12:04 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x18\x48\x89\x7C\x24\x20\x55\x41\x56\x41\x57\x48\x8D\x6C\x24\xD9</pre></td><td><pre>48 89 5C 24 08 48 89 74 24 18 48 89 7C 24 20 55 41 56 41 57 48 8D 6C 24 D9</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x4C\x8D\x7D\x2A\x41\x56\x49\x89\xCE</pre></td><td><pre>55 48 8D 05 ? ? ? ? 48 89 E5 41 57 4C 8D 7D ? 41 56 49 89 CE</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x18\x48\x89\x7C\x24\x20\x55\x41\x56\x41\x57\x48\x8D\x6C\x24\xD9</pre></td><td><pre>48 89 5C 24 08 48 89 74 24 18 48 89 7C 24 20 55 41 56 41 57 48 8D 6C 24 D9</pre></td></tr>
 </table>
 
 ### UTIL_SetModel
