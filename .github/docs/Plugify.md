@@ -1,6 +1,6 @@
 # Plugify
 
-Last updated: August 28, 2026 at 8:52:18 PM GMT
+Last updated: August 29, 2026 at 11:17:04 PM GMT
 
 * Manifests: [3098867400317391293](https://steamdb.info/depot/2347773/history/?changeid=M:3098867400317391293), [5122228181560116426](https://steamdb.info/depot/2347771/history/?changeid=M:5122228181560116426), [6839025807341874757](https://steamdb.info/depot/2347770/history/?changeid=M:6839025807341874757)
 * Repository: https://github.com/untrustedmodders/plugify-plugin-s2sdk
@@ -207,6 +207,6 @@ Last updated: August 28, 2026 at 8:52:18 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>vscript</td><td><pre>\x83\xFE\x01\x0F\x84\x2A\x2A\x2A\x2A\x83\xFE\x02\x0F\x85\x2A\x2A\x2A\x2A\xBF\x2A\x2A\x2A\x2A\xE8</pre></td><td><pre>83 FE 01 0F 84 ? ? ? ? 83 FE 02 0F 85 ? ? ? ? BF ? ? ? ? E8</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>vscript</td><td><pre>\xBE\x2A\x2A\x2A\x2A\x2B\xD6</pre></td><td><pre>BE ? ? ? ? 2B D6</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>vscript</td><td><pre>\x83\xFE\x01\x0F\x84\x2A\x2A\x2A\x2A\x83\xFE\x02\x0F\x85\x2A\x2A\x2A\x2A\xBF\x2A\x2A\x2A\x2A\xE8</pre></td><td><pre>83 FE 01 0F 84 ? ? ? ? 83 FE 02 0F 85 ? ? ? ? BF ? ? ? ? E8</pre></td></tr>
 </table>
