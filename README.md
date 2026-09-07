@@ -1,7 +1,7 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 1, 2026 at 11:30:04 AM GMT
-* **Manifests:** [3098867400317391293](https://steamdb.info/depot/2347773/history/?changeid=M:3098867400317391293), [5122228181560116426](https://steamdb.info/depot/2347771/history/?changeid=M:5122228181560116426), [6839025807341874757](https://steamdb.info/depot/2347770/history/?changeid=M:6839025807341874757)
+* **Last updated:** September 7, 2026 at 10:10:15 PM GMT
+* **Manifests:** [5133223087201626432](https://steamdb.info/depot/2347770/history/?changeid=M:5133223087201626432), [7308152089951763351](https://steamdb.info/depot/2347773/history/?changeid=M:7308152089951763351), [7475134589078180787](https://steamdb.info/depot/2347771/history/?changeid=M:7475134589078180787)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
@@ -25,9 +25,9 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>❌</td><td>✅</td><td>CCSScript::ScriptStackPush</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSScript::ScriptStackPop</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSScript::ScriptStackPush</td></tr>
 <tr><td>❌</td><td>✅</td><td>CreateTriggerInternal</td></tr>
 </table>
 
