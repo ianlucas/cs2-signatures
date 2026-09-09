@@ -1,14 +1,14 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 7, 2026 at 10:10:15 PM GMT
-* **Manifests:** [5133223087201626432](https://steamdb.info/depot/2347770/history/?changeid=M:5133223087201626432), [7308152089951763351](https://steamdb.info/depot/2347773/history/?changeid=M:7308152089951763351), [7475134589078180787](https://steamdb.info/depot/2347771/history/?changeid=M:7475134589078180787)
+* **Last updated:** September 9, 2026 at 10:50:14 PM GMT
+* **Manifests:** [2053759441494650084](https://steamdb.info/depot/2347770/history/?changeid=M:2053759441494650084), [5806169188224907599](https://steamdb.info/depot/2347771/history/?changeid=M:5806169188224907599), [8639120305802825922](https://steamdb.info/depot/2347773/history/?changeid=M:8639120305802825922)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
 <tr><td>⚠️</td><td>✅</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr>
-<tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
-<tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
-<tr><td>✅</td><td>✅</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
+<tr><td>❌</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
+<tr><td>❌</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
+<tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Kxnrl/modsharp-public">ModSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/ModSharp.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/untrustedmodders/plugify-plugin-s2sdk">Plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/Plugify.md">View signatures →</a></td></tr>
 <tr><td>⚠️</td><td>⚠️</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr>
@@ -21,14 +21,49 @@
 </table>
 
 <details>
+<summary>SwiftlyS2 broken signatures</summary>
+
+<table>
+<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>❌</td><td>✅</td><td>CCSCustomHudLayout::SetHasClass</td></tr>
+</table>
+
+</details>
+
+<details>
+<summary>SwiftlyS2 (beta) broken signatures</summary>
+
+<table>
+<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>❌</td><td>✅</td><td>CCSCustomHudLayout::SetHasClass</td></tr>
+</table>
+
+</details>
+
+<details>
+<summary>CS2Fixes broken signatures</summary>
+
+<table>
+<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>❌</td><td>❌</td><td>UTIL_SayTextFilter</td></tr>
+<tr><td>✅</td><td>❌</td><td>UTIL_SayText2Filter</td></tr>
+</table>
+
+</details>
+
+<details>
 <summary>ModSharp broken signatures</summary>
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>❌</td><td>✅</td><td>CCSScript::ScriptStackPush</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::ClearDialogVariableStringForPlayer</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::SetInputCaptureEnabled</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSScript::ScriptStackPop</td></tr>
 <tr><td>❌</td><td>✅</td><td>CreateTriggerInternal</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::IsInputCaptureEnabled</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSCustomHudLayout::SetHasClass</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSScript::ScriptStackPush</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSScript::ScriptStackPop</td></tr>
 </table>
 
 </details>
