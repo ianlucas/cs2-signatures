@@ -1,12 +1,12 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 9, 2026 at 11:43:04 PM GMT
+* **Last updated:** September 10, 2026 at 12:04:04 AM GMT
 * **Manifests:** [2053759441494650084](https://steamdb.info/depot/2347770/history/?changeid=M:2053759441494650084), [5806169188224907599](https://steamdb.info/depot/2347771/history/?changeid=M:5806169188224907599), [8639120305802825922](https://steamdb.info/depot/2347773/history/?changeid=M:8639120305802825922)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
 <tr><td>⚠️</td><td>✅</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr>
-<tr><td>❌</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
+<tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Kxnrl/modsharp-public">ModSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/ModSharp.md">View signatures →</a></td></tr>
@@ -19,16 +19,6 @@
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-inventory-simulator">cs2-ss2-inventory-simulator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-inventory-simulator.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-match">cs2-ss2-match</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-match.md">View signatures →</a></td></tr>
 </table>
-
-<details>
-<summary>SwiftlyS2 broken signatures</summary>
-
-<table>
-<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>❌</td><td>✅</td><td>CCSCustomHudLayout::SetHasClass</td></tr>
-</table>
-
-</details>
 
 <details>
 <summary>CS2Fixes broken signatures</summary>
