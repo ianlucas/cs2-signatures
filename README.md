@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 10, 2026 at 12:04:04 AM GMT
+* **Last updated:** September 10, 2026 at 1:53:04 AM GMT
 * **Manifests:** [2053759441494650084](https://steamdb.info/depot/2347770/history/?changeid=M:2053759441494650084), [5806169188224907599](https://steamdb.info/depot/2347771/history/?changeid=M:5806169188224907599), [8639120305802825922](https://steamdb.info/depot/2347773/history/?changeid=M:8639120305802825922)
 
 <table>
@@ -36,14 +36,8 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::ClearDialogVariableStringForPlayer</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::SetInputCaptureEnabled</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
 <tr><td>❌</td><td>✅</td><td>CreateTriggerInternal</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::IsInputCaptureEnabled</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSCustomHudLayout::SetHasClass</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSScript::ScriptStackPush</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSScript::ScriptStackPop</td></tr>
 </table>
 
 </details>
