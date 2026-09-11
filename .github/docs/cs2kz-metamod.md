@@ -1,6 +1,6 @@
 # cs2kz-metamod
 
-Last updated: September 9, 2026 at 10:50:14 PM GMT
+Last updated: September 11, 2026 at 10:01:04 PM GMT
 
 * Manifests: [2053759441494650084](https://steamdb.info/depot/2347770/history/?changeid=M:2053759441494650084), [5806169188224907599](https://steamdb.info/depot/2347771/history/?changeid=M:5806169188224907599), [8639120305802825922](https://steamdb.info/depot/2347773/history/?changeid=M:8639120305802825922)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
@@ -132,8 +132,8 @@ Last updated: September 9, 2026 at 10:50:14 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x41\x89\xD4\x53\x48\x81\xEC\xC8\x00\x00\x00</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 41 89 D4 53 48 81 EC C8 00 00 00</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x10\x48\x89\x6C\x24\x18\x57\x48\x81\xEC\xC0\x00\x00\x00\x41\x0F\xB6\xD8</pre></td><td><pre>48 89 5C 24 10 48 89 6C 24 18 57 48 81 EC C0 00 00 00 41 0F B6 D8</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x41\x89\xD4\x53\x48\x81\xEC\xC8\x00\x00\x00</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 41 89 D4 53 48 81 EC C8 00 00 00</pre></td></tr>
 </table>
 
 ### CreateEntityByName
@@ -212,8 +212,8 @@ Last updated: September 9, 2026 at 10:50:14 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x85\xC9</pre></td><td><pre>48 8B 15 ? ? ? ? 48 85 D2 74 ? 85 C9</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x83\xFF\x2A\x77\x2A\x48\x63\xFF\x48\xC1\xE7\x2A\x48\x8D\x44\x38</pre></td><td><pre>48 8B 05 ? ? ? ? 48 85 C0 74 ? 83 FF ? 77 ? 48 63 FF 48 C1 E7 ? 48 8D 44 38</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x85\xC9</pre></td><td><pre>48 8B 15 ? ? ? ? 48 85 D2 74 ? 85 C9</pre></td></tr>
 </table>
 
 ### LadderMove
