@@ -1,8 +1,8 @@
 # cs2-ss2-identity
 
-Last updated: September 9, 2026 at 10:50:14 PM GMT
+Last updated: September 22, 2026 at 11:37:16 PM GMT
 
-* Manifests: [2053759441494650084](https://steamdb.info/depot/2347770/history/?changeid=M:2053759441494650084), [5806169188224907599](https://steamdb.info/depot/2347771/history/?changeid=M:5806169188224907599), [8639120305802825922](https://steamdb.info/depot/2347773/history/?changeid=M:8639120305802825922)
+* Manifests: [8639120305802825922](https://steamdb.info/depot/2347773/history/?changeid=M:8639120305802825922), [649816868973969146](https://steamdb.info/depot/2347770/history/?changeid=M:649816868973969146), [6714556331453849572](https://steamdb.info/depot/2347771/history/?changeid=M:6714556331453849572)
 * Repository: https://github.com/ianlucas/cs2-ss2-identity
 * Gamedata: https://github.com/ianlucas/cs2-ss2-identity/blob/main/resources/gamedata/signatures.jsonc
 
@@ -28,8 +28,8 @@ Last updated: September 9, 2026 at 10:50:14 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xC7\x83\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x66\x2E\x0F\x1F\x84\x00</pre></td><td><pre>C7 83 ? ? ? ? ? ? ? ? 85 D2 0F 84 ? ? ? ? E9 ? ? ? ? 66 2E 0F 1F 84 00</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x44\x89\xAF\x2A\x2A\x2A\x2A\x44\x39\xAF\x2A\x2A\x2A\x2A\x74\x2A\xBA\x2A\x2A\x2A\x2A\x48\x8D\x8F\x2A\x2A\x2A\x2A\x41\xB8\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x44\x89\xAF\x2A\x2A\x2A\x2A\x48\x83\xC4</pre></td><td><pre>44 89 AF ? ? ? ? 44 39 AF ? ? ? ? 74 ? BA ? ? ? ? 48 8D 8F ? ? ? ? 41 B8 ? ? ? ? E8 ? ? ? ? 44 89 AF ? ? ? ? 48 83 C4</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xC7\x83\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x66\x2E\x0F\x1F\x84\x00</pre></td><td><pre>C7 83 ? ? ? ? ? ? ? ? 85 D2 0F 84 ? ? ? ? E9 ? ? ? ? 66 2E 0F 1F 84 00</pre></td></tr>
 </table>
 
 ### CCSPlayerController::m_iszPlayerName1
@@ -52,14 +52,14 @@ Last updated: September 9, 2026 at 10:50:14 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x4C\x8D\x2D</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 83 EC ? E8 ? ? ? ? 4C 8D 2D</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x56\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\xF2\x48\x8B\xF9\xE8</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 56 48 83 EC ? 48 8B F2 48 8B F9 E8</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x2A\xE8\x2A\x2A\x2A\x2A\x4C\x8D\x2D</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 83 EC ? E8 ? ? ? ? 4C 8D 2D</pre></td></tr>
 </table>
 
 ### CCSPlayerController::m_iszPlayerName4
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x83\xF8</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? E8 ? ? ? ? 83 F8</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x53\x56\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\x68\x2A\x48\x8D\x50</pre></td><td><pre>48 8B C4 53 56 48 81 EC ? ? ? ? 48 89 68 ? 48 8D 50</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x83\xF8</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? E8 ? ? ? ? 83 F8</pre></td></tr>
 </table>

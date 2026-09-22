@@ -1,32 +1,124 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 14, 2026 at 9:03:03 PM GMT
-* **Manifests:** [2053759441494650084](https://steamdb.info/depot/2347770/history/?changeid=M:2053759441494650084), [5806169188224907599](https://steamdb.info/depot/2347771/history/?changeid=M:5806169188224907599), [8639120305802825922](https://steamdb.info/depot/2347773/history/?changeid=M:8639120305802825922)
+* **Last updated:** September 22, 2026 at 11:37:16 PM GMT
+* **Manifests:** [8639120305802825922](https://steamdb.info/depot/2347773/history/?changeid=M:8639120305802825922), [649816868973969146](https://steamdb.info/depot/2347770/history/?changeid=M:649816868973969146), [6714556331453849572](https://steamdb.info/depot/2347771/history/?changeid=M:6714556331453849572)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
-<tr><td>⚠️</td><td>✅</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr>
-<tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
-<tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
+<tr><td>⚠️</td><td>❌</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr>
+<tr><td>✅</td><td>❌</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
+<tr><td>✅</td><td>❌</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Kxnrl/modsharp-public">ModSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/ModSharp.md">View signatures →</a></td></tr>
-<tr><td>✅</td><td>✅</td><td><a href="https://github.com/untrustedmodders/plugify-plugin-s2sdk">Plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/Plugify.md">View signatures →</a></td></tr>
-<tr><td>⚠️</td><td>⚠️</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr>
-<tr><td>✅</td><td>✅</td><td><a href="https://github.com/Micka2302/cs2-retakes-allocator-2.0">cs2-retakes-allocator-2.0</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-retakes-allocator-2.0.md">View signatures →</a></td></tr>
-<tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-css-inventory-simulator">cs2-css-inventory-simulator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-css-inventory-simulator.md">View signatures →</a></td></tr>
+<tr><td>✅</td><td>❌</td><td><a href="https://github.com/untrustedmodders/plugify-plugin-s2sdk">Plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/Plugify.md">View signatures →</a></td></tr>
+<tr><td>⚠️</td><td>❌</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr>
+<tr><td>✅</td><td>❌</td><td><a href="https://github.com/Micka2302/cs2-retakes-allocator-2.0">cs2-retakes-allocator-2.0</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-retakes-allocator-2.0.md">View signatures →</a></td></tr>
+<tr><td>✅</td><td>❌</td><td><a href="https://github.com/ianlucas/cs2-css-inventory-simulator">cs2-css-inventory-simulator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-css-inventory-simulator.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-deathmatch">cs2-ss2-deathmatch</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-deathmatch.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-identity">cs2-ss2-identity</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-identity.md">View signatures →</a></td></tr>
-<tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-inventory-simulator">cs2-ss2-inventory-simulator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-inventory-simulator.md">View signatures →</a></td></tr>
-<tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-match">cs2-ss2-match</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-match.md">View signatures →</a></td></tr>
+<tr><td>✅</td><td>❌</td><td><a href="https://github.com/ianlucas/cs2-ss2-inventory-simulator">cs2-ss2-inventory-simulator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-inventory-simulator.md">View signatures →</a></td></tr>
+<tr><td>✅</td><td>❌</td><td><a href="https://github.com/ianlucas/cs2-ss2-match">cs2-ss2-match</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-match.md">View signatures →</a></td></tr>
 </table>
+
+<details>
+<summary>CounterStrikeSharp broken signatures</summary>
+
+<table>
+<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_ItemServices_CanAcquire</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityInstance_AcceptInput</td></tr>
+<tr><td>✅</td><td>❌</td><td>CBaseModelEntity_SetModel</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntitySystem_AddEntityIOEvent</td></tr>
+<tr><td>✅</td><td>❌</td><td>CheckTransmit</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityIOOutput_FireOutputInternal</td></tr>
+</table>
+
+</details>
+
+<details>
+<summary>SwiftlyS2 broken signatures</summary>
+
+<table>
+<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::RemoveDialogVariableStringForPlayer</td></tr>
+<tr><td>✅</td><td>❌</td><td>CHEGrenadeProjectile::EmitGrenade</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::SetDialogVariableStringForPlayer</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::SetHasClassForPlayer</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayerPawn::CanMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_ItemServices::CanAcquire</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Friction</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::MoveInit</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::PlayerMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::WaterMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityIdentity::AcceptInput</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntitySystem::AddEntityIOEvent</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::OnJumpLegacy</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::SetInputCaptureEnabled</td></tr>
+<tr><td>✅</td><td>❌</td><td>CSource2Server::g_GameEventManager</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckJumpButtonLegacy</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Duck</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityIOOutput::FireOutputInternal</td></tr>
+<tr><td>✅</td><td>❌</td><td>CMolotovProjectile::EmitGrenade</td></tr>
+<tr><td>✅</td><td>❌</td><td>TraceShape</td></tr>
+<tr><td>✅</td><td>❌</td><td>CAttributeList::SetOrAddAttributeValueByName</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::AirMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckFalling</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityInstance::AcceptInput</td></tr>
+</table>
+
+</details>
+
+<details>
+<summary>SwiftlyS2 (beta) broken signatures</summary>
+
+<table>
+<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::SetHasClassForPlayer</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayerPawn::CanMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_ItemServices::CanAcquire</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckFalling</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::MoveInit</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::OnJumpLegacy</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::PlayerMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Friction</td></tr>
+<tr><td>✅</td><td>❌</td><td>CMolotovProjectile::EmitGrenade</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::RemoveDialogVariableStringForPlayer</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::SetDialogVariableStringForPlayer</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::SetInputCaptureEnabled</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckJumpButtonLegacy</td></tr>
+<tr><td>✅</td><td>❌</td><td>CAttributeList::SetOrAddAttributeValueByName</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::AirMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Duck</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::WaterMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityIOOutput::FireOutputInternal</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityIdentity::AcceptInput</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityInstance::AcceptInput</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntitySystem::AddEntityIOEvent</td></tr>
+<tr><td>✅</td><td>❌</td><td>CHEGrenadeProjectile::EmitGrenade</td></tr>
+<tr><td>✅</td><td>❌</td><td>CSource2Server::g_GameEventManager</td></tr>
+<tr><td>✅</td><td>❌</td><td>TraceShape</td></tr>
+</table>
+
+</details>
 
 <details>
 <summary>CS2Fixes broken signatures</summary>
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>✅</td><td>❌</td><td>CBaseFilter_InputTestActivator</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityIdentity_AcceptInput</td></tr>
+<tr><td>✅</td><td>❌</td><td>GameSystem_Think_CheckSteamBan</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_ItemServices_CanAcquire</td></tr>
+<tr><td>✅</td><td>❌</td><td>CBasePlayerPawn_SnapViewAngles</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityIOOutput_FireOutputInternal</td></tr>
 <tr><td>❌</td><td>❌</td><td>UTIL_SayTextFilter</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityInstance_AcceptInput</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntitySystem_AddEntityIOEvent</td></tr>
+<tr><td>✅</td><td>❌</td><td>CGamePlayerEquip_InputTriggerForActivatedPlayer</td></tr>
+<tr><td>✅</td><td>❌</td><td>TraceShape</td></tr>
 <tr><td>✅</td><td>❌</td><td>UTIL_SayText2Filter</td></tr>
+<tr><td>✅</td><td>❌</td><td>CheckJumpButtonWater</td></tr>
 </table>
 
 </details>
@@ -36,8 +128,114 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>✅</td><td>❌</td><td>CBasePlayerPawn::SnapViewAngles</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::ClearDialogVariableStringForPlayer</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::SetInputCaptureEnabled</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSGameRules::RestartRound</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_ItemServices::CanAcquire</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckLegacyJump</td></tr>
 <tr><td>❌</td><td>✅</td><td>CreateTriggerInternal</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::IsInputCaptureEnabled</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::SetDialogVariableStringForPlayer</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSCustomHudLayout::SetHasClassForPlayer</td></tr>
+<tr><td>✅</td><td>❌</td><td>KeyValues3::AllocArray_Int32_Internal</td></tr>
+<tr><td>✅</td><td>❌</td><td>SoundOpGameSystem::StartSoundEventString</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSScript::ScriptStackPop</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSScript::ScriptStackPush</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCollisionProperty::SetSolid</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityIOOutput::FireOutput</td></tr>
+<tr><td>✅</td><td>❌</td><td>CGameEntitySystem::AddEntityIOEvent</td></tr>
+<tr><td>✅</td><td>❌</td><td>CAttributeList::SetOrAddAttributeValueByName</td></tr>
+<tr><td>✅</td><td>❌</td><td>CBaseEntity::AcceptInput</td></tr>
+<tr><td>✅</td><td>❌</td><td>KeyValues3::AllocArray_Float32_Internal</td></tr>
+<tr><td>✅</td><td>❌</td><td>CBasePlayerController::HandleCommandJoinTeam</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSGameRules::CreateEndMatchMapGroupVoteOptions</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityIdentity::AcceptInput</td></tr>
+<tr><td>✅</td><td>❌</td><td>CGamePhysicsQueryInterface::EntitiesAlongRay</td></tr>
+<tr><td>✅</td><td>❌</td><td>CGamePhysicsQueryInterface::TraceShape</td></tr>
+<tr><td>✅</td><td>❌</td><td>CPlayer_MovementServices::RunCommand</td></tr>
+<tr><td>✅</td><td>❌</td><td>HandleGCBanInfo</td></tr>
+</table>
+
+</details>
+
+<details>
+<summary>Plugify broken signatures</summary>
+
+<table>
+<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_ItemServices::CanAcquire</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityInstance::AcceptInput</td></tr>
+<tr><td>✅</td><td>❌</td><td>CSource2Server::Init</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityIOOutput::FireOutputInternal</td></tr>
+</table>
+
+</details>
+
+<details>
+<summary>cs2kz-metamod broken signatures</summary>
+
+<table>
+<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>✅</td><td>❌</td><td>PlayerMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CPhysicsGameSystemFrameBoundary</td></tr>
+<tr><td>✅</td><td>❌</td><td>Friction</td></tr>
+<tr><td>✅</td><td>❌</td><td>AirMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>MoveInit</td></tr>
+<tr><td>✅</td><td>❌</td><td>CanMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CheckFalling</td></tr>
+<tr><td>✅</td><td>❌</td><td>CheckJumpButtonLegacy</td></tr>
+<tr><td>✅</td><td>❌</td><td>Duck</td></tr>
+<tr><td>✅</td><td>❌</td><td>OnJumpLegacy</td></tr>
+<tr><td>✅</td><td>❌</td><td>SetupMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>SetOrAddAttributeValueByName</td></tr>
+<tr><td>✅</td><td>❌</td><td>WaterMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>TraceShape</td></tr>
+</table>
+
+</details>
+
+<details>
+<summary>cs2-retakes-allocator-2.0 broken signatures</summary>
+
+<table>
+<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_ItemServices_CanAcquire</td></tr>
+</table>
+
+</details>
+
+<details>
+<summary>cs2-css-inventory-simulator broken signatures</summary>
+
+<table>
+<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayerPawn::IsAbleToApplySpray</td></tr>
+<tr><td>✅</td><td>❌</td><td>CAttributeList::SetOrAddAttributeValueByName</td></tr>
+</table>
+
+</details>
+
+<details>
+<summary>cs2-ss2-inventory-simulator broken signatures</summary>
+
+<table>
+<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayerPawn::IsAbleToApplySpray</td></tr>
+</table>
+
+</details>
+
+<details>
+<summary>cs2-ss2-match broken signatures</summary>
+
+<table>
+<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>✅</td><td>❌</td><td>CCSBotManager::MaintainBotQuota</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSGameRules::AreTeamsPlayingSwitchedSides</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSGameRules::IsLastRoundBeforeHalfTime</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayerPawnBase::IncrementNumMVPs</td></tr>
 </table>
 
 </details>
