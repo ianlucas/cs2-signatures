@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 23, 2026 at 1:28:04 AM GMT
+* **Last updated:** September 23, 2026 at 1:31:04 AM GMT
 * **Manifests:** [649816868973969146](https://steamdb.info/depot/2347770/history/?changeid=M:649816868973969146), [6714556331453849572](https://steamdb.info/depot/2347771/history/?changeid=M:6714556331453849572), [2422872143697310485](https://steamdb.info/depot/2347773/history/?changeid=M:2422872143697310485)
 
 <table>
@@ -82,18 +82,17 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::CanMove</td></tr>
 <tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckFalling</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Friction</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::CanMove</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::MoveInit</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::OnJumpLegacy</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::PlayerMove</td></tr>
-<tr><td>✅</td><td>❌</td><td>CMolotovProjectile::EmitGrenade</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Friction</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::CheckJumpButtonLegacy</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::GroundAccelerate</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::PlayerMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CMolotovProjectile::EmitGrenade</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSCustomHudLayout::SetHasClass</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::AirMove</td></tr>
-<tr><td>❌</td><td>❌</td><td>CAttributeList::SetOrAddAttributeValueByName</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::CheckJumpButtonModern</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::CheckVelocity</td></tr>
 <tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Duck</td></tr>
