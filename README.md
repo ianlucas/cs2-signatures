@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 23, 2026 at 2:18:03 AM GMT
+* **Last updated:** September 23, 2026 at 2:22:05 AM GMT
 * **Manifests:** [649816868973969146](https://steamdb.info/depot/2347770/history/?changeid=M:649816868973969146), [6714556331453849572](https://steamdb.info/depot/2347771/history/?changeid=M:6714556331453849572), [2422872143697310485](https://steamdb.info/depot/2347773/history/?changeid=M:2422872143697310485)
 
 <table>
@@ -15,7 +15,7 @@
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Micka2302/cs2-retakes-allocator-2.0">cs2-retakes-allocator-2.0</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-retakes-allocator-2.0.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-css-inventory-simulator">cs2-css-inventory-simulator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-css-inventory-simulator.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-deathmatch">cs2-ss2-deathmatch</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-deathmatch.md">View signatures →</a></td></tr>
-<tr><td>❌</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-identity">cs2-ss2-identity</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-identity.md">View signatures →</a></td></tr>
+<tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-identity">cs2-ss2-identity</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-identity.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/ianlucas/cs2-ss2-inventory-simulator">cs2-ss2-inventory-simulator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-inventory-simulator.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/ianlucas/cs2-ss2-match">cs2-ss2-match</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-match.md">View signatures →</a></td></tr>
 </table>
@@ -232,18 +232,6 @@
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_ItemServices_CanAcquire</td></tr>
-</table>
-
-</details>
-
-<details>
-<summary>cs2-ss2-identity broken signatures</summary>
-
-<table>
-<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>❌</td><td>✅</td><td>CCSPlayerController::m_iCompetitiveRanking1</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSPlayerController::m_iszPlayerName2</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSPlayerController::m_iszPlayerName3</td></tr>
 </table>
 
 </details>
