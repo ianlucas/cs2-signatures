@@ -1,7 +1,7 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 23, 2026 at 2:29:03 AM GMT
-* **Manifests:** [649816868973969146](https://steamdb.info/depot/2347770/history/?changeid=M:649816868973969146), [6714556331453849572](https://steamdb.info/depot/2347771/history/?changeid=M:6714556331453849572), [2422872143697310485](https://steamdb.info/depot/2347773/history/?changeid=M:2422872143697310485)
+* **Last updated:** September 23, 2026 at 3:06:15 AM GMT
+* **Manifests:** [2116299376055199661](https://steamdb.info/depot/2347773/history/?changeid=M:2116299376055199661), [3417992560980425656](https://steamdb.info/depot/2347771/history/?changeid=M:3417992560980425656), [3469898947734168900](https://steamdb.info/depot/2347770/history/?changeid=M:3469898947734168900)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
@@ -25,11 +25,11 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayer_ItemServices_CanAcquire</td></tr>
-<tr><td>❌</td><td>❌</td><td>CEntityInstance_AcceptInput</td></tr>
-<tr><td>❌</td><td>❌</td><td>CEntityIOOutput_FireOutputInternal</td></tr>
 <tr><td>✅</td><td>❌</td><td>CBaseModelEntity_SetModel</td></tr>
 <tr><td>❌</td><td>✅</td><td>CBaseTrigger_StartTouch</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSPlayer_ItemServices_CanAcquire</td></tr>
+<tr><td>❌</td><td>❌</td><td>CEntityIOOutput_FireOutputInternal</td></tr>
+<tr><td>❌</td><td>❌</td><td>CEntityInstance_AcceptInput</td></tr>
 <tr><td>✅</td><td>❌</td><td>CEntitySystem_AddEntityIOEvent</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_WeaponServices_CanUse</td></tr>
 <tr><td>❌</td><td>❌</td><td>CheckTransmit</td></tr>
@@ -42,30 +42,30 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::SetInputCaptureEnabled</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::OnJumpLegacy</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::CheckJumpButtonLegacy</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::CheckJumpButtonModern</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Duck</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::GroundAccelerate</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::RemoveDialogVariableStringForPlayer</td></tr>
-<tr><td>✅</td><td>❌</td><td>CHEGrenadeProjectile::EmitGrenade</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::SetDialogVariableStringForPlayer</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSCustomHudLayout::SetHasClass</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::SetHasClassForPlayer</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::CanMove</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_ItemServices::CanAcquire</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Friction</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::MoveInit</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::OnJumpLegacy</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::PlayerMove</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::SetInputCaptureEnabled</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::WaterMove</td></tr>
-<tr><td>✅</td><td>❌</td><td>CEntityIdentity::AcceptInput</td></tr>
-<tr><td>✅</td><td>❌</td><td>CEntitySystem::AddEntityIOEvent</td></tr>
-<tr><td>❌</td><td>❌</td><td>CEntityIOOutput::FireOutputInternal</td></tr>
-<tr><td>❌</td><td>✅</td><td>CGameRules::TerminateRound</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSCustomHudLayout::SetHasClass</td></tr>
-<tr><td>❌</td><td>❌</td><td>CSource2Server::g_GameEventManager</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::CheckJumpButtonLegacy</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::CheckJumpButtonModern</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::GroundAccelerate</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Duck</td></tr>
 <tr><td>✅</td><td>❌</td><td>CMolotovProjectile::EmitGrenade</td></tr>
 <tr><td>❌</td><td>❌</td><td>TraceShape</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Friction</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::MoveInit</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::PlayerMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::WaterMove</td></tr>
+<tr><td>❌</td><td>❌</td><td>CEntityIOOutput::FireOutputInternal</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityIdentity::AcceptInput</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntitySystem::AddEntityIOEvent</td></tr>
+<tr><td>❌</td><td>✅</td><td>CGameRules::TerminateRound</td></tr>
+<tr><td>✅</td><td>❌</td><td>CHEGrenadeProjectile::EmitGrenade</td></tr>
+<tr><td>❌</td><td>❌</td><td>CSource2Server::g_GameEventManager</td></tr>
 <tr><td>❌</td><td>❌</td><td>CAttributeList::SetOrAddAttributeValueByName</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::AirMove</td></tr>
 <tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckFalling</td></tr>
@@ -82,17 +82,17 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckFalling</td></tr>
 <tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Friction</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::CanMove</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::MoveInit</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::OnJumpLegacy</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::CheckJumpButtonLegacy</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::GroundAccelerate</td></tr>
 <tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::PlayerMove</td></tr>
-<tr><td>✅</td><td>❌</td><td>CMolotovProjectile::EmitGrenade</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::CanMove</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::OnJumpLegacy</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSCustomHudLayout::SetHasClass</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::AirMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckFalling</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSPlayer_MovementServices::MoveInit</td></tr>
+<tr><td>✅</td><td>❌</td><td>CMolotovProjectile::EmitGrenade</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::CheckJumpButtonModern</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::CheckVelocity</td></tr>
 <tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::Duck</td></tr>
@@ -111,13 +111,13 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
+<tr><td>❌</td><td>❌</td><td>CCSPlayer_ItemServices_CanAcquire</td></tr>
 <tr><td>❌</td><td>❌</td><td>CBaseFilter_InputTestActivator</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSPlayer_WeaponServices_CanUse</td></tr>
 <tr><td>✅</td><td>❌</td><td>CEntityIdentity_AcceptInput</td></tr>
 <tr><td>❌</td><td>❌</td><td>GameSystem_Think_CheckSteamBan</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayer_ItemServices_CanAcquire</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSPlayer_WeaponServices_CanUse</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSGameRules_GoToIntermission</td></tr>
 <tr><td>✅</td><td>❌</td><td>CBasePlayerPawn_SnapViewAngles</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSGameRules_GoToIntermission</td></tr>
 <tr><td>❌</td><td>❌</td><td>CEntityIOOutput_FireOutputInternal</td></tr>
 <tr><td>❌</td><td>❌</td><td>UTIL_SayTextFilter</td></tr>
 <tr><td>❌</td><td>❌</td><td>CEntityInstance_AcceptInput</td></tr>
@@ -139,27 +139,24 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>✅</td><td>❌</td><td>CBasePlayerPawn::SnapViewAngles</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::ClearDialogVariableStringForPlayer</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::SetInputCaptureEnabled</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSGameRules::RestartRound</td></tr>
-<tr><td>❌</td><td>✅</td><td>UTIL_RadioMessage</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::SetDefaultGloves</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_ItemServices::CanAcquire</td></tr>
+<tr><td>❌</td><td>✅</td><td>UTIL_RadioMessage</td></tr>
 <tr><td>✅</td><td>❌</td><td>CCSPlayer_MovementServices::CheckLegacyJump</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::IsInputCaptureEnabled</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSGameRules::TerminateRound</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_ItemServices::GiveGlove</td></tr>
+<tr><td>❌</td><td>❌</td><td>CAttributeList::SetOrAddAttributeValueByName</td></tr>
+<tr><td>✅</td><td>❌</td><td>CBasePlayerPawn::SnapViewAngles</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::ClearDialogVariableStringForPlayer</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::IsInputCaptureEnabled</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::SetDialogVariableStringForPlayer</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSScript::ScriptStackPush</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSCustomHudLayout::SetHasClass</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::SetHasClassForPlayer</td></tr>
+<tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::SetInputCaptureEnabled</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSGameRules::RestartRound</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSGameRules::TerminateRound</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::Accelerate</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::CheckModernJump</td></tr>
-<tr><td>❌</td><td>✅</td><td>CreateTriggerInternal</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::SetDialogVariableStringForPlayer</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSCustomHudLayout::SetHasClass</td></tr>
-<tr><td>❌</td><td>❌</td><td>CAttributeList::SetOrAddAttributeValueByName</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSScript::ScriptStackPush</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSCustomHudLayout::SetHasClassForPlayer</td></tr>
-<tr><td>✅</td><td>❌</td><td>KeyValues3::AllocArray_Int32_Internal</td></tr>
-<tr><td>⚠️</td><td>❌</td><td>SoundOpGameSystem::StartSoundEventString</td></tr>
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_MovementServices::WalkMove</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSScript::ScriptStackPop</td></tr>
 <tr><td>✅</td><td>❌</td><td>CCollisionProperty::SetSolid</td></tr>
@@ -167,8 +164,11 @@
 <tr><td>✅</td><td>❌</td><td>CGameEntitySystem::AddEntityIOEvent</td></tr>
 <tr><td>❌</td><td>✅</td><td>CGameEntitySystem::RemoveListenerEntity</td></tr>
 <tr><td>❌</td><td>❌</td><td>CGamePhysicsQueryInterface::EntitiesAlongRay</td></tr>
+<tr><td>❌</td><td>✅</td><td>CreateTriggerInternal</td></tr>
 <tr><td>❌</td><td>❌</td><td>HandleGCBanInfo</td></tr>
 <tr><td>❌</td><td>❌</td><td>CBaseEntity::AcceptInput</td></tr>
+<tr><td>✅</td><td>❌</td><td>KeyValues3::AllocArray_Int32_Internal</td></tr>
+<tr><td>⚠️</td><td>❌</td><td>SoundOpGameSystem::StartSoundEventString</td></tr>
 <tr><td>✅</td><td>❌</td><td>KeyValues3::AllocArray_Float32_Internal</td></tr>
 <tr><td>❌</td><td>✅</td><td>KeyValues3::PrepareForType</td></tr>
 <tr><td>❌</td><td>❌</td><td>CCSGameRules::CreateEndMatchMapGroupVoteOptions</td></tr>
@@ -190,9 +190,9 @@
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
 <tr><td>❌</td><td>❌</td><td>CCSPlayer_ItemServices::CanAcquire</td></tr>
 <tr><td>❌</td><td>❌</td><td>CSource2Server::Init</td></tr>
+<tr><td>❌</td><td>✅</td><td>CheckJumpButtonWater</td></tr>
 <tr><td>❌</td><td>❌</td><td>CEntityIOOutput::FireOutputInternal</td></tr>
 <tr><td>❌</td><td>❌</td><td>CEntityInstance::AcceptInput</td></tr>
-<tr><td>❌</td><td>✅</td><td>CheckJumpButtonWater</td></tr>
 <tr><td>❌</td><td>✅</td><td>CGameRules::TerminateRound</td></tr>
 <tr><td>❌</td><td>✅</td><td>ServerMovementUnlock</td></tr>
 </table>
@@ -204,24 +204,24 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>✅</td><td>❌</td><td>PlayerMove</td></tr>
-<tr><td>❌</td><td>✅</td><td>CheckJumpButtonModern</td></tr>
-<tr><td>❌</td><td>❌</td><td>AirMove</td></tr>
-<tr><td>❌</td><td>❌</td><td>CanMove</td></tr>
-<tr><td>✅</td><td>❌</td><td>CPhysicsGameSystemFrameBoundary</td></tr>
 <tr><td>❌</td><td>✅</td><td>DebugDrawMesh</td></tr>
-<tr><td>✅</td><td>❌</td><td>Friction</td></tr>
-<tr><td>❌</td><td>❌</td><td>MoveInit</td></tr>
+<tr><td>❌</td><td>❌</td><td>CanMove</td></tr>
 <tr><td>✅</td><td>❌</td><td>CheckFalling</td></tr>
 <tr><td>❌</td><td>❌</td><td>CheckJumpButtonLegacy</td></tr>
-<tr><td>❌</td><td>❌</td><td>OnJumpLegacy</td></tr>
 <tr><td>❌</td><td>✅</td><td>CheckVelocity</td></tr>
+<tr><td>❌</td><td>❌</td><td>AirMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>CPhysicsGameSystemFrameBoundary</td></tr>
+<tr><td>❌</td><td>✅</td><td>CheckJumpButtonModern</td></tr>
 <tr><td>✅</td><td>❌</td><td>Duck</td></tr>
-<tr><td>❌</td><td>✅</td><td>WalkMove</td></tr>
-<tr><td>✅</td><td>❌</td><td>SetupMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>Friction</td></tr>
+<tr><td>❌</td><td>❌</td><td>MoveInit</td></tr>
 <tr><td>❌</td><td>❌</td><td>SetOrAddAttributeValueByName</td></tr>
-<tr><td>✅</td><td>❌</td><td>WaterMove</td></tr>
+<tr><td>❌</td><td>❌</td><td>OnJumpLegacy</td></tr>
+<tr><td>✅</td><td>❌</td><td>PlayerMove</td></tr>
 <tr><td>❌</td><td>❌</td><td>TraceShape</td></tr>
+<tr><td>✅</td><td>❌</td><td>SetupMove</td></tr>
+<tr><td>❌</td><td>✅</td><td>WalkMove</td></tr>
+<tr><td>✅</td><td>❌</td><td>WaterMove</td></tr>
 </table>
 
 </details>

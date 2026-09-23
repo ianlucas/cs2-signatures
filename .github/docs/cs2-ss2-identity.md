@@ -1,8 +1,8 @@
 # cs2-ss2-identity
 
-Last updated: September 23, 2026 at 2:22:05 AM GMT
+Last updated: September 23, 2026 at 3:06:15 AM GMT
 
-* Manifests: [649816868973969146](https://steamdb.info/depot/2347770/history/?changeid=M:649816868973969146), [6714556331453849572](https://steamdb.info/depot/2347771/history/?changeid=M:6714556331453849572), [2422872143697310485](https://steamdb.info/depot/2347773/history/?changeid=M:2422872143697310485)
+* Manifests: [2116299376055199661](https://steamdb.info/depot/2347773/history/?changeid=M:2116299376055199661), [3417992560980425656](https://steamdb.info/depot/2347771/history/?changeid=M:3417992560980425656), [3469898947734168900](https://steamdb.info/depot/2347770/history/?changeid=M:3469898947734168900)
 * Repository: https://github.com/ianlucas/cs2-ss2-identity
 * Gamedata: https://github.com/ianlucas/cs2-ss2-identity/blob/main/resources/gamedata/signatures.jsonc
 
@@ -12,8 +12,8 @@ Last updated: September 23, 2026 at 2:22:05 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x88\xAF\x2A\x2A\x2A\x2A\x48\x8B\x0D</pre></td><td><pre>40 88 AF ? ? ? ? 48 8B 0D</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x44\x88\xBB\x2A\x2A\x2A\x2A\x48\x8B\x40</pre></td><td><pre>44 88 BB ? ? ? ? 48 8B 40</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x88\xAF\x2A\x2A\x2A\x2A\x48\x8B\x0D</pre></td><td><pre>40 88 AF ? ? ? ? 48 8B 0D</pre></td></tr>
 </table>
 
 ### CCSPlayerController::m_iCompetitiveRanking1
@@ -36,8 +36,8 @@ Last updated: September 23, 2026 at 2:22:05 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x2A\x48\x85\xD2\x74\x2A\x48\x89\x5C\x24</pre></td><td><pre>48 83 EC ? 48 85 D2 74 ? 48 89 5C 24</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x55\xBA</pre></td><td><pre>48 85 F6 0F 84 ? ? ? ? 55 BA</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x2A\x48\x85\xD2\x74\x2A\x48\x89\x5C\x24</pre></td><td><pre>48 83 EC ? 48 85 D2 74 ? 48 89 5C 24</pre></td></tr>
 </table>
 
 ### CCSPlayerController::m_iszPlayerName2
