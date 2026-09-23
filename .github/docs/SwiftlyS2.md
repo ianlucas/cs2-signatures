@@ -1,8 +1,8 @@
 # SwiftlyS2
 
-Last updated: September 23, 2026 at 12:26:04 PM GMT
+Last updated: September 23, 2026 at 11:07:15 PM GMT
 
-* Manifests: [2116299376055199661](https://steamdb.info/depot/2347773/history/?changeid=M:2116299376055199661), [3417992560980425656](https://steamdb.info/depot/2347771/history/?changeid=M:3417992560980425656), [3469898947734168900](https://steamdb.info/depot/2347770/history/?changeid=M:3469898947734168900)
+* Manifests: [644862288385836392](https://steamdb.info/depot/2347773/history/?changeid=M:644862288385836392), [1712132612863643470](https://steamdb.info/depot/2347771/history/?changeid=M:1712132612863643470), [5009084625236407721](https://steamdb.info/depot/2347770/history/?changeid=M:5009084625236407721)
 * Repository: https://github.com/swiftly-solution/swiftlys2
 
 ## master
@@ -45,16 +45,16 @@ Last updated: September 23, 2026 at 12:26:04 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x41\x89\xF4\x53\x48\x83\xEC\x2A\x3B\xB7\x2A\x2A\x2A\x2A\x7C\x2A\x48\x83\xC4\x2A\x5B\x41\x5C\x41\x5D\x41\x5E\x5D\xC3\x66\x0F\x1F\x84\x00\x2A\x2A\x2A\x2A\x48\x89\xD6\x31\xD2\x48\x89\xFB\x66\x89\x55\x2A\x48\x8D\x55\x2A\x49\x89\xCD\x45\x89\xC6</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 41 89 F4 53 48 83 EC ? 3B B7 ? ? ? ? 7C ? 48 83 C4 ? 5B 41 5C 41 5D 41 5E 5D C3 66 0F 1F 84 00 ? ? ? ? 48 89 D6 31 D2 48 89 FB 66 89 55 ? 48 8D 55 ? 49 89 CD 45 89 C6</pre></td></tr>
 <tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x56\x57\x48\x83\xEC\x2A\x48\x63\xDA\x49\x8B\xF1\x49\x8B\xC0\x48\x8B\xF9\x3B\x99\x2A\x2A\x2A\x2A\x7D\x2A\x48\x89\x6C\x24\x2A\x4C\x8D\x44\x24\x2A\x33\xED\x48\x8B\xD0\x66\x89\x6C\x24\x2A\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x4C\x8D\x44\x24\x2A\x66\x89\x6C\x24\x2A\x48\x8B\xD6\x48\x8B\xCF\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x44\x8B\x4C\x24</pre></td><td><pre>40 53 56 57 48 83 EC ? 48 63 DA 49 8B F1 49 8B C0 48 8B F9 3B 99 ? ? ? ? 7D ? 48 89 6C 24 ? 4C 8D 44 24 ? 33 ED 48 8B D0 66 89 6C 24 ? E8 ? ? ? ? 84 C0 74 ? 4C 8D 44 24 ? 66 89 6C 24 ? 48 8B D6 48 8B CF E8 ? ? ? ? 84 C0 74 ? 44 8B 4C 24</pre></td></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x41\x89\xF4\x53\x48\x83\xEC\x2A\x3B\xB7\x2A\x2A\x2A\x2A\x7C\x2A\x48\x83\xC4\x2A\x5B\x41\x5C\x41\x5D\x41\x5E\x5D\xC3\x66\x0F\x1F\x84\x00\x2A\x2A\x2A\x2A\x48\x89\xD6\x31\xD2\x48\x89\xFB\x66\x89\x55\x2A\x48\x8D\x55\x2A\x49\x89\xCD\x45\x89\xC6</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 41 89 F4 53 48 83 EC ? 3B B7 ? ? ? ? 7C ? 48 83 C4 ? 5B 41 5C 41 5D 41 5E 5D C3 66 0F 1F 84 00 ? ? ? ? 48 89 D6 31 D2 48 89 FB 66 89 55 ? 48 8D 55 ? 49 89 CD 45 89 C6</pre></td></tr>
 </table>
 
 ### CCSCustomHudLayout::SetInputCaptureEnabled
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x3B\xB7\x2A\x2A\x2A\x2A\x0F\x8D\x2A\x2A\x2A\x2A\x55</pre></td><td><pre>3B B7 ? ? ? ? 0F 8D ? ? ? ? 55</pre></td></tr>
 <tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x40\x57\x48\x83\xEC\x2A\x41\x0F\xB6\xF8</pre></td><td><pre>40 57 48 83 EC ? 41 0F B6 F8</pre></td></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x3B\xB7\x2A\x2A\x2A\x2A\x0F\x8D\x2A\x2A\x2A\x2A\x55</pre></td><td><pre>3B B7 ? ? ? ? 0F 8D ? ? ? ? 55</pre></td></tr>
 </table>
 
 ### CCSPlayerPawn::CanMove
@@ -77,8 +77,8 @@ Last updated: September 23, 2026 at 12:26:04 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x53\x55\x56\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x0F\x29\x70</pre></td><td><pre>48 8B C4 53 55 56 57 48 81 EC ? ? ? ? 0F 29 70</pre></td></tr>
 <tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xB5\x2A\x2A\x2A\x2A\x41\x55\x41\x54</pre></td><td><pre>55 48 8D 15 ? ? ? ? 48 89 E5 41 57 41 56 4C 8D B5 ? ? ? ? 41 55 41 54</pre></td></tr>
+<tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x53\x55\x56\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x0F\x29\x70</pre></td><td><pre>48 8B C4 53 55 56 57 48 81 EC ? ? ? ? 0F 29 70</pre></td></tr>
 </table>
 
 ### CCSPlayer_MovementServices::CheckFalling
@@ -133,8 +133,8 @@ Last updated: September 23, 2026 at 12:26:04 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x0F\x28\xF1\x48\x89\xE5</pre></td><td><pre>55 0F 28 F1 48 89 E5</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x41\x54\x41\x55\x41\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\xF2\x41\x0F\x10\x01</pre></td><td><pre>40 53 41 54 41 55 41 57 48 81 EC ? ? ? ? F2 41 0F 10 01</pre></td></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x0F\x28\xF1\x48\x89\xE5</pre></td><td><pre>55 0F 28 F1 48 89 E5</pre></td></tr>
 </table>
 
 ### CCSPlayer_MovementServices::MoveInit
@@ -333,8 +333,8 @@ Last updated: September 23, 2026 at 12:26:04 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x87\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xCE\x41\x55\x45\x89\xCD</pre></td><td><pre>55 48 8D 87 ? ? ? ? 48 89 E5 41 57 41 56 41 89 CE 41 55 45 89 CD</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x44\x88\x4C\x24\x2A\x53\x57\x41\x54\x41\x56\x41\x57\x48\x83\xEC</pre></td><td><pre>44 88 4C 24 ? 53 57 41 54 41 56 41 57 48 83 EC</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x87\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x89\xCE\x41\x55\x45\x89\xCD</pre></td><td><pre>55 48 8D 87 ? ? ? ? 48 89 E5 41 57 41 56 41 89 CE 41 55 45 89 CD</pre></td></tr>
 </table>
 
 ### CCSCustomHudLayout::SetDialogVariableString
@@ -681,8 +681,8 @@ Last updated: September 23, 2026 at 12:26:04 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\xFA</pre></td><td><pre>40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x89\xF7</pre></td><td><pre>55 48 89 E5 41 54 49 89 FC 89 F7</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\xFA</pre></td><td><pre>40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA</pre></td></tr>
 </table>
 
 ### CCSPlayerPawn::CanMove
@@ -705,8 +705,8 @@ Last updated: September 23, 2026 at 12:26:04 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x41\x55\x41\x54\x49\x89\xCC\x53\x48\x89\xFB\x48\x83\xEC\x78</pre></td><td><pre>55 48 89 E5 41 57 41 56 49 89 F6 41 55 41 54 49 89 CC 53 48 89 FB 48 83 EC 78</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x44\x89\x44\x24\x2A\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x53\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8B\xEC</pre></td><td><pre>44 89 44 24 ? 48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 54 41 55 41 56 41 57 48 8B EC</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x41\x55\x41\x54\x49\x89\xCC\x53\x48\x89\xFB\x48\x83\xEC\x78</pre></td><td><pre>55 48 89 E5 41 57 41 56 49 89 F6 41 55 41 54 49 89 CC 53 48 89 FB 48 83 EC 78</pre></td></tr>
 </table>
 
 ### CCSPlayer_MovementServices::AirAccelerate
@@ -841,8 +841,8 @@ Last updated: September 23, 2026 at 12:26:04 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x81\xEC\x88\x00\x00\x00\x4C\x8B\x6F</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 81 EC 88 00 00 00 4C 8B 6F</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x53\x56\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\xA8\x00\x00\x00\x48\x8B\x71</pre></td><td><pre>40 55 53 56 57 48 8D 6C 24 ? 48 81 EC A8 00 00 00 48 8B 71</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x81\xEC\x88\x00\x00\x00\x4C\x8B\x6F</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 81 EC 88 00 00 00 4C 8B 6F</pre></td></tr>
 </table>
 
 ### CCSPlayer_MovementServices::OnJumpModern
