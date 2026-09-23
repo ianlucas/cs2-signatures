@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 23, 2026 at 12:26:04 PM GMT
+* **Last updated:** September 23, 2026 at 2:20:04 PM GMT
 * **Manifests:** [2116299376055199661](https://steamdb.info/depot/2347773/history/?changeid=M:2116299376055199661), [3417992560980425656](https://steamdb.info/depot/2347771/history/?changeid=M:3417992560980425656), [3469898947734168900](https://steamdb.info/depot/2347770/history/?changeid=M:3469898947734168900)
 
 <table>
@@ -10,7 +10,7 @@
 <tr><td>✅</td><td>⚠️</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Kxnrl/modsharp-public">ModSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/ModSharp.md">View signatures →</a></td></tr>
-<tr><td>❌</td><td>❌</td><td><a href="https://github.com/untrustedmodders/plugify-plugin-s2sdk">Plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/Plugify.md">View signatures →</a></td></tr>
+<tr><td>✅</td><td>❌</td><td><a href="https://github.com/untrustedmodders/plugify-plugin-s2sdk">Plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/Plugify.md">View signatures →</a></td></tr>
 <tr><td>⚠️</td><td>⚠️</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>❌</td><td><a href="https://github.com/Micka2302/cs2-retakes-allocator-2.0">cs2-retakes-allocator-2.0</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-retakes-allocator-2.0.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-css-inventory-simulator">cs2-css-inventory-simulator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-css-inventory-simulator.md">View signatures →</a></td></tr>
@@ -159,13 +159,10 @@
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayer_ItemServices::CanAcquire</td></tr>
-<tr><td>❌</td><td>❌</td><td>CSource2Server::Init</td></tr>
-<tr><td>❌</td><td>✅</td><td>CheckJumpButtonWater</td></tr>
-<tr><td>❌</td><td>❌</td><td>CEntityIOOutput::FireOutputInternal</td></tr>
-<tr><td>❌</td><td>❌</td><td>CEntityInstance::AcceptInput</td></tr>
-<tr><td>❌</td><td>✅</td><td>CGameRules::TerminateRound</td></tr>
-<tr><td>❌</td><td>✅</td><td>ServerMovementUnlock</td></tr>
+<tr><td>✅</td><td>❌</td><td>CCSPlayer_ItemServices::CanAcquire</td></tr>
+<tr><td>✅</td><td>❌</td><td>CSource2Server::Init</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityInstance::AcceptInput</td></tr>
+<tr><td>✅</td><td>❌</td><td>CEntityIOOutput::FireOutputInternal</td></tr>
 </table>
 
 </details>
