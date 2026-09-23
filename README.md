@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 23, 2026 at 3:51:04 AM GMT
+* **Last updated:** September 23, 2026 at 5:18:04 AM GMT
 * **Manifests:** [2116299376055199661](https://steamdb.info/depot/2347773/history/?changeid=M:2116299376055199661), [3417992560980425656](https://steamdb.info/depot/2347771/history/?changeid=M:3417992560980425656), [3469898947734168900](https://steamdb.info/depot/2347770/history/?changeid=M:3469898947734168900)
 
 <table>
@@ -11,7 +11,7 @@
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Kxnrl/modsharp-public">ModSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/ModSharp.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/untrustedmodders/plugify-plugin-s2sdk">Plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/Plugify.md">View signatures →</a></td></tr>
-<tr><td>❌</td><td>❌</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr>
+<tr><td>⚠️</td><td>⚠️</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Micka2302/cs2-retakes-allocator-2.0">cs2-retakes-allocator-2.0</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-retakes-allocator-2.0.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-css-inventory-simulator">cs2-css-inventory-simulator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-css-inventory-simulator.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-deathmatch">cs2-ss2-deathmatch</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-deathmatch.md">View signatures →</a></td></tr>
@@ -194,33 +194,6 @@
 <tr><td>❌</td><td>❌</td><td>CEntityInstance::AcceptInput</td></tr>
 <tr><td>❌</td><td>✅</td><td>CGameRules::TerminateRound</td></tr>
 <tr><td>❌</td><td>✅</td><td>ServerMovementUnlock</td></tr>
-</table>
-
-</details>
-
-<details>
-<summary>cs2kz-metamod broken signatures</summary>
-
-<table>
-<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>❌</td><td>✅</td><td>DebugDrawMesh</td></tr>
-<tr><td>❌</td><td>❌</td><td>CanMove</td></tr>
-<tr><td>✅</td><td>❌</td><td>CheckFalling</td></tr>
-<tr><td>❌</td><td>❌</td><td>CheckJumpButtonLegacy</td></tr>
-<tr><td>❌</td><td>✅</td><td>CheckVelocity</td></tr>
-<tr><td>❌</td><td>❌</td><td>AirMove</td></tr>
-<tr><td>✅</td><td>❌</td><td>CPhysicsGameSystemFrameBoundary</td></tr>
-<tr><td>❌</td><td>✅</td><td>CheckJumpButtonModern</td></tr>
-<tr><td>✅</td><td>❌</td><td>Duck</td></tr>
-<tr><td>✅</td><td>❌</td><td>Friction</td></tr>
-<tr><td>❌</td><td>❌</td><td>MoveInit</td></tr>
-<tr><td>❌</td><td>❌</td><td>SetOrAddAttributeValueByName</td></tr>
-<tr><td>❌</td><td>❌</td><td>OnJumpLegacy</td></tr>
-<tr><td>✅</td><td>❌</td><td>PlayerMove</td></tr>
-<tr><td>❌</td><td>❌</td><td>TraceShape</td></tr>
-<tr><td>✅</td><td>❌</td><td>SetupMove</td></tr>
-<tr><td>❌</td><td>✅</td><td>WalkMove</td></tr>
-<tr><td>✅</td><td>❌</td><td>WaterMove</td></tr>
 </table>
 
 </details>
