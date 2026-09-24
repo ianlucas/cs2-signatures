@@ -1,8 +1,8 @@
 # Plugify
 
-Last updated: September 23, 2026 at 11:07:15 PM GMT
+Last updated: September 24, 2026 at 9:51:22 PM GMT
 
-* Manifests: [644862288385836392](https://steamdb.info/depot/2347773/history/?changeid=M:644862288385836392), [1712132612863643470](https://steamdb.info/depot/2347771/history/?changeid=M:1712132612863643470), [5009084625236407721](https://steamdb.info/depot/2347770/history/?changeid=M:5009084625236407721)
+* Manifests: [2689453599344445176](https://steamdb.info/depot/2347770/history/?changeid=M:2689453599344445176), [2964462901968687674](https://steamdb.info/depot/2347773/history/?changeid=M:2964462901968687674), [6072833387853900784](https://steamdb.info/depot/2347771/history/?changeid=M:6072833387853900784)
 * Repository: https://github.com/untrustedmodders/plugify-plugin-s2sdk
 * Gamedata: https://github.com/untrustedmodders/plugify-plugin-s2sdk/blob/main/assets/gamedata.jsonc
 
@@ -105,8 +105,8 @@ Last updated: September 23, 2026 at 11:07:15 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x85\xF6\x74\x2A\x4C\x8D\x2D</pre></td><td><pre>48 85 FF 74 ? 55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 85 F6 74 ? 4C 8D 2D</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x85\xD2</pre></td><td><pre>48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 48 85 C9 0F 84 ? ? ? ? 48 85 D2</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x2A\x48\x85\xF6\x74\x2A\x4C\x8D\x2D</pre></td><td><pre>48 85 FF 74 ? 55 48 89 E5 41 55 41 54 49 89 FC 53 48 89 F3 48 83 EC ? 48 85 F6 74 ? 4C 8D 2D</pre></td></tr>
 </table>
 
 ### CGameRules::TerminateRound
