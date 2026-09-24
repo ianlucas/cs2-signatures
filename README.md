@@ -1,11 +1,11 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 24, 2026 at 11:03:03 AM GMT
+* **Last updated:** September 24, 2026 at 11:43:04 AM GMT
 * **Manifests:** [644862288385836392](https://steamdb.info/depot/2347773/history/?changeid=M:644862288385836392), [1712132612863643470](https://steamdb.info/depot/2347771/history/?changeid=M:1712132612863643470), [5009084625236407721](https://steamdb.info/depot/2347770/history/?changeid=M:5009084625236407721)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
-<tr><td>❌</td><td>❌</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr>
+<tr><td>✅</td><td>✅</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>⚠️</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
@@ -19,23 +19,6 @@
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-inventory-simulator">cs2-ss2-inventory-simulator</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-inventory-simulator.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/ianlucas/cs2-ss2-match">cs2-ss2-match</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-ss2-match.md">View signatures →</a></td></tr>
 </table>
-
-<details>
-<summary>CounterStrikeSharp broken signatures</summary>
-
-<table>
-<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>✅</td><td>❌</td><td>CBaseModelEntity_SetModel</td></tr>
-<tr><td>❌</td><td>❌</td><td>CEntityIOOutput_FireOutputInternal</td></tr>
-<tr><td>❌</td><td>❌</td><td>CEntityInstance_AcceptInput</td></tr>
-<tr><td>❌</td><td>✅</td><td>CBaseTrigger_StartTouch</td></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayer_ItemServices_CanAcquire</td></tr>
-<tr><td>✅</td><td>❌</td><td>CEntitySystem_AddEntityIOEvent</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSPlayer_WeaponServices_CanUse</td></tr>
-<tr><td>❌</td><td>❌</td><td>CheckTransmit</td></tr>
-</table>
-
-</details>
 
 <details>
 <summary>CS2Fixes broken signatures</summary>
