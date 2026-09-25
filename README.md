@@ -1,7 +1,7 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** September 25, 2026 at 8:45:28 PM GMT
-* **Manifests:** [2964462901968687674](https://steamdb.info/depot/2347773/history/?changeid=M:2964462901968687674), [6072833387853900784](https://steamdb.info/depot/2347771/history/?changeid=M:6072833387853900784), [4218289832790841850](https://steamdb.info/depot/2347770/history/?changeid=M:4218289832790841850)
+* **Last updated:** September 25, 2026 at 9:54:44 PM GMT
+* **Manifests:** [3558451520161040527](https://steamdb.info/depot/2347771/history/?changeid=M:3558451520161040527), [6313884916170234593](https://steamdb.info/depot/2347770/history/?changeid=M:6313884916170234593), [7484770979211644490](https://steamdb.info/depot/2347773/history/?changeid=M:7484770979211644490)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
@@ -30,14 +30,14 @@
 <tr><td>❌</td><td>✅</td><td>CCSPlayer_WeaponServices_CanUse</td></tr>
 <tr><td>✅</td><td>❌</td><td>CEntityIdentity_AcceptInput</td></tr>
 <tr><td>❌</td><td>❌</td><td>GameSystem_Think_CheckSteamBan</td></tr>
-<tr><td>❌</td><td>✅</td><td>CCSGameRules_GoToIntermission</td></tr>
 <tr><td>✅</td><td>❌</td><td>CBasePlayerPawn_SnapViewAngles</td></tr>
+<tr><td>❌</td><td>✅</td><td>CCSGameRules_GoToIntermission</td></tr>
 <tr><td>❌</td><td>❌</td><td>CEntityIOOutput_FireOutputInternal</td></tr>
 <tr><td>❌</td><td>❌</td><td>UTIL_SayTextFilter</td></tr>
 <tr><td>❌</td><td>❌</td><td>CEntityInstance_AcceptInput</td></tr>
 <tr><td>❌</td><td>✅</td><td>CGameRules_TerminateRound</td></tr>
-<tr><td>✅</td><td>❌</td><td>CGamePlayerEquip_InputTriggerForActivatedPlayer</td></tr>
 <tr><td>✅</td><td>❌</td><td>CEntitySystem_AddEntityIOEvent</td></tr>
+<tr><td>✅</td><td>❌</td><td>CGamePlayerEquip_InputTriggerForActivatedPlayer</td></tr>
 <tr><td>❌</td><td>✅</td><td>FindUseEntity</td></tr>
 <tr><td>❌</td><td>❌</td><td>TraceShape</td></tr>
 <tr><td>❌</td><td>❌</td><td>UTIL_SayText2Filter</td></tr>
