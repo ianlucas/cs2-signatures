@@ -1,8 +1,8 @@
 # Plugify
 
-Last updated: September 25, 2026 at 9:54:44 PM GMT
+Last updated: September 28, 2026 at 10:38:36 PM GMT
 
-* Manifests: [3558451520161040527](https://steamdb.info/depot/2347771/history/?changeid=M:3558451520161040527), [6313884916170234593](https://steamdb.info/depot/2347770/history/?changeid=M:6313884916170234593), [7484770979211644490](https://steamdb.info/depot/2347773/history/?changeid=M:7484770979211644490)
+* Manifests: [1566706412315608688](https://steamdb.info/depot/2347770/history/?changeid=M:1566706412315608688), [5185162378762752449](https://steamdb.info/depot/2347773/history/?changeid=M:5185162378762752449), [8582617999835812788](https://steamdb.info/depot/2347771/history/?changeid=M:8582617999835812788)
 * Repository: https://github.com/untrustedmodders/plugify-plugin-s2sdk
 * Gamedata: https://github.com/untrustedmodders/plugify-plugin-s2sdk/blob/main/assets/gamedata.jsonc
 
@@ -58,8 +58,8 @@ Last updated: September 25, 2026 at 9:54:44 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x48\x83\xEC\x2A\x41\x0F\xB6\xF0</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 41 0F B6 F0</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x41\x55\x41\x54\x53\x89\xD3\x48\x81\xEC\x2A\x2A\x2A\x2A\x40\x38\xB7</pre></td><td><pre>55 48 89 E5 41 57 49 89 FF 41 56 41 55 41 54 53 89 D3 48 81 EC ? ? ? ? 40 38 B7</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x48\x83\xEC\x2A\x41\x0F\xB6\xF0</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 41 0F B6 F0</pre></td></tr>
 </table>
 
 ### CBasePlayerController::SetPawn
