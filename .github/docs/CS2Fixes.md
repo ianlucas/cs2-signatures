@@ -1,8 +1,8 @@
 # CS2Fixes
 
-Last updated: September 29, 2026 at 8:44:26 PM GMT
+Last updated: September 30, 2026 at 10:46:35 PM GMT
 
-* Manifests: [1566706412315608688](https://steamdb.info/depot/2347770/history/?changeid=M:1566706412315608688), [5185162378762752449](https://steamdb.info/depot/2347773/history/?changeid=M:5185162378762752449), [8582617999835812788](https://steamdb.info/depot/2347771/history/?changeid=M:8582617999835812788)
+* Manifests: [1263602768589796619](https://steamdb.info/depot/2347773/history/?changeid=M:1263602768589796619), [3894314335679084505](https://steamdb.info/depot/2347770/history/?changeid=M:3894314335679084505), [4472721471834965775](https://steamdb.info/depot/2347771/history/?changeid=M:4472721471834965775)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.jsonc
 
@@ -84,8 +84,8 @@ Last updated: September 29, 2026 at 8:44:26 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x31\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x89\xB5</pre></td><td><pre>55 31 C0 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 8D 3D ? ? ? ? 48 81 EC ? ? ? ? 89 B5</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xE9</pre></td><td><pre>48 89 5C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 4C 8B E9</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x31\xC0\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x89\xB5</pre></td><td><pre>55 31 C0 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 8D 3D ? ? ? ? 48 81 EC ? ? ? ? 89 B5</pre></td></tr>
 </table>
 
 ### CCSGameRules__sm_mapGcBanInformation
