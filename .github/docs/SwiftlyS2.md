@@ -1,8 +1,8 @@
 # SwiftlyS2
 
-Last updated: September 30, 2026 at 10:46:35 PM GMT
+Last updated: September 30, 2026 at 11:52:31 PM GMT
 
-* Manifests: [1263602768589796619](https://steamdb.info/depot/2347773/history/?changeid=M:1263602768589796619), [3894314335679084505](https://steamdb.info/depot/2347770/history/?changeid=M:3894314335679084505), [4472721471834965775](https://steamdb.info/depot/2347771/history/?changeid=M:4472721471834965775)
+* Manifests: [1263602768589796619](https://steamdb.info/depot/2347773/history/?changeid=M:1263602768589796619), [4472721471834965775](https://steamdb.info/depot/2347771/history/?changeid=M:4472721471834965775), [2416787194101235199](https://steamdb.info/depot/2347770/history/?changeid=M:2416787194101235199)
 * Repository: https://github.com/swiftly-solution/swiftlys2
 
 ## master
