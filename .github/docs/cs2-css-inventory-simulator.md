@@ -1,6 +1,6 @@
 # cs2-css-inventory-simulator
 
-Last updated: October 2, 2026 at 10:24:35 PM GMT
+Last updated: October 3, 2026 at 6:27:26 PM GMT
 
 * Manifests: [846540275648835184](https://steamdb.info/depot/2347771/history/?changeid=M:846540275648835184), [2625928478418236338](https://steamdb.info/depot/2347770/history/?changeid=M:2625928478418236338), [4659679433267198996](https://steamdb.info/depot/2347773/history/?changeid=M:4659679433267198996)
 * Repository: https://github.com/ianlucas/cs2-css-inventory-simulator
@@ -16,12 +16,36 @@ Last updated: October 2, 2026 at 10:24:35 PM GMT
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x4C\x24\x2A\x53\x41\x55\x41\x56</pre></td><td><pre>48 89 4C 24 ? 53 41 55 41 56</pre></td></tr>
 </table>
 
+### CCSChickenManager::ServerGamePostSimulate
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x4C\x8D\x25\x2A\x2A\x2A\x2A\x49\x83\x3C\x24\x2A\x74\x2A\x4C\x8D\x6F</pre></td><td><pre>55 48 89 E5 41 55 41 54 53 48 83 EC ? 4C 8D 25 ? ? ? ? 49 83 3C 24 ? 74 ? 4C 8D 6F</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x48\x83\xEC\x2A\x48\x83\x3D\x2A\x2A\x2A\x2A\x2A\x48\x8B\xD9\x0F\x84</pre></td><td><pre>40 53 48 83 EC ? 48 83 3D ? ? ? ? ? 48 8B D9 0F 84</pre></td></tr>
+</table>
+
+### CCSPlayerController::GetPetChicken
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x8F\x2A\x2A\x2A\x2A\x83\xF9\x2A\x74\x2A\x48\x8B\x35\x2A\x2A\x2A\x2A\x48\x85\xF6\x74\x2A\x83\xF9\x2A\x74\x2A\x0F\xB7\x87\x2A\x2A\x2A\x2A\x48\x89\xC2\x48\xC1\xEA\x2A\x83\xE2\x2A\x48\x8B\x14\xD6\x48\x85\xD2\x74\x2A\x25\x2A\x2A\x2A\x2A\x48\x6B\xC0\x2A\x48\x01\xD0\x31\xD2\x3B\x48\x2A\x75\x2A\x48\x8B\x10\x48\x89\xD0\xC3\x31\xD2\x48\x89\xD0\xC3\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\x48\x85\xF6</pre></td><td><pre>8B 8F ? ? ? ? 83 F9 ? 74 ? 48 8B 35 ? ? ? ? 48 85 F6 74 ? 83 F9 ? 74 ? 0F B7 87 ? ? ? ? 48 89 C2 48 C1 EA ? 83 E2 ? 48 8B 14 D6 48 85 D2 74 ? 25 ? ? ? ? 48 6B C0 ? 48 01 D0 31 D2 3B 48 ? 75 ? 48 8B 10 48 89 D0 C3 31 D2 48 89 D0 C3 CC CC CC CC CC CC CC CC CC CC 48 85 F6</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x8B\x91\x2A\x2A\x2A\x2A\x45\x33\xD2\x83\xFA\x2A\x74\x2A\x48\x8B\x0D\x2A\x2A\x2A\x2A\x48\x85\xC9\x74\x2A\x83\xFA\x2A\x74\x2A\x8B\xC2\x25\x2A\x2A\x2A\x2A\x44\x8B\xC0\x48\xC1\xE8\x2A\x4C\x8B\x0C\xC1\x4D\x85\xC9\x74\x2A\x41\x81\xE0\x2A\x2A\x2A\x2A\x49\x6B\xC0\x2A\x49\x03\xC1\x74\x2A\x39\x50\x2A\x49\x0F\x45\xC2\xEB\x2A\x49\x8B\xC2\x48\x85\xC0\x74\x2A\x48\x8B\x00\xC3\x49\x8B\xC2\xC3\xCC\xE9\x2A\x2A\x2A\x2A\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\x41\x0F\xB7\x40</pre></td><td><pre>8B 91 ? ? ? ? 45 33 D2 83 FA ? 74 ? 48 8B 0D ? ? ? ? 48 85 C9 74 ? 83 FA ? 74 ? 8B C2 25 ? ? ? ? 44 8B C0 48 C1 E8 ? 4C 8B 0C C1 4D 85 C9 74 ? 41 81 E0 ? ? ? ? 49 6B C0 ? 49 03 C1 74 ? 39 50 ? 49 0F 45 C2 EB ? 49 8B C2 48 85 C0 74 ? 48 8B 00 C3 49 8B C2 C3 CC E9 ? ? ? ? CC CC CC CC CC CC CC CC CC CC CC 41 0F B7 40</pre></td></tr>
+</table>
+
 ### CCSPlayerController::ProcessUsercmds
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x89\x4D</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 89 4D</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x44\x88\x48\x20\x44\x89\x40\x18\x48\x89\x50\x10\x53</pre></td><td><pre>48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53</pre></td></tr>
+</table>
+
+### CCSPlayerController::SetPetChicken
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xF6\x74\x2A\x48\x8B\x56\x2A\x48\x85\xD2\x74\x2A\x8B\x42\x2A\x8B\x4A\x2A\xC1\xE8\x2A\x83\xE1\x2A\x29\xC8\x83\x7A\x2A\x2A\x74\x2A\x0F\xB7\x52\x2A\x66\x81\xE2\x2A\x2A\xC1\xE0\x2A\x0F\xB7\xD2\x09\xD0\x89\x87\x2A\x2A\x2A\x2A\xC3\x66\x0F\x1F\x44\x00\x2A\xC7\x87\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xC3\x0F\x1F\x44\x00\x2A\xBA\x2A\x2A\x2A\x2A\xEB\x2A\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\x55\x48\x8D\x05</pre></td><td><pre>48 85 F6 74 ? 48 8B 56 ? 48 85 D2 74 ? 8B 42 ? 8B 4A ? C1 E8 ? 83 E1 ? 29 C8 83 7A ? ? 74 ? 0F B7 52 ? 66 81 E2 ? ? C1 E0 ? 0F B7 D2 09 D0 89 87 ? ? ? ? C3 66 0F 1F 44 00 ? C7 87 ? ? ? ? ? ? ? ? C3 0F 1F 44 00 ? BA ? ? ? ? EB ? CC CC CC CC CC CC CC CC CC 55 48 8D 05</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x4C\x8B\xC9\x48\x85\xD2\x74\x2A\x48\x8B\x42\x2A\x48\x85\xC0\x74\x2A\x8B\x50\x2A\xB9\x2A\x2A\x2A\x2A\x8B\x40\x2A\x44\x8B\xC2\x83\xE0\x2A\x41\xC1\xE8\x2A\x44\x2B\xC0\x8B\xC2\x23\xC1\x41\xC1\xE0\x2A\x83\xFA\x2A\x0F\x45\xC8\x44\x0B\xC1\x45\x89\x81\x2A\x2A\x2A\x2A\xC3\xC7\x81\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xC3\xCC\xCC\xCC\x40\x55\x41\x56</pre></td><td><pre>4C 8B C9 48 85 D2 74 ? 48 8B 42 ? 48 85 C0 74 ? 8B 50 ? B9 ? ? ? ? 8B 40 ? 44 8B C2 83 E0 ? 41 C1 E8 ? 44 2B C0 8B C2 23 C1 41 C1 E0 ? 83 FA ? 0F 45 C8 44 0B C1 45 89 81 ? ? ? ? C3 C7 81 ? ? ? ? ? ? ? ? C3 CC CC CC 40 55 41 56</pre></td></tr>
 </table>
 
 ### CCSPlayerInventory::GetItemInLoadout
@@ -70,6 +94,14 @@ Last updated: October 2, 2026 at 10:24:35 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x4C\x8B\x67\x2A\x4D\x85\xE4\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\xDF</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 4C 8B 67 ? 4D 85 E4 0F 84 ? ? ? ? 48 89 DF</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x41\x56\x48\x83\xEC\x2A\x48\x83\x79</pre></td><td><pre>40 55 41 56 48 83 EC ? 48 83 79</pre></td></tr>
+</table>
+
+### CChicken::InitPet
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x53\x48\x89\xFB\x48\x89\xF7\x48\x81\xEC</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 53 48 89 FB 48 89 F7 48 81 EC</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x56\x41\x56\x48\x83\xEC\x2A\x48\x8B\xE9\x4C\x8B\xF2</pre></td><td><pre>40 55 56 41 56 48 83 EC ? 48 8B E9 4C 8B F2</pre></td></tr>
 </table>
 
 ### CEconItemSchema::GetItemDefinition
