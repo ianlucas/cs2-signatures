@@ -1,8 +1,8 @@
 # Plugify
 
-Last updated: October 5, 2026 at 6:19:47 PM GMT
+Last updated: October 5, 2026 at 11:41:44 PM GMT
 
-* Manifests: [846540275648835184](https://steamdb.info/depot/2347771/history/?changeid=M:846540275648835184), [2625928478418236338](https://steamdb.info/depot/2347770/history/?changeid=M:2625928478418236338), [4659679433267198996](https://steamdb.info/depot/2347773/history/?changeid=M:4659679433267198996)
+* Manifests: [459013114122940128](https://steamdb.info/depot/2347771/history/?changeid=M:459013114122940128), [7820179980365915207](https://steamdb.info/depot/2347770/history/?changeid=M:7820179980365915207), [8082014506965878039](https://steamdb.info/depot/2347773/history/?changeid=M:8082014506965878039)
 * Repository: https://github.com/untrustedmodders/plugify-plugin-s2sdk
 * Gamedata: https://github.com/untrustedmodders/plugify-plugin-s2sdk/blob/main/assets/gamedata.jsonc
 
@@ -142,16 +142,16 @@ Last updated: October 5, 2026 at 6:19:47 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xC8\x42\x41\xC7\x84\x24\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x41\xC7\x84\x24\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xE9</pre></td><td><pre>C8 42 41 C7 84 24 ? ? ? ? ? ? ? ? 41 C7 84 24 ? ? ? ? ? ? ? ? E9</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xC8\x42\xEB\x2A\x4C\x8B\x73\x2A\x4D\x39\x6E</pre></td><td><pre>C8 42 EB ? 4C 8B 73 ? 4D 39 6E</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xC8\x42\x41\xC7\x84\x24\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x41\xC7\x84\x24\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xE9</pre></td><td><pre>C8 42 41 C7 84 24 ? ? ? ? ? ? ? ? 41 C7 84 24 ? ? ? ? ? ? ? ? E9</pre></td></tr>
 </table>
 
 ### EmitSoundVolume
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x6F\x03\x48\x83\xEC\x2A\x45\x31\xC9\x89\xC2\x45\x31\xC0\x4C\x89\xFE\x0F\x11\x04\x24\x8B\x43\x2A\x4C\x89\xE7</pre></td><td><pre>E8 ? ? ? ? F3 0F 6F 03 48 83 EC ? 45 31 C9 89 C2 45 31 C0 4C 89 FE 0F 11 04 24 8B 43 ? 4C 89 E7</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x41\xB9\x2A\x2A\x2A\x2A\x48\x89\x5D\x2A\x49\x8B\xD5\xF3\x0F\x11\x45</pre></td><td><pre>41 B9 ? ? ? ? 48 89 5D ? 49 8B D5 F3 0F 11 45</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x6F\x03\x48\x83\xEC\x2A\x45\x31\xC9\x89\xC2\x45\x31\xC0\x4C\x89\xFE\x0F\x11\x04\x24\x8B\x43\x2A\x4C\x89\xE7</pre></td><td><pre>E8 ? ? ? ? F3 0F 6F 03 48 83 EC ? 45 31 C9 89 C2 45 31 C0 4C 89 FE 0F 11 04 24 8B 43 ? 4C 89 E7</pre></td></tr>
 </table>
 
 ### GetCSWeaponDataFromKey

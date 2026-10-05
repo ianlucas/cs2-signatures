@@ -1,8 +1,8 @@
 # cs2-css-match
 
-Last updated: October 2, 2026 at 10:24:35 PM GMT
+Last updated: October 5, 2026 at 11:41:44 PM GMT
 
-* Manifests: [846540275648835184](https://steamdb.info/depot/2347771/history/?changeid=M:846540275648835184), [2625928478418236338](https://steamdb.info/depot/2347770/history/?changeid=M:2625928478418236338), [4659679433267198996](https://steamdb.info/depot/2347773/history/?changeid=M:4659679433267198996)
+* Manifests: [459013114122940128](https://steamdb.info/depot/2347771/history/?changeid=M:459013114122940128), [7820179980365915207](https://steamdb.info/depot/2347770/history/?changeid=M:7820179980365915207), [8082014506965878039](https://steamdb.info/depot/2347773/history/?changeid=M:8082014506965878039)
 * Repository: https://github.com/ianlucas/cs2-css-match
 * Gamedata: https://github.com/ianlucas/cs2-css-match/blob/main/gamedata/match.json
 
@@ -36,8 +36,8 @@ Last updated: October 2, 2026 at 10:24:35 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x83\xB9\x2A\x2A\x2A\x2A\x2A\x44\x0F\xBF\x81</pre></td><td><pre>83 B9 ? ? ? ? ? 44 0F BF 81</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x0F\xB6\x40\x2A\x84\xC0\x74\x2A\x31\xC0</pre></td><td><pre>48 8B 05 ? ? ? ? 0F B6 40 ? 84 C0 74 ? 31 C0</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x83\xB9\x2A\x2A\x2A\x2A\x2A\x44\x0F\xBF\x81</pre></td><td><pre>83 B9 ? ? ? ? ? 44 0F BF 81</pre></td></tr>
 </table>
 
 ### CCSPlayerPawnBase::IncrementNumMVPs
@@ -60,8 +60,8 @@ Last updated: October 2, 2026 at 10:24:35 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x80\xB9</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 80 B9</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x80\xBF\x2A\x2A\x2A\x2A\x2A\x75</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC ? 80 BF ? ? ? ? ? 75</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x80\xB9</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 80 B9</pre></td></tr>
 </table>
 
 ### GetItemSchema

@@ -1,8 +1,8 @@
 # cs2-ss2-match
 
-Last updated: October 2, 2026 at 10:24:35 PM GMT
+Last updated: October 5, 2026 at 11:41:44 PM GMT
 
-* Manifests: [846540275648835184](https://steamdb.info/depot/2347771/history/?changeid=M:846540275648835184), [2625928478418236338](https://steamdb.info/depot/2347770/history/?changeid=M:2625928478418236338), [4659679433267198996](https://steamdb.info/depot/2347773/history/?changeid=M:4659679433267198996)
+* Manifests: [459013114122940128](https://steamdb.info/depot/2347771/history/?changeid=M:459013114122940128), [7820179980365915207](https://steamdb.info/depot/2347770/history/?changeid=M:7820179980365915207), [8082014506965878039](https://steamdb.info/depot/2347773/history/?changeid=M:8082014506965878039)
 * Repository: https://github.com/ianlucas/cs2-ss2-match
 * Gamedata: https://github.com/ianlucas/cs2-ss2-match/blob/main/resources/gamedata/signatures.jsonc
 
@@ -12,16 +12,16 @@ Last updated: October 2, 2026 at 10:24:35 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x41\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xF9\xFF\x15</pre></td><td><pre>40 55 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 4C 8B F9 FF 15</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x31\xF6\x48\x89\xE5\x41\x57\x49\x89\xFF</pre></td><td><pre>55 31 F6 48 89 E5 41 57 49 89 FF</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x41\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xF9\xFF\x15</pre></td><td><pre>40 55 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 4C 8B F9 FF 15</pre></td></tr>
 </table>
 
 ### CCSGameRules::AreTeamsPlayingSwitchedSides
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x87\x2A\x2A\x2A\x2A\x48\x89\xFA</pre></td><td><pre>8B 87 ? ? ? ? 48 89 FA</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x44\x8B\x81\x2A\x2A\x2A\x2A\x4C\x8B\xC9</pre></td><td><pre>44 8B 81 ? ? ? ? 4C 8B C9</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x87\x2A\x2A\x2A\x2A\x48\x89\xFA</pre></td><td><pre>8B 87 ? ? ? ? 48 89 FA</pre></td></tr>
 </table>
 
 ### CCSGameRules::HandleSwapTeams
