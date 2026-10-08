@@ -1,8 +1,8 @@
 # cs2-ss2-deathmatch
 
-Last updated: October 5, 2026 at 11:41:44 PM GMT
+Last updated: October 8, 2026 at 10:36:57 PM GMT
 
-* Manifests: [459013114122940128](https://steamdb.info/depot/2347771/history/?changeid=M:459013114122940128), [7820179980365915207](https://steamdb.info/depot/2347770/history/?changeid=M:7820179980365915207), [8082014506965878039](https://steamdb.info/depot/2347773/history/?changeid=M:8082014506965878039)
+* Manifests: [571072184844314041](https://steamdb.info/depot/2347771/history/?changeid=M:571072184844314041), [4758919807587010422](https://steamdb.info/depot/2347770/history/?changeid=M:4758919807587010422), [8144769780027006476](https://steamdb.info/depot/2347773/history/?changeid=M:8144769780027006476)
 * Repository: https://github.com/ianlucas/cs2-ss2-deathmatch
 * Gamedata: https://github.com/ianlucas/cs2-ss2-deathmatch/blob/main/resources/gamedata/signatures.jsonc
 
@@ -28,6 +28,6 @@ Last updated: October 5, 2026 at 11:41:44 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x0F\x1F\x00\x48\x8B\xBD\x2A\x2A\x2A\x2A\x4C\x8D\x3D</pre></td><td><pre>E8 ? ? ? ? E9 ? ? ? ? 0F 1F 00 48 8B BD ? ? ? ? 4C 8D 3D</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\xF3\x0F\x10\x87\x2A\x2A\x2A\x2A\x0F\x2E\xC6\x0F\x28\xB4\x24\x2A\x2A\x2A\x2A\x7A\x2A\x74\x2A\xBA</pre></td><td><pre>E8 ? ? ? ? F3 0F 10 87 ? ? ? ? 0F 2E C6 0F 28 B4 24 ? ? ? ? 7A ? 74 ? BA</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x0F\x1F\x00\x48\x8B\xBD\x2A\x2A\x2A\x2A\x4C\x8D\x3D</pre></td><td><pre>E8 ? ? ? ? E9 ? ? ? ? 0F 1F 00 48 8B BD ? ? ? ? 4C 8D 3D</pre></td></tr>
 </table>
