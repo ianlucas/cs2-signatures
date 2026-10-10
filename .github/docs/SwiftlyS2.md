@@ -1,6 +1,6 @@
 # SwiftlyS2
 
-Last updated: October 8, 2026 at 10:36:57 PM GMT
+Last updated: October 10, 2026 at 7:28:47 PM GMT
 
 * Manifests: [571072184844314041](https://steamdb.info/depot/2347771/history/?changeid=M:571072184844314041), [4758919807587010422](https://steamdb.info/depot/2347770/history/?changeid=M:4758919807587010422), [8144769780027006476](https://steamdb.info/depot/2347773/history/?changeid=M:8144769780027006476)
 * Repository: https://github.com/swiftly-solution/swiftlys2
@@ -519,14 +519,6 @@ Last updated: October 8, 2026 at 10:36:57 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x75\x2A\x48\x8B\x03\x48\x89\xDF\xFF\x90\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x48\x8D\x05</pre></td><td><pre>75 ? 48 8B 03 48 89 DF FF 90 ? ? ? ? 84 C0 74 ? 48 8D 05</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x75\x2A\x48\x8B\x03\x48\x8B\xCB\xFF\x90\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x48\x8D\x05</pre></td><td><pre>75 ? 48 8B 03 48 8B CB FF 90 ? ? ? ? 84 C0 74 ? 48 8D 05</pre></td></tr>
-</table>
-
-### TraceShape
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x49\x89\xF7\x41\x56\x48\x8D\x35\x2A\x2A\x2A\x2A\x49\x89\xCE</pre></td><td><pre>55 48 8D 05 ? ? ? ? 48 89 E5 41 57 49 89 F7 41 56 48 8D 35 ? ? ? ? 49 89 CE</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x54\x24\x2A\x48\x89\x4C\x24\x2A\x55\x53\x56\x57\x41\x54\x41\x56\x41\x57</pre></td><td><pre>48 89 54 24 ? 48 89 4C 24 ? 55 53 56 57 41 54 41 56 41 57</pre></td></tr>
 </table>
 
 ### UTIL::CreateEntityByName
