@@ -1,6 +1,6 @@
 # Plugify
 
-Last updated: October 8, 2026 at 10:36:57 PM GMT
+Last updated: October 14, 2026 at 8:50:46 PM GMT
 
 * Manifests: [571072184844314041](https://steamdb.info/depot/2347771/history/?changeid=M:571072184844314041), [4758919807587010422](https://steamdb.info/depot/2347770/history/?changeid=M:4758919807587010422), [8144769780027006476](https://steamdb.info/depot/2347773/history/?changeid=M:8144769780027006476)
 * Repository: https://github.com/untrustedmodders/plugify-plugin-s2sdk
@@ -135,6 +135,7 @@ Last updated: October 8, 2026 at 10:36:57 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8D\x05\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x53\x48\x83\x38\x00</pre></td><td><pre>48 8D 05 ? ? ? ? 55 48 89 E5 41 56 41 55 49 89 FD 41 54 53 48 83 38 00</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x41\x57\x48\x83\xEC\x2A\x48\x83\x3D\x2A\x2A\x2A\x2A\x2A\x48\x89\x6C\x24\x2A\x48\x8B\xE9\x74\x2A\x33\xC9\xE8\x2A\x2A\x2A\x2A\xFF\x15</pre></td><td><pre>41 57 48 83 EC ? 48 83 3D ? ? ? ? ? 48 89 6C 24 ? 48 8B E9 74 ? 33 C9 E8 ? ? ? ? FF 15</pre></td></tr>
 </table>
 
