@@ -1,12 +1,20 @@
 # CounterStrikeSharp
 
-Last updated: October 8, 2026 at 10:36:57 PM GMT
+Last updated: October 14, 2026 at 11:01:58 PM GMT
 
-* Manifests: [571072184844314041](https://steamdb.info/depot/2347771/history/?changeid=M:571072184844314041), [4758919807587010422](https://steamdb.info/depot/2347770/history/?changeid=M:4758919807587010422), [8144769780027006476](https://steamdb.info/depot/2347773/history/?changeid=M:8144769780027006476)
+* Manifests: [3266113198068029978](https://steamdb.info/depot/2347773/history/?changeid=M:3266113198068029978), [4855307940196598488](https://steamdb.info/depot/2347771/history/?changeid=M:4855307940196598488), [7851647903998529455](https://steamdb.info/depot/2347770/history/?changeid=M:7851647903998529455)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * Gamedata: https://github.com/roflmuffin/CounterStrikeSharp/blob/main/configs/addons/counterstrikesharp/gamedata/gamedata.json
 
 ## Signatures
+
+### CBaseTrigger_StartTouch
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\x01</pre></td><td><pre>40 57 41 56 48 83 EC ? 48 8B 01</pre></td></tr>
+<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\xBB</pre></td><td><pre>55 48 89 E5 41 56 41 55 49 89 F5 41 54 49 89 FC 53 BB</pre></td></tr>
+</table>
 
 ### CBaseEntity_DispatchSpawn
 
@@ -62,14 +70,6 @@ Last updated: October 8, 2026 at 10:36:57 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x41\x55\x48\x83\xEC\x2A\x83\xBA</pre></td><td><pre>40 53 41 55 48 83 EC ? 83 BA</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\xBA\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC</pre></td><td><pre>55 BA ? ? ? ? 48 89 E5 41 57 41 56 41 55 49 89 F5 41 54 49 89 FC</pre></td></tr>
-</table>
-
-### CBaseTrigger_StartTouch
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x57\x41\x56\x48\x83\xEC\x2A\x48\x8B\x01</pre></td><td><pre>40 57 41 56 48 83 EC ? 48 8B 01</pre></td></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x49\x89\xF5\x41\x54\x49\x89\xFC\x53\xBB</pre></td><td><pre>55 48 89 E5 41 56 41 55 49 89 F5 41 54 49 89 FC 53 BB</pre></td></tr>
 </table>
 
 ### CCSGameRules_TerminateRound

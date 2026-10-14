@@ -1,8 +1,8 @@
 # cs2kz-metamod
 
-Last updated: October 8, 2026 at 10:36:57 PM GMT
+Last updated: October 14, 2026 at 11:01:58 PM GMT
 
-* Manifests: [571072184844314041](https://steamdb.info/depot/2347771/history/?changeid=M:571072184844314041), [4758919807587010422](https://steamdb.info/depot/2347770/history/?changeid=M:4758919807587010422), [8144769780027006476](https://steamdb.info/depot/2347773/history/?changeid=M:8144769780027006476)
+* Manifests: [3266113198068029978](https://steamdb.info/depot/2347773/history/?changeid=M:3266113198068029978), [4855307940196598488](https://steamdb.info/depot/2347771/history/?changeid=M:4855307940196598488), [7851647903998529455](https://steamdb.info/depot/2347770/history/?changeid=M:7851647903998529455)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
@@ -108,8 +108,8 @@ Last updated: October 8, 2026 at 10:36:57 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x81\xEC\x88\x01\x00\x00\xE8</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 89 F3 48 81 EC 88 01 00 00 E8</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x55\x53\x56\x57\x41\x56\x41\x57\x48\x8D\x68\xA1</pre></td><td><pre>48 8B C4 55 53 56 57 41 56 41 57 48 8D 68 A1</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x81\xEC\x88\x01\x00\x00\xE8</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 89 F3 48 81 EC 88 01 00 00 E8</pre></td></tr>
 </table>
 
 ### CheckVelocity
@@ -252,8 +252,8 @@ Last updated: October 8, 2026 at 10:36:57 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x00\x00\x00</pre></td><td><pre>55 ? ? ? ? ? ? ? ? ? ? ? ? ? ? 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 8D 3D ? ? ? ? 48 81 EC ? 00 00 00</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x53\x56\x57\x41\x55\x41\x56\x48\x8D\xAC\x24\x08\xF9\xFF\xFF</pre></td><td><pre>40 55 53 56 57 41 55 41 56 48 8D AC 24 08 F9 FF FF</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x8D\x3D\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x00\x00\x00</pre></td><td><pre>55 ? ? ? ? ? ? ? ? ? ? ? ? ? ? 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 8D 3D ? ? ? ? 48 81 EC ? 00 00 00</pre></td></tr>
 </table>
 
 ### PlayerMove
@@ -300,8 +300,8 @@ Last updated: October 8, 2026 at 10:36:57 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x53\x48\x89\xF3\x48\x83\xEC\x78\xF3\x0F\x11\x85</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 53 48 89 F3 48 83 EC 78 F3 0F 11 85</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x4C\x24\x2A\x53\x41\x55\x41\x56</pre></td><td><pre>48 89 4C 24 ? 53 41 55 41 56</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x53\x48\x89\xF3\x48\x83\xEC\x78\xF3\x0F\x11\x85</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 53 48 89 F3 48 83 EC 78 F3 0F 11 85</pre></td></tr>
 </table>
 
 ### SetupMove

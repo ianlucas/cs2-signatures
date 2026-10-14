@@ -1,8 +1,8 @@
 # ModSharp
 
-Last updated: October 8, 2026 at 11:48:47 PM GMT
+Last updated: October 14, 2026 at 11:01:58 PM GMT
 
-* Manifests: [571072184844314041](https://steamdb.info/depot/2347771/history/?changeid=M:571072184844314041), [4758919807587010422](https://steamdb.info/depot/2347770/history/?changeid=M:4758919807587010422), [8144769780027006476](https://steamdb.info/depot/2347773/history/?changeid=M:8144769780027006476)
+* Manifests: [3266113198068029978](https://steamdb.info/depot/2347773/history/?changeid=M:3266113198068029978), [4855307940196598488](https://steamdb.info/depot/2347771/history/?changeid=M:4855307940196598488), [7851647903998529455](https://steamdb.info/depot/2347770/history/?changeid=M:7851647903998529455)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/core.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc
 
@@ -727,8 +727,8 @@ Last updated: October 8, 2026 at 11:48:47 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x6C\x24\x2A\x56\x48\x83\xEC\x2A\x0F\x29\x74\x24\x2A\x0F\x28\xF3</pre></td><td><pre>48 89 6C 24 ? 56 48 83 EC ? 0F 29 74 24 ? 0F 28 F3</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xD6\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\xF3\x0F\x11\x45</pre></td><td><pre>55 48 89 E5 41 57 41 56 49 89 D6 41 55 41 54 53 48 83 EC ? F3 0F 11 45</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x6C\x24\x2A\x56\x48\x83\xEC\x2A\x0F\x29\x74\x24\x2A\x0F\x28\xF3</pre></td><td><pre>48 89 6C 24 ? 56 48 83 EC ? 0F 29 74 24 ? 0F 28 F3</pre></td></tr>
 </table>
 
 ### CGameEntitySystem::GetSpawnOriginOffset
@@ -839,8 +839,8 @@ Last updated: October 8, 2026 at 11:48:47 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x4C\x8B\xDC\x4D\x89\x43\x18\x55\x53\x56\x41\x55\x41\x57\x49\x8D\xAB\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x45\x33\xED\xC7\x42\x04\x2A\x2A\x2A\x2A</pre></td><td><pre>4C 8B DC 4D 89 43 18 55 53 56 41 55 41 57 49 8D AB ? ? ? ? 48 81 EC ? ? ? ? 45 33 ED C7 42 04 ? ? ? ?</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\xB8\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\x07</pre></td><td><pre>48 B8 ? ? ? ? ? ? ? ? 55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? 48 89 07</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x4C\x8B\xDC\x4D\x89\x43\x18\x55\x53\x56\x41\x55\x41\x57\x49\x8D\xAB\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x45\x33\xED\xC7\x42\x04\x2A\x2A\x2A\x2A</pre></td><td><pre>4C 8B DC 4D 89 43 18 55 53 56 41 55 41 57 49 8D AB ? ? ? ? 48 81 EC ? ? ? ? 45 33 ED C7 42 04 ? ? ? ?</pre></td></tr>
 </table>
 
 ### CSource2Server::GameFrame
@@ -894,8 +894,8 @@ Last updated: October 8, 2026 at 11:48:47 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x85\xC9</pre></td><td><pre>48 8B 15 ? ? ? ? 48 85 D2 74 ? 85 C9</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x16\x83\xFF\x3F</pre></td><td><pre>48 8B 05 ? ? ? ? 48 85 C0 74 16 83 FF 3F</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x85\xC9</pre></td><td><pre>48 8B 15 ? ? ? ? 48 85 D2 74 ? 85 C9</pre></td></tr>
 </table>
 
 ### HandleGCBanInfo
@@ -1100,8 +1100,8 @@ Last updated: October 8, 2026 at 11:48:47 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x38\x33\xC0\x48\x8B\xD1\x48\x89\x44\x24\x2A\x45\x33\xC9\x45\x33\xC0\x48\x89\x44\x24\x2A\xB9\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x83\xC4\x38\xC3\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\x48\x89\x5C\x24\x2A</pre></td><td><pre>48 83 EC 38 33 C0 48 8B D1 48 89 44 24 ? 45 33 C9 45 33 C0 48 89 44 24 ? B9 ? ? ? ? E8 ? ? ? ? 48 83 C4 38 C3 CC CC CC CC CC CC CC CC 48 89 5C 24 ?</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x89\xFE\x45\x31\xC9\x45\x31\xC0\x31\xC9\x31\xD2\xBF\x03\x00\x00\x00\xE9</pre></td><td><pre>48 89 FE 45 31 C9 45 31 C0 31 C9 31 D2 BF 03 00 00 00 E9</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x38\x33\xC0\x48\x8B\xD1\x48\x89\x44\x24\x2A\x45\x33\xC9\x45\x33\xC0\x48\x89\x44\x24\x2A\xB9\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x83\xC4\x38\xC3\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\x48\x89\x5C\x24\x2A</pre></td><td><pre>48 83 EC 38 33 C0 48 8B D1 48 89 44 24 ? 45 33 C9 45 33 C0 48 89 44 24 ? B9 ? ? ? ? E8 ? ? ? ? 48 83 C4 38 C3 CC CC CC CC CC CC CC CC 48 89 5C 24 ?</pre></td></tr>
 </table>
 
 ### ScriptSetConVarDouble
@@ -1164,8 +1164,8 @@ Last updated: October 8, 2026 at 11:48:47 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x45\x85\xC0\x0F\x84\x2A\x2A\x2A\x2A\x53\x41\x55</pre></td><td><pre>45 85 C0 0F 84 ? ? ? ? 53 41 55</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x85\xD2\x74\x2A\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xB7</pre></td><td><pre>85 D2 74 ? 55 48 89 E5 41 57 41 56 4C 8D B7</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x45\x85\xC0\x0F\x84\x2A\x2A\x2A\x2A\x53\x41\x55</pre></td><td><pre>45 85 C0 0F 84 ? ? ? ? 53 41 55</pre></td></tr>
 </table>
 
 ### Source2_Init
