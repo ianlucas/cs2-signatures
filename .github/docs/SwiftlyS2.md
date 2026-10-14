@@ -1,6 +1,6 @@
 # SwiftlyS2
 
-Last updated: October 10, 2026 at 7:28:47 PM GMT
+Last updated: October 14, 2026 at 2:11:47 PM GMT
 
 * Manifests: [571072184844314041](https://steamdb.info/depot/2347771/history/?changeid=M:571072184844314041), [4758919807587010422](https://steamdb.info/depot/2347770/history/?changeid=M:4758919807587010422), [8144769780027006476](https://steamdb.info/depot/2347773/history/?changeid=M:8144769780027006476)
 * Repository: https://github.com/swiftly-solution/swiftlys2
@@ -1035,14 +1035,6 @@ Last updated: October 10, 2026 at 7:28:47 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Windows</td><td>engine2</td><td><pre>\x40\x53\x48\x83\xEC\x2A\x48\x8B\x02\x48\x8B\xD9\x48\x8B\xCA</pre></td><td><pre>40 53 48 83 EC ? 48 8B 02 48 8B D9 48 8B CA</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>engine2</td><td><pre>\x55\x48\x89\xE5\x41\x54\x53\x2A\x2A\x2A\x48\x89\xFB\x48\x89\xF7\xFF\x50\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x31\xC9\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x48\x3B\x42</pre></td><td><pre>55 48 89 E5 41 54 53 ? ? ? 48 89 FB 48 89 F7 FF 50 ? 48 8D 15 ? ? ? ? 31 C9 ? ? ? 48 85 D2 74 ? 48 3B 42</pre></td></tr>
-</table>
-
-### LegacyGameEventListener
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x83\xFF\x2A\x77\x2A\x48\x63\xFF\x48\xC1\xE7\x2A\x48\x8D\x44\x38</pre></td><td><pre>48 8B 05 ? ? ? ? 48 85 C0 74 ? 83 FF ? 77 ? 48 63 FF 48 C1 E7 ? 48 8D 44 38</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\x15\x2A\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x85\xC9</pre></td><td><pre>48 8B 15 ? ? ? ? 48 85 D2 74 ? 85 C9</pre></td></tr>
 </table>
 
 ### SetSchemaHammerUniqueId
