@@ -1,6 +1,6 @@
 # cs2-css-inventory-simulator
 
-Last updated: October 15, 2026 at 12:27:58 AM GMT
+Last updated: October 15, 2026 at 5:00:47 PM GMT
 
 * Manifests: [2312433566686574487](https://steamdb.info/depot/2347770/history/?changeid=M:2312433566686574487), [5513399157532729905](https://steamdb.info/depot/2347773/history/?changeid=M:5513399157532729905), [8766757721818354077](https://steamdb.info/depot/2347771/history/?changeid=M:8766757721818354077)
 * Repository: https://github.com/ianlucas/cs2-css-inventory-simulator
@@ -22,6 +22,14 @@ Last updated: October 15, 2026 at 12:27:58 AM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x4C\x8D\x25\x2A\x2A\x2A\x2A\x49\x83\x3C\x24\x2A\x74\x2A\x4C\x8D\x6F</pre></td><td><pre>55 48 89 E5 41 55 41 54 53 48 83 EC ? 4C 8D 25 ? ? ? ? 49 83 3C 24 ? 74 ? 4C 8D 6F</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x48\x83\xEC\x2A\x48\x83\x3D\x2A\x2A\x2A\x2A\x2A\x48\x8B\xD9\x0F\x84</pre></td><td><pre>40 53 48 83 EC ? 48 83 3D ? ? ? ? ? 48 8B D9 0F 84</pre></td></tr>
+</table>
+
+### CCSInventoryManager::GetBaseItemForTeam
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x83\xFA\x2A\x77\x2A\x83\xFE\x2A\x77</pre></td><td><pre>83 FA ? 77 ? 83 FE ? 77</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x41\x83\xF8\x2A\x77\x2A\x83\xFA</pre></td><td><pre>41 83 F8 ? 77 ? 83 FA</pre></td></tr>
 </table>
 
 ### CCSPlayerController::GetPetChicken
@@ -134,6 +142,14 @@ Last updated: October 15, 2026 at 12:27:58 AM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x2A\x48\x8B\x7F\x2A\x48\x85\xFF\x74</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 83 EC ? 48 8B 7F ? 48 85 FF 74</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x48\x83\xEC\x2A\x48\x8B\xF9\x48\x8B\xF2</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 83 EC ? 48 8B F9 48 8B F2</pre></td></tr>
+</table>
+
+### CInventoryManager::GetReferenceEconItem
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x0F\xB6\xC9\x48\x89\xE5\x41\x57</pre></td><td><pre>55 0F B6 C9 48 89 E5 41 57</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x41\x56\x48\x83\xEC\x2A\x0F\xB7\xF2</pre></td><td><pre>48 89 6C 24 ? 48 89 74 24 ? 41 56 48 83 EC ? 0F B7 F2</pre></td></tr>
 </table>
 
 ### CServerSideClientBase::ActivatePlayer
