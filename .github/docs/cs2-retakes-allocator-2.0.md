@@ -1,8 +1,8 @@
 # cs2-retakes-allocator-2.0
 
-Last updated: October 14, 2026 at 11:01:58 PM GMT
+Last updated: October 15, 2026 at 12:27:58 AM GMT
 
-* Manifests: [3266113198068029978](https://steamdb.info/depot/2347773/history/?changeid=M:3266113198068029978), [4855307940196598488](https://steamdb.info/depot/2347771/history/?changeid=M:4855307940196598488), [7851647903998529455](https://steamdb.info/depot/2347770/history/?changeid=M:7851647903998529455)
+* Manifests: [2312433566686574487](https://steamdb.info/depot/2347770/history/?changeid=M:2312433566686574487), [5513399157532729905](https://steamdb.info/depot/2347773/history/?changeid=M:5513399157532729905), [8766757721818354077](https://steamdb.info/depot/2347771/history/?changeid=M:8766757721818354077)
 * Repository: https://github.com/Micka2302/cs2-retakes-allocator-2.0
 * Gamedata: https://github.com/Micka2302/cs2-retakes-allocator-2.0/blob/main/Resources/RetakesAllocator_gamedata.json
 
