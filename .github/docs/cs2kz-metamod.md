@@ -1,8 +1,8 @@
 # cs2kz-metamod
 
-Last updated: October 18, 2026 at 2:38:46 AM GMT
+Last updated: October 20, 2026 at 10:31:59 PM GMT
 
-* Manifests: [5513399157532729905](https://steamdb.info/depot/2347773/history/?changeid=M:5513399157532729905), [8766757721818354077](https://steamdb.info/depot/2347771/history/?changeid=M:8766757721818354077), [2520908610273941189](https://steamdb.info/depot/2347770/history/?changeid=M:2520908610273941189)
+* Manifests: [1274005252265906612](https://steamdb.info/depot/2347771/history/?changeid=M:1274005252265906612), [4676054823281784086](https://steamdb.info/depot/2347773/history/?changeid=M:4676054823281784086), [6962766052972832680](https://steamdb.info/depot/2347770/history/?changeid=M:6962766052972832680)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
@@ -68,8 +68,8 @@ Last updated: October 18, 2026 at 2:38:46 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x81\xEC\x60\x01\x00\x00</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 81 EC 60 01 00 00</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x56\x41\x55\x48\x8D\xAC\x24</pre></td><td><pre>40 55 56 41 55 48 8D AC 24</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x81\xEC\x60\x01\x00\x00</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 81 EC 60 01 00 00</pre></td></tr>
 </table>
 
 ### CategorizePosition
@@ -92,8 +92,8 @@ Last updated: October 18, 2026 at 2:38:46 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xF4\xBE\x02\x00\x00\x00\x53\x48\x89\xFB\x48\x83\xEC\x58</pre></td><td><pre>55 48 89 E5 41 55 41 54 49 89 F4 BE 02 00 00 00 53 48 89 FB 48 83 EC 58</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x7C\x24\x2A\x41\x56\x48\x83\xEC\x30\x4C\x8B\xF2</pre></td><td><pre>48 89 5C 24 ? 48 89 7C 24 ? 41 56 48 83 EC 30 4C 8B F2</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xF4\xBE\x02\x00\x00\x00\x53\x48\x89\xFB\x48\x83\xEC\x58</pre></td><td><pre>55 48 89 E5 41 55 41 54 49 89 F4 BE 02 00 00 00 53 48 89 FB 48 83 EC 58</pre></td></tr>
 </table>
 
 ### CheckJumpButtonModern
@@ -164,8 +164,8 @@ Last updated: October 18, 2026 at 2:38:46 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC</pre></td><td><pre>48 85 FF 74 ? 55 48 89 E5 41 55 41 54 49 89 FC</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x85\xD2</pre></td><td><pre>48 89 5C 24 ? 57 48 83 EC ? 48 8B DA 48 8B F9 48 85 C9 0F 84 ? ? ? ? 48 85 D2</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xFF\x74\x2A\x55\x48\x89\xE5\x41\x55\x41\x54\x49\x89\xFC</pre></td><td><pre>48 85 FF 74 ? 55 48 89 E5 41 55 41 54 49 89 FC</pre></td></tr>
 </table>
 
 ### Duck
@@ -284,8 +284,8 @@ Last updated: October 18, 2026 at 2:38:46 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x44\x88\x48\x20\x44\x89\x40\x18\x48\x89\x50\x10\x53</pre></td><td><pre>48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x48\x89\x4D</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC 48 89 4D</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x44\x88\x48\x20\x44\x89\x40\x18\x48\x89\x50\x10\x53</pre></td><td><pre>48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53</pre></td></tr>
 </table>
 
 ### RemoveEntity
@@ -300,8 +300,8 @@ Last updated: October 18, 2026 at 2:38:46 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x4C\x24\x2A\x53\x41\x55\x41\x56</pre></td><td><pre>48 89 4C 24 ? 53 41 55 41 56</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x49\x89\xFD\x41\x54\x53\x48\x89\xF3\x48\x83\xEC\x78\xF3\x0F\x11\x85</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 49 89 FD 41 54 53 48 89 F3 48 83 EC 78 F3 0F 11 85</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x4C\x24\x2A\x53\x41\x55\x41\x56</pre></td><td><pre>48 89 4C 24 ? 53 41 55 41 56</pre></td></tr>
 </table>
 
 ### SetupMove
@@ -316,8 +316,8 @@ Last updated: October 18, 2026 at 2:38:46 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x7C\x24\x2A\x55\x48\x8B\xEC\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xF9\x48\x8D\x4D\x2A\xE8\x2A\x2A\x2A\x2A\xF2\x0F\x10\x87</pre></td><td><pre>48 89 7C 24 ? 55 48 8B EC 48 81 EC ? ? ? ? 48 8B F9 48 8D 4D ? E8 ? ? ? ? F2 0F 10 87</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x48\x89\xF7\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8</pre></td><td><pre>55 48 89 E5 41 57 49 89 FF 48 89 F7 41 56 41 55 41 54 53 48 81 EC ? ? ? ? E8</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x7C\x24\x2A\x55\x48\x8B\xEC\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xF9\x48\x8D\x4D\x2A\xE8\x2A\x2A\x2A\x2A\xF2\x0F\x10\x87</pre></td><td><pre>48 89 7C 24 ? 55 48 8B EC 48 81 EC ? ? ? ? 48 8B F9 48 8D 4D ? E8 ? ? ? ? F2 0F 10 87</pre></td></tr>
 </table>
 
 ### TracePlayerBBox

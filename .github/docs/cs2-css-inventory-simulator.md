@@ -1,8 +1,8 @@
 # cs2-css-inventory-simulator
 
-Last updated: October 15, 2026 at 5:55:51 PM GMT
+Last updated: October 20, 2026 at 10:31:59 PM GMT
 
-* Manifests: [5513399157532729905](https://steamdb.info/depot/2347773/history/?changeid=M:5513399157532729905), [8766757721818354077](https://steamdb.info/depot/2347771/history/?changeid=M:8766757721818354077), [2520908610273941189](https://steamdb.info/depot/2347770/history/?changeid=M:2520908610273941189)
+* Manifests: [1274005252265906612](https://steamdb.info/depot/2347771/history/?changeid=M:1274005252265906612), [4676054823281784086](https://steamdb.info/depot/2347773/history/?changeid=M:4676054823281784086), [6962766052972832680](https://steamdb.info/depot/2347770/history/?changeid=M:6962766052972832680)
 * Repository: https://github.com/ianlucas/cs2-css-inventory-simulator
 * Gamedata: https://github.com/ianlucas/cs2-css-inventory-simulator/blob/main/gamedata/inventory-simulator.json
 
@@ -100,8 +100,8 @@ Last updated: October 15, 2026 at 5:55:51 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x2A\x48\x8B\x5F\x2A\x48\x85\xDB</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 83 EC ? 48 8B 5F ? 48 85 DB</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x56\x48\x83\xEC\x2A\x48\x83\x79</pre></td><td><pre>40 55 56 48 83 EC ? 48 83 79</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x49\x89\xFC\x53\x48\x83\xEC\x2A\x48\x8B\x5F\x2A\x48\x85\xDB</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 49 89 FC 53 48 83 EC ? 48 8B 5F ? 48 85 DB</pre></td></tr>
 </table>
 
 ### CChicken::InitPet

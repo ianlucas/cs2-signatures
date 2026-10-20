@@ -1,8 +1,8 @@
 # cs2-css-match
 
-Last updated: October 15, 2026 at 5:55:51 PM GMT
+Last updated: October 20, 2026 at 10:31:59 PM GMT
 
-* Manifests: [5513399157532729905](https://steamdb.info/depot/2347773/history/?changeid=M:5513399157532729905), [8766757721818354077](https://steamdb.info/depot/2347771/history/?changeid=M:8766757721818354077), [2520908610273941189](https://steamdb.info/depot/2347770/history/?changeid=M:2520908610273941189)
+* Manifests: [1274005252265906612](https://steamdb.info/depot/2347771/history/?changeid=M:1274005252265906612), [4676054823281784086](https://steamdb.info/depot/2347773/history/?changeid=M:4676054823281784086), [6962766052972832680](https://steamdb.info/depot/2347770/history/?changeid=M:6962766052972832680)
 * Repository: https://github.com/ianlucas/cs2-css-match
 * Gamedata: https://github.com/ianlucas/cs2-css-match/blob/main/gamedata/match.json
 
@@ -12,8 +12,8 @@ Last updated: October 15, 2026 at 5:55:51 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x41\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xF9\xFF\x15</pre></td><td><pre>40 55 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 4C 8B F9 FF 15</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x31\xF6\x48\x89\xE5\x41\x57\x49\x89\xFF</pre></td><td><pre>55 31 F6 48 89 E5 41 57 49 89 FF</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x55\x41\x57\x48\x8D\x6C\x24\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8B\xF9\xFF\x15</pre></td><td><pre>40 55 41 57 48 8D 6C 24 ? 48 81 EC ? ? ? ? 4C 8B F9 FF 15</pre></td></tr>
 </table>
 
 ### CCSGameRules::AreTeamsPlayingSwitchedSides
