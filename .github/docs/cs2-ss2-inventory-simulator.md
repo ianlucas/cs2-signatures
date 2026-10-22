@@ -1,8 +1,8 @@
 # cs2-ss2-inventory-simulator
 
-Last updated: October 20, 2026 at 10:31:59 PM GMT
+Last updated: October 22, 2026 at 10:55:58 PM GMT
 
-* Manifests: [1274005252265906612](https://steamdb.info/depot/2347771/history/?changeid=M:1274005252265906612), [4676054823281784086](https://steamdb.info/depot/2347773/history/?changeid=M:4676054823281784086), [6962766052972832680](https://steamdb.info/depot/2347770/history/?changeid=M:6962766052972832680)
+* Manifests: [67499503218971311](https://steamdb.info/depot/2347770/history/?changeid=M:67499503218971311), [5491505037461703699](https://steamdb.info/depot/2347773/history/?changeid=M:5491505037461703699), [5751660862748360256](https://steamdb.info/depot/2347771/history/?changeid=M:5751660862748360256)
 * Repository: https://github.com/ianlucas/cs2-ss2-inventory-simulator
 * Gamedata: https://github.com/ianlucas/cs2-ss2-inventory-simulator/blob/main/resources/gamedata/signatures.jsonc
 
@@ -140,8 +140,8 @@ Last updated: October 20, 2026 at 10:31:59 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x0F\xB6\xC9\x48\x89\xE5\x41\x57</pre></td><td><pre>55 0F B6 C9 48 89 E5 41 57</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x6C\x24\x2A\x48\x89\x74\x24\x2A\x41\x56\x48\x83\xEC\x2A\x0F\xB7\xF2</pre></td><td><pre>48 89 6C 24 ? 48 89 74 24 ? 41 56 48 83 EC ? 0F B7 F2</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x0F\xB6\xC9\x48\x89\xE5\x41\x57</pre></td><td><pre>55 0F B6 C9 48 89 E5 41 57</pre></td></tr>
 </table>
 
 ### CServerSideClientBase::ActivatePlayer
