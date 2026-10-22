@@ -1,13 +1,13 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** October 22, 2026 at 11:14:47 PM GMT
+* **Last updated:** October 22, 2026 at 11:38:46 PM GMT
 * **Manifests:** [67499503218971311](https://steamdb.info/depot/2347770/history/?changeid=M:67499503218971311), [5491505037461703699](https://steamdb.info/depot/2347773/history/?changeid=M:5491505037461703699), [5751660862748360256](https://steamdb.info/depot/2347771/history/?changeid=M:5751660862748360256)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/roflmuffin/CounterStrikeSharp">CounterStrikeSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CounterStrikeSharp.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
-<tr><td>❌</td><td>❌</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
+<tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Kxnrl/modsharp-public">ModSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/ModSharp.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/untrustedmodders/plugify-plugin-s2sdk">Plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/Plugify.md">View signatures →</a></td></tr>
@@ -41,19 +41,6 @@
 <tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::PostThink</td></tr>
 <tr><td>❌</td><td>❌</td><td>CSmokeGrenadeProjectile::EmitGrenade</td></tr>
 <tr><td>❌</td><td>✅</td><td>GetWeaponCSDataFromKey</td></tr>
-</table>
-
-</details>
-
-<details>
-<summary>SwiftlyS2 (beta) broken signatures</summary>
-
-<table>
-<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>❌</td><td>❌</td><td>CCSPlayerPawn::PostThink</td></tr>
-<tr><td>❌</td><td>✅</td><td>GetWeaponCSDataFromKey</td></tr>
-<tr><td>✅</td><td>❌</td><td>CDecoyProjectile::EmitGrenade</td></tr>
-<tr><td>❌</td><td>❌</td><td>CSmokeGrenadeProjectile::EmitGrenade</td></tr>
 </table>
 
 </details>
