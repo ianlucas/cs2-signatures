@@ -1,6 +1,6 @@
 # cs2-css-inventory-simulator
 
-Last updated: October 22, 2026 at 10:55:58 PM GMT
+Last updated: October 23, 2026 at 6:19:47 PM GMT
 
 * Manifests: [67499503218971311](https://steamdb.info/depot/2347770/history/?changeid=M:67499503218971311), [5491505037461703699](https://steamdb.info/depot/2347773/history/?changeid=M:5491505037461703699), [5751660862748360256](https://steamdb.info/depot/2347771/history/?changeid=M:5751660862748360256)
 * Repository: https://github.com/ianlucas/cs2-css-inventory-simulator
@@ -38,14 +38,6 @@ Last updated: October 22, 2026 at 10:55:58 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x8F\x2A\x2A\x2A\x2A\x83\xF9\x2A\x74\x2A\x48\x8B\x35\x2A\x2A\x2A\x2A\x48\x85\xF6\x74\x2A\x83\xF9\x2A\x74\x2A\x0F\xB7\x87\x2A\x2A\x2A\x2A\x48\x89\xC2\x48\xC1\xEA\x2A\x83\xE2\x2A\x48\x8B\x14\xD6\x48\x85\xD2\x74\x2A\x25\x2A\x2A\x2A\x2A\x48\x6B\xC0\x2A\x48\x01\xD0\x31\xD2\x3B\x48\x2A\x75\x2A\x48\x8B\x10\x48\x89\xD0\xC3\x31\xD2\x48\x89\xD0\xC3\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\x48\x85\xF6</pre></td><td><pre>8B 8F ? ? ? ? 83 F9 ? 74 ? 48 8B 35 ? ? ? ? 48 85 F6 74 ? 83 F9 ? 74 ? 0F B7 87 ? ? ? ? 48 89 C2 48 C1 EA ? 83 E2 ? 48 8B 14 D6 48 85 D2 74 ? 25 ? ? ? ? 48 6B C0 ? 48 01 D0 31 D2 3B 48 ? 75 ? 48 8B 10 48 89 D0 C3 31 D2 48 89 D0 C3 CC CC CC CC CC CC CC CC CC CC 48 85 F6</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x8B\x91\x2A\x2A\x2A\x2A\x45\x33\xD2\x83\xFA\x2A\x74\x2A\x48\x8B\x0D\x2A\x2A\x2A\x2A\x48\x85\xC9\x74\x2A\x83\xFA\x2A\x74\x2A\x8B\xC2\x25\x2A\x2A\x2A\x2A\x44\x8B\xC0\x48\xC1\xE8\x2A\x4C\x8B\x0C\xC1\x4D\x85\xC9\x74\x2A\x41\x81\xE0\x2A\x2A\x2A\x2A\x49\x6B\xC0\x2A\x49\x03\xC1\x74\x2A\x39\x50\x2A\x49\x0F\x45\xC2\xEB\x2A\x49\x8B\xC2\x48\x85\xC0\x74\x2A\x48\x8B\x00\xC3\x49\x8B\xC2\xC3\xCC\xE9\x2A\x2A\x2A\x2A\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\x41\x0F\xB7\x40</pre></td><td><pre>8B 91 ? ? ? ? 45 33 D2 83 FA ? 74 ? 48 8B 0D ? ? ? ? 48 85 C9 74 ? 83 FA ? 74 ? 8B C2 25 ? ? ? ? 44 8B C0 48 C1 E8 ? 4C 8B 0C C1 4D 85 C9 74 ? 41 81 E0 ? ? ? ? 49 6B C0 ? 49 03 C1 74 ? 39 50 ? 49 0F 45 C2 EB ? 49 8B C2 48 85 C0 74 ? 48 8B 00 C3 49 8B C2 C3 CC E9 ? ? ? ? CC CC CC CC CC CC CC CC CC CC CC 41 0F B7 40</pre></td></tr>
-</table>
-
-### CCSPlayerController::ProcessUsercmds
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x89\x4D</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 89 4D</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x44\x88\x48\x20\x44\x89\x40\x18\x48\x89\x50\x10\x53</pre></td><td><pre>48 8B C4 44 88 48 20 44 89 40 18 48 89 50 10 53</pre></td></tr>
 </table>
 
 ### CCSPlayerController::SetPetChicken
