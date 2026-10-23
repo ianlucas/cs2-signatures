@@ -1,6 +1,6 @@
 # ModSharp
 
-Last updated: October 23, 2026 at 2:02:47 AM GMT
+Last updated: October 23, 2026 at 11:41:47 AM GMT
 
 * Manifests: [67499503218971311](https://steamdb.info/depot/2347770/history/?changeid=M:67499503218971311), [5491505037461703699](https://steamdb.info/depot/2347773/history/?changeid=M:5491505037461703699), [5751660862748360256](https://steamdb.info/depot/2347771/history/?changeid=M:5751660862748360256)
 * Repository: https://github.com/Kxnrl/modsharp-public
@@ -452,14 +452,6 @@ Last updated: October 23, 2026 at 2:02:47 AM GMT
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xF3\x41\x0F\x11\xB7\x2A\x2A\x2A\x2A\x48\x83\x7F</pre></td><td><pre>F3 41 0F 11 B7 ? ? ? ? 48 83 7F</pre></td></tr>
-</table>
-
-### CCSPlayer_MovementServices::TracePlayerBBox
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x49\x89\xD6\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xCB</pre></td><td><pre>55 48 89 E5 41 57 49 89 FF 41 56 49 89 D6 41 55 41 54 49 89 F4 53 48 89 CB</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x4C\x89\x40\x2A\x55\x53\x57</pre></td><td><pre>48 8B C4 4C 89 40 ? 55 53 57</pre></td></tr>
 </table>
 
 ### CCSPlayer_MovementServices::WalkMove
@@ -1085,8 +1077,8 @@ Last updated: October 23, 2026 at 2:02:47 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x41\x57\x48\x83\xEC\x2A\x4C\x8B\x01</pre></td><td><pre>40 53 41 57 48 83 EC ? 4C 8B 01</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x41\x89\xF4\x53\x0F\xB7\x07\x48\x89\xFB\x66\xC1\xE8\x2A\x3C\x2A</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 41 89 F4 53 0F B7 07 48 89 FB 66 C1 E8 ? 3C ?</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x41\x57\x48\x83\xEC\x2A\x4C\x8B\x01</pre></td><td><pre>40 53 41 57 48 83 EC ? 4C 8B 01</pre></td></tr>
 </table>
 
 ### NetworkStateChanged
