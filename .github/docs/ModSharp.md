@@ -1,6 +1,6 @@
 # ModSharp
 
-Last updated: October 23, 2026 at 11:41:47 AM GMT
+Last updated: October 23, 2026 at 2:13:47 PM GMT
 
 * Manifests: [67499503218971311](https://steamdb.info/depot/2347770/history/?changeid=M:67499503218971311), [5491505037461703699](https://steamdb.info/depot/2347773/history/?changeid=M:5491505037461703699), [5751660862748360256](https://steamdb.info/depot/2347771/history/?changeid=M:5751660862748360256)
 * Repository: https://github.com/Kxnrl/modsharp-public
@@ -706,14 +706,6 @@ Last updated: October 23, 2026 at 11:41:47 AM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x31\xC0\x81\xFE\xFE\x7F\x00\x00\x77\x2A</pre></td><td><pre>31 C0 81 FE FE 7F 00 00 77 ?</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x4C\x8D\x49\x10\x81\xFA\x2A\x2A\x2A\x2A</pre></td><td><pre>4C 8D 49 10 81 FA ? ? ? ?</pre></td></tr>
-</table>
-
-### CGameEntitySystem::FindEntityClassByClassname
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x83\xEC\x2A\x48\x89\x75\x2A\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x80\x3E</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC ? 48 89 75 ? 48 85 F6 0F 84 ? ? ? ? 80 3E</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x48\x89\x54\x24\x2A\x57\x48\x83\xEC</pre></td><td><pre>48 89 5C 24 ? 48 89 74 24 ? 48 89 54 24 ? 57 48 83 EC</pre></td></tr>
 </table>
 
 ### CGameEntitySystem::FindInSphere
