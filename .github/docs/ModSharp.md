@@ -1,6 +1,6 @@
 # ModSharp
 
-Last updated: October 23, 2026 at 2:13:47 PM GMT
+Last updated: October 28, 2026 at 3:41:47 PM GMT
 
 * Manifests: [67499503218971311](https://steamdb.info/depot/2347770/history/?changeid=M:67499503218971311), [5491505037461703699](https://steamdb.info/depot/2347773/history/?changeid=M:5491505037461703699), [5751660862748360256](https://steamdb.info/depot/2347771/history/?changeid=M:5751660862748360256)
 * Repository: https://github.com/Kxnrl/modsharp-public
@@ -524,6 +524,14 @@ Last updated: October 23, 2026 at 2:13:47 PM GMT
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x8B\x05\x2A\x2A\x2A\x2A\x85\xC0\x7E\x2A\xFF\xC8</pre></td><td><pre>8B 05 ? ? ? ? 85 C0 7E ? FF C8</pre></td></tr>
 </table>
 
+### CCSScript::ResolveDelays
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x8F\x2A\x2A\x2A\x2A\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x8B\x8F\x2A\x2A\x2A\x2A\x83\xF9\xFF\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x35\x2A\x2A\x2A\x2A\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x83\xF9\xFE\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5</pre></td><td><pre>8B 8F ? ? ? ? 85 C9 0F 84 ? ? ? ? 8B 8F ? ? ? ? 83 F9 FF 0F 84 ? ? ? ? 48 8B 35 ? ? ? ? 48 85 F6 0F 84 ? ? ? ? 83 F9 FE 0F 84 ? ? ? ? 55 48 89 E5</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x4C\x24\x2A\x55\x41\x55\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\xB8\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x2B\xE0\x83\xB9\x2A\x2A\x2A\x2A\x00\x4C\x8B\xE9\x0F\x84\x2A\x2A\x2A\x2A\x8B\x91</pre></td><td><pre>48 89 4C 24 ? 55 41 55 48 8D AC 24 ? ? ? ? B8 ? ? ? ? E8 ? ? ? ? 48 2B E0 83 B9 ? ? ? ? 00 4C 8B E9 0F 84 ? ? ? ? 8B 91</pre></td></tr>
+</table>
+
 ### CCSScript::ScriptStackPop
 
 <table>
@@ -824,8 +832,8 @@ Last updated: October 23, 2026 at 2:13:47 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\xB8\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\x07</pre></td><td><pre>48 B8 ? ? ? ? ? ? ? ? 55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? 48 89 07</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x4C\x8B\xDC\x4D\x89\x43\x18\x55\x53\x56\x41\x55\x41\x57\x49\x8D\xAB\x2A\x2A\x2A\x2A\x48\x81\xEC\x2A\x2A\x2A\x2A\x45\x33\xED\xC7\x42\x04\x2A\x2A\x2A\x2A</pre></td><td><pre>4C 8B DC 4D 89 43 18 55 53 56 41 55 41 57 49 8D AB ? ? ? ? 48 81 EC ? ? ? ? 45 33 ED C7 42 04 ? ? ? ?</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\xB8\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\x07</pre></td><td><pre>48 B8 ? ? ? ? ? ? ? ? 55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? 48 89 07</pre></td></tr>
 </table>
 
 ### CSource2Server::GameFrame
@@ -1149,8 +1157,8 @@ Last updated: October 23, 2026 at 2:13:47 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x85\xD2\x74\x2A\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xB7</pre></td><td><pre>85 D2 74 ? 55 48 89 E5 41 57 41 56 4C 8D B7</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x45\x85\xC0\x0F\x84\x2A\x2A\x2A\x2A\x53\x41\x55</pre></td><td><pre>45 85 C0 0F 84 ? ? ? ? 53 41 55</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x85\xD2\x74\x2A\x55\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xB7</pre></td><td><pre>85 D2 74 ? 55 48 89 E5 41 57 41 56 4C 8D B7</pre></td></tr>
 </table>
 
 ### Source2_Init
