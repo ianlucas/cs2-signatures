@@ -1,8 +1,8 @@
 # cs2-ss2-match
 
-Last updated: October 23, 2026 at 7:52:46 PM GMT
+Last updated: October 28, 2026 at 9:48:58 PM GMT
 
-* Manifests: [67499503218971311](https://steamdb.info/depot/2347770/history/?changeid=M:67499503218971311), [5491505037461703699](https://steamdb.info/depot/2347773/history/?changeid=M:5491505037461703699), [5751660862748360256](https://steamdb.info/depot/2347771/history/?changeid=M:5751660862748360256)
+* Manifests: [3474977783625240452](https://steamdb.info/depot/2347773/history/?changeid=M:3474977783625240452), [5218696177408015009](https://steamdb.info/depot/2347771/history/?changeid=M:5218696177408015009), [8833146750479675564](https://steamdb.info/depot/2347770/history/?changeid=M:8833146750479675564)
 * Repository: https://github.com/ianlucas/cs2-ss2-match
 * Gamedata: https://github.com/ianlucas/cs2-ss2-match/blob/main/resources/gamedata/signatures.jsonc
 
@@ -20,8 +20,8 @@ Last updated: October 23, 2026 at 7:52:46 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x87\x2A\x2A\x2A\x2A\x48\x89\xFA</pre></td><td><pre>8B 87 ? ? ? ? 48 89 FA</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x44\x8B\x81\x2A\x2A\x2A\x2A\x4C\x8B\xC9</pre></td><td><pre>44 8B 81 ? ? ? ? 4C 8B C9</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x87\x2A\x2A\x2A\x2A\x48\x89\xFA</pre></td><td><pre>8B 87 ? ? ? ? 48 89 FA</pre></td></tr>
 </table>
 
 ### CCSGameRules::HandleSwapTeams

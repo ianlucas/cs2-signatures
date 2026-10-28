@@ -1,8 +1,8 @@
 # cs2-ss2-inventory-simulator
 
-Last updated: October 23, 2026 at 7:48:46 PM GMT
+Last updated: October 28, 2026 at 9:48:58 PM GMT
 
-* Manifests: [67499503218971311](https://steamdb.info/depot/2347770/history/?changeid=M:67499503218971311), [5491505037461703699](https://steamdb.info/depot/2347773/history/?changeid=M:5491505037461703699), [5751660862748360256](https://steamdb.info/depot/2347771/history/?changeid=M:5751660862748360256)
+* Manifests: [3474977783625240452](https://steamdb.info/depot/2347773/history/?changeid=M:3474977783625240452), [5218696177408015009](https://steamdb.info/depot/2347771/history/?changeid=M:5218696177408015009), [8833146750479675564](https://steamdb.info/depot/2347770/history/?changeid=M:8833146750479675564)
 * Repository: https://github.com/ianlucas/cs2-ss2-inventory-simulator
 * Gamedata: https://github.com/ianlucas/cs2-ss2-inventory-simulator/blob/main/resources/gamedata/signatures.jsonc
 
@@ -36,8 +36,8 @@ Last updated: October 23, 2026 at 7:48:46 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xF6\x74\x2A\x48\x8B\x56\x2A\x48\x85\xD2\x74\x2A\x8B\x42\x2A\x8B\x4A\x2A\xC1\xE8\x2A\x83\xE1\x2A\x29\xC8\x83\x7A\x2A\x2A\x74\x2A\x0F\xB7\x52\x2A\x66\x81\xE2\x2A\x2A\xC1\xE0\x2A\x0F\xB7\xD2\x09\xD0\x89\x87\x2A\x2A\x2A\x2A\xC3\x66\x0F\x1F\x44\x00\x2A\xC7\x87\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xC3\x0F\x1F\x44\x00\x2A\xBA\x2A\x2A\x2A\x2A\xEB\x2A\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\x55\x48\x8D\x05</pre></td><td><pre>48 85 F6 74 ? 48 8B 56 ? 48 85 D2 74 ? 8B 42 ? 8B 4A ? C1 E8 ? 83 E1 ? 29 C8 83 7A ? ? 74 ? 0F B7 52 ? 66 81 E2 ? ? C1 E0 ? 0F B7 D2 09 D0 89 87 ? ? ? ? C3 66 0F 1F 44 00 ? C7 87 ? ? ? ? ? ? ? ? C3 0F 1F 44 00 ? BA ? ? ? ? EB ? CC CC CC CC CC CC CC CC CC 55 48 8D 05</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x4C\x8B\xC9\x48\x85\xD2\x74\x2A\x48\x8B\x42\x2A\x48\x85\xC0\x74\x2A\x8B\x50\x2A\xB9\x2A\x2A\x2A\x2A\x8B\x40\x2A\x44\x8B\xC2\x83\xE0\x2A\x41\xC1\xE8\x2A\x44\x2B\xC0\x8B\xC2\x23\xC1\x41\xC1\xE0\x2A\x83\xFA\x2A\x0F\x45\xC8\x44\x0B\xC1\x45\x89\x81\x2A\x2A\x2A\x2A\xC3\xC7\x81\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xC3\xCC\xCC\xCC\x40\x55\x41\x56</pre></td><td><pre>4C 8B C9 48 85 D2 74 ? 48 8B 42 ? 48 85 C0 74 ? 8B 50 ? B9 ? ? ? ? 8B 40 ? 44 8B C2 83 E0 ? 41 C1 E8 ? 44 2B C0 8B C2 23 C1 41 C1 E0 ? 83 FA ? 0F 45 C8 44 0B C1 45 89 81 ? ? ? ? C3 C7 81 ? ? ? ? ? ? ? ? C3 CC CC CC 40 55 41 56</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x85\xF6\x74\x2A\x48\x8B\x56\x2A\x48\x85\xD2\x74\x2A\x8B\x42\x2A\x8B\x4A\x2A\xC1\xE8\x2A\x83\xE1\x2A\x29\xC8\x83\x7A\x2A\x2A\x74\x2A\x0F\xB7\x52\x2A\x66\x81\xE2\x2A\x2A\xC1\xE0\x2A\x0F\xB7\xD2\x09\xD0\x89\x87\x2A\x2A\x2A\x2A\xC3\x66\x0F\x1F\x44\x00\x2A\xC7\x87\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xC3\x0F\x1F\x44\x00\x2A\xBA\x2A\x2A\x2A\x2A\xEB\x2A\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xCC\x55\x48\x8D\x05</pre></td><td><pre>48 85 F6 74 ? 48 8B 56 ? 48 85 D2 74 ? 8B 42 ? 8B 4A ? C1 E8 ? 83 E1 ? 29 C8 83 7A ? ? 74 ? 0F B7 52 ? 66 81 E2 ? ? C1 E0 ? 0F B7 D2 09 D0 89 87 ? ? ? ? C3 66 0F 1F 44 00 ? C7 87 ? ? ? ? ? ? ? ? C3 0F 1F 44 00 ? BA ? ? ? ? EB ? CC CC CC CC CC CC CC CC CC 55 48 8D 05</pre></td></tr>
 </table>
 
 ### CCSPlayerInventory::GetItemInLoadout
@@ -76,8 +76,8 @@ Last updated: October 23, 2026 at 7:48:46 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x8B\x8F\x2A\x2A\x2A\x2A\x83\xF9\x2A\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x35\x2A\x2A\x2A\x2A\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x83\xF9\x2A\x0F\x84\x2A\x2A\x2A\x2A\x0F\xB7\x87\x2A\x2A\x2A\x2A\x48\x89\xC2\x48\xC1\xEA\x2A\x83\xE2\x2A\x48\x8B\x14\xD6\x48\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\x25\x2A\x2A\x2A\x2A\x48\x6B\xC0\x2A\x48\x01\xD0\x3B\x48\x2A\x0F\x85\x2A\x2A\x2A\x2A\x4C\x8B\x28</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 8B 8F ? ? ? ? 83 F9 ? 0F 84 ? ? ? ? 48 8B 35 ? ? ? ? 48 85 F6 0F 84 ? ? ? ? 83 F9 ? 0F 84 ? ? ? ? 0F B7 87 ? ? ? ? 48 89 C2 48 C1 EA ? 83 E2 ? 48 8B 14 D6 48 85 D2 0F 84 ? ? ? ? 25 ? ? ? ? 48 6B C0 ? 48 01 D0 3B 48 ? 0F 85 ? ? ? ? 4C 8B 28</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x56\x57\x41\x54\x48\x83\xEC\x2A\x48\x8B\xF9\x45\x33\xE4</pre></td><td><pre>40 56 57 41 54 48 83 EC ? 48 8B F9 45 33 E4</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x8B\x8F\x2A\x2A\x2A\x2A\x83\xF9\x2A\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x35\x2A\x2A\x2A\x2A\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x83\xF9\x2A\x0F\x84\x2A\x2A\x2A\x2A\x0F\xB7\x87\x2A\x2A\x2A\x2A\x48\x89\xC2\x48\xC1\xEA\x2A\x83\xE2\x2A\x48\x8B\x14\xD6\x48\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\x25\x2A\x2A\x2A\x2A\x48\x6B\xC0\x2A\x48\x01\xD0\x3B\x48\x2A\x0F\x85\x2A\x2A\x2A\x2A\x4C\x8B\x28</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 83 EC ? 8B 8F ? ? ? ? 83 F9 ? 0F 84 ? ? ? ? 48 8B 35 ? ? ? ? 48 85 F6 0F 84 ? ? ? ? 83 F9 ? 0F 84 ? ? ? ? 0F B7 87 ? ? ? ? 48 89 C2 48 C1 EA ? 83 E2 ? 48 8B 14 D6 48 85 D2 0F 84 ? ? ? ? 25 ? ? ? ? 48 6B C0 ? 48 01 D0 3B 48 ? 0F 85 ? ? ? ? 4C 8B 28</pre></td></tr>
 </table>
 
 ### CCSPlayer_ItemServices::GiveNamedItem
