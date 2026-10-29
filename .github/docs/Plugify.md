@@ -1,6 +1,6 @@
 # Plugify
 
-Last updated: October 28, 2026 at 9:48:58 PM GMT
+Last updated: October 29, 2026 at 6:09:46 PM GMT
 
 * Manifests: [3474977783625240452](https://steamdb.info/depot/2347773/history/?changeid=M:3474977783625240452), [5218696177408015009](https://steamdb.info/depot/2347771/history/?changeid=M:5218696177408015009), [8833146750479675564](https://steamdb.info/depot/2347770/history/?changeid=M:8833146750479675564)
 * Repository: https://github.com/untrustedmodders/plugify-plugin-s2sdk
