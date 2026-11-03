@@ -1,8 +1,8 @@
 # cs2-ss2-deathmatch
 
-Last updated: October 30, 2026 at 10:14:58 PM GMT
+Last updated: November 3, 2026 at 1:30:00 AM GMT
 
-* Manifests: [4494425425081083634](https://steamdb.info/depot/2347771/history/?changeid=M:4494425425081083634), [6232960523750647649](https://steamdb.info/depot/2347773/history/?changeid=M:6232960523750647649), [6694633556888099985](https://steamdb.info/depot/2347770/history/?changeid=M:6694633556888099985)
+* Manifests: [3690356453703667427](https://steamdb.info/depot/2347770/history/?changeid=M:3690356453703667427), [4551386601247986792](https://steamdb.info/depot/2347773/history/?changeid=M:4551386601247986792), [5808144614069275570](https://steamdb.info/depot/2347771/history/?changeid=M:5808144614069275570)
 * Repository: https://github.com/ianlucas/cs2-ss2-deathmatch
 * Gamedata: https://github.com/ianlucas/cs2-ss2-deathmatch/blob/main/resources/gamedata/signatures.jsonc
 
@@ -36,6 +36,6 @@ Last updated: October 30, 2026 at 10:14:58 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x72\x2A\x4C\x89\x74\x24\x2A\x4C\x8D\x05</pre></td><td><pre>72 ? 4C 89 74 24 ? 4C 8D 05</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x0F\x86\x2A\x2A\x2A\x2A\x48\x8D\xBD\x2A\x2A\x2A\x2A\x45\x31\xC9</pre></td><td><pre>0F 86 ? ? ? ? 48 8D BD ? ? ? ? 45 31 C9</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x72\x2A\x4C\x89\x74\x24\x2A\x4C\x8D\x05</pre></td><td><pre>72 ? 4C 89 74 24 ? 4C 8D 05</pre></td></tr>
 </table>
