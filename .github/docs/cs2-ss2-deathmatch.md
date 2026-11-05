@@ -1,20 +1,12 @@
 # cs2-ss2-deathmatch
 
-Last updated: November 5, 2026 at 12:53:43 AM GMT
+Last updated: November 5, 2026 at 11:18:30 PM GMT
 
 * Manifests: [3019944380727688040](https://steamdb.info/depot/2347771/history/?changeid=M:3019944380727688040), [6679288287140932208](https://steamdb.info/depot/2347770/history/?changeid=M:6679288287140932208), [8513165868182791792](https://steamdb.info/depot/2347773/history/?changeid=M:8513165868182791792)
 * Repository: https://github.com/ianlucas/cs2-ss2-deathmatch
 * Gamedata: https://github.com/ianlucas/cs2-ss2-deathmatch/blob/main/resources/gamedata/signatures.jsonc
 
 ## Signatures
-
-### RandomSpawnPatch
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>⚠️(2)</td><td>Linux</td><td>server</td><td><pre>\x0F\x84\x2A\x2A\x2A\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x8B\x52\x2A\x8B\x52</pre></td><td><pre>0F 84 ? ? ? ? 48 8D 15 ? ? ? ? 48 8B 52 ? 8B 52</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x74\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x8B\x48\x2A\x0F\xB6\x87</pre></td><td><pre>74 ? 48 8B 05 ? ? ? ? 8B 48 ? 0F B6 87</pre></td></tr>
-</table>
 
 ### CCSBot::IsVisible
 
@@ -30,6 +22,14 @@ Last updated: November 5, 2026 at 12:53:43 AM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\x58\x5A\x48\x8D\x65\x2A\x5B\x41\x5C\x41\x5D\x41\x5E\x41\x5F\x5D\xC3\x90\x45\x84\xF6</pre></td><td><pre>E8 ? ? ? ? 58 5A 48 8D 65 ? 5B 41 5C 41 5D 41 5E 41 5F 5D C3 90 45 84 F6</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xE8\x2A\x2A\x2A\x2A\x48\x8B\xAC\x24\x2A\x2A\x2A\x2A\x4C\x8D\x9C\x24</pre></td><td><pre>E8 ? ? ? ? 48 8B AC 24 ? ? ? ? 4C 8D 9C 24</pre></td></tr>
+</table>
+
+### RandomSpawnPatch
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x0F\x84\x2A\x2A\x2A\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x8B\x52\x2A\x8B\x52\x2A\x39\xC2</pre></td><td><pre>0F 84 ? ? ? ? 48 8D 15 ? ? ? ? 48 8B 52 ? 8B 52 ? 39 C2</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x74\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x8B\x48\x2A\x0F\xB6\x87</pre></td><td><pre>74 ? 48 8B 05 ? ? ? ? 8B 48 ? 0F B6 87</pre></td></tr>
 </table>
 
 ### RespawnSoundPatch
