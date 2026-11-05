@@ -1,26 +1,12 @@
 # ModSharp
 
-Last updated: November 5, 2026 at 12:53:43 AM GMT
+Last updated: November 5, 2026 at 9:33:31 AM GMT
 
 * Manifests: [3019944380727688040](https://steamdb.info/depot/2347771/history/?changeid=M:3019944380727688040), [6679288287140932208](https://steamdb.info/depot/2347770/history/?changeid=M:6679288287140932208), [8513165868182791792](https://steamdb.info/depot/2347773/history/?changeid=M:8513165868182791792)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/core.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc
 
 ## Signatures
-
-### CCSScript::CreateEntityWrapper
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x10\x55\x56\x57\x48\x83\xEC\x30\x49\x8B\xE8\x48\xC7\x44\x24\x60\x00\x00\x00\x00\x48\x8B\xDA\x48\x8B\xF9</pre></td><td><pre>48 89 5C 24 10 55 56 57 48 83 EC 30 49 8B E8 48 C7 44 24 60 00 00 00 00 48 8B DA 48 8B F9</pre></td></tr>
-</table>
-
-### CCSScript::CreateEntityWrapperDispatcher
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>❌</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x53\x48\x83\xEC\x2A\x48\x85\xFF\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x07\x48\x89\xFB\xFF\x90\x2A\x2A\x2A\x2A\x48\x89\xDF\x48\x89\xC2\x48\x8B\x03\x48\x85\xD2\x74\x2A\xFF\x90\x2A\x2A\x2A\x2A\x48\x83\xC4\x2A\x5B\x48\x89\xC7\x41\x5C\x5D\xE9\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x2A\xFF\x90\x2A\x2A\x2A\x2A\x48\x8D\x3D</pre></td><td><pre>55 48 89 E5 41 54 53 48 83 EC ? 48 85 FF 0F 84 ? ? ? ? 48 8B 07 48 89 FB FF 90 ? ? ? ? 48 89 DF 48 89 C2 48 8B 03 48 85 D2 74 ? FF 90 ? ? ? ? 48 83 C4 ? 5B 48 89 C7 41 5C 5D E9 ? ? ? ? ? ? ? ? FF 90 ? ? ? ? 48 8D 3D</pre></td></tr>
-</table>
 
 ### CAttributeList::SetOrAddAttributeValueByName
 
@@ -522,6 +508,20 @@ Last updated: November 5, 2026 at 12:53:43 AM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x89\xF3\x48\x83\xEC\x2A\x48\x63\x77</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 89 F3 48 83 EC ? 48 63 77</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x08\x48\x89\x6C\x24\x10\x48\x89\x74\x24\x18\x48\x89\x7C\x24\x20\x41\x54\x41\x56\x41\x57\x48\x83\xEC\x20\x45\x33\xE4\x45\x8B\xF0</pre></td><td><pre>48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 54 41 56 41 57 48 83 EC 20 45 33 E4 45 8B F0</pre></td></tr>
+</table>
+
+### CCSScript::CreateEntityWrapper
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x55\x56\x57\x41\x56\x41\x57\x48\x83\xEC\x2A\x33\xFF</pre></td><td><pre>40 53 55 56 57 41 56 41 57 48 83 EC ? 33 FF</pre></td></tr>
+</table>
+
+### CCSScript::CreateEntityWrapperDispatcher
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x53\x48\x89\xFB\x48\x83\xEC\x2A\x48\x8B\x07\xFF\x90\x2A\x2A\x2A\x2A\x48\x8D\x3D\x2A\x2A\x2A\x2A\x84\xC0\x0F\x85\x2A\x2A\x2A\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x89\xDF\x31\xC9\x48\x8D\x35\x2A\x2A\x2A\x2A\xE8</pre></td><td><pre>55 48 89 E5 41 54 53 48 89 FB 48 83 EC ? 48 8B 07 FF 90 ? ? ? ? 48 8D 3D ? ? ? ? 84 C0 0F 85 ? ? ? ? 48 8D 15 ? ? ? ? 48 89 DF 31 C9 48 8D 35 ? ? ? ? E8</pre></td></tr>
 </table>
 
 ### CCSScript::GetCurrentScript

@@ -1,6 +1,6 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** November 5, 2026 at 12:53:43 AM GMT
+* **Last updated:** November 5, 2026 at 9:33:31 AM GMT
 * **Manifests:** [3019944380727688040](https://steamdb.info/depot/2347771/history/?changeid=M:3019944380727688040), [6679288287140932208](https://steamdb.info/depot/2347770/history/?changeid=M:6679288287140932208), [8513165868182791792](https://steamdb.info/depot/2347773/history/?changeid=M:8513165868182791792)
 
 <table>
@@ -9,7 +9,7 @@
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#master">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/swiftly-solution/swiftlys2">SwiftlyS2 (beta)</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/SwiftlyS2.md#beta">View signatures →</a></td></tr>
 <tr><td>❌</td><td>❌</td><td><a href="https://github.com/Source2ZE/CS2Fixes">CS2Fixes</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/CS2Fixes.md">View signatures →</a></td></tr>
-<tr><td>❌</td><td>❌</td><td><a href="https://github.com/Kxnrl/modsharp-public">ModSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/ModSharp.md">View signatures →</a></td></tr>
+<tr><td>✅</td><td>✅</td><td><a href="https://github.com/Kxnrl/modsharp-public">ModSharp</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/ModSharp.md">View signatures →</a></td></tr>
 <tr><td>✅</td><td>✅</td><td><a href="https://github.com/untrustedmodders/plugify-plugin-s2sdk">Plugify</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/Plugify.md">View signatures →</a></td></tr>
 <tr><td>⚠️</td><td>⚠️</td><td><a href="https://github.com/KZGlobalTeam/cs2kz-metamod">cs2kz-metamod</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2kz-metamod.md">View signatures →</a></td></tr>
 <tr><td>❌</td><td>✅</td><td><a href="https://github.com/Micka2302/cs2-retakes-allocator-2.0">cs2-retakes-allocator-2.0</a></td><td><a href="https://github.com/ianlucas/cs2-signatures/blob/main/.github/docs/cs2-retakes-allocator-2.0.md">View signatures →</a></td></tr>
@@ -27,17 +27,6 @@
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
 <tr><td>❌</td><td>❌</td><td>CS_Script_SetModel</td></tr>
-</table>
-
-</details>
-
-<details>
-<summary>ModSharp broken signatures</summary>
-
-<table>
-<tr><th>Linux</th><th>Windows</th><th>Function</th></tr>
-<tr><td>❌</td><td>✅</td><td>CCSScript::CreateEntityWrapperDispatcher</td></tr>
-<tr><td>✅</td><td>❌</td><td>CCSScript::CreateEntityWrapper</td></tr>
 </table>
 
 </details>
