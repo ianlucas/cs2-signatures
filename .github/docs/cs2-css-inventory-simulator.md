@@ -1,6 +1,6 @@
 # cs2-css-inventory-simulator
 
-Last updated: November 5, 2026 at 12:53:43 AM GMT
+Last updated: November 5, 2026 at 11:30:31 PM GMT
 
 * Manifests: [3019944380727688040](https://steamdb.info/depot/2347771/history/?changeid=M:3019944380727688040), [6679288287140932208](https://steamdb.info/depot/2347770/history/?changeid=M:6679288287140932208), [8513165868182791792](https://steamdb.info/depot/2347773/history/?changeid=M:8513165868182791792)
 * Repository: https://github.com/ianlucas/cs2-css-inventory-simulator
@@ -28,8 +28,8 @@ Last updated: November 5, 2026 at 12:53:43 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x83\xFA\x2A\x77\x2A\x83\xFE\x2A\x77</pre></td><td><pre>83 FA ? 77 ? 83 FE ? 77</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x41\x83\xF8\x2A\x77\x2A\x83\xFA</pre></td><td><pre>41 83 F8 ? 77 ? 83 FA</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x83\xFA\x2A\x77\x2A\x83\xFE\x2A\x77</pre></td><td><pre>83 FA ? 77 ? 83 FE ? 77</pre></td></tr>
 </table>
 
 ### CCSPlayerController::GetPetChicken
