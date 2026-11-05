@@ -1,8 +1,8 @@
 # cs2kz-metamod
 
-Last updated: November 3, 2026 at 1:30:00 AM GMT
+Last updated: November 5, 2026 at 12:53:43 AM GMT
 
-* Manifests: [3690356453703667427](https://steamdb.info/depot/2347770/history/?changeid=M:3690356453703667427), [4551386601247986792](https://steamdb.info/depot/2347773/history/?changeid=M:4551386601247986792), [5808144614069275570](https://steamdb.info/depot/2347771/history/?changeid=M:5808144614069275570)
+* Manifests: [3019944380727688040](https://steamdb.info/depot/2347771/history/?changeid=M:3019944380727688040), [6679288287140932208](https://steamdb.info/depot/2347770/history/?changeid=M:6679288287140932208), [8513165868182791792](https://steamdb.info/depot/2347773/history/?changeid=M:8513165868182791792)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
 * Gamedata: https://github.com/KZGlobalTeam/cs2kz-metamod/blob/master/gamedata/cs2kz-core.games.txt
 
@@ -20,16 +20,16 @@ Last updated: November 3, 2026 at 1:30:00 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xF3\x0F\x11\x5C\x24\x20\x53\x56\x57\x48\x83\xEC\x60</pre></td><td><pre>F3 0F 11 5C 24 20 53 56 57 48 83 EC 60</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x49\x89\xD5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\x48\x83\xEC\x18\x48\x8B\x7F\x38</pre></td><td><pre>55 48 89 E5 41 55 49 89 D5 41 54 49 89 FC 53 48 89 F3 48 83 EC 18 48 8B 7F 38</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\xF3\x0F\x11\x5C\x24\x20\x53\x56\x57\x48\x83\xEC\x60</pre></td><td><pre>F3 0F 11 5C 24 20 53 56 57 48 83 EC 60</pre></td></tr>
 </table>
 
 ### AirMove
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x55\x53\x56\x57\x41\x56\x48\x8D\x68\x2A\x48\x81\xEC\x10\x01\x00\x00</pre></td><td><pre>48 8B C4 55 53 56 57 41 56 48 8D 68 ? 48 81 EC 10 01 00 00</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x15\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x41\x56\x4C\x8D\xBD</pre></td><td><pre>55 48 8D 15 ? ? ? ? 48 89 E5 41 57 41 56 4C 8D BD</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x55\x53\x56\x57\x41\x56\x48\x8D\x68\x2A\x48\x81\xEC\x10\x01\x00\x00</pre></td><td><pre>48 8B C4 55 53 56 57 41 56 48 8D 68 ? 48 81 EC 10 01 00 00</pre></td></tr>
 </table>
 
 ### CBasePlayerController_SetPawn
@@ -60,8 +60,8 @@ Last updated: November 3, 2026 at 1:30:00 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x83\xEC\x08\x48\x8B\x05\x2A\x2A\x2A\x2A\x80\x78\x2A\x2A\x74</pre></td><td><pre>55 48 89 E5 41 55 41 54 53 48 83 EC 08 48 8B 05 ? ? ? ? 80 78 ? ? 74</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x74\x24\x2A\x57\x48\x83\xEC\x30\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x8B\xF9</pre></td><td><pre>48 89 74 24 ? 57 48 83 EC 30 48 8B 05 ? ? ? ? 48 8B F9</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x41\x54\x53\x48\x83\xEC\x08\x48\x8B\x05\x2A\x2A\x2A\x2A\x80\x78\x2A\x2A\x74</pre></td><td><pre>55 48 89 E5 41 55 41 54 53 48 83 EC 08 48 8B 05 ? ? ? ? 80 78 ? ? 74</pre></td></tr>
 </table>
 
 ### CanUnduck

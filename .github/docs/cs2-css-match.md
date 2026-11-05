@@ -1,8 +1,8 @@
 # cs2-css-match
 
-Last updated: November 3, 2026 at 1:30:00 AM GMT
+Last updated: November 5, 2026 at 12:53:43 AM GMT
 
-* Manifests: [3690356453703667427](https://steamdb.info/depot/2347770/history/?changeid=M:3690356453703667427), [4551386601247986792](https://steamdb.info/depot/2347773/history/?changeid=M:4551386601247986792), [5808144614069275570](https://steamdb.info/depot/2347771/history/?changeid=M:5808144614069275570)
+* Manifests: [3019944380727688040](https://steamdb.info/depot/2347771/history/?changeid=M:3019944380727688040), [6679288287140932208](https://steamdb.info/depot/2347770/history/?changeid=M:6679288287140932208), [8513165868182791792](https://steamdb.info/depot/2347773/history/?changeid=M:8513165868182791792)
 * Repository: https://github.com/ianlucas/cs2-css-match
 * Gamedata: https://github.com/ianlucas/cs2-css-match/blob/main/gamedata/match.json
 
@@ -28,16 +28,16 @@ Last updated: November 3, 2026 at 1:30:00 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x4C\x24\x2A\x53\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x2A\x33\xC0</pre></td><td><pre>48 89 4C 24 ? 53 55 56 57 41 54 41 55 41 56 41 57 48 83 EC ? 33 C0</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x45\x31\xED\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x4C\x8D\x25\x2A\x2A\x2A\x2A\x48\x89\xBD</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 45 31 ED 41 54 53 48 81 EC ? ? ? ? 4C 8D 25 ? ? ? ? 48 89 BD</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x4C\x24\x2A\x53\x55\x56\x57\x41\x54\x41\x55\x41\x56\x41\x57\x48\x83\xEC\x2A\x33\xC0</pre></td><td><pre>48 89 4C 24 ? 53 55 56 57 41 54 41 55 41 56 41 57 48 83 EC ? 33 C0</pre></td></tr>
 </table>
 
 ### CCSGameRules::IsLastRoundBeforeHalfTime
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x83\xB9\x2A\x2A\x2A\x2A\x2A\x44\x0F\xBF\x81</pre></td><td><pre>83 B9 ? ? ? ? ? 44 0F BF 81</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x0F\xB6\x40\x2A\x84\xC0\x74\x2A\x31\xC0</pre></td><td><pre>48 8B 05 ? ? ? ? 0F B6 40 ? 84 C0 74 ? 31 C0</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x83\xB9\x2A\x2A\x2A\x2A\x2A\x44\x0F\xBF\x81</pre></td><td><pre>83 B9 ? ? ? ? ? 44 0F BF 81</pre></td></tr>
 </table>
 
 ### CCSPlayerPawnBase::IncrementNumMVPs
