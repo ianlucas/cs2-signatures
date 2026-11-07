@@ -1,6 +1,6 @@
 # cs2kz-metamod
 
-Last updated: November 5, 2026 at 12:53:43 AM GMT
+Last updated: November 7, 2026 at 1:20:31 AM GMT
 
 * Manifests: [3019944380727688040](https://steamdb.info/depot/2347771/history/?changeid=M:3019944380727688040), [6679288287140932208](https://steamdb.info/depot/2347770/history/?changeid=M:6679288287140932208), [8513165868182791792](https://steamdb.info/depot/2347773/history/?changeid=M:8513165868182791792)
 * Repository: https://github.com/KZGlobalTeam/cs2kz-metamod
@@ -46,6 +46,14 @@ Last updated: November 5, 2026 at 12:53:43 AM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x89\xF7</pre></td><td><pre>55 48 89 E5 41 54 49 89 FC 89 F7</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xD9\x8B\xFA</pre></td><td><pre>40 53 57 48 81 EC ? ? ? ? 48 8B D9 8B FA</pre></td></tr>
+</table>
+
+### CCSPlayerPawnBase_StateTransition
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x41\x89\xF4\x53\x48\x89\xFB\x48\x8B\xBF\x2A\x2A\x2A\x2A\x48\x85\xFF\x74\x2A\x48\x8B\x07\xFF\x50\x08</pre></td><td><pre>55 48 89 E5 41 54 41 89 F4 53 48 89 FB 48 8B BF ? ? ? ? 48 85 FF 74 ? 48 8B 07 FF 50 08</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x08\x57\x48\x83\xEC\x20\x48\x8B\xD9\x8B\xFA\x48\x8B\x89\x2A\x2A\x2A\x2A\x48\x85\xC9\x74\x2A\x48\x8B\x01\xFF\x50\x08</pre></td><td><pre>48 89 5C 24 08 57 48 83 EC 20 48 8B D9 8B FA 48 8B 89 ? ? ? ? 48 85 C9 74 ? 48 8B 01 FF 50 08</pre></td></tr>
 </table>
 
 ### CPhysicsGameSystemFrameBoundary
