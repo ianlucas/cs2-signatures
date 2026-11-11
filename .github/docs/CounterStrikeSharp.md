@@ -1,12 +1,28 @@
 # CounterStrikeSharp
 
-Last updated: November 5, 2026 at 12:53:43 AM GMT
+Last updated: November 11, 2026 at 11:03:42 PM GMT
 
-* Manifests: [3019944380727688040](https://steamdb.info/depot/2347771/history/?changeid=M:3019944380727688040), [6679288287140932208](https://steamdb.info/depot/2347770/history/?changeid=M:6679288287140932208), [8513165868182791792](https://steamdb.info/depot/2347773/history/?changeid=M:8513165868182791792)
+* Manifests: [3634295490837307276](https://steamdb.info/depot/2347773/history/?changeid=M:3634295490837307276), [5946971774180560324](https://steamdb.info/depot/2347771/history/?changeid=M:5946971774180560324), [6678473446694075055](https://steamdb.info/depot/2347770/history/?changeid=M:6678473446694075055)
 * Repository: https://github.com/roflmuffin/CounterStrikeSharp
 * Gamedata: https://github.com/roflmuffin/CounterStrikeSharp/blob/main/configs/addons/counterstrikesharp/gamedata/gamedata.json
 
 ## Signatures
+
+### CCSNavArea_IsValidNavMesh
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>❌</td><td>Windows</td><td>server</td><td><pre>\x48\x83\x3D\x2A\x2A\x2A\x2A\x2A\x0F\x95\xC0\xC3\xCC\xCC\xCC\xCC\xC2</pre></td><td><pre>48 83 3D ? ? ? ? ? 0F 95 C0 C3 CC CC CC CC C2</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x83\x38\x2A\x0F\x95\xC0\xC3</pre></td><td><pre>48 8D 05 ? ? ? ? 48 83 38 ? 0F 95 C0 C3</pre></td></tr>
+</table>
+
+### ClientPrint
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x2A\x55</pre></td><td><pre>48 85 C9 0F 84 ? ? ? ? 48 89 5C 24 ? 55</pre></td></tr>
+<tr><td>⚠️(2)</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x4D\x89\xCF</pre></td><td><pre>55 48 8D 05 ? ? ? ? 48 89 E5 41 57 4D 89 CF</pre></td></tr>
+</table>
 
 ### CBaseEntity_DispatchSpawn
 
@@ -80,14 +96,6 @@ Last updated: November 5, 2026 at 12:53:43 AM GMT
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xFE\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\xF3\x0F\x11\x85\x2A\x2A\x2A\x2A\x89\xB5</pre></td><td><pre>55 48 89 E5 41 57 41 56 49 89 FE 41 55 41 54 53 48 81 EC ? ? ? ? 48 8D 05 ? ? ? ? F3 0F 11 85 ? ? ? ? 89 B5</pre></td></tr>
 </table>
 
-### CCSNavArea_IsValidNavMesh
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\x3D\x2A\x2A\x2A\x2A\x2A\x0F\x95\xC0\xC3\xCC\xCC\xCC\xCC\xC2</pre></td><td><pre>48 83 3D ? ? ? ? ? 0F 95 C0 C3 CC CC CC CC C2</pre></td></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x83\x38\x2A\x0F\x95\xC0\xC3</pre></td><td><pre>48 8D 05 ? ? ? ? 48 83 38 ? 0F 95 C0 C3</pre></td></tr>
-</table>
-
 ### CCSPlayerController_SwitchTeam
 
 <table>
@@ -150,14 +158,6 @@ Last updated: November 5, 2026 at 12:53:43 AM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x53\x48\x89\xFB\x48\x83\xEC\x2A\x48\x8B\x07\xFF\x50\x2A\x48\x8B\x03</pre></td><td><pre>55 48 89 E5 53 48 89 FB 48 83 EC ? 48 8B 07 FF 50 ? 48 8B 03</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x40\x53\x48\x83\xEC\x2A\x48\x8B\x01\x48\x8B\xD9\xFF\x50\x2A\x48\x8B\x03</pre></td><td><pre>40 53 48 83 EC ? 48 8B 01 48 8B D9 FF 50 ? 48 8B 03</pre></td></tr>
-</table>
-
-### ClientPrint
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x2A\x55</pre></td><td><pre>48 85 C9 0F 84 ? ? ? ? 48 89 5C 24 ? 55</pre></td></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\xE5\x41\x57\x4D\x89\xCF</pre></td><td><pre>55 48 8D 05 ? ? ? ? 48 89 E5 41 57 4D 89 CF</pre></td></tr>
 </table>
 
 ### GetCSWeaponDataFromKey

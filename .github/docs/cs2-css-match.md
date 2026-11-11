@@ -1,8 +1,8 @@
 # cs2-css-match
 
-Last updated: November 5, 2026 at 12:53:43 AM GMT
+Last updated: November 11, 2026 at 11:03:42 PM GMT
 
-* Manifests: [3019944380727688040](https://steamdb.info/depot/2347771/history/?changeid=M:3019944380727688040), [6679288287140932208](https://steamdb.info/depot/2347770/history/?changeid=M:6679288287140932208), [8513165868182791792](https://steamdb.info/depot/2347773/history/?changeid=M:8513165868182791792)
+* Manifests: [3634295490837307276](https://steamdb.info/depot/2347773/history/?changeid=M:3634295490837307276), [5946971774180560324](https://steamdb.info/depot/2347771/history/?changeid=M:5946971774180560324), [6678473446694075055](https://steamdb.info/depot/2347770/history/?changeid=M:6678473446694075055)
 * Repository: https://github.com/ianlucas/cs2-css-match
 * Gamedata: https://github.com/ianlucas/cs2-css-match/blob/main/gamedata/match.json
 
@@ -36,8 +36,8 @@ Last updated: November 5, 2026 at 12:53:43 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x0F\xB6\x40\x2A\x84\xC0\x74\x2A\x31\xC0</pre></td><td><pre>48 8B 05 ? ? ? ? 0F B6 40 ? 84 C0 74 ? 31 C0</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x83\xB9\x2A\x2A\x2A\x2A\x2A\x44\x0F\xBF\x81</pre></td><td><pre>83 B9 ? ? ? ? ? 44 0F BF 81</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x05\x2A\x2A\x2A\x2A\x0F\xB6\x40\x2A\x84\xC0\x74\x2A\x31\xC0</pre></td><td><pre>48 8B 05 ? ? ? ? 0F B6 40 ? 84 C0 74 ? 31 C0</pre></td></tr>
 </table>
 
 ### CCSPlayerPawnBase::IncrementNumMVPs
