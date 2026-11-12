@@ -1,6 +1,6 @@
 # Plugify
 
-Last updated: November 11, 2026 at 11:03:42 PM GMT
+Last updated: November 12, 2026 at 8:09:31 PM GMT
 
 * Manifests: [3634295490837307276](https://steamdb.info/depot/2347773/history/?changeid=M:3634295490837307276), [5946971774180560324](https://steamdb.info/depot/2347771/history/?changeid=M:5946971774180560324), [6678473446694075055](https://steamdb.info/depot/2347770/history/?changeid=M:6678473446694075055)
 * Repository: https://github.com/untrustedmodders/plugify-plugin-s2sdk
@@ -192,14 +192,6 @@ Last updated: November 11, 2026 at 11:03:42 PM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x76\x2A\xF3\x0F\x51\xC0\xF3\x0F\x7E\xDB\x49\x8B\x2A\xF3\x0F\x5E\xD0</pre></td><td><pre>76 ? F3 0F 51 C0 F3 0F 7E DB 49 8B ? F3 0F 5E D0</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x0F\x86\x2A\x2A\x2A\x2A\x0F\x57\xC0\x0F\x2E\xC2</pre></td><td><pre>0F 86 ? ? ? ? 0F 57 C0 0F 2E C2</pre></td></tr>
-</table>
-
-### SetSchemaHammerUniqueId
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x75\x2A\x48\x8B\x03\x48\x8B\xCB\xFF\x90\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x48\x8D\x05</pre></td><td><pre>75 ? 48 8B 03 48 8B CB FF 90 ? ? ? ? 84 C0 74 ? 48 8D 05</pre></td></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x75\x2A\x48\x8B\x03\x48\x89\xDF\xFF\x90\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x48\x8D\x05</pre></td><td><pre>75 ? 48 8B 03 48 89 DF FF 90 ? ? ? ? 84 C0 74 ? 48 8D 05</pre></td></tr>
 </table>
 
 ### VScriptInitialization
