@@ -1,6 +1,6 @@
 # ModSharp
 
-Last updated: November 11, 2026 at 11:03:42 PM GMT
+Last updated: November 12, 2026 at 3:25:31 AM GMT
 
 * Manifests: [3634295490837307276](https://steamdb.info/depot/2347773/history/?changeid=M:3634295490837307276), [5946971774180560324](https://steamdb.info/depot/2347771/history/?changeid=M:5946971774180560324), [6678473446694075055](https://steamdb.info/depot/2347770/history/?changeid=M:6678473446694075055)
 * Repository: https://github.com/Kxnrl/modsharp-public
@@ -536,8 +536,8 @@ Last updated: November 11, 2026 at 11:03:42 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x8F\x2A\x2A\x2A\x2A\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x8B\x8F\x2A\x2A\x2A\x2A\x83\xF9\xFF\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x35\x2A\x2A\x2A\x2A\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x83\xF9\xFE\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5</pre></td><td><pre>8B 8F ? ? ? ? 85 C9 0F 84 ? ? ? ? 8B 8F ? ? ? ? 83 F9 FF 0F 84 ? ? ? ? 48 8B 35 ? ? ? ? 48 85 F6 0F 84 ? ? ? ? 83 F9 FE 0F 84 ? ? ? ? 55 48 89 E5</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x4C\x24\x2A\x55\x41\x55\x48\x8D\xAC\x24\x2A\x2A\x2A\x2A\xB8\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x48\x2B\xE0\x83\xB9\x2A\x2A\x2A\x2A\x00\x4C\x8B\xE9\x0F\x84\x2A\x2A\x2A\x2A\x8B\x91</pre></td><td><pre>48 89 4C 24 ? 55 41 55 48 8D AC 24 ? ? ? ? B8 ? ? ? ? E8 ? ? ? ? 48 2B E0 83 B9 ? ? ? ? 00 4C 8B E9 0F 84 ? ? ? ? 8B 91</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x8F\x2A\x2A\x2A\x2A\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\x8B\x8F\x2A\x2A\x2A\x2A\x83\xF9\xFF\x0F\x84\x2A\x2A\x2A\x2A\x48\x8B\x35\x2A\x2A\x2A\x2A\x48\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x83\xF9\xFE\x0F\x84\x2A\x2A\x2A\x2A\x55\x48\x89\xE5</pre></td><td><pre>8B 8F ? ? ? ? 85 C9 0F 84 ? ? ? ? 8B 8F ? ? ? ? 83 F9 FF 0F 84 ? ? ? ? 48 8B 35 ? ? ? ? 48 85 F6 0F 84 ? ? ? ? 83 F9 FE 0F 84 ? ? ? ? 55 48 89 E5</pre></td></tr>
 </table>
 
 ### CCSScript::ScriptStackPop
