@@ -1,8 +1,8 @@
 # SwiftlyS2
 
-Last updated: November 11, 2026 at 11:03:42 PM GMT
+Last updated: November 17, 2026 at 11:38:44 PM GMT
 
-* Manifests: [3634295490837307276](https://steamdb.info/depot/2347773/history/?changeid=M:3634295490837307276), [5946971774180560324](https://steamdb.info/depot/2347771/history/?changeid=M:5946971774180560324), [6678473446694075055](https://steamdb.info/depot/2347770/history/?changeid=M:6678473446694075055)
+* Manifests: [807392217824910805](https://steamdb.info/depot/2347770/history/?changeid=M:807392217824910805), [1039356520811108867](https://steamdb.info/depot/2347771/history/?changeid=M:1039356520811108867), [6590564568174469475](https://steamdb.info/depot/2347773/history/?changeid=M:6590564568174469475)
 * Repository: https://github.com/swiftly-solution/swiftlys2
 
 ## master
@@ -501,8 +501,8 @@ Last updated: November 11, 2026 at 11:03:42 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>engine2</td><td><pre>\x40\x53\x48\x83\xEC\x2A\x48\x8B\x02\x48\x8B\xD9\x48\x8B\xCA</pre></td><td><pre>40 53 48 83 EC ? 48 8B 02 48 8B D9 48 8B CA</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>engine2</td><td><pre>\x55\x48\x89\xE5\x41\x54\x53\x2A\x2A\x2A\x48\x89\xFB\x48\x89\xF7\xFF\x50\x2A\x48\x8D\x15\x2A\x2A\x2A\x2A\x31\xC9\x2A\x2A\x2A\x48\x85\xD2\x74\x2A\x48\x3B\x42</pre></td><td><pre>55 48 89 E5 41 54 53 ? ? ? 48 89 FB 48 89 F7 FF 50 ? 48 8D 15 ? ? ? ? 31 C9 ? ? ? 48 85 D2 74 ? 48 3B 42</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>engine2</td><td><pre>\x40\x53\x48\x83\xEC\x2A\x48\x8B\x02\x48\x8B\xD9\x48\x8B\xCA</pre></td><td><pre>40 53 48 83 EC ? 48 8B 02 48 8B D9 48 8B CA</pre></td></tr>
 </table>
 
 ### SetSchemaHammerUniqueId
@@ -609,8 +609,8 @@ Last updated: November 11, 2026 at 11:03:42 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x41\x54\x53\x89\xF3\x48\x83\xEC\x2A\x85\xF6</pre></td><td><pre>55 48 89 E5 41 55 41 54 53 89 F3 48 83 EC ? 85 F6</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x85\xD2\x0F\x88\x2A\x2A\x2A\x2A\x53\x56\x41\x56</pre></td><td><pre>85 D2 0F 88 ? ? ? ? 53 56 41 56</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x55\x41\x54\x53\x89\xF3\x48\x83\xEC\x2A\x85\xF6</pre></td><td><pre>55 48 89 E5 41 55 41 54 53 89 F3 48 83 EC ? 85 F6</pre></td></tr>
 </table>
 
 ### CCSCustomHudLayout::SetDialogVariableString
@@ -1017,8 +1017,8 @@ Last updated: November 11, 2026 at 11:03:42 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x4C\x8B\x35\x2A\x2A\x2A\x2A\x4D\x85\xF6\x75\x2A\xE9</pre></td><td><pre>4C 8B 35 ? ? ? ? 4D 85 F6 75 ? E9</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\x1D\x2A\x2A\x2A\x2A\x48\x85\xDB\x0F\x84\x2A\x2A\x2A\x2A\xBD</pre></td><td><pre>48 8B 1D ? ? ? ? 48 85 DB 0F 84 ? ? ? ? BD</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x4C\x8B\x35\x2A\x2A\x2A\x2A\x4D\x85\xF6\x75\x2A\xE9</pre></td><td><pre>4C 8B 35 ? ? ? ? 4D 85 F6 75 ? E9</pre></td></tr>
 </table>
 
 ### INetworkMessageProcessingPreFilter::FilterMessage
