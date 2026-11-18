@@ -1,8 +1,8 @@
 # ModSharp
 
-Last updated: November 18, 2026 at 2:29:43 AM GMT
+Last updated: November 18, 2026 at 3:54:43 AM GMT
 
-* Manifests: [4838211175569621862](https://steamdb.info/depot/2347773/history/?changeid=M:4838211175569621862), [5223530167766528354](https://steamdb.info/depot/2347770/history/?changeid=M:5223530167766528354), [6729017085491141898](https://steamdb.info/depot/2347771/history/?changeid=M:6729017085491141898)
+* Manifests: [239443625111074552](https://steamdb.info/depot/2347770/history/?changeid=M:239443625111074552), [5185046280295927252](https://steamdb.info/depot/2347773/history/?changeid=M:5185046280295927252), [6054210037651104742](https://steamdb.info/depot/2347771/history/?changeid=M:6054210037651104742)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/core.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc
 
@@ -1229,8 +1229,8 @@ Last updated: November 18, 2026 at 2:29:43 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x53\x48\x8B\x1D\x2A\x2A\x2A\x2A\x48\x85\xDB\x74\x2A\x48\x89\xD8</pre></td><td><pre>55 48 89 E5 41 54 53 48 8B 1D ? ? ? ? 48 85 DB 74 ? 48 89 D8</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x83\xEC\x2A\x48\x8B\x05\x2A\x2A\x2A\x2A\x48\x85\xC0\x0F\x85\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x30\xB9\x2A\x2A\x2A\x2A\x48\x89\x7C\x24\x20\xE8\x2A\x2A\x2A\x2A\x33\xFF\x48\x8B\xD8\x48\x85\xC0\x74\x2A\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\x7B\x08\xB9\x2A\x2A\x2A\x2A\x48\x89\x03\xE8\x2A\x2A\x2A\x2A\x48\x85\xC0\x74\x2A\x48\x8B\xC8\xE8\x2A\x2A\x2A\x2A\x48\x8B\xF8\x48\x8D\x05\x2A\x2A\x2A\x2A\x48\x89\x7B\x08\x48\x8B\x7C\x24\x20</pre></td><td><pre>48 83 EC ? 48 8B 05 ? ? ? ? 48 85 C0 0F 85 ? ? ? ? 48 89 5C 24 30 B9 ? ? ? ? 48 89 7C 24 20 E8 ? ? ? ? 33 FF 48 8B D8 48 85 C0 74 ? 48 8D 05 ? ? ? ? 48 89 7B 08 B9 ? ? ? ? 48 89 03 E8 ? ? ? ? 48 85 C0 74 ? 48 8B C8 E8 ? ? ? ? 48 8B F8 48 8D 05 ? ? ? ? 48 89 7B 08 48 8B 7C 24 20</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x53\x48\x8B\x1D\x2A\x2A\x2A\x2A\x48\x85\xDB\x74\x2A\x48\x89\xD8</pre></td><td><pre>55 48 89 E5 41 54 53 48 8B 1D ? ? ? ? 48 85 DB 74 ? 48 89 D8</pre></td></tr>
 </table>
 
 ### UTIL_RadioMessage

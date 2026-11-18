@@ -1,8 +1,8 @@
 # cs2-css-match
 
-Last updated: November 18, 2026 at 2:29:43 AM GMT
+Last updated: November 18, 2026 at 3:54:43 AM GMT
 
-* Manifests: [4838211175569621862](https://steamdb.info/depot/2347773/history/?changeid=M:4838211175569621862), [5223530167766528354](https://steamdb.info/depot/2347770/history/?changeid=M:5223530167766528354), [6729017085491141898](https://steamdb.info/depot/2347771/history/?changeid=M:6729017085491141898)
+* Manifests: [239443625111074552](https://steamdb.info/depot/2347770/history/?changeid=M:239443625111074552), [5185046280295927252](https://steamdb.info/depot/2347773/history/?changeid=M:5185046280295927252), [6054210037651104742](https://steamdb.info/depot/2347771/history/?changeid=M:6054210037651104742)
 * Repository: https://github.com/ianlucas/cs2-css-match
 * Gamedata: https://github.com/ianlucas/cs2-css-match/blob/main/gamedata/match.json
 
@@ -20,8 +20,8 @@ Last updated: November 18, 2026 at 2:29:43 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x44\x8B\x81\x2A\x2A\x2A\x2A\x4C\x8B\xC9</pre></td><td><pre>44 8B 81 ? ? ? ? 4C 8B C9</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x8B\x87\x2A\x2A\x2A\x2A\x48\x89\xFA</pre></td><td><pre>8B 87 ? ? ? ? 48 89 FA</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x44\x8B\x81\x2A\x2A\x2A\x2A\x4C\x8B\xC9</pre></td><td><pre>44 8B 81 ? ? ? ? 4C 8B C9</pre></td></tr>
 </table>
 
 ### CCSGameRules::HandleSwapTeams
