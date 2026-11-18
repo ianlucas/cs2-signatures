@@ -1,7 +1,7 @@
 # CS2 Server Signatures Tracker
 
-* **Last updated:** November 17, 2026 at 11:38:44 PM GMT
-* **Manifests:** [807392217824910805](https://steamdb.info/depot/2347770/history/?changeid=M:807392217824910805), [1039356520811108867](https://steamdb.info/depot/2347771/history/?changeid=M:1039356520811108867), [6590564568174469475](https://steamdb.info/depot/2347773/history/?changeid=M:6590564568174469475)
+* **Last updated:** November 18, 2026 at 2:29:43 AM GMT
+* **Manifests:** [4838211175569621862](https://steamdb.info/depot/2347773/history/?changeid=M:4838211175569621862), [5223530167766528354](https://steamdb.info/depot/2347770/history/?changeid=M:5223530167766528354), [6729017085491141898](https://steamdb.info/depot/2347771/history/?changeid=M:6729017085491141898)
 
 <table>
 <tr><th>Linux</th><th>Windows</th><th>Project</th><th></th></tr>
