@@ -1,8 +1,8 @@
 # CS2Fixes
 
-Last updated: November 19, 2026 at 12:52:42 AM GMT
+Last updated: November 20, 2026 at 12:58:42 AM GMT
 
-* Manifests: [9806423311119977](https://steamdb.info/depot/2347770/history/?changeid=M:9806423311119977), [2106079474080930915](https://steamdb.info/depot/2347771/history/?changeid=M:2106079474080930915), [9019027683964018897](https://steamdb.info/depot/2347773/history/?changeid=M:9019027683964018897)
+* Manifests: [4200138934793327916](https://steamdb.info/depot/2347771/history/?changeid=M:4200138934793327916), [5121219979210617382](https://steamdb.info/depot/2347773/history/?changeid=M:5121219979210617382), [8225060435969537482](https://steamdb.info/depot/2347770/history/?changeid=M:8225060435969537482)
 * Repository: https://github.com/Source2ZE/CS2Fixes
 * Gamedata: https://github.com/Source2ZE/CS2Fixes/blob/main/gamedata/cs2fixes.jsonc
 
@@ -171,8 +171,8 @@ Last updated: November 19, 2026 at 12:52:42 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x48\x8D\xBD\x2A\x2A\x2A\x2A\x41\x55\x4C\x8D\xAD</pre></td><td><pre>55 48 89 E5 41 57 49 89 FF 41 56 48 8D BD ? ? ? ? 41 55 4C 8D AD</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x6C\x24\x2A\x56\x57\x41\x56\x48\x81\xEC\x2A\x2A\x2A\x2A\x4D\x8B\xF0\x48\x8B\xF1</pre></td><td><pre>48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 56 48 81 EC ? ? ? ? 4D 8B F0 48 8B F1</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x49\x89\xFF\x41\x56\x48\x8D\xBD\x2A\x2A\x2A\x2A\x41\x55\x4C\x8D\xAD</pre></td><td><pre>55 48 89 E5 41 57 49 89 FF 41 56 48 8D BD ? ? ? ? 41 55 4C 8D AD</pre></td></tr>
 </table>
 
 ### CEntitySystem_AddEntityIOEvent

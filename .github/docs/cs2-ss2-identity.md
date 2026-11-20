@@ -1,8 +1,8 @@
 # cs2-ss2-identity
 
-Last updated: November 19, 2026 at 12:52:42 AM GMT
+Last updated: November 20, 2026 at 12:58:42 AM GMT
 
-* Manifests: [9806423311119977](https://steamdb.info/depot/2347770/history/?changeid=M:9806423311119977), [2106079474080930915](https://steamdb.info/depot/2347771/history/?changeid=M:2106079474080930915), [9019027683964018897](https://steamdb.info/depot/2347773/history/?changeid=M:9019027683964018897)
+* Manifests: [4200138934793327916](https://steamdb.info/depot/2347771/history/?changeid=M:4200138934793327916), [5121219979210617382](https://steamdb.info/depot/2347773/history/?changeid=M:5121219979210617382), [8225060435969537482](https://steamdb.info/depot/2347770/history/?changeid=M:8225060435969537482)
 * Repository: https://github.com/ianlucas/cs2-ss2-identity
 * Gamedata: https://github.com/ianlucas/cs2-ss2-identity/blob/main/resources/gamedata/signatures.jsonc
 
@@ -60,6 +60,6 @@ Last updated: November 19, 2026 at 12:52:42 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x53\x56\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\x68\x2A\x48\x8D\x50</pre></td><td><pre>48 8B C4 53 56 48 81 EC ? ? ? ? 48 89 68 ? 48 8D 50</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x89\xFB\x48\x81\xEC\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x83\xF8</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 89 FB 48 81 EC ? ? ? ? E8 ? ? ? ? 83 F8</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x8B\xC4\x53\x56\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\x68\x2A\x48\x8D\x50</pre></td><td><pre>48 8B C4 53 56 48 81 EC ? ? ? ? 48 89 68 ? 48 8D 50</pre></td></tr>
 </table>

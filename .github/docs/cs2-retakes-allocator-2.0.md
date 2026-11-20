@@ -1,8 +1,8 @@
 # cs2-retakes-allocator-2.0
 
-Last updated: November 19, 2026 at 12:52:42 AM GMT
+Last updated: November 20, 2026 at 12:58:42 AM GMT
 
-* Manifests: [9806423311119977](https://steamdb.info/depot/2347770/history/?changeid=M:9806423311119977), [2106079474080930915](https://steamdb.info/depot/2347771/history/?changeid=M:2106079474080930915), [9019027683964018897](https://steamdb.info/depot/2347773/history/?changeid=M:9019027683964018897)
+* Manifests: [4200138934793327916](https://steamdb.info/depot/2347771/history/?changeid=M:4200138934793327916), [5121219979210617382](https://steamdb.info/depot/2347773/history/?changeid=M:5121219979210617382), [8225060435969537482](https://steamdb.info/depot/2347770/history/?changeid=M:8225060435969537482)
 * Repository: https://github.com/Micka2302/cs2-retakes-allocator-2.0
 * Gamedata: https://github.com/Micka2302/cs2-retakes-allocator-2.0/blob/main/Resources/RetakesAllocator_gamedata.json
 
@@ -12,8 +12,8 @@ Last updated: November 19, 2026 at 12:52:42 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x4C\x24\x2A\x55\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xE9</pre></td><td><pre>48 89 4C 24 ? 55 48 81 EC ? ? ? ? 48 8B E9</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x49\x89\xF6\x41\x55\x41\x54\x49\x89\xCC\x53\x48\x89\xFB\x48\x83\xEC\x2A\x4C\x8B\x6F\x2A\x89\x55\x2A\x4D\x85\xED</pre></td><td><pre>55 48 89 E5 41 57 41 56 49 89 F6 41 55 41 54 49 89 CC 53 48 89 FB 48 83 EC ? 4C 8B 6F ? 89 55 ? 4D 85 ED</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x4C\x24\x2A\x55\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x8B\xE9</pre></td><td><pre>48 89 4C 24 ? 55 48 81 EC ? ? ? ? 48 8B E9</pre></td></tr>
 </table>
 
 ### GetCSWeaponDataFromKey
