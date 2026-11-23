@@ -1,12 +1,20 @@
 # ModSharp
 
-Last updated: November 20, 2026 at 12:58:42 AM GMT
+Last updated: November 23, 2026 at 11:00:44 PM GMT
 
-* Manifests: [4200138934793327916](https://steamdb.info/depot/2347771/history/?changeid=M:4200138934793327916), [5121219979210617382](https://steamdb.info/depot/2347773/history/?changeid=M:5121219979210617382), [8225060435969537482](https://steamdb.info/depot/2347770/history/?changeid=M:8225060435969537482)
+* Manifests: [319757798029483889](https://steamdb.info/depot/2347771/history/?changeid=M:319757798029483889), [4380993310429599899](https://steamdb.info/depot/2347773/history/?changeid=M:4380993310429599899), [5924479096069937098](https://steamdb.info/depot/2347770/history/?changeid=M:5924479096069937098)
 * Repository: https://github.com/Kxnrl/modsharp-public
 * Gamedata: https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/server.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/core.games.jsonc, https://github.com/Kxnrl/modsharp-public/blob/master/.asset/gamedata/engine.games.jsonc
 
 ## Signatures
+
+### CCSPlayer_ItemServices::RemovePlayerItem
+
+<table>
+<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\xE8\x2A\x2A\x2A\x2A\x48\x39\xC3</pre></td><td><pre>55 48 89 E5 41 54 49 89 FC 53 48 89 F3 E8 ? ? ? ? 48 39 C3</pre></td></tr>
+<tr><td>⚠️(2)</td><td>Windows</td><td>server</td><td><pre>\x48\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x08\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\xE8\x2A\x2A\x2A\x2A</pre></td><td><pre>48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 08 57 48 83 EC ? 48 8B DA 48 8B F9 E8 ? ? ? ?</pre></td></tr>
+</table>
 
 ### CAttributeList::SetOrAddAttributeValueByName
 
@@ -132,8 +140,8 @@ Last updated: November 20, 2026 at 12:58:42 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x80\xB9\x2A\x2A\x2A\x2A\x05\x48\x8B\xDA\x48\x8B\xF9\x0F\x85\x2A\x2A\x2A\x2A\x8B\x42\x08\xF2\x0F\x10\x02\x89\x44\x24\x2A\x48\x8B\x81\x2A\x2A\x2A\x2A\xF2\x0F\x11\x44\x24\x2A\x48\x8B\x48\x2A\x48\x85\xC9\x0F\x84</pre></td><td><pre>48 89 5C 24 ? 48 89 74 24 ? 57 48 81 EC ? ? ? ? 80 B9 ? ? ? ? 05 48 8B DA 48 8B F9 0F 85 ? ? ? ? 8B 42 08 F2 0F 10 02 89 44 24 ? 48 8B 81 ? ? ? ? F2 0F 11 44 24 ? 48 8B 48 ? 48 85 C9 0F 84</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x56\x41\x55\x41\x54\x49\x89\xF4\x53\x48\x89\xFB\x48\x83\xEC\x2A\x80\xBF\x2A\x2A\x2A\x2A\x05\x0F\x84\x2A\x2A\x2A\x2A\xF3\x0F\x10\x87\x2A\x2A\x2A\x2A\x0F\x2E\x06\x7A\x2A\x75\x2A\xF3\x0F\x10\x87\x2A\x2A\x2A\x2A\x0F\x2E\x46\x2A\x7A\x2A\x75\x2A\xF3\x0F\x10\x87\x2A\x2A\x2A\x2A\x0F\x2E\x46\x2A\x7A\x2A\x75\x2A\x48\x83\xC4\x2A\x5B\x41\x5C\x41\x5D\x41\x5E\x5D\xC3</pre></td><td><pre>55 48 89 E5 41 56 41 55 41 54 49 89 F4 53 48 89 FB 48 83 EC ? 80 BF ? ? ? ? 05 0F 84 ? ? ? ? F3 0F 10 87 ? ? ? ? 0F 2E 06 7A ? 75 ? F3 0F 10 87 ? ? ? ? 0F 2E 46 ? 7A ? 75 ? F3 0F 10 87 ? ? ? ? 0F 2E 46 ? 7A ? 75 ? 48 83 C4 ? 5B 41 5C 41 5D 41 5E 5D C3</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x2A\x48\x89\x74\x24\x2A\x57\x48\x81\xEC\x2A\x2A\x2A\x2A\x80\xB9\x2A\x2A\x2A\x2A\x05\x48\x8B\xDA\x48\x8B\xF9\x0F\x85\x2A\x2A\x2A\x2A\x8B\x42\x08\xF2\x0F\x10\x02\x89\x44\x24\x2A\x48\x8B\x81\x2A\x2A\x2A\x2A\xF2\x0F\x11\x44\x24\x2A\x48\x8B\x48\x2A\x48\x85\xC9\x0F\x84</pre></td><td><pre>48 89 5C 24 ? 48 89 74 24 ? 57 48 81 EC ? ? ? ? 80 B9 ? ? ? ? 05 48 8B DA 48 8B F9 0F 85 ? ? ? ? 8B 42 08 F2 0F 10 02 89 44 24 ? 48 8B 81 ? ? ? ? F2 0F 11 44 24 ? 48 8B 48 ? 48 85 C9 0F 84</pre></td></tr>
 </table>
 
 ### CBaseEntity::SetMoveType
@@ -413,14 +421,6 @@ Last updated: November 20, 2026 at 12:58:42 AM GMT
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x48\x81\xEC\x2A\x2A\x2A\x2A\x48\x89\xBD\x2A\x2A\x2A\x2A\x89\x95\x2A\x2A\x2A\x2A\x48\x89\x8D\x2A\x2A\x2A\x2A\x44\x89\x85</pre></td><td><pre>55 48 89 E5 41 57 41 56 41 55 41 54 53 48 81 EC ? ? ? ? 48 89 BD ? ? ? ? 89 95 ? ? ? ? 48 89 8D ? ? ? ? 44 89 85</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x08\x48\x89\x74\x24\x10\x48\x89\x7C\x24\x20\x44\x89\x44\x24\x18</pre></td><td><pre>48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 20 44 89 44 24 18</pre></td></tr>
-</table>
-
-### CCSPlayer_ItemServices::RemovePlayerItem
-
-<table>
-<tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x55\x48\x89\xE5\x41\x54\x49\x89\xFC\x53\x48\x89\xF3\xE8\x2A\x2A\x2A\x2A\x48\x39\xC3</pre></td><td><pre>55 48 89 E5 41 54 49 89 FC 53 48 89 F3 E8 ? ? ? ? 48 39 C3</pre></td></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x85\xD2\x0F\x84\x2A\x2A\x2A\x2A\x48\x89\x5C\x24\x08\x57\x48\x83\xEC\x2A\x48\x8B\xDA\x48\x8B\xF9\xE8\x2A\x2A\x2A\x2A</pre></td><td><pre>48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 08 57 48 83 EC ? 48 8B DA 48 8B F9 E8 ? ? ? ?</pre></td></tr>
 </table>
 
 ### CCSPlayer_MovementServices::Accelerate
@@ -1117,8 +1117,8 @@ Last updated: November 20, 2026 at 12:58:42 AM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x47\x2A\x66\x83\x78\x2A\x2A\x0F\x87\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x55\x41\x89\xD5\x41\x54\x48\x8D\x15\x2A\x2A\x2A\x2A\x53\x4C\x8D\x65\x2A\x89\xF3\x48\x83\xEC\x2A\x0F\xB7\x40\x2A\x48\x63\x04\x82\x48\x01\xD0\xFF\xE0\x0F\x1F\x80\x2A\x2A\x2A\x2A\x48\x89\xFE\xBA\x2A\x2A\x2A\x2A\x4C\x89\xE7\xE8\x2A\x2A\x2A\x2A\x89\xDE</pre></td><td><pre>48 8B 47 ? 66 83 78 ? ? 0F 87 ? ? ? ? 55 48 89 E5 41 55 41 89 D5 41 54 48 8D 15 ? ? ? ? 53 4C 8D 65 ? 89 F3 48 83 EC ? 0F B7 40 ? 48 63 04 82 48 01 D0 FF E0 0F 1F 80 ? ? ? ? 48 89 FE BA ? ? ? ? 4C 89 E7 E8 ? ? ? ? 89 DE</pre></td></tr>
 <tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x08\x48\x89\x7C\x24\x10\x55\x48\x8B\xEC\x48\x83\xEC\x30\x48\x8B\x41\x08\x8B\xDA\x49\x63\xF8</pre></td><td><pre>48 89 5C 24 08 48 89 7C 24 10 55 48 8B EC 48 83 EC 30 48 8B 41 08 8B DA 49 63 F8</pre></td></tr>
+<tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x47\x2A\x66\x83\x78\x2A\x2A\x0F\x87\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x55\x41\x89\xD5\x41\x54\x48\x8D\x15\x2A\x2A\x2A\x2A\x53\x4C\x8D\x65\x2A\x89\xF3\x48\x83\xEC\x2A\x0F\xB7\x40\x2A\x48\x63\x04\x82\x48\x01\xD0\xFF\xE0\x0F\x1F\x80\x2A\x2A\x2A\x2A\x48\x89\xFE\xBA\x2A\x2A\x2A\x2A\x4C\x89\xE7\xE8\x2A\x2A\x2A\x2A\x89\xDE</pre></td><td><pre>48 8B 47 ? 66 83 78 ? ? 0F 87 ? ? ? ? 55 48 89 E5 41 55 41 89 D5 41 54 48 8D 15 ? ? ? ? 53 4C 8D 65 ? 89 F3 48 83 EC ? 0F B7 40 ? 48 63 04 82 48 01 D0 FF E0 0F 1F 80 ? ? ? ? 48 89 FE BA ? ? ? ? 4C 89 E7 E8 ? ? ? ? 89 DE</pre></td></tr>
 </table>
 
 ### ScriptSetConVarString
