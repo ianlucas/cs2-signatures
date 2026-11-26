@@ -1,6 +1,6 @@
 # ModSharp
 
-Last updated: November 23, 2026 at 11:00:44 PM GMT
+Last updated: November 26, 2026 at 9:06:31 PM GMT
 
 * Manifests: [319757798029483889](https://steamdb.info/depot/2347771/history/?changeid=M:319757798029483889), [4380993310429599899](https://steamdb.info/depot/2347773/history/?changeid=M:4380993310429599899), [5924479096069937098](https://steamdb.info/depot/2347770/history/?changeid=M:5924479096069937098)
 * Repository: https://github.com/Kxnrl/modsharp-public
@@ -1117,8 +1117,8 @@ Last updated: November 23, 2026 at 11:00:44 PM GMT
 
 <table>
 <tr><th>Status</th><th>Platform</th><th>Library</th><th>CODE-Style</th><th>IDA-Style</th></tr>
-<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x08\x48\x89\x7C\x24\x10\x55\x48\x8B\xEC\x48\x83\xEC\x30\x48\x8B\x41\x08\x8B\xDA\x49\x63\xF8</pre></td><td><pre>48 89 5C 24 08 48 89 7C 24 10 55 48 8B EC 48 83 EC 30 48 8B 41 08 8B DA 49 63 F8</pre></td></tr>
 <tr><td>✅</td><td>Linux</td><td>server</td><td><pre>\x48\x8B\x47\x2A\x66\x83\x78\x2A\x2A\x0F\x87\x2A\x2A\x2A\x2A\x55\x48\x89\xE5\x41\x55\x41\x89\xD5\x41\x54\x48\x8D\x15\x2A\x2A\x2A\x2A\x53\x4C\x8D\x65\x2A\x89\xF3\x48\x83\xEC\x2A\x0F\xB7\x40\x2A\x48\x63\x04\x82\x48\x01\xD0\xFF\xE0\x0F\x1F\x80\x2A\x2A\x2A\x2A\x48\x89\xFE\xBA\x2A\x2A\x2A\x2A\x4C\x89\xE7\xE8\x2A\x2A\x2A\x2A\x89\xDE</pre></td><td><pre>48 8B 47 ? 66 83 78 ? ? 0F 87 ? ? ? ? 55 48 89 E5 41 55 41 89 D5 41 54 48 8D 15 ? ? ? ? 53 4C 8D 65 ? 89 F3 48 83 EC ? 0F B7 40 ? 48 63 04 82 48 01 D0 FF E0 0F 1F 80 ? ? ? ? 48 89 FE BA ? ? ? ? 4C 89 E7 E8 ? ? ? ? 89 DE</pre></td></tr>
+<tr><td>✅</td><td>Windows</td><td>server</td><td><pre>\x48\x89\x5C\x24\x08\x48\x89\x7C\x24\x10\x55\x48\x8B\xEC\x48\x83\xEC\x30\x48\x8B\x41\x08\x8B\xDA\x49\x63\xF8</pre></td><td><pre>48 89 5C 24 08 48 89 7C 24 10 55 48 8B EC 48 83 EC 30 48 8B 41 08 8B DA 49 63 F8</pre></td></tr>
 </table>
 
 ### ScriptSetConVarString
